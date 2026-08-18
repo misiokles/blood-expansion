@@ -1,0 +1,28 @@
+{
+  "blood-expansion-v1:gertiz": {
+    "specialty": {
+      "bonuses": {
+        "upgradesadphanton": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "sadphanton",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradesorrowphanton": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "sorrowphanton",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeSpiritcrus": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "spiritcrus",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeSoulcrus": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "soulcrus",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
+}

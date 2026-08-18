@@ -1,0 +1,191 @@
+{
+  "beScarletBirds": {
+    "name": {
+      "plural": "Scarlet Birds",
+      "singular": "Scarlet Bird"
+    },
+    "advMapAmount": {
+      "min": 20,
+      "max": 45
+    },
+    "faction": "castle",
+    "aiValue": 220,
+    "attack": 7,
+    "cost": {
+      "gold": 200
+    },
+    "damage": {
+      "min": 5,
+      "max": 7
+    },
+    "defense": 4,
+    "fightValue": 2000,
+    "doubleWide": true,
+    "graphics": {
+      "animation": "castle/creatures/battle/beScarletBirds.def",
+      "map": "castle/creatures/map/beScarletBirds.def",
+      "iconSmall": "castle/creatures/iconsSmall/beScarletBirds.png",
+      "iconLarge": "castle/creatures/iconsBig/beScarletBirds.png",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1
+      }
+    },
+    "growth": 15,
+    "hitPoints": 10,
+    "level": 3,
+    "sound": {
+      "attack": "",
+      "defend": "",
+      "killed": "",
+      "move": "",
+      "wince": ""
+    },
+    "speed": 14,
+    "abilities": {
+      "canFly": {
+        "type": "FLYING"
+      },
+      "lifeDrain": {
+        "type": "LIFE_DRAIN",
+        "val": 20
+      },
+      "noRetaliation": {
+        "type": "BLOCKS_RETALIATION"
+      },
+      "strikeAndReturn": {
+        "type": "RETURN_AFTER_STRIKE"
+      }
+    },
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "LIFE_DRAIN",
+          "val": 0
+        },
+        "values": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          20
+        ]
+      },
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.attack"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.defence"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMax"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMin"
+        },
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      {
+        "bonus": {
+          "type": "STACK_HEALTH",
+          "valueType": "PERCENT_TO_BASE"
+        },
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50
+        ]
+      },
+      {
+        "bonus": {
+          "type": "STACKS_SPEED"
+        },
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3
+        ]
+      }
+    ]
+  }
+}

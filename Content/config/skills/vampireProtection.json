@@ -1,0 +1,67 @@
+{
+	"vampireProtection" : {
+		"name" : "Vampire Protection",
+		"gainChance" : {
+			"might" : 4,
+			"magic" : 3
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
+						}
+					]
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Vampire Protection}\n\nReduces all damage received by allied units with the Life Drain ability by 15%.",
+			"effects" : {
+				"main" : {
+					"val" : 15
+				}
+			},
+			"images" : {
+				"small" : "skills/vampireProtection/smallBasic",
+				"medium" : "skills/vampireProtection/mediumBasic",
+				"large" : "skills/vampireProtection/largeBasic",
+				"scenarioBonus" : "skills/vampireProtection/largeBasic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Vampire Protection}\n\nReduces all damage received by allied units with the Life Drain ability by 20%.",
+			"effects" : {
+				"main" : {
+					"val" : 20
+				}
+			},
+			"images" : {
+				"small" : "skills/vampireProtection/smallAdvanced",
+				"medium" : "skills/vampireProtection/mediumAdvanced",
+				"large" : "skills/vampireProtection/largeAdvanced",
+				"scenarioBonus" : "skills/vampireProtection/largeAdvanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Vampire Protection}\n\nReduces all damage received by allied units with the Life Drain ability by 30%.",
+			"effects" : {
+				"main" : {
+					"val" : 30
+				}
+			},
+			"images" : {
+				"small" : "skills/vampireProtection/smallExpert",
+				"medium" : "skills/vampireProtection/mediumExpert",
+				"large" : "skills/vampireProtection/largeExpert",
+				"scenarioBonus" : "skills/vampireProtection/largeExpert"
+			}
+		}
+	}
+}

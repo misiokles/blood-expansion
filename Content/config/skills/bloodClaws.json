@@ -1,0 +1,92 @@
+{
+	"bloodClaws" : {
+		"name" : "Blood Claws",
+		"gainChance" : {
+			"might" : 5,
+			"magic" : 3
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"attack" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "beBloodWraith",
+							"includeUpgrades" : true
+						}
+					]
+				},
+				"minDmg" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin",
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "beBloodWraith",
+							"includeUpgrades" : true
+						}
+					]
+				},
+				"maxDmg" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax",
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "beBloodWraith",
+							"includeUpgrades" : true
+						}
+					]
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Blood Claws}\n\nIncreases Attack of allied Blood Wraiths and Scarlet Wraiths by 2.\nAlso increases their minimum damage by 1 and maximum damage by 1.",
+			"effects" : {
+				"attack" : { "val" : 2 },
+				"minDmg" : { "val" : 1 },
+				"maxDmg" : { "val" : 1 }
+			},
+			"images" : {
+				"small" : "skills/bloodClaws/smallBasic",
+				"medium" : "skills/bloodClaws/mediumBasic",
+				"large" : "skills/bloodClaws/largeBasic",
+				"scenarioBonus" : "skills/bloodClaws/largeBasic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Blood Claws}\n\nIncreases Attack of allied Blood Wraiths and Scarlet Wraiths by 3.\nAlso increases their minimum damage by 2 and maximum damage by 2.",
+			"effects" : {
+				"attack" : { "val" : 3 },
+				"minDmg" : { "val" : 2 },
+				"maxDmg" : { "val" : 2 }
+			},
+			"images" : {
+				"small" : "skills/bloodClaws/smallAdvanced",
+				"medium" : "skills/bloodClaws/mediumAdvanced",
+				"large" : "skills/bloodClaws/largeAdvanced",
+				"scenarioBonus" : "skills/bloodClaws/largeAdvanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Blood Claws}\n\nIncreases Attack of allied Blood Wraiths and Scarlet Wraiths by 4.\nAlso increases their minimum damage by 2 and maximum damage by 3.",
+			"effects" : {
+				"attack" : { "val" : 4 },
+				"minDmg" : { "val" : 2 },
+				"maxDmg" : { "val" : 3 }
+			},
+			"images" : {
+				"small" : "skills/bloodClaws/smallExpert",
+				"medium" : "skills/bloodClaws/mediumExpert",
+				"large" : "skills/bloodClaws/largeExpert",
+				"scenarioBonus" : "skills/bloodClaws/largeExpert"
+			}
+		}
+	}
+}

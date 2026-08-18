@@ -1,0 +1,135 @@
+{
+	"scarletWeakness" : {
+		"name" : "Scarlet Weakness",
+		"gainChance" : {
+			"might" : 4,
+			"magic" : 4
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"attack" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"OPPOSITE_SIDE",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "beBloodWraith",
+							"includeUpgrades" : true
+						}
+					]
+				},
+				"minDmg" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin",
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"OPPOSITE_SIDE",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "beBloodWraith",
+							"includeUpgrades" : true
+						}
+					]
+				},
+				"maxDmg" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax",
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"OPPOSITE_SIDE",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "beBloodWraith",
+							"includeUpgrades" : true
+						}
+					]
+				},
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"OPPOSITE_SIDE",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "beBloodWraith",
+							"includeUpgrades" : true
+						}
+					]
+				},
+				"lifeDrain" : {
+					"type" : "LIFE_DRAIN",
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"OPPOSITE_SIDE",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "beBloodWraith",
+							"includeUpgrades" : true
+						}
+					]
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Scarlet Weakness}\n\nWeakens enemy Blood Wraiths and Scarlet Wraiths:\n-1 Attack\n-0 min / -1 max damage\n-1 Speed\n-5% Life Drain",
+			"effects" : {
+				"attack" : { "val" : -1 },
+				"minDmg" : { "val" : 0 },
+				"maxDmg" : { "val" : -1 },
+				"speed" : { "val" : -1 },
+				"lifeDrain" : { "val" : -5 }
+			},
+			"images" : {
+				"small" : "skills/scarletWeakness/smallBasic",
+				"medium" : "skills/scarletWeakness/mediumBasic",
+				"large" : "skills/scarletWeakness/largeBasic",
+				"scenarioBonus" : "skills/scarletWeakness/largeBasic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Scarlet Weakness}\n\nWeakens enemy Blood Wraiths and Scarlet Wraiths:\n-2 Attack\n-1 min / -1 max damage\n-2 Speed\n-10% Life Drain",
+			"effects" : {
+				"attack" : { "val" : -2 },
+				"minDmg" : { "val" : -1 },
+				"maxDmg" : { "val" : -1 },
+				"speed" : { "val" : -2 },
+				"lifeDrain" : { "val" : -10 }
+			},
+			"images" : {
+				"small" : "skills/scarletWeakness/smallAdvanced",
+				"medium" : "skills/scarletWeakness/mediumAdvanced",
+				"large" : "skills/scarletWeakness/largeAdvanced",
+				"scenarioBonus" : "skills/scarletWeakness/largeAdvanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Scarlet Weakness}\n\nWeakens enemy Blood Wraiths and Scarlet Wraiths:\n-3 Attack\n-2 min / -2 max damage\n-2 Speed\n-15% Life Drain",
+			"effects" : {
+				"attack" : { "val" : -3 },
+				"minDmg" : { "val" : -2 },
+				"maxDmg" : { "val" : -2 },
+				"speed" : { "val" : -2 },
+				"lifeDrain" : { "val" : -15 }
+			},
+			"images" : {
+				"small" : "skills/scarletWeakness/smallExpert",
+				"medium" : "skills/scarletWeakness/mediumExpert",
+				"large" : "skills/scarletWeakness/largeExpert",
+				"scenarioBonus" : "skills/scarletWeakness/largeExpert"
+			}
+		}
+	}
+}

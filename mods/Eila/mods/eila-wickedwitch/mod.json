@@ -1,0 +1,17 @@
+{
+  "name": "Eila + Wicked Witch",
+  "description": "Upgrade Wicked Witches from New Monsters Pack into Vampire Lords.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "new-monsters-pack.wicked-witch"
+  ],
+  "heroes": [
+    "config/eila.json"
+  ],
+  "russian": {
+    "name": "Эйла + Wicked Witch",
+    "description": "Улучшает Злых Ведьм из New Monsters Pack в Лордов Вампиров."
+  }
+}

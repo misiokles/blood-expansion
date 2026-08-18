@@ -1,0 +1,28 @@
+{
+  "blood-expansion-v1:gertiz": {
+    "specialty": {
+      "bonuses": {
+        "upgradecradlelvl1": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "cradle_lvl1",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradecradlelvl1up": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "cradle_lvl1up",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradecradlelvl2": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "cradle_lvl2",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradecradlelvl2up": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "cradle_lvl2up",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,220 @@
+{
+	"lazarus" : {
+		"army" : [
+			{ "creature" : "beBloodWraith", "max" : 8, "min" : 4 },
+			{ "creature" : "beBloodWraith", "max" : 7, "min" : 4 },
+						{ "creature" : "beBloodWraith", "max" : 4, "min" : 2 }
+		],
+		"class" : "necromancer",
+		"female": false,
+		"images" : {
+			"large" : "heroes/necropolis/lazarus/lazarus_portrait_large.png",
+			"small" : "heroes/necropolis/lazarus/lazarus_portrait_small.png",
+			"specialtyLarge" : "heroes/necropolis/lazarus/lazarusSpecL.png",
+			"specialtySmall" : "heroes/necropolis/lazarus/lazarusSpecS.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "offence" },
+			{ "level" : "expert", "skill" : "wisdom" },
+			{ "level" : "expert", "skill" : "bloodNecromancy" }
+		],
+		"spellbook": [
+			"bloodRitual"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"swordsman" : {
+					"subtype" : "creature.swordsman",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"crusader" : {
+					"subtype" : "creature.crusader",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"monk" : {
+					"subtype" : "creature.monk",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"zealot" :  {
+					"subtype" : "creature.zealot",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"woodElf": {
+					"subtype" : "creature.woodElf",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"grandElf" : {
+					"subtype" : "creature.grandElf",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"mage" : {
+					"subtype" : "creature.mage",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"archMage" : {
+					"subtype" : "creature.archMage",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"rogue" : {
+					"subtype" : "creature.rogue",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"nomad" : {
+					"subtype" : "creature.nomad",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"sharpshooter" : {
+					"subtype" : "creature.sharpshooter",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"enchanter" : {
+					"subtype" : "creature.enchanter",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"dwarf" : {
+					"subtype" : "creature.dwarf",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"battleDwarf" : {
+					"subtype" : "creature.battleDwarf",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"pegasus" : {
+					"subtype" : "creature.pegasus",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"silverPegasus" : {
+					"subtype" : "creature.silverPegasus",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"lizardman" : {
+					"subtype" : "creature.lizardman",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"lizardWarrior" : {
+					"subtype" : "creature.lizardWarrior",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"orc" : {
+					"subtype" : "creature.orc",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"orcChieftain" : {
+					"subtype" : "creature.orcChieftain",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"ogre" : {
+					"subtype" : "creature.ogre",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"ogreMage" : {
+					"subtype" : "creature.ogreMage",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"minotaur" : {
+					"subtype" : "creature.minotaur",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"minotaurKing" : {
+					"subtype" : "creature.minotaurKing",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"medusa" : {
+					"subtype" : "creature.medusa",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"medusaQueen" : {
+					"subtype" : "creature.medusaQueen",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"pitLord" : {
+					"subtype" : "creature.pitLord",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"pitFiend" : {
+					"subtype" : "creature.pitFiend",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"demon" : {
+					"subtype" : "creature.demon",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"hornedDemon" : {
+					"subtype" : "creature.hornedDemon",
+					"addInfo" : "creature.beBloodWraith",
+					"type" : "SPECIAL_UPGRADE"
+				},
+				"lichBloodRitualPower" : {
+					"type" : "SPECIFIC_SPELL_POWER",
+					"subtype" : "spell.bloodRitual",
+					"val" : 30,
+					"limiters" : [ 
+						{ 
+							"parameters" : [ "lich", true ], 
+							"type" : "CREATURE_TYPE_LIMITER" 
+						} 
+					]
+				},
+				"lichBloodRitualCaster" : {
+					"type" : "SPELLCASTER",
+					"subtype" : "spell.bloodRitual",
+					"val" : 0,
+					"limiters" : [ 
+						{ 
+							"parameters" : [ "lich", true ], 
+							"type" : "CREATURE_TYPE_LIMITER" 
+						} 
+					]
+				},
+				"lichBloodRitualCasts" : {
+					"type" : "CASTS",
+					"val" : 1,
+					"limiters" : [ 
+						{ 
+							"parameters" : [ "lich", true ], 
+							"type" : "CREATURE_TYPE_LIMITER" 
+						} 
+					]
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "Lazarus was once a devout cleric who sought immortality through forbidden rites. Now, as a master of the spectral arts, he harvests the souls of fallen humanoid warriors, forging them into Blood Wraiths that serve his dark will.",
+			"name" : "Lazarus",
+			"specialty" : {
+				"description" : "Lazarus can turn humanoid creatures into Blood Wraiths. Additionally, Liches under his command can cast Blood Ritual once per battle.",
+				"name" : "Soul Harvest & Blood Ritual",
+				"tooltip" : "Upgrades humanoids to Blood Wraiths. Liches cast Blood Ritual."
+			}
+		}
+	}
+}

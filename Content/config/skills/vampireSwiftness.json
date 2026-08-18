@@ -1,0 +1,215 @@
+{
+	"vampireSwiftness": {
+		"name": "Vampire Swiftness",
+		"gainChance": {
+			"might": 4,
+			"magic": 3
+		},
+		"specialty": [],
+		"base": {
+			"effects": {
+				"tier1": {
+					"type": "STACKS_SPEED",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 1,
+							"maxlevel": 2
+						}
+					]
+				},
+				"tier2": {
+					"type": "STACKS_SPEED",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 2,
+							"maxlevel": 3
+						}
+					]
+				},
+				"tier3": {
+					"type": "STACKS_SPEED",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 3,
+							"maxlevel": 4
+						}
+					]
+				},
+				"tier4": {
+					"type": "STACKS_SPEED",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 4,
+							"maxlevel": 5
+						}
+					]
+				},
+				"tier5": {
+					"type": "STACKS_SPEED",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 5,
+							"maxlevel": 6
+						}
+					]
+				},
+				"tier6": {
+					"type": "STACKS_SPEED",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 6,
+							"maxlevel": 7
+						}
+					]
+				},
+				"tier7": {
+					"type": "STACKS_SPEED",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 7,
+							"maxlevel": 8
+						}
+					]
+				}
+			}
+		},
+		"basic": {
+			"description": "{Basic Vampire Swiftness}\n\nIncreases speed of allied units with Life Drain:\nTier 1: +1\nTier 2: +1\nTier 3: +2\nTier 4: +2\nTier 5: +3\nTier 6: +7\nTier 7: +9",
+			"effects": {
+				"tier1": {
+					"val": 1
+				},
+				"tier2": {
+					"val": 1
+				},
+				"tier3": {
+					"val": 2
+				},
+				"tier4": {
+					"val": 2
+				},
+				"tier5": {
+					"val": 3
+				},
+				"tier6": {
+					"val": 7
+				},
+				"tier7": {
+					"val": 9
+				}
+			},
+			"images": {
+				"small": "skills/vampireSwiftness/smallBasic",
+				"medium": "skills/vampireSwiftness/mediumBasic",
+				"large": "skills/vampireSwiftness/largeBasic",
+				"scenarioBonus": "skills/vampireSwiftness/largeBasic"
+			}
+		},
+		"advanced": {
+			"description": "{Advanced Vampire Swiftness}\n\nIncreases speed of allied units with Life Drain:\nTier 1: +1\nTier 2: +2\nTier 3: +3\nTier 4: +3\nTier 5: +4\nTier 6: +9\nTier 7: +10",
+			"effects": {
+				"tier1": {
+					"val": 1
+				},
+				"tier2": {
+					"val": 2
+				},
+				"tier3": {
+					"val": 3
+				},
+				"tier4": {
+					"val": 3
+				},
+				"tier5": {
+					"val": 4
+				},
+				"tier6": {
+					"val": 9
+				},
+				"tier7": {
+					"val": 10
+				}
+			},
+			"images": {
+				"small": "skills/vampireSwiftness/smallAdvanced",
+				"medium": "skills/vampireSwiftness/mediumAdvanced",
+				"large": "skills/vampireSwiftness/largeAdvanced",
+				"scenarioBonus": "skills/vampireSwiftness/largeAdvanced"
+			}
+		},
+		"expert": {
+			"description": "{Expert Vampire Swiftness}\n\nIncreases speed of allied units with Life Drain:\nTier 1: +2\nTier 2: +3\nTier 3: +4\nTier 4: +5\nTier 5: +6\nTier 6: +10\nTier 7: +11",
+			"effects": {
+				"tier1": {
+					"val": 2
+				},
+				"tier2": {
+					"val": 3
+				},
+				"tier3": {
+					"val": 4
+				},
+				"tier4": {
+					"val": 5
+				},
+				"tier5": {
+					"val": 6
+				},
+				"tier6": {
+					"val": 10
+				},
+				"tier7": {
+					"val": 11
+				}
+			},
+			"images": {
+				"small": "skills/vampireSwiftness/smallExpert",
+				"medium": "skills/vampireSwiftness/mediumExpert",
+				"large": "skills/vampireSwiftness/largeExpert",
+				"scenarioBonus": "skills/vampireSwiftness/largeExpert"
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "blood-expansion-v1:elgron": {
+    "specialty": {
+      "bonuses": {
+        "upgradeAmFireDragon": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amFireDragon",
+          "addInfo": "beCrimsonDragon"
+        },
+        "upgradeAmJadeDragon": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amJadeDragon",
+          "addInfo": "beCrimsonDragon"
+        },
+        "upgradeamYingLong": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amYingLong",
+          "addInfo": "beCrimsonDragon"
+        }
+      }
+    }
+  }
+}

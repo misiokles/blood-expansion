@@ -1,0 +1,140 @@
+{
+  "eila": {
+    "class": "necromancer",
+    "female": true,
+    "texts": {
+      "name": "Eila",
+      "biography": "Eila is a blood aristocrat of ancient necropolis lineage. She discovered the forgotten art of turning the purest warriors of light into creatures of the night. Under her command, knights, monks, elves, mages, pegasi, sharpshooters, enchanter and even vampires of the living factions can be transformed into Vampires and Vampire Lords, swelling the ranks of the undead with stolen nobility.",
+      "specialty": {
+        "description": "{Various living creatures}\r\n\r\nCan upgrade Swordsmen, Monks, Cavaliers, Wood Elves, Mages, Rogues, Nomads and Pegasi into Vampires; Crusaders, Zealots, Champions, Grand Elves, Archmages, Vampires, Sharpshooters, Enchanters and Silver Pegasi into Vampire Lords.",
+        "tooltip": "Upgrades many living creatures into Vampires and Vampire Lords",
+        "name": "Blood Lineage"
+      }
+    },
+    "images": {
+      "large": "heroes/necropolis/eila/eila_portrait_large.png",
+      "small": "heroes/necropolis/eila/eila_portrait_small.png",
+      "specialtyLarge": "heroes/necropolis/eila/eilaSpecL.png",
+      "specialtySmall": "heroes/necropolis/eila/eilaSpecS.png"
+    },
+    "army": [
+      {
+        "creature": "vampire",
+        "min": 4,
+        "max": 7
+      },
+      {
+        "creature": "vampireLord",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "creature": "beBloodyMistress",
+        "min": 1,
+        "max": 2
+      }
+    ],
+    "skills": [
+      {
+        "skill": "bloodNecromancy",
+        "level": "basic"
+      },
+      {
+        "skill": "wisdom",
+        "level": "advanced"
+      }
+    ],
+    "spellbook": [
+      "curse"
+    ],
+    "specialty": {
+      "bonuses": {
+        "swordsman": {
+          "subtype": "creature.swordsman",
+          "addInfo": "creature.vampire",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "crusader": {
+          "subtype": "creature.crusader",
+          "addInfo": "creature.vampireLord",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "monk": {
+          "subtype": "creature.monk",
+          "addInfo": "creature.vampire",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "zealot": {
+          "subtype": "creature.zealot",
+          "addInfo": "creature.vampireLord",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "cavalier": {
+          "subtype": "creature.cavalier",
+          "addInfo": "creature.vampire",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "champion": {
+          "subtype": "creature.champion",
+          "addInfo": "creature.vampireLord",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "woodElf": {
+          "subtype": "creature.woodElf",
+          "addInfo": "creature.vampire",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "grandElf": {
+          "subtype": "creature.grandElf",
+          "addInfo": "creature.vampireLord",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "mage": {
+          "subtype": "creature.mage",
+          "addInfo": "creature.vampire",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "archMage": {
+          "subtype": "creature.archMage",
+          "addInfo": "creature.vampireLord",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "rogue": {
+          "subtype": "creature.rogue",
+          "addInfo": "creature.vampire",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "nomad": {
+          "subtype": "creature.nomad",
+          "addInfo": "creature.vampire",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "vampire": {
+          "subtype": "creature.vampire",
+          "addInfo": "creature.vampireLord",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "sharpshooter": {
+          "subtype": "creature.sharpshooter",
+          "addInfo": "creature.vampireLord",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "enchanter": {
+          "subtype": "creature.enchanter",
+          "addInfo": "creature.vampireLord",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "pegasus": {
+          "subtype": "creature.pegasus",
+          "addInfo": "creature.vampire",
+          "type": "SPECIAL_UPGRADE"
+        },
+        "silverPegasus": {
+          "subtype": "creature.silverPegasus",
+          "addInfo": "creature.vampireLord",
+          "type": "SPECIAL_UPGRADE"
+        }
+      }
+    }
+  }
+}

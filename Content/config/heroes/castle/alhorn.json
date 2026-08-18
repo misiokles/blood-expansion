@@ -1,0 +1,86 @@
+{
+  "alhorn": {
+    "class": "cleric",
+    "female": false,
+    "texts": {
+      "name": "Alhorn",
+      "biography": "Alhorn was a devout cleric of the Castle who sought the purest form of life essence among the heavenly birds. After a vision of a blood-red phoenix, he learned to bind the scarlet birds' regenerative power to the blood of fallen foes. Under his command the Scarlet Birds become nearly immortal, rising from the ashes of battle with renewed hunger.",
+      "specialty": {
+        "description": "{Scarlet Bird}\r\n\r\nScarlet Birds under Alhorn gain +125% Life Drain (to 45%), +5 Speed and the Rebirth ability (25% of the stack is reborn after death).",
+        "tooltip": "Empowers Scarlet Birds with stronger Life Drain, higher Speed and Rebirth",
+        "name": "Phoenix Blood"
+      }
+    },
+    "images": {
+      "large": "heroes/castle/alhorn/alhorn_portrait_large.png",
+      "small": "heroes/castle/alhorn/alhorn_portrait_small.png",
+      "specialtyLarge": "heroes/castle/alhorn/alhornSpecL.png",
+      "specialtySmall": "heroes/castle/alhorn/alhornSpecS.png"
+    },
+    "army": [
+      {
+        "creature": "beScarletBirds",
+        "min": 8,
+        "max": 12
+      },
+      {
+        "creature": "beScarletBirds",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "creature": "beScarletBirds",
+        "min": 4,
+        "max": 7
+      }
+    ],
+    "skills": [
+      {
+        "skill": "wisdom",
+        "level": "basic"
+      },
+      {
+        "skill": "birdFeast",
+        "level": "basic"
+      }
+    ],
+    "spellbook": [
+      "bless"
+    ],
+    "specialty": {
+      "bonuses": {
+        "alhornLifeDrain": {
+          "type": "LIFE_DRAIN",
+          "val": 125,
+          "valueType": "PERCENT_TO_ALL",
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": ["beScarletBirds"]
+            }
+          ]
+        },
+        "alhornSpeed": {
+          "type": "STACKS_SPEED",
+          "val": 5,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": ["beScarletBirds"]
+            }
+          ]
+        },
+        "alhornRebirth": {
+          "type": "REBIRTH",
+          "val": 25,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": ["beScarletBirds"]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

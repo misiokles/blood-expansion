@@ -1,0 +1,66 @@
+{
+	"lifeAbsorption" : {
+		"name" : "Life Absorption",
+		"gainChance" : {
+			"might" : 3,
+			"magic" : 4
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "LIFE_DRAIN",
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
+						}
+					]
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Life Absorption}\n\nIncreases the Life Drain ability of allied units that possess it by 10%.",
+			"effects" : {
+				"main" : {
+					"val" : 10
+				}
+			},
+			"images" : {
+				"small" : "skills/lifeAbsorption/smallBasic",
+				"medium" : "skills/lifeAbsorption/mediumBasic",
+				"large" : "skills/lifeAbsorption/largeBasic",
+				"scenarioBonus" : "skills/lifeAbsorption/largeBasic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Life Absorption}\n\nIncreases the Life Drain ability of allied units that possess it by 15%.",
+			"effects" : {
+				"main" : {
+					"val" : 15
+				}
+			},
+			"images" : {
+				"small" : "skills/lifeAbsorption/smallAdvanced",
+				"medium" : "skills/lifeAbsorption/mediumAdvanced",
+				"large" : "skills/lifeAbsorption/largeAdvanced",
+				"scenarioBonus" : "skills/lifeAbsorption/largeAdvanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Life Absorption}\n\nIncreases the Life Drain ability of allied units that possess it by 25%.",
+			"effects" : {
+				"main" : {
+					"val" : 25
+				}
+			},
+			"images" : {
+				"small" : "skills/lifeAbsorption/smallExpert",
+				"medium" : "skills/lifeAbsorption/mediumExpert",
+				"large" : "skills/lifeAbsorption/largeExpert",
+				"scenarioBonus" : "skills/lifeAbsorption/largeExpert"
+			}
+		}
+	}
+}

@@ -1,0 +1,117 @@
+{
+  "name": "blood-expansion-v1",
+  "identifier": "blood-expansion-v1",
+  "description": "Adds the Blood Wraith and its upgrade Scarlet Wraith, Blood Skeleton, Blood Angel, Civatateo, Crimson Dragon and Scarlet Birds, plus new heroes (including Alhorn, Elgron, Vallorn, Erianna, Luara and Eila), related content, Call the Birds spell, Feast for the Birds skill, stack experience for blood creatures and four blood dwellings. Adds Vampire Slayer skill and six new secondary skills affecting Life Drain units: Life Absorption, Thirst Exhaustion, Bloody Danger, Disarm Vampire, Vampire Defense, Break Defense. Also adds Vampire Fury, Bind Vampire's Hands, Vampire Swiftness and Shackle Vampire skills. Also adds Vampire Protection, Scarlet Heart and Bloody Exhaustion skills. Adds four new secondary skills focused on Blood Wraiths: Wraith Slayer, Blood Claws, Blood Hunger and Mana Siphon. Adds Blood Crystal resource (rebalanced: ~100 blood = 1 rare resource) and Blood Fields mine producing 100 blood/day.",
+  "author": "KayKrutoy & ChatGPT AI",
+  "version": "1.1.5",
+  "modType": "Expansion",
+  "creatures": [
+    "config/creatures/necropolis/beBloodWraith.json",
+    "config/creatures/necropolis/beScarletWraith.json",
+    "config/creatures/necropolis/beBloodSkeleton.json",
+    "config/creatures/necropolis/beBloodyMistress.json",
+    "config/creatures/castle/beBloodAngel.json",
+    "config/creatures/castle/beScarletBirds.json",
+    "config/creatures/dungeon/beCrimsonDragon.json"
+  ],
+  "heroes": [
+    "config/heroes/necropolis/grultus.json",
+    "config/heroes/necropolis/morvain.json",
+    "config/heroes/necropolis/lazarus.json",
+    "config/heroes/necropolis/yakus.json",
+    "config/heroes/necropolis/varix.json",
+    "config/heroes/necropolis/vulpiks.json",
+    "config/heroes/necropolis/gertiz.json",
+    "config/heroes/necropolis/luara.json",
+    "config/heroes/necropolis/eila.json",
+    "config/heroes/castle/alhorn.json",
+    "config/heroes/castle/vallorn.json",
+    "config/heroes/castle/erianna.json",
+    "config/heroes/dungeon/elgron.json"
+  ],
+  "objects": [
+    "config/objects/dwellings.json",
+    "config/objects/banks/BloodResidence.json",
+    "config/resources/bloodCrystal.json",
+    "config/objects/mines/bloodFields.json"
+  ],
+  "skills": [
+    "config/skills/bloodNecromancy.json",
+    "config/skills/birdFeast.json",
+    "config/skills/vampireSlayer.json",
+    "config/skills/lifeAbsorption.json",
+    "config/skills/thirstExhaustion.json",
+    "config/skills/bloodyDanger.json",
+    "config/skills/disarmVampire.json",
+    "config/skills/vampireDefense.json",
+    "config/skills/breakDefense.json",
+    "config/skills/vampireFury.json",
+    "config/skills/bindVampireHands.json",
+    "config/skills/vampireSwiftness.json",
+    "config/skills/shackleVampire.json",
+    "config/skills/vampireProtection.json",
+    "config/skills/scarletHeart.json",
+    "config/skills/bloodyExhaustion.json",
+    "config/skills/wraithSlayer.json",
+    "config/skills/bloodClaws.json",
+    "config/skills/bloodHunger.json",
+    "config/skills/manaSiphon.json",
+    "config/skills/scarletInvulnerability.json",
+    "config/skills/scarletSwiftness.json",
+    "config/skills/scarletWeakness.json"
+  ],
+  "spells": [
+    "config/spells/bloodRitual.json",
+    "config/spells/bloodScorch.json",
+    "config/spells/callTheBirds.json",
+    "config/spells/bloodSplash.json"
+  ],
+  "russian": {
+    "name": "Кровавая Экспансия",
+    "description": "Добавляет существ: Кровавого Призрака, Кровавого Скелета, Кровавого Ангела, Кровавую Госпожу, Багрового Дракона и Алую Птицу, новых героев (включая Гертиза, Алхорна, Элгрона, Валлорна, Эрианну, Луару и Эйлу), заклинание «Призыв Птиц», навык «Пир для Птиц», stack experience для кровавых существ и четыре кровавых жилища. Добавляет навык «Истребитель Вампиров» и шесть новых вторичных навыков, влияющих на юнитов с Высасыванием жизни: Поглощение жизни, Истощение жажды, Кровавая опасность, Обезоружить вампира, Вампирская защита, Сломление защиты. Также добавляет навыки «Вампирская Ярость», «Связать Руки Вампиру», «Вампирская стремительность» и «Сковать вампира». Также добавляет навыки «Защита Вампира», «Алое сердце» и «Кровавое Истощение». Добавляет четыре новых вторичных навыка, связанных с Кровавыми Призраками: Истребитель Призраков, Кровавые Когти, Кровавая Жажда и Сифон Маны. Добавляет ресурс «Кровавый кристалл» и шахту «Кровавые поля».",
+    "translations": [
+      "translation/russian.json"
+    ]
+  },
+  "resources": {
+    "bloodCrystal": {
+      "name": "Blood Crystal",
+      "price": 5,
+      "images": {
+        "small": "resources/bloodCrystal/small",
+        "medium": "resources/bloodCrystal/medium",
+        "large": "resources/bloodCrystal/large"
+      }
+    }
+  },
+  "english": {
+    "resources": {
+      "bloodCrystal": {
+        "name": "Blood Crystal"
+      }
+    }
+  },
+  "templates": [
+    "config/rmg/hdmod/blockbuster.json",
+    "config/rmg/hdmod/jebusCross.json",
+    "config/rmg/hdmod/skirmish.json",
+    "config/rmg/hdmod/triad.json",
+    "config/rmg/hdmod/longRun.json",
+    "config/rmg/hdmod/extreme.json",
+    "config/rmg/hdmod/extreme2.json",
+    "config/rmg/hdmod/clashOfDragons.json",
+    "config/rmg/hdmod/reckless.json",
+    "config/rmg/hdmod/headquarters.json",
+    "config/rmg/hdmod/frozenDragons.json",
+    "config/rmg/hdmod/coldshadowsFantasy.json",
+    "config/rmg/hdmod/poorJebus.json",
+    "config/rmg/hdmod/oceansEleven.json",
+    "config/rmg/hdmod/panic.json",
+    "config/rmg/hdmod/roadrunner.json",
+    "config/rmg/hdmod/shaaafworld.json",
+    "config/rmg/hdmod/spider.json",
+    "config/rmg/hdmod/speed2.json",
+    "config/rmg/hdmod/superslam.json",
+    "config/rmg/hdmod/vortex.json"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+	"birdFeast" : {
+		"name" : "Feast for the Birds",
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0
+		},
+		"specialty" : [
+			"main"
+		],
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "UNDEAD_RAISE_PERCENTAGE",
+					"valueType" : "BASE_NUMBER"
+				},
+				"power" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "beScarletBirds",
+					"addInfo" : 0
+				}
+			}
+		},
+		"basic" : {
+			"images" : {
+				"small" : "skills/birdFeast/smallBasic",
+				"medium" : "skills/birdFeast/mediumBasic",
+				"large" : "skills/birdFeast/largeBasic"
+			},
+			"description" : "{Basic Feast for the Birds}\n\nAfter a tiring battle, 10% of the fallen enemies are called as Scarlet Birds to feast on the fresh flesh of the battlefield.",
+			"effects" : {
+				"main" : {
+					"val" : 10
+				},
+				"power" : {
+					"val" : 1
+				}
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "skills/birdFeast/smallAdvanced",
+				"medium" : "skills/birdFeast/mediumAdvanced",
+				"large" : "skills/birdFeast/largeAdvanced"
+			},
+			"description" : "{Advanced Feast for the Birds}\n\nAfter a tiring battle, 25% of the fallen enemies are called as Scarlet Birds to feast on the fresh flesh of the battlefield.",
+			"effects" : {
+				"main" : {
+					"val" : 25
+				},
+				"power" : {
+					"val" : 2
+				}
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "skills/birdFeast/smallExpert",
+				"medium" : "skills/birdFeast/mediumExpert",
+				"large" : "skills/birdFeast/largeExpert"
+			},
+			"description" : "{Expert Feast for the Birds}\n\nAfter a tiring battle, 40% of the fallen enemies are called as Scarlet Birds to feast on the fresh flesh of the battlefield.",
+			"effects" : {
+				"main" : {
+					"val" : 40
+				},
+				"power" : {
+					"val" : 3
+				}
+			}
+		}
+	}
+}

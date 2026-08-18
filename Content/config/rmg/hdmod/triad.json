@@ -1,0 +1,30 @@
+{
+	"vcmi:Triad L": {
+		"zones": {
+			"4": {
+				"mines": {
+					"bloodCrystal": 1
+				}
+			},
+			"13": {
+				"mines": {
+					"bloodCrystal": 1
+				}
+			}
+		}
+	},
+	"vcmi:Triad XL": {
+		"zones": {
+			"4": {
+				"mines": {
+					"bloodCrystal": 1
+				}
+			},
+			"13": {
+				"mines": {
+					"bloodCrystal": 1
+				}
+			}
+		}
+	}
+}

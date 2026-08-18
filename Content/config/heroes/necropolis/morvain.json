@@ -1,0 +1,59 @@
+{
+  "morvain": {
+    "class": "necromancer",
+    "female": false,
+    "texts": {
+      "name": "Morvain",
+      "biography": "Morvain devoted his life to studying restless spirits. His mastery of Necromancy allows him to raise Wights instead of Skeletons, creating a steady supply of spectral servants for further transformation.",
+      "specialty": {
+        "description": "{Wight}\r\n\r\nSpecial upgrades: Necromancy raises Wights instead of Skeletons.",
+        "tooltip": "Necromancy raises Wights",
+        "name": "Spirit Shepherd"
+      }
+    },
+    "images": {
+      "large": "heroes/necropolis/morvain/morvain_portrait_large.png",
+      "small": "heroes/necropolis/morvain/morvain_portrait_small.png",
+      "specialtyLarge": "heroes/necropolis/morvain/morvainSpecL.png",
+      "specialtySmall": "heroes/necropolis/morvain/morvainSpecS.png"
+    },
+    "army": [
+      {
+        "creature": "wight",
+        "min": 3,
+        "max": 4
+      },
+      {
+        "creature": "walkingDead",
+        "min": 6,
+        "max": 8
+      },
+      {
+        "creature": "skeleton",
+        "min": 15,
+        "max": 20
+      }
+    ],
+    "skills": [
+      {
+        "skill": "necromancy",
+        "level": "expert"
+      },
+      {
+        "skill": "wisdom",
+        "level": "advanced"
+      }
+    ],
+    "spellbook": [
+      "deathRipple"
+    ],
+    "specialty": {
+      "bonuses": {
+        "morvainNecromancy": {
+          "type": "IMPROVED_NECROMANCY",
+          "subtype": "wight"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "blood-expansion-v1:eila": {
+    "specialty": {
+      "bonuses": {
+        "upgradeTumInquisitor": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tumInquisitor",
+          "addInfo": "creature.vampireLord"
+        },
+        "upgradeTumHighPriest": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tumHighPriest",
+          "addInfo": "creature.vampireLord"
+        },
+        "upgradeTumHolyChampion": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tumHolyChampion",
+          "addInfo": "creature.vampireLord"
+        },
+        "upgradeTumSharpshooterElf": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tumSharpshooterElf",
+          "addInfo": "creature.vampireLord"
+        },
+        "upgradeTumGoldenPegasus": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tumGoldenPegasus",
+          "addInfo": "creature.vampireLord"
+        },
+        "upgradeTumSupremeArchMage": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tumSupremeArchMage",
+          "addInfo": "creature.vampireLord"
+        }
+      }
+    }
+  }
+}

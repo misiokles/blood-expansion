@@ -1,0 +1,222 @@
+{
+	"bloodyDanger": {
+		"name": "Bloody Danger",
+		"gainChance": {
+			"might": 4,
+			"magic": 3
+		},
+		"specialty": [],
+		"base": {
+			"effects": {
+				"tier1": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 1,
+							"maxlevel": 2
+						}
+					]
+				},
+				"tier2": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 2,
+							"maxlevel": 3
+						}
+					]
+				},
+				"tier3": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 3,
+							"maxlevel": 4
+						}
+					]
+				},
+				"tier4": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 4,
+							"maxlevel": 5
+						}
+					]
+				},
+				"tier5": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 5,
+							"maxlevel": 6
+						}
+					]
+				},
+				"tier6": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 6,
+							"maxlevel": 7
+						}
+					]
+				},
+				"tier7": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.attack",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 7,
+							"maxlevel": 8
+						}
+					]
+				}
+			}
+		},
+		"basic": {
+			"description": "{Basic Bloody Danger}\n\nIncreases the Attack of allied units with the Life Drain ability:\nTier 1: +1\nTier 2: +2\nTier 3: +3\nTier 4: +3\nTier 5: +4\nTier 6: +7\nTier 7: +10",
+			"effects": {
+				"tier1": {
+					"val": 1
+				},
+				"tier2": {
+					"val": 2
+				},
+				"tier3": {
+					"val": 3
+				},
+				"tier4": {
+					"val": 3
+				},
+				"tier5": {
+					"val": 4
+				},
+				"tier6": {
+					"val": 7
+				},
+				"tier7": {
+					"val": 10
+				}
+			},
+			"images": {
+				"small": "skills/bloodyDanger/smallBasic",
+				"medium": "skills/bloodyDanger/mediumBasic",
+				"large": "skills/bloodyDanger/largeBasic",
+				"scenarioBonus": "skills/bloodyDanger/largeBasic"
+			}
+		},
+		"advanced": {
+			"description": "{Advanced Bloody Danger}\n\nIncreases the Attack of allied units with the Life Drain ability:\nTier 1: +2\nTier 2: +3\nTier 3: +4\nTier 4: +4\nTier 5: +5\nTier 6: +9\nTier 7: +12",
+			"effects": {
+				"tier1": {
+					"val": 2
+				},
+				"tier2": {
+					"val": 3
+				},
+				"tier3": {
+					"val": 4
+				},
+				"tier4": {
+					"val": 4
+				},
+				"tier5": {
+					"val": 5
+				},
+				"tier6": {
+					"val": 9
+				},
+				"tier7": {
+					"val": 12
+				}
+			},
+			"images": {
+				"small": "skills/bloodyDanger/smallAdvanced",
+				"medium": "skills/bloodyDanger/mediumAdvanced",
+				"large": "skills/bloodyDanger/largeAdvanced",
+				"scenarioBonus": "skills/bloodyDanger/largeAdvanced"
+			}
+		},
+		"expert": {
+			"description": "{Expert Bloody Danger}\n\nIncreases the Attack of allied units with the Life Drain ability:\nTier 1: +3\nTier 2: +4\nTier 3: +5\nTier 4: +6\nTier 5: +7\nTier 6: +11\nTier 7: +15",
+			"effects": {
+				"tier1": {
+					"val": 3
+				},
+				"tier2": {
+					"val": 4
+				},
+				"tier3": {
+					"val": 5
+				},
+				"tier4": {
+					"val": 6
+				},
+				"tier5": {
+					"val": 7
+				},
+				"tier6": {
+					"val": 11
+				},
+				"tier7": {
+					"val": 15
+				}
+			},
+			"images": {
+				"small": "skills/bloodyDanger/smallExpert",
+				"medium": "skills/bloodyDanger/mediumExpert",
+				"large": "skills/bloodyDanger/largeExpert",
+				"scenarioBonus": "skills/bloodyDanger/largeExpert"
+			}
+		}
+	}
+}

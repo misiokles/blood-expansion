@@ -1,0 +1,17 @@
+{
+  "name": "Vallorn + Cherub",
+  "description": "Upgrade Cherubim (kurekCherub) into Blood Angels.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "new-monsters-pack.kurek-creatures.New-content-for-Castle.Cherub"
+  ],
+  "heroes": [
+    "config/vallorn.json"
+  ],
+  "russian": {
+    "name": "Валлорн + Херувим",
+    "description": "Улучшает Херувимов (kurekCherub) в Кровавых Ангелов."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "blood-expansion-v1:eila": {
+    "specialty": {
+      "bonuses": {
+        "upgradeAmCultivator": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amCultivator",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeAmSwordCultivator": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amSwordCultivator",
+          "addInfo": "creature.vampireLord"
+        },
+        "upgradeAmGoldenCoreCultivator": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amGoldenCoreCultivator",
+          "addInfo": "creature.vampireLord"
+        },
+        "upgradeAmDhutaWalker": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amDhutaWalker",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeAmDhutaSeeker": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amDhutaSeeker",
+          "addInfo": "creature.vampireLord"
+        },
+        "upgradeAmDhutaVenerable": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amDhutaVenerable",
+          "addInfo": "creature.vampireLord"
+        },
+        "upgradeAmSnakeGrasper": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amSnakeGrasper",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeAmSnakeBearer": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amSnakeBearer",
+          "addInfo": "creature.vampireLord"
+        },
+        "upgradeAmJiuYing": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amJiuYing",
+          "addInfo": "creature.vampireLord"
+        }
+      }
+    }
+  }
+}

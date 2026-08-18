@@ -1,0 +1,65 @@
+{
+    "callTheBirds": {
+        "type": "combat",
+        "name": "Call the Birds",
+        "school": {
+            "air": true
+        },
+        "level": 4,
+        "power": 20,
+        "defaultGainChance": 0,
+        "gainChance": {},
+        "flags": {
+            "rising": true,
+            "positive": true
+        },
+        "targetType": "CREATURE",
+        "graphics": {
+            "iconBook": "spells/callTheBirds/callTheBirdsBook.png",
+            "iconScroll": "spells/callTheBirds/callTheBirdsScroll.png",
+            "iconScenarioBonus": "spells/callTheBirds/callTheBirdsBonus.png",
+            "iconEffect": "spells/callTheBirds/callTheBirdsEffect.png"
+        },
+        "sounds": {
+            "cast": "RESURECT"
+        },
+        "levels": {
+            "base": {
+                "description": "Call the Birds\r\n\r\nRaises Scarlet Birds from the corpses of fallen allies.",
+                "cost": 75,
+                "power": 20,
+                "range": "0",
+                "targetModifier": {
+                    "smart": true
+                },
+                "battleEffects": {
+                    "scarletBirdsSummon": {
+                        "id": "beScarletBirds",
+                        "permanent": true,
+                        "type": "core:demonSummon"
+                    }
+                }
+            },
+            "none": {
+                "cost": 75
+            },
+            "basic": {
+                "cost": 70
+            },
+            "advanced": {
+                "cost": 55
+            },
+            "expert": {
+                "cost": 40
+            }
+        },
+        "targetCondition": {
+            "noneOf": {
+                "bonus.NON_LIVING": "absolute",
+                "bonus.SIEGE_WEAPON": "absolute",
+                "bonus.UNDEAD": "absolute",
+                "bonus.GARGOYLE": "absolute"
+            }
+        }
+    }
+}

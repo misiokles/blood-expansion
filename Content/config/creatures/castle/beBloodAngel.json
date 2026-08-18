@@ -1,0 +1,201 @@
+{
+  "beBloodAngel": {
+    "name": {
+      "plural": "Blood Angels",
+      "singular": "Blood Angel"
+    },
+    "advMapAmount": {
+      "max": 9,
+      "min": 4
+    },
+    "faction": "castle",
+    "aiValue": 4824,
+    "fightValue": 3845,
+    "attack": 25,
+    "defense": 20,
+    "cost": {
+      "gold": 2750,
+      "mercury": 1
+    },
+    "damage": {
+      "min": 35,
+      "max": 40
+    },
+    "speed": 17,
+    "graphics": {
+      "animation": "castle/creatures/battle/beBloodAngel.def",
+      "map": "castle/creatures/map/beBloodAngel.def",
+      "iconSmall": "castle/creatures/iconsSmall/beBloodAngel.bmp",
+      "iconLarge": "castle/creatures/iconsBig/beBloodAngel.bmp",
+      "timeBetweenFidgets": 3,
+      "animationTime": {
+        "walk": 1.23,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1
+      }
+    },
+    "hitPoints": 200,
+    "growth": 1,
+    "level": 7,
+    "sound": {
+      "attack": "",
+      "defend": "",
+      "killed": "",
+      "move": "",
+      "wince": ""
+    },
+    "abilities": {
+      "fly": {
+        "type": "FLYING"
+      },
+      "fear": {
+        "type": "FEAR"
+      },
+      "UNDEAD": {
+        "type": "UNDEAD"
+      },
+      "drainsMana": {
+        "type": "MANA_DRAIN",
+        "val": 5
+      },
+      "revenger": {
+        "type": "REVENGE"
+      },
+      "threeHeads": {
+        "type": "THREE_HEADED_ATTACK"
+      },
+      "drainsLife": {
+        "type": "LIFE_DRAIN",
+        "val": 100
+      }
+    },
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "LIFE_DRAIN",
+          "val": 0
+        },
+        "values": [
+          0,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          50
+        ]
+      },
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.attack"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.defence"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMax"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMin"
+        },
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      {
+        "bonus": {
+          "type": "STACK_HEALTH",
+          "valueType": "PERCENT_TO_BASE"
+        },
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50
+        ]
+      },
+      {
+        "bonus": {
+          "type": "STACKS_SPEED"
+        },
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3
+        ]
+      }
+    ]
+  }
+}

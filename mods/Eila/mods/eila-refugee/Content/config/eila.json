@@ -1,0 +1,23 @@
+{
+  "blood-expansion-v1:eila": {
+    "specialty": {
+      "bonuses": {
+        "upgradeRfgcCutthroat": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "rfgcCutthroat",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeRfgcVagabond": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "rfgcVagabond",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeRfgcBowman": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "rfgcBowman",
+          "addInfo": "creature.vampire"
+        }
+      }
+    }
+  }
+}

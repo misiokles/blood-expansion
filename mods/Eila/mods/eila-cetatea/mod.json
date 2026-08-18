@@ -1,0 +1,17 @@
+{
+  "name": "Eila + Cetatea",
+  "description": "Upgrade Voinici / Haiduci from Cetatea into Vampires / Vampire Lords.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "cetatea-town"
+  ],
+  "heroes": [
+    "config/eila.json"
+  ],
+  "russian": {
+    "name": "Эйла + Крепость(Cetatea)",
+    "description": "Улучшает Громил / Преступников из Крепости(Cetatea) в Вампиров / Лордов Вампиров."
+  }
+}

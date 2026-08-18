@@ -1,0 +1,17 @@
+{
+  "name": "Eila + HotA Bulwark",
+  "description": "Upgrade Snow Elves / Steel Elves from HotA Bulwark into Vampires / Vampire Lords.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "hota.bulwark"
+  ],
+  "heroes": [
+    "config/eila.json"
+  ],
+  "russian": {
+    "name": "Эйла + HotA Кронверк",
+    "description": "Улучшает Снежных / Стальных Эльфов из HotA Кронверка в Вампиров / Лордов Вампиров."
+  }
+}

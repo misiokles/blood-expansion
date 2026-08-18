@@ -1,0 +1,13 @@
+{
+  "blood-expansion-v1:gertiz": {
+    "specialty": {
+      "bonuses": {
+        "upgradeAcpWilloWisp": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "acpWilloWisp",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
+}

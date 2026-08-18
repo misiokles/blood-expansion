@@ -1,0 +1,48 @@
+{
+  "blood-expansion-v1:eila": {
+    "specialty": {
+      "bonuses": {
+        "upgradeTumborovik": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tumborovik",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeTumleshiy": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tumleshiy",
+          "addInfo": "creature.vampireLord"
+        },
+        "upgradeTumyaga": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tumyaga",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeRusYaga": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "rusYaga",
+          "addInfo": "creature.vampireLord"
+        },
+        "upgradeRusSirin": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "rusSirin",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeRusAlconost": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "rusAlconost",
+          "addInfo": "creature.vampireLord"
+        },
+        "upgradeRusRatnik": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "rusRatnik",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeRusDruginnik": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "rusDruginnik",
+          "addInfo": "creature.vampireLord"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+	"thirstExhaustion" : {
+		"name" : "Thirst Exhaustion",
+		"gainChance" : {
+			"might" : 3,
+			"magic" : 3
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "LIFE_DRAIN",
+					"val" : -15,
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"OPPOSITE_SIDE",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
+						}
+					]
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Thirst Exhaustion}\n\nDecreases the Life Drain ability of enemy units that possess it by 15%.",
+			"effects" : {
+				"main" : {
+					"val" : -15
+				}
+			},
+			"images" : {
+				"small" : "skills/thirstExhaustion/smallBasic",
+				"medium" : "skills/thirstExhaustion/mediumBasic",
+				"large" : "skills/thirstExhaustion/largeBasic",
+				"scenarioBonus" : "skills/thirstExhaustion/largeBasic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Thirst Exhaustion}\n\nDecreases the Life Drain ability of enemy units that possess it by 25%.",
+			"effects" : {
+				"main" : {
+					"val" : -25
+				}
+			},
+			"images" : {
+				"small" : "skills/thirstExhaustion/smallAdvanced",
+				"medium" : "skills/thirstExhaustion/mediumAdvanced",
+				"large" : "skills/thirstExhaustion/largeAdvanced",
+				"scenarioBonus" : "skills/thirstExhaustion/largeAdvanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Thirst Exhaustion}\n\nDecreases the Life Drain ability of enemy units that possess it by 35%.",
+			"effects" : {
+				"main" : {
+					"val" : -35
+				}
+			},
+			"images" : {
+				"small" : "skills/thirstExhaustion/smallExpert",
+				"medium" : "skills/thirstExhaustion/mediumExpert",
+				"large" : "skills/thirstExhaustion/largeExpert",
+				"scenarioBonus" : "skills/thirstExhaustion/largeExpert"
+			}
+		}
+	}
+}

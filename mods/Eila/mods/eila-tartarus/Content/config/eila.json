@@ -1,0 +1,18 @@
+{
+  "blood-expansion-v1:eila": {
+    "specialty": {
+      "bonuses": {
+        "upgradeTartarc5": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tartarc5",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeTartarc6": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tartarc6",
+          "addInfo": "creature.vampireLord"
+        }
+      }
+    }
+  }
+}

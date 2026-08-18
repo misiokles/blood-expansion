@@ -1,0 +1,18 @@
+{
+  "blood-expansion-v1:luara": {
+    "specialty": {
+      "bonuses": {
+        "upgradeCVampire": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "cVampire",
+          "addInfo": "beBloodyMistress"
+        },
+        "upgradeCVampirelord": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "cVampirelord",
+          "addInfo": "beBloodyMistress"
+        }
+      }
+    }
+  }
+}

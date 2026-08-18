@@ -1,0 +1,17 @@
+{
+  "name": "Lazarus + Refugee",
+  "description": "Upgrade Cutthroats, Vagabonds, Bowmen from Refugee into Blood Wraiths.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "refugee-town"
+  ],
+  "heroes": [
+    "config/lazarus.json"
+  ],
+  "russian": {
+    "name": "Лазарус + Приют",
+    "description": "Улучшает Шпионов, Странников, Скаутов из Приюта в Кровавых Призраков."
+  }
+}

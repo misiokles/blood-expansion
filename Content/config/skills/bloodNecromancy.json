@@ -1,0 +1,73 @@
+{
+	"bloodNecromancy" : {
+		"name" : "Bloody Necromancy",
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0
+		},
+		"specialty" : [
+			"main"
+		],
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "UNDEAD_RAISE_PERCENTAGE",
+					"valueType" : "BASE_NUMBER"
+				},
+				"power" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "beBloodSkeleton",
+					"addInfo" : 0
+				}
+			}
+		},
+		"basic" : {
+			"images" : {
+				"small" : "skills/bloodNecromancy/smallBasic",
+				"medium" : "skills/bloodNecromancy/mediumBasic",
+				"large" : "skills/bloodNecromancy/largeBasic"
+			},
+			"description" : "{Basic Bloody Necromancy}\n\nBasic Bloody Necromancy allows 10% of the creatures killed in combat to be brought back from the dead as Blood Skeletons.",
+			"effects" : {
+				"main" : {
+					"val" : 10
+				},
+				"power" : {
+					"val" : 1
+				}
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "skills/bloodNecromancy/smallAdvanced",
+				"medium" : "skills/bloodNecromancy/mediumAdvanced",
+				"large" : "skills/bloodNecromancy/largeAdvanced"
+			},
+			"description" : "{Advanced Bloody Necromancy}\n\nAdvanced Bloody Necromancy allows 20% of the creatures killed in combat to be brought back from the dead as Blood Skeletons.",
+			"effects" : {
+				"main" : {
+					"val" : 20
+				},
+				"power" : {
+					"val" : 2
+				}
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "skills/bloodNecromancy/smallExpert",
+				"medium" : "skills/bloodNecromancy/mediumExpert",
+				"large" : "skills/bloodNecromancy/largeExpert"
+			},
+			"description" : "{Expert Bloody Necromancy}\n\nExpert Bloody Necromancy allows 30% of the creatures killed in combat to be brought back from the dead as Blood Skeletons.",
+			"effects" : {
+				"main" : {
+					"val" : 30
+				},
+				"power" : {
+					"val" : 3
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,236 @@
+{
+	"shackleVampire": {
+		"name": "Shackle Vampire",
+		"gainChance": {
+			"might": 4,
+			"magic": 3
+		},
+		"specialty": [],
+		"base": {
+			"effects": {
+				"tier1": {
+					"type": "STACKS_SPEED",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
+						"OPPOSITE_SIDE",
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 1,
+							"maxlevel": 2
+						}
+					]
+				},
+				"tier2": {
+					"type": "STACKS_SPEED",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
+						"OPPOSITE_SIDE",
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 2,
+							"maxlevel": 3
+						}
+					]
+				},
+				"tier3": {
+					"type": "STACKS_SPEED",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
+						"OPPOSITE_SIDE",
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 3,
+							"maxlevel": 4
+						}
+					]
+				},
+				"tier4": {
+					"type": "STACKS_SPEED",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
+						"OPPOSITE_SIDE",
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 4,
+							"maxlevel": 5
+						}
+					]
+				},
+				"tier5": {
+					"type": "STACKS_SPEED",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
+						"OPPOSITE_SIDE",
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 5,
+							"maxlevel": 6
+						}
+					]
+				},
+				"tier6": {
+					"type": "STACKS_SPEED",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
+						"OPPOSITE_SIDE",
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 6,
+							"maxlevel": 7
+						}
+					]
+				},
+				"tier7": {
+					"type": "STACKS_SPEED",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
+						"OPPOSITE_SIDE",
+						{
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
+						},
+						{
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 7,
+							"maxlevel": 8
+						}
+					]
+				}
+			}
+		},
+		"basic": {
+			"description": "{Basic Shackle Vampire}\n\nDecreases speed of enemy units with Life Drain:\nTier 1: -1\nTier 2: -2\nTier 3: -3\nTier 4: -3\nTier 5: -4\nTier 6: -7\nTier 7: -10",
+			"effects": {
+				"tier1": {
+					"val": -1
+				},
+				"tier2": {
+					"val": -2
+				},
+				"tier3": {
+					"val": -3
+				},
+				"tier4": {
+					"val": -3
+				},
+				"tier5": {
+					"val": -4
+				},
+				"tier6": {
+					"val": -7
+				},
+				"tier7": {
+					"val": -10
+				}
+			},
+			"images": {
+				"small": "skills/shackleVampire/smallBasic",
+				"medium": "skills/shackleVampire/mediumBasic",
+				"large": "skills/shackleVampire/largeBasic",
+				"scenarioBonus": "skills/shackleVampire/largeBasic"
+			}
+		},
+		"advanced": {
+			"description": "{Advanced Shackle Vampire}\n\nDecreases speed of enemy units with Life Drain:\nTier 1: -2\nTier 2: -3\nTier 3: -4\nTier 4: -4\nTier 5: -5\nTier 6: -10\nTier 7: -11",
+			"effects": {
+				"tier1": {
+					"val": -2
+				},
+				"tier2": {
+					"val": -3
+				},
+				"tier3": {
+					"val": -4
+				},
+				"tier4": {
+					"val": -4
+				},
+				"tier5": {
+					"val": -5
+				},
+				"tier6": {
+					"val": -10
+				},
+				"tier7": {
+					"val": -11
+				}
+			},
+			"images": {
+				"small": "skills/shackleVampire/smallAdvanced",
+				"medium": "skills/shackleVampire/mediumAdvanced",
+				"large": "skills/shackleVampire/largeAdvanced",
+				"scenarioBonus": "skills/shackleVampire/largeAdvanced"
+			}
+		},
+		"expert": {
+			"description": "{Expert Shackle Vampire}\n\nDecreases speed of enemy units with Life Drain:\nTier 1: -4\nTier 2: -5\nTier 3: -5\nTier 4: -6\nTier 5: -7\nTier 6: -11\nTier 7: -12",
+			"effects": {
+				"tier1": {
+					"val": -4
+				},
+				"tier2": {
+					"val": -5
+				},
+				"tier3": {
+					"val": -5
+				},
+				"tier4": {
+					"val": -6
+				},
+				"tier5": {
+					"val": -7
+				},
+				"tier6": {
+					"val": -11
+				},
+				"tier7": {
+					"val": -12
+				}
+			},
+			"images": {
+				"small": "skills/shackleVampire/smallExpert",
+				"medium": "skills/shackleVampire/mediumExpert",
+				"large": "skills/shackleVampire/largeExpert",
+				"scenarioBonus": "skills/shackleVampire/largeExpert"
+			}
+		}
+	}
+}

@@ -1,0 +1,118 @@
+{
+  "varix": {
+    "class": "necromancer",
+    "female": false,
+    "texts": {
+      "name": "Varix",
+      "biography": "Varix is a blood-soaked necromancer who perfected the art of the Bloody Burn. He binds living essence into bone, turning ordinary skeletons into vessels of fire and thirst. Under his command, Blood Skeletons become engines of relentless vampiric flame, rising again and again from the ashes of battle.",
+      "specialty": {
+        "description": "{Blood Skeleton}\r\n\r\nBlood Skeletons under Varix gain +25% Life Drain (to 50%) and +15% Fire Shield (to 50%). They also get the opportunity to revive half of their stack when they die. Receives a 5% per level bonus to Bloody Necromancy skill percentage. Liches under his command can cast Blood Scorch once per battle.",
+        "tooltip": "Empowers Blood Skeletons with stronger Life Drain, Fire Shield and Rebirth. Liches cast Blood Scorch. Strengthens Bloody Necromancy.",
+        "name": "Bloody Burn"
+      }
+    },
+    "images": {
+      "large": "heroes/necropolis/varix/varix_portrait_large.png",
+      "small": "heroes/necropolis/varix/varix_portrait_small.png",
+      "specialtyLarge": "heroes/necropolis/varix/varixSpecL.png",
+      "specialtySmall": "heroes/necropolis/varix/varixSpecS.png"
+    },
+    "army": [
+      {
+        "creature": "beBloodSkeleton",
+        "min": 12,
+        "max": 25
+      },
+      {
+        "creature": "beBloodSkeleton",
+        "min": 10,
+        "max": 18
+      },
+      {
+        "creature": "lich",
+        "min": 1,
+        "max": 2
+      }
+    ],
+    "skills": [
+      {
+        "skill": "bloodNecromancy",
+        "level": "basic"
+      },
+      {
+        "skill": "wisdom",
+        "level": "expert"
+      }
+    ],
+    "spellbook": [
+      "bloodScorch"
+    ],
+    "specialty": {
+      "secondary": "bloodNecromancy",
+      "bonuses": {
+        "varixLifeDrainBoost": {
+          "type": "LIFE_DRAIN",
+          "val": 25,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": ["beBloodSkeleton"]
+            }
+          ]
+        },
+        "varixFireShieldBoost": {
+          "type": "FIRE_SHIELD",
+          "val": 15,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": ["beBloodSkeleton"]
+            }
+          ]
+        },
+        "varixRebirth": {
+          "type": "REBIRTH",
+          "val": 50,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": ["beBloodSkeleton"]
+            }
+          ]
+        },
+        "lichBloodScorchPower": {
+          "type": "SPECIFIC_SPELL_POWER",
+          "subtype": "spell.bloodScorch",
+          "val": 25,
+          "limiters": [
+            {
+              "parameters": ["lich", true],
+              "type": "CREATURE_TYPE_LIMITER"
+            }
+          ]
+        },
+        "lichBloodScorchCaster": {
+          "type": "SPELLCASTER",
+          "subtype": "spell.bloodScorch",
+          "val": 0,
+          "limiters": [
+            {
+              "parameters": ["lich", true],
+              "type": "CREATURE_TYPE_LIMITER"
+            }
+          ]
+        },
+        "lichBloodScorchCasts": {
+          "type": "CASTS",
+          "val": 1,
+          "limiters": [
+            {
+              "parameters": ["lich", true],
+              "type": "CREATURE_TYPE_LIMITER"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "beBloodSkeleton": {
+    "name": {
+      "plural": "Blood Skeletons",
+      "singular": "Blood Skeleton"
+    },
+    "advMapAmount": {
+      "max": 50,
+      "min": 15
+    },
+    "faction": "necropolis",
+    "aiValue": 178,
+    "attack": 5,
+    "cost": {
+      "gold": 80
+    },
+    "damage": {
+      "max": 4,
+      "min": 2
+    },
+    "defense": 6,
+    "fightValue": 191,
+    "graphics": {
+      "animation": "necropolis/creatures/battle/bloodSkeleton.def",
+      "map": "necropolis/creatures/map/bloodSkeleton.def",
+      "iconSmall": "necropolis/creatures/iconsSmall/bloodSkeleton.png",
+      "iconLarge": "necropolis/creatures/iconsBig/bloodSkeleton.png",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 0.7,
+        "attack": 1,
+        "idle": 10
+      }
+    },
+    "growth": 10,
+    "hitPoints": 12,
+    "level": 2,
+    "sound": {
+      "attack": "WRTHATTK.wav",
+      "defend": "WRTHDFND.wav",
+      "killed": "WRTHKILL.wav",
+      "move": "WRTHMOVE.wav",
+      "wince": "WRTHWNCE.wav"
+    },
+    "speed": 5,
+    "abilities": {
+      "lifeDrain": {
+        "type": "LIFE_DRAIN",
+        "val": 25
+      },
+      "fireShield": {
+        "type": "FIRE_SHIELD",
+        "val": 35
+      },
+      "undead": {
+        "type": "UNDEAD"
+      }
+    },
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "LIFE_DRAIN",
+          "val": 0
+        },
+        "values": [ 0, 2, 4, 7, 9, 10, 12, 14, 17, 20 ]
+      },
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.attack"
+        },
+        "values": [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+      },
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.defence"
+        },
+        "values": [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+      },
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMax"
+        },
+        "values": [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+      },
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMin"
+        },
+        "values": [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+      },
+      {
+        "bonus": {
+          "type": "STACK_HEALTH",
+          "valueType": "PERCENT_TO_BASE"
+        },
+        "values": [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+      },
+      {
+        "bonus": {
+          "type": "STACKS_SPEED"
+        },
+        "values": [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+      }
+    ]
+  }
+}

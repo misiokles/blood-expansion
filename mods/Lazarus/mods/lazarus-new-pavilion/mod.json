@@ -1,0 +1,17 @@
+{
+  "name": "Lazarus + Pavilion",
+  "description": "Upgrade Camel Riders/Desert Warriors, Sekhmet/Priestesses from Pavilion into Blood Wraiths.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "new-pavilion"
+  ],
+  "heroes": [
+    "config/lazarus.json"
+  ],
+  "russian": {
+    "name": "Лазарус + Павильон",
+    "description": "Улучшает Наездников на Верблюдах/Пустынных Воинов, Сехмет/Жриц из Павильона в Кровавых Призраков."
+  }
+}

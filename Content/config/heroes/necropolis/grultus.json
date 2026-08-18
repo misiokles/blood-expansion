@@ -1,0 +1,108 @@
+{
+  "grultus": {
+    "class": "necromancer",
+    "female": false,
+    "texts": {
+      "name": "Grultus",
+      "biography": "A master of the spectral realm, Grultus commands the full line of Necropolis ghosts — from humble Wights to terrifying Blood Wraiths and Scarlet Wraiths. He amplifies their life-draining hunger, turning every upgraded ghost into a more devastating soul reaver. Under his command Blood Wraiths can be upgraded into Scarlet Wraiths.",
+      "specialty": {
+        "description": "{Wight / Wraith / Blood Wraith / Scarlet Wraith}\r\n\r\nSpecial upgrades: Increases Life Drain and Mana Drain of the Blood Wraith and Scarlet Wraith. Allows upgrading Blood Wraiths to Scarlet Wraiths.",
+        "tooltip": "Creature Bonus: Ghost Line",
+        "name": "Ghost Master"
+      }
+    },
+    "images": {
+      "large": "heroes/necropolis/grultus/grultus_portrait_large.png",
+      "small": "heroes/necropolis/grultus/grultus_portrait_small.png",
+      "specialtyLarge": "heroes/necropolis/grultus/grultusSpecL.png",
+      "specialtySmall": "heroes/necropolis/grultus/grultusSpecS.png"
+    },
+    "army": [
+      {
+        "creature": "wight",
+        "min": 7,
+        "max": 12
+      },
+      {
+        "creature": "wraith",
+        "min": 4,
+        "max": 7
+      },
+      {
+        "creature": "beBloodWraith",
+        "min": 2,
+        "max": 5
+      }
+    ],
+    "skills": [
+      {
+        "skill": "bloodNecromancy",
+        "level": "basic"
+      },
+      {
+        "skill": "wisdom",
+        "level": "advanced"
+      }
+    ],
+    "spellbook": [
+      "slow"
+    ],
+    "specialty": {
+      "bonuses": {
+        "enhancedLifeDrainBlood": {
+          "type": "LIFE_DRAIN",
+          "val": 88,
+          "valueType": "PERCENT_TO_ALL",
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "beBloodWraith",
+              "includeUpgrades": false
+            }
+          ]
+        },
+        "enhancedLifeDrainScarlet": {
+          "type": "LIFE_DRAIN",
+          "val": 88,
+          "valueType": "PERCENT_TO_ALL",
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "beScarletWraith",
+              "includeUpgrades": false
+            }
+          ]
+        },
+        "enhancedManaDrainBlood": {
+          "type": "MANA_DRAIN",
+          "val": 200,
+          "valueType": "PERCENT_TO_ALL",
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "beBloodWraith",
+              "includeUpgrades": false
+            }
+          ]
+        },
+        "enhancedManaDrainScarlet": {
+          "type": "MANA_DRAIN",
+          "val": 200,
+          "valueType": "PERCENT_TO_ALL",
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "beScarletWraith",
+              "includeUpgrades": false
+            }
+          ]
+        },
+        "upgradeBloodToScarlet": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "creature.beBloodWraith",
+          "addInfo": "creature.beScarletWraith"
+        }
+      }
+    }
+  }
+}

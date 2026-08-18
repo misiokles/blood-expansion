@@ -1,0 +1,61 @@
+{
+	"vampireSlayer" : {
+		"name" : "Vampire Slayer",
+		"gainChance" : {
+			"might" : 5,
+			"magic" : 4
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "HATES_TRAIT",
+					"subtype" : "LIFE_DRAIN",
+					"val" : 15
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Vampire Slayer}\n\nUnits in the hero's army deal 15% more damage to creatures with the Life Drain ability.",
+			"effects" : {
+				"main" : {
+					"val" : 15
+				}
+			},
+			"images" : {
+				"small" : "skills/vampireSlayer/smallBasic",
+				"medium" : "skills/vampireSlayer/mediumBasic",
+				"large" : "skills/vampireSlayer/largeBasic",
+				"scenarioBonus" : "skills/vampireSlayer/largeBasic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Vampire Slayer}\n\nUnits in the hero's army deal 30% more damage to creatures with the Life Drain ability.",
+			"effects" : {
+				"main" : {
+					"val" : 30
+				}
+			},
+			"images" : {
+				"small" : "skills/vampireSlayer/smallAdvanced",
+				"medium" : "skills/vampireSlayer/mediumAdvanced",
+				"large" : "skills/vampireSlayer/largeAdvanced",
+				"scenarioBonus" : "skills/vampireSlayer/largeAdvanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Vampire Slayer}\n\nUnits in the hero's army deal 50% more damage to creatures with the Life Drain ability.",
+			"effects" : {
+				"main" : {
+					"val" : 50
+				}
+			},
+			"images" : {
+				"small" : "skills/vampireSlayer/smallExpert",
+				"medium" : "skills/vampireSlayer/mediumExpert",
+				"large" : "skills/vampireSlayer/largeExpert",
+				"scenarioBonus" : "skills/vampireSlayer/largeExpert"
+			}
+		}
+	}
+}
