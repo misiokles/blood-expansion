@@ -1,13 +1,13 @@
 {
-  "blood-expansion-v1:elgron": {
-    "specialty": {
-      "bonuses": {
-        "upgradedarknessDragon": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "darknessDragon",
-          "addInfo": "beCrimsonDragon"
-        }
-      }
-    }
-  }
+	"blood-expansion-v1:elgron" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradedarknessDragon" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "darknessDragon",
+					"addInfo" : "beCrimsonDragon"
+				}
+			}
+		}
+	}
 }

@@ -1,18 +1,18 @@
 {
-  "blood-expansion-v1:elgron": {
-    "specialty": {
-      "bonuses": {
-        "upgradeTreant": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "treant",
-          "addInfo": "beCrimsonDragon"
-        },
-        "upgradeAncientTreant": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "ancienttreant",
-          "addInfo": "beCrimsonDragon"
-        }
-      }
-    }
-  }
+	"blood-expansion-v1:elgron" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeTreant" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "treant",
+					"addInfo" : "beCrimsonDragon"
+				},
+				"upgradeAncientTreant" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "ancienttreant",
+					"addInfo" : "beCrimsonDragon"
+				}
+			}
+		}
+	}
 }

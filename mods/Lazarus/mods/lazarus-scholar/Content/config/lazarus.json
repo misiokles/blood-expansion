@@ -1,18 +1,18 @@
 {
-  "blood-expansion-v1:lazarus": {
-    "specialty": {
-      "bonuses": {
-        "upgradeCrscholar": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "crscholar",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeLecturer": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "lecturer",
-          "addInfo": "beBloodWraith"
-        }
-      }
-    }
-  }
+	"blood-expansion-v1:lazarus" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeCrscholar" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "crscholar",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeLecturer" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "lecturer",
+					"addInfo" : "beBloodWraith"
+				}
+			}
+		}
+	}
 }

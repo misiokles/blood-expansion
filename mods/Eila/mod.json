@@ -1,12 +1,12 @@
 {
-  "name": "Eila Compatibility Patches",
-  "description": "Compatibility patches for Eila.\n\nSupported mods:\n• asylum-town\n• cathedral-town\n• cetatea-town\n• courtyard-town\n• grove\n• hota.bulwark\n• hota.cove\n• hota.factory\n• new-pavilion\n• preserve-town\n• refugee-town\n• retreat-town\n• ruins-town\n• tartarus-town\n• third-upgrades (Castle / Rampart / Tower second upgrades)\n\nYou can safely enable any number of sub-patches at the same time.",
-  "author": "Kay",
-  "version": "1.4",
-  "modType": "Other",
-  "depends": [],
-  "russian": {
-    "name": "Эйла — патчи совместимости",
-    "description": "Патчи совместимости для Эйлы.\n\nПоддерживаемые моды:\n• asylum-town\n• cathedral-town\n• cetatea-town\n• courtyard-town\n• grove\n• hota.bulwark\n• hota.cove\n• hota.factory\n• new-pavilion\n• preserve-town\n• refugee-town\n• retreat-town\n• ruins-town\n• tartarus-town\n• third-upgrades (вторые улучшения Замка / Оплота / Башни)\n\nМожно спокойно включать любое количество субпатчей одновременно."
-  }
+	"name" : "Eila Compatibility Patches",
+	"description" : "Compatibility patches for Eila.\n\nSupported mods:\n• asylum-town\n• cathedral-town\n• cetatea-town\n• courtyard-town\n• grove\n• hota.bulwark\n• hota.cove\n• hota.factory\n• new-pavilion\n• preserve-town\n• refugee-town\n• retreat-town\n• ruins-town\n• tartarus-town\n• third-upgrades (Castle / Rampart / Tower second upgrades)\n\nYou can safely enable any number of sub-patches at the same time.",
+	"author" : "Kay",
+	"version" : "1.4",
+	"modType" : "Other",
+	"depends" : [],
+	"russian" : {
+		"name" : "Эйла — патчи совместимости",
+		"description" : "Патчи совместимости для Эйлы.\n\nПоддерживаемые моды:\n• asylum-town\n• cathedral-town\n• cetatea-town\n• courtyard-town\n• grove\n• hota.bulwark\n• hota.cove\n• hota.factory\n• new-pavilion\n• preserve-town\n• refugee-town\n• retreat-town\n• ruins-town\n• tartarus-town\n• third-upgrades (вторые улучшения Замка / Оплота / Башни)\n\nМожно спокойно включать любое количество субпатчей одновременно."
+	}
 }

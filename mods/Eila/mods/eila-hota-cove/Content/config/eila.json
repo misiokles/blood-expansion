@@ -1,33 +1,33 @@
 {
-  "blood-expansion-v1:eila": {
-    "specialty": {
-      "bonuses": {
-        "upgradePirate": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "hota.cove:pirate",
-          "addInfo": "creature.vampire"
-        },
-        "upgradeCorsair": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "hota.cove:corsair",
-          "addInfo": "creature.vampireLord"
-        },
-        "upgradeSeadog": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "hota.cove:seadog",
-          "addInfo": "creature.vampireLord"
-        },
-        "upgradeSeaWitch": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "hota.cove:seaWitch",
-          "addInfo": "creature.vampire"
-        },
-        "upgradeSorceress": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "hota.cove:sorceress",
-          "addInfo": "creature.vampireLord"
-        }
-      }
-    }
-  }
+	"blood-expansion-v1:eila" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradePirate" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "hota.cove:pirate",
+					"addInfo" : "creature.vampire"
+				},
+				"upgradeCorsair" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "hota.cove:corsair",
+					"addInfo" : "creature.vampireLord"
+				},
+				"upgradeSeadog" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "hota.cove:seadog",
+					"addInfo" : "creature.vampireLord"
+				},
+				"upgradeSeaWitch" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "hota.cove:seaWitch",
+					"addInfo" : "creature.vampire"
+				},
+				"upgradeSorceress" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "hota.cove:sorceress",
+					"addInfo" : "creature.vampireLord"
+				}
+			}
+		}
+	}
 }

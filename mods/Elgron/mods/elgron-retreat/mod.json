@@ -1,17 +1,17 @@
 {
-  "name": "Elgron: Retreat",
-  "description": "Upgrade Fire Dragons, Jade Dragons and Ying Long from Retreat into Crimson Dragons.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "retreat-town"
-  ],
-  "heroes": [
-    "config/elgron.json"
-  ],
-  "russian": {
-    "name": "Элгрон: Аметист",
-    "description": "Улучшает Огненных Драконов, Нефритовых Драконов И Инь Лунов из Аметиста в Багровых Драконов."
-  }
+	"name" : "Elgron: Retreat",
+	"description" : "Upgrade Fire Dragons, Jade Dragons and Ying Long from Retreat into Crimson Dragons.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"retreat-town"
+	],
+	"heroes" : [
+		"config/elgron.json"
+	],
+	"russian" : {
+		"name" : "Элгрон: Аметист",
+		"description" : "Улучшает Огненных Драконов, Нефритовых Драконов И Инь Лунов из Аметиста в Багровых Драконов."
+	}
 }

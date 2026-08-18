@@ -1,28 +1,28 @@
 {
-  "blood-expansion-v1:lazarus": {
-    "specialty": {
-      "bonuses": {
-        "upgradeCamelRider": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "camelRider",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeDesertWarrior": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "desertWarrior",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeSekhmet": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "sekhmet",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeSekhmetPriestess": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "sekhmetPriestess",
-          "addInfo": "beBloodWraith"
-        }
-      }
-    }
-  }
+	"blood-expansion-v1:lazarus" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeCamelRider" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "camelRider",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeDesertWarrior" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "desertWarrior",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeSekhmet" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "sekhmet",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeSekhmetPriestess" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "sekhmetPriestess",
+					"addInfo" : "beBloodWraith"
+				}
+			}
+		}
+	}
 }

@@ -1,18 +1,18 @@
 {
-  "blood-expansion-v1:vulpix": {
-    "specialty": {
-      "bonuses": {
-        "upgradeTumHurricaneElemental": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "tumHurricaneElemental",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeTumPlasmaElemental": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "tumPlasmaElemental",
-          "addInfo": "beBloodWraith"
-        }
-      }
-    }
-  }
+	"blood-expansion-v1:vulpix" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeTumHurricaneElemental" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "tumHurricaneElemental",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeTumPlasmaElemental" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "tumPlasmaElemental",
+					"addInfo" : "beBloodWraith"
+				}
+			}
+		}
+	}
 }

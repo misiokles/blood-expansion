@@ -24,7 +24,9 @@
 		"basic" : {
 			"description" : "{Basic Blood Hunger}\n\nIncreases the Life Drain ability of allied Blood Wraiths and Scarlet Wraiths by 15%.",
 			"effects" : {
-				"main" : { "val" : 15 }
+				"main" : {
+					"val" : 15
+				}
 			},
 			"images" : {
 				"small" : "skills/bloodHunger/smallBasic",
@@ -36,7 +38,9 @@
 		"advanced" : {
 			"description" : "{Advanced Blood Hunger}\n\nIncreases the Life Drain ability of allied Blood Wraiths and Scarlet Wraiths by 20%.",
 			"effects" : {
-				"main" : { "val" : 20 }
+				"main" : {
+					"val" : 20
+				}
 			},
 			"images" : {
 				"small" : "skills/bloodHunger/smallAdvanced",
@@ -48,7 +52,9 @@
 		"expert" : {
 			"description" : "{Expert Blood Hunger}\n\nIncreases the Life Drain ability of allied Blood Wraiths and Scarlet Wraiths by 30%.",
 			"effects" : {
-				"main" : { "val" : 30 }
+				"main" : {
+					"val" : 30
+				}
 			},
 			"images" : {
 				"small" : "skills/bloodHunger/smallExpert",

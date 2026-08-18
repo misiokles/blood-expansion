@@ -21,9 +21,9 @@
 	],
 	"russian" : {
 		"name" : "Вампиризм",
-		"description" : "При атаке живого врага Вампиризм восстанавливает здоровье, равное % от нанесенного урона", 
-		"translations": [
-            "translation/russian.json"
-        ]
+		"description" : "При атаке живого врага Вампиризм восстанавливает здоровье, равное % от нанесенного урона",
+		"translations" : [
+			"translation/russian.json"
+		]
 	}
 }

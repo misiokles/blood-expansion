@@ -1,43 +1,43 @@
 {
-  "blood-expansion-v1:lazarus": {
-    "specialty": {
-      "bonuses": {
-        "upgradeTumborovik": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "tumborovik",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeTumleshiy": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "tumleshiy",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeTumyaga": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "tumyaga",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeRusYaga": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "rusYaga",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeRusSirin": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "rusSirin",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeRusRatnik": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "rusRatnik",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeRusDruginnik": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "rusDruginnik",
-          "addInfo": "beBloodWraith"
-        }
-      }
-    }
-  }
+	"blood-expansion-v1:lazarus" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeTumborovik" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "tumborovik",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeTumleshiy" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "tumleshiy",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeTumyaga" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "tumyaga",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeRusYaga" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "rusYaga",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeRusSirin" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "rusSirin",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeRusRatnik" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "rusRatnik",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeRusDruginnik" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "rusDruginnik",
+					"addInfo" : "beBloodWraith"
+				}
+			}
+		}
+	}
 }

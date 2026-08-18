@@ -1,17 +1,17 @@
 {
-  "name": "Gertiz: DoomMod",
-  "description": "Adds special upgrade for Lost Souls from New Monsters Pack (DoomMod) into Blood Wraiths.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "new-monsters-pack.doomMod"
-  ],
-  "heroes": [
-    "config/gertiz.json"
-  ],
-  "russian": {
-    "name": "Гертиз: DoomMod",
-    "description": "Добавляет улучшение Потерянных Душ (Lost Souls) из New Monsters Pack (DoomMod) в Кровавых Призраков."
-  }
+	"name" : "Gertiz: DoomMod",
+	"description" : "Adds special upgrade for Lost Souls from New Monsters Pack (DoomMod) into Blood Wraiths.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"new-monsters-pack.doomMod"
+	],
+	"heroes" : [
+		"config/gertiz.json"
+	],
+	"russian" : {
+		"name" : "Гертиз: DoomMod",
+		"description" : "Добавляет улучшение Потерянных Душ (Lost Souls) из New Monsters Pack (DoomMod) в Кровавых Призраков."
+	}
 }

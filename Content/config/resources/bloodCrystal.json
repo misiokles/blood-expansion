@@ -1,23 +1,23 @@
 {
-	"core:resource": {
-		"types": {
-			"bloodCrystal": {
-				"aiValue": 8,
-				"resource": "bloodCrystal",
-				"amounts": [
+	"core:resource" : {
+		"types" : {
+			"bloodCrystal" : {
+				"aiValue" : 8,
+				"resource" : "bloodCrystal",
+				"amounts" : [
 					50,
 					100,
 					150,
 					200,
 					300
 				],
-				"rmg": {
-					"value": 400,
-					"rarity": 180
+				"rmg" : {
+					"value" : 400,
+					"rarity" : 180
 				},
-				"templates": {
-					"res": {
-						"animation": "resources/bloodCrystal/map"
+				"templates" : {
+					"res" : {
+						"animation" : "resources/bloodCrystal/map"
 					}
 				}
 			}

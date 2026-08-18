@@ -1,5 +1,5 @@
 {
-    "core:creatureGeneratorCommon" : {
+	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"caveOfCrimsonDragons" : {
 				"name" : "Cave of Crimson Dragons",
@@ -143,10 +143,22 @@
 				],
 				"aiValue" : 5000,
 				"guards" : [
-					{ "amount" : 15, "type" : "beBloodSkeleton" },
-					{ "amount" : 10, "type" : "beBloodSkeleton" },
-					{ "amount" : 15, "type" : "beBloodSkeleton" },
-					{ "amount" : 10, "type" : "beBloodSkeleton" }
+					{
+						"amount" : 15,
+						"type" : "beBloodSkeleton"
+					},
+					{
+						"amount" : 10,
+						"type" : "beBloodSkeleton"
+					},
+					{
+						"amount" : 15,
+						"type" : "beBloodSkeleton"
+					},
+					{
+						"amount" : 10,
+						"type" : "beBloodSkeleton"
+					}
 				],
 				"templates" : {
 					"default" : {
@@ -156,7 +168,11 @@
 							"VVV",
 							"VAB"
 						],
-						"visitableFrom" : [ "+++", "+++", "+-+" ]
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						]
 					}
 				}
 			},
@@ -169,10 +185,22 @@
 				],
 				"aiValue" : 5000,
 				"guards" : [
-					{ "amount" : 5, "type" : "beBloodWraith" },
-					{ "amount" : 2, "type" : "beBloodWraith" },
-					{ "amount" : 2, "type" : "beBloodWraith" },
-					{ "amount" : 5, "type" : "beBloodWraith" }
+					{
+						"amount" : 5,
+						"type" : "beBloodWraith"
+					},
+					{
+						"amount" : 2,
+						"type" : "beBloodWraith"
+					},
+					{
+						"amount" : 2,
+						"type" : "beBloodWraith"
+					},
+					{
+						"amount" : 5,
+						"type" : "beBloodWraith"
+					}
 				],
 				"templates" : {
 					"default" : {
@@ -182,11 +210,15 @@
 							"VVV",
 							"VAB"
 						],
-						"visitableFrom" : [ "+++", "+++", "+-+" ]
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						]
 					}
 				}
 			},
-				"bloodyPalace" : {
+			"bloodyPalace" : {
 				"name" : "Bloody Palace",
 				"creatures" : [
 					[
@@ -199,10 +231,22 @@
 					"rarity" : 45
 				},
 				"guards" : [
-					{ "amount" : 7, "type" : "beBloodyMistress" },
-					{ "amount" : 7, "type" : "beBloodyMistress" },
-					{ "amount" : 9, "type" : "beBloodyMistress" },
-					{ "amount" : 9, "type" : "beBloodyMistress" }
+					{
+						"amount" : 7,
+						"type" : "beBloodyMistress"
+					},
+					{
+						"amount" : 7,
+						"type" : "beBloodyMistress"
+					},
+					{
+						"amount" : 9,
+						"type" : "beBloodyMistress"
+					},
+					{
+						"amount" : 9,
+						"type" : "beBloodyMistress"
+					}
 				],
 				"templates" : {
 					"default" : {
@@ -212,7 +256,11 @@
 							"VVV",
 							"VAB"
 						],
-						"visitableFrom" : [ "+++", "+++", "+-+" ]
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						]
 					}
 				}
 			}

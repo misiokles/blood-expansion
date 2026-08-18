@@ -1,17 +1,17 @@
 {
-  "name": "Yakus + Death Valley",
-  "description": "Upgrade Bone Archers, Horror Archers, Skeleton Guards and Skeleton Mages from Death Valley into Blood Skeletons.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "death-valley-town"
-  ],
-  "heroes": [
-    "config/yakus.json"
-  ],
-  "russian": {
-    "name": "Якус + Долина Смерти",
-    "description": "Улучшает Костяных Лучников, Лучников Ужаса, Скелетов-Охранников и Скелетов-Магов из Долины Смерти в Кровавых Скелетов."
-  }
+	"name" : "Yakus + Death Valley",
+	"description" : "Upgrade Bone Archers, Horror Archers, Skeleton Guards and Skeleton Mages from Death Valley into Blood Skeletons.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"death-valley-town"
+	],
+	"heroes" : [
+		"config/yakus.json"
+	],
+	"russian" : {
+		"name" : "Якус + Долина Смерти",
+		"description" : "Улучшает Костяных Лучников, Лучников Ужаса, Скелетов-Охранников и Скелетов-Магов из Долины Смерти в Кровавых Скелетов."
+	}
 }

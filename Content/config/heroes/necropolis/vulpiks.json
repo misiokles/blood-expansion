@@ -1,83 +1,83 @@
 {
-  "vulpiks": {
-    "class": "necromancer",
-    "female": false,
-    "texts": {
-      "name": "Vulpiks",
-      "biography": "Vulpiks was a cunning fox-folk sorcerer who bargained with ancient blood spirits for power over the elements. By weaving pure elemental essence with the crimson ichor of the fallen, he learned to reshape Air and Fire Elementals into relentless Blood Wraiths that answer only to his will. His Bloody Necromancy does not raise mere skeletons — The fire itself responds to its call..",
-      "specialty": {
-        "description": "{Air Elemental / Storm Elemental / Fire Elemental / Energy Elemental}\r\n\r\nSpecial upgrades: Can upgrade Air Elementals, Storm Elementals, Fire Elementals and Energy Elementals into Blood Wraiths.\r\n\r\n{Fire Elemental}\r\n\r\nBloody Necromancy raises Fire Elementals instead of Blood Skeletons.",
-        "tooltip": "Upgrades Air & Fire Elementals to Blood Wraiths. Bloody Necromancy raises Air Elementals.",
-        "name": "Blood and Element"
-      }
-    },
-    "images": {
-      "large": "heroes/necropolis/vulpiks/vulpiks_portrait_large.png",
-      "small": "heroes/necropolis/vulpiks/vulpiks_portrait_small.png",
-      "specialtyLarge": "heroes/necropolis/vulpiks/vulpiksSpecL.png",
-      "specialtySmall": "heroes/necropolis/vulpiks/vulpiksSpecS.png"
-    },
-    "army": [
-      {
-        "creature": "airElemental",
-        "min": 4,
-        "max": 7
-      },
-      {
-        "creature": "fireElemental",
-        "min": 4,
-        "max": 7
-      },
-      {
-        "creature": "beBloodWraith",
-        "min": 2,
-        "max": 4
-      }
-    ],
-    "skills": [
-      {
-        "skill": "bloodNecromancy",
-        "level": "expert"
-      },
-      {
-        "skill": "wisdom",
-        "level": "advanced"
-      },
-      {
-        "skill": "intelligence",
-        "level": "basic"
-      }
-    ],
-    "spellbook": [
-      "bloodRitual"
-    ],
-    "specialty": {
-      "bonuses": {
-        "upgradeAirElemental": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "creature.airElemental",
-          "addInfo": "creature.beBloodWraith"
-        },
-        "upgradeStormElemental": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "creature.stormElemental",
-          "addInfo": "creature.beBloodWraith"
-        },
-        "upgradeFireElemental": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "creature.fireElemental",
-          "addInfo": "creature.beBloodWraith"
-        },
-        "upgradeEnergyElemental": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "creature.energyElemental",
-          "addInfo": "creature.beBloodWraith"
-        },
-        "vulpiksBloodNecromancy": {
-          "type": "IMPROVED_NECROMANCY",
-          "subtype": "creature.fireElemental"
-        }
-      }
-    }
-  }
+	"vulpiks" : {
+		"class" : "necromancer",
+		"female" : false,
+		"texts" : {
+			"name" : "Vulpiks",
+			"biography" : "Vulpiks was a cunning fox-folk sorcerer who bargained with ancient blood spirits for power over the elements. By weaving pure elemental essence with the crimson ichor of the fallen, he learned to reshape Air and Fire Elementals into relentless Blood Wraiths that answer only to his will. His Bloody Necromancy does not raise mere skeletons — The fire itself responds to its call..",
+			"specialty" : {
+				"description" : "{Air Elemental / Storm Elemental / Fire Elemental / Energy Elemental}\r\n\r\nSpecial upgrades: Can upgrade Air Elementals, Storm Elementals, Fire Elementals and Energy Elementals into Blood Wraiths.\r\n\r\n{Fire Elemental}\r\n\r\nBloody Necromancy raises Fire Elementals instead of Blood Skeletons.",
+				"tooltip" : "Upgrades Air & Fire Elementals to Blood Wraiths. Bloody Necromancy raises Air Elementals.",
+				"name" : "Blood and Element"
+			}
+		},
+		"images" : {
+			"large" : "heroes/necropolis/vulpiks/vulpiks_portrait_large.png",
+			"small" : "heroes/necropolis/vulpiks/vulpiks_portrait_small.png",
+			"specialtyLarge" : "heroes/necropolis/vulpiks/vulpiksSpecL.png",
+			"specialtySmall" : "heroes/necropolis/vulpiks/vulpiksSpecS.png"
+		},
+		"army" : [
+			{
+				"creature" : "airElemental",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "fireElemental",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "beBloodWraith",
+				"min" : 2,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "bloodNecromancy",
+				"level" : "expert"
+			},
+			{
+				"skill" : "wisdom",
+				"level" : "advanced"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
+		],
+		"spellbook" : [
+			"bloodRitual"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"upgradeAirElemental" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.airElemental",
+					"addInfo" : "creature.beBloodWraith"
+				},
+				"upgradeStormElemental" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.stormElemental",
+					"addInfo" : "creature.beBloodWraith"
+				},
+				"upgradeFireElemental" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.fireElemental",
+					"addInfo" : "creature.beBloodWraith"
+				},
+				"upgradeEnergyElemental" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.energyElemental",
+					"addInfo" : "creature.beBloodWraith"
+				},
+				"vulpiksBloodNecromancy" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.fireElemental"
+				}
+			}
+		}
+	}
 }

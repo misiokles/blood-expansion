@@ -1,14 +1,14 @@
 {
-	"vcmi:Headquarters": {
-		"zones": {
-			"1": {
-				"mines": {
-					"bloodCrystal": 1
+	"vcmi:Headquarters" : {
+		"zones" : {
+			"1" : {
+				"mines" : {
+					"bloodCrystal" : 1
 				}
 			},
-			"8": {
-				"mines": {
-					"bloodCrystal": 1
+			"8" : {
+				"mines" : {
+					"bloodCrystal" : 1
 				}
 			}
 		}

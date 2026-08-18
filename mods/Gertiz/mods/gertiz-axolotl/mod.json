@@ -1,17 +1,17 @@
 {
-  "name": "Gertiz: Axolotl Creatures Pack",
-  "description": "Adds special upgrade for Will-o'-Wisps from New Monsters Pack (Axolotl Creatures Pack) into Blood Wraiths.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "new-monsters-pack.axolotl-creatures-pack"
-  ],
-  "heroes": [
-    "config/gertiz.json"
-  ],
-  "russian": {
-    "name": "Гертиз: Axolotl Creatures Pack",
-    "description": "Добавляет улучшение Игнисов (Will-o'-Wisps) из New Monsters Pack (Axolotl) в Кровавых Призраков."
-  }
+	"name" : "Gertiz: Axolotl Creatures Pack",
+	"description" : "Adds special upgrade for Will-o'-Wisps from New Monsters Pack (Axolotl Creatures Pack) into Blood Wraiths.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"new-monsters-pack.axolotl-creatures-pack"
+	],
+	"heroes" : [
+		"config/gertiz.json"
+	],
+	"russian" : {
+		"name" : "Гертиз: Axolotl Creatures Pack",
+		"description" : "Добавляет улучшение Игнисов (Will-o'-Wisps) из New Monsters Pack (Axolotl) в Кровавых Призраков."
+	}
 }

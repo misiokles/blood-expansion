@@ -1,13 +1,13 @@
 {
-  "blood-expansion-v1:eila": {
-    "specialty": {
-      "bonuses": {
-        "upgradeWwickedWitch": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "wwickedWitch",
-          "addInfo": "creature.vampireLord"
-        }
-      }
-    }
-  }
+	"blood-expansion-v1:eila" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeWwickedWitch" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "wwickedWitch",
+					"addInfo" : "creature.vampireLord"
+				}
+			}
+		}
+	}
 }

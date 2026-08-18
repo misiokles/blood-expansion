@@ -1,17 +1,17 @@
 {
-  "name": "Gertiz + Death Valley",
-  "description": "Upgrade Shades and Banshees from Death Valley into Blood Wraiths.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "death-valley-town"
-  ],
-  "heroes": [
-    "config/gertiz.json"
-  ],
-  "russian": {
-    "name": "Гертиз + Долина Смерти",
-    "description": "Улучшает Теней и Банши из Долины Смерти в Кровавых Призраков."
-  }
+	"name" : "Gertiz + Death Valley",
+	"description" : "Upgrade Shades and Banshees from Death Valley into Blood Wraiths.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"death-valley-town"
+	],
+	"heroes" : [
+		"config/gertiz.json"
+	],
+	"russian" : {
+		"name" : "Гертиз + Долина Смерти",
+		"description" : "Улучшает Теней и Банши из Долины Смерти в Кровавых Призраков."
+	}
 }

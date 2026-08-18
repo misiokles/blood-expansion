@@ -1,9 +1,9 @@
 {
-	"vcmi:Roadrunner": {
-		"zones": {
-			"3": {
-				"mines": {
-					"bloodCrystal": 1
+	"vcmi:Roadrunner" : {
+		"zones" : {
+			"3" : {
+				"mines" : {
+					"bloodCrystal" : 1
 				}
 			}
 		}
