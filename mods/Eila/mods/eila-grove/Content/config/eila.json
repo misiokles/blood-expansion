@@ -1,28 +1,28 @@
 {
-  "blood-expansion-v1:eila": {
-    "specialty": {
-      "bonuses": {
-        "upgradeNightdruid": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "nightdruid",
-          "addInfo": "creature.vampire"
-        },
-        "upgradeElderdruid": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "elderdruid",
-          "addInfo": "creature.vampireLord"
-        },
-        "upgradeBasiliskrider": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "basiliskrider",
-          "addInfo": "creature.vampire"
-        },
-        "upgradeBasiliskchampion": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "basiliskchampion",
-          "addInfo": "creature.vampireLord"
-        }
-      }
-    }
-  }
+	"blood-expansion-v1:eila" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeNightdruid" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "nightdruid",
+					"addInfo" : "creature.vampire"
+				},
+				"upgradeElderdruid" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "elderdruid",
+					"addInfo" : "creature.vampireLord"
+				},
+				"upgradeBasiliskrider" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "basiliskrider",
+					"addInfo" : "creature.vampire"
+				},
+				"upgradeBasiliskchampion" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "basiliskchampion",
+					"addInfo" : "creature.vampireLord"
+				}
+			}
+		}
+	}
 }

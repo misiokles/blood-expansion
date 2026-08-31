@@ -1,51 +1,51 @@
 {
-  "kharjul": {
-    "class": "beastmaster",
-    "female": true,
-    "texts": {
-     "name" : "Kharjul",
-			 "biography": "In forgotten lands, where even death fears to linger too long, lived a gnoll named Kharjul. He was the leader of a pack—cruel, merciless, and insatiable. His name was whispered with terror even among other gnolls. But one day, he encountered not prey… but a predator stronger than himself.",
-              "specialty" : {
-        "description": "Receives a 5% per level bonus to Vampirism skill percentage.",
-        "tooltip": "Secondary skill bonus: Vampirism",
-        "name": "Vampirism"
-      }
-    },
-    "images": {
-      "specialtySmall" : "skills/vampirism/bsmall",
+	"kharjul" : {
+		"class" : "beastmaster",
+		"female" : true,
+		"texts" : {
+			"name" : "Kharjul",
+			"biography" : "In forgotten lands, where even death fears to linger too long, lived a gnoll named Kharjul. He was the leader of a pack—cruel, merciless, and insatiable. His name was whispered with terror even among other gnolls. But one day, he encountered not prey… but a predator stronger than himself.",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Vampirism skill percentage.",
+				"tooltip" : "Secondary skill bonus: Vampirism",
+				"name" : "Vampirism"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "skills/vampirism/bsmall",
 			"specialtyLarge" : "skills/vampirism/bmedium",
 			"large" : "heroes/kharjul/portrait-large.png",
 			"small" : "heroes/kharjul/portrait-small.png"
-    },
-    "army": [
-      {
-        "creature": "gnoll",
-        "max": 30,
-        "min": 20
-      },
-      {
-        "creature": "lizardman",
-        "max": 10,
-        "min": 8
-      },
-      {
-        "creature": "serpentFly",
-        "max": 6,
-        "min": 4
-      }
-    ],
-    "skills": [
-      {
-        "level": "basic",
-        "skill": "vampirism"
-      },
-      {
-        "level": "basic",
-        "skill": "armorer"
-      }
-    ],
-    "specialty": {
-      "secondary": "vampirism"
-    }
-  }
+		},
+		"army" : [
+			{
+				"creature" : "gnoll",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "lizardman",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "serpentFly",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "vampirism"
+			},
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			}
+		],
+		"specialty" : {
+			"secondary" : "vampirism"
+		}
+	}
 }

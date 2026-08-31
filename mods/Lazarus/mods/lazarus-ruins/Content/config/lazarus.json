@@ -1,28 +1,28 @@
 {
-  "blood-expansion-v1:lazarus": {
-    "specialty": {
-      "bonuses": {
-        "upgradeRnCreatureLvl3": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "rn_creature_lvl3",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeRnCreatureLvl3Up": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "rn_creature_lvl3_up",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeRnCreatureAlternate": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "rn_creature_alternate",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeRnCreatureAlternateUp": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "rn_creature_alternate_up",
-          "addInfo": "beBloodWraith"
-        }
-      }
-    }
-  }
+	"blood-expansion-v1:lazarus" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeRnCreatureLvl3" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "rn_creature_lvl3",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeRnCreatureLvl3Up" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "rn_creature_lvl3_up",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeRnCreatureAlternate" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "rn_creature_alternate",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeRnCreatureAlternateUp" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "rn_creature_alternate_up",
+					"addInfo" : "beBloodWraith"
+				}
+			}
+		}
+	}
 }

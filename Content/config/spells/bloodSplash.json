@@ -1,81 +1,81 @@
 {
-  "bloodSplash": {
-    "type": "combat",
-    "name": "Blood Splash",
-    "targetType": "CREATURE",
-    "school": {
-        "air": false,
-        "earth": false,
-        "fire": false,
-        "water": false,
-        "blood": true
-    },
-    "level": 3,
-    "defaultGainChance": 0,
-    "gainChance": {
-      "necropolis": 12,
-      "inferno": 10,
-      "dungeon": 8
-    },
-    "power": 35,
-    "flags": {
-      "damage": true,
-      "negative": true
-    },
-    "graphics": {
-      "iconBook": "spells/bloodSplash/book",
-      "iconScroll": "spells/bloodSplash/scroll",
-      "iconScenarioBonus": "spells/bloodSplash/scenario",
-      "iconEffect": "spells/bloodSplash/effect"
-    },
-    "animation": {
-      "projectile": [
-        {
-          "defName": "spells/bloodSplash/projectile.def",
-          "minimumAngle": 0
-        }
-      ],
-      "hit": [
-        "spells/bloodSplash/affect.def"
-      ],
-      "affect": [
-        "spells/bloodSplash/affect.def"
-      ]
-    },
-    "levels": {
-      "base": {
-        "range": "0",
-        "power": 45,
-        "battleEffects": {
-          "directDamage": {
-            "type": "core:damage"
-          }
-        },
-        "targetModifier": {
-          "smart": true
-        },
-        "cost": 14
-      },
-      "none": {
-        "description": "{Blood Splash}\n\nReleases a clot of bloody energy that flies to the target and bursts in an ascending splash, dealing blood damage.",
-        "power": 45,
-        "cost": 14
-      },
-      "basic": {
-        "description": "{Basic Blood Splash}\n\nReleases a clot of bloody energy that flies to the target and bursts in an ascending splash, dealing blood damage.",
-        "power": 45,
-        "cost": 12
-      },
-      "advanced": {
-        "description": "{Advanced Blood Splash}\n\nReleases a clot of bloody energy that flies to the target and bursts in an ascending splash, dealing blood damage.\n\nDamage is 30 higher than basic.",
-        "power": 75,
-        "cost": 12
-      },
-      "expert": {
-        "description": "{Expert Blood Splash}\n\nReleases a clot of bloody energy that flies to the target and bursts in an ascending splash, dealing blood damage.\n\nDamage is 80 higher than basic.",
-        "power": 125,
-        "cost": 12
-      }
-    }
-  }
+	"bloodSplash" : {
+		"type" : "combat",
+		"name" : "Blood Splash",
+		"targetType" : "CREATURE",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false,
+			"blood" : true
+		},
+		"level" : 3,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"necropolis" : 12,
+			"inferno" : 10,
+			"dungeon" : 8
+		},
+		"power" : 35,
+		"flags" : {
+			"damage" : true,
+			"negative" : true
+		},
+		"graphics" : {
+			"iconBook" : "spells/bloodSplash/book",
+			"iconScroll" : "spells/bloodSplash/scroll",
+			"iconScenarioBonus" : "spells/bloodSplash/scenario",
+			"iconEffect" : "spells/bloodSplash/effect"
+		},
+		"animation" : {
+			"projectile" : [
+				{
+					"defName" : "spells/bloodSplash/projectile.def",
+					"minimumAngle" : 0
+				}
+			],
+			"hit" : [
+				"spells/bloodSplash/affect.def"
+			],
+			"affect" : [
+				"spells/bloodSplash/affect.def"
+			]
+		},
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"power" : 45,
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
+				"targetModifier" : {
+					"smart" : true
+				},
+				"cost" : 14
+			},
+			"none" : {
+				"description" : "{Blood Splash}\n\nReleases a clot of bloody energy that flies to the target and bursts in an ascending splash, dealing blood damage.",
+				"power" : 45,
+				"cost" : 14
+			},
+			"basic" : {
+				"description" : "{Basic Blood Splash}\n\nReleases a clot of bloody energy that flies to the target and bursts in an ascending splash, dealing blood damage.",
+				"power" : 45,
+				"cost" : 12
+			},
+			"advanced" : {
+				"description" : "{Advanced Blood Splash}\n\nReleases a clot of bloody energy that flies to the target and bursts in an ascending splash, dealing blood damage.\n\nDamage is 30 higher than basic.",
+				"power" : 75,
+				"cost" : 12
+			},
+			"expert" : {
+				"description" : "{Expert Blood Splash}\n\nReleases a clot of bloody energy that flies to the target and bursts in an ascending splash, dealing blood damage.\n\nDamage is 80 higher than basic.",
+				"power" : 125,
+				"cost" : 12
+			}
+		}
+	}
 }

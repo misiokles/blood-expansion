@@ -1,116 +1,116 @@
 {
-  "luara": {
-    "class": "necromancer",
-    "female": true,
-    "texts": {
-      "name": "Luara",
-      "biography": "Luara is a blood necromancer who rose from the green mists of forgotten catacombs. Surrounded by screaming spectral servants, she perfected the art of binding Blood Wraiths to her Bloody Mistresses, turning every Mistress into a living well of power that summons the hungry dead.",
-      "specialty": {
-        "description": "{Bloody Mistress / Vampire / Vampire Lord}\r\n\r\nCan upgrade Vampires and Vampire Lords into Bloody Mistresses. Bloody Mistresses under Luara gain the ability to summon Blood Wraiths as guardians, +40% PERCENT_TO_ALL Mana Channeling (35% at base 25%), and they can cast Bloody Splash twice per battle.",
-        "tooltip": "Upgrades Vampires to Bloody Mistresses; Mistresses summon Blood Wraiths, gain PERCENT_TO_ALL Mana Channeling and can cast Bloody Splash (2 casts)",
-        "name": "Blood Court"
-      }
-    },
-    "images": {
-      "large": "heroes/necropolis/luara/luara_portrait_large.png",
-      "small": "heroes/necropolis/luara/luara_portrait_small.png",
-      "specialtyLarge": "heroes/necropolis/luara/luaraSpecL.png",
-      "specialtySmall": "heroes/necropolis/luara/luaraSpecS.png"
-    },
-    "army": [
-      {
-        "creature": "beBloodyMistress",
-        "min": 3,
-        "max": 5
-      },
-      {
-        "creature": "beBloodyMistress",
-        "min": 2,
-        "max": 4
-      },
-      {
-        "creature": "beBloodWraith",
-        "min": 4,
-        "max": 7
-      }
-    ],
-    "skills": [
-      {
-        "skill": "bloodNecromancy",
-        "level": "advanced"
-      },
-      {
-        "skill": "wisdom",
-        "level": "basic"
-      }
-    ],
-    "spellbook": [
-      "bloodSplash"
-    ],
-    "specialty": {
-      "bonuses": {
-        "luaraSummonWraiths": {
-          "type": "SUMMON_GUARDIANS",
-          "subtype": "beBloodWraith",
-          "val": 200,
-          "limiters": [
-            {
-              "type": "CREATURE_TYPE_LIMITER",
-              "parameters": [
-                "beBloodyMistress"
-              ]
-            }
-          ]
-        },
-        "luaraManaChannel": {
-          "type": "MANA_CHANNELING",
-          "val": 40,
-          "limiters": [
-            {
-              "type": "CREATURE_TYPE_LIMITER",
-              "parameters": [
-                "beBloodyMistress"
-              ]
-            }
-          ],
-          "valueType": "PERCENT_TO_ALL"
-        },
-        "vampireToMistress": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "vampire",
-          "addInfo": "beBloodyMistress"
-        },
-        "vampireLordToMistress": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "vampireLord",
-          "addInfo": "beBloodyMistress"
-        },
-        "mistressBloodSplash": {
-          "type": "SPELLCASTER",
-          "subtype": "spell.bloodSplash",
-          "val": 0,
-          "limiters": [
-            {
-              "type": "CREATURE_TYPE_LIMITER",
-              "parameters": [
-                "beBloodyMistress"
-              ]
-            }
-          ]
-        },
-        "mistressBloodSplashCasts": {
-          "type": "CASTS",
-          "val": 2,
-          "limiters": [
-            {
-              "type": "CREATURE_TYPE_LIMITER",
-              "parameters": [
-                "beBloodyMistress"
-              ]
-            }
-          ]
-        }
-      }
-    }
-  }
+	"luara" : {
+		"class" : "necromancer",
+		"female" : true,
+		"texts" : {
+			"name" : "Luara",
+			"biography" : "Luara is a blood necromancer who rose from the green mists of forgotten catacombs. Surrounded by screaming spectral servants, she perfected the art of binding Blood Wraiths to her Bloody Mistresses, turning every Mistress into a living well of power that summons the hungry dead.",
+			"specialty" : {
+				"description" : "{Bloody Mistress / Vampire / Vampire Lord}\r\n\r\nCan upgrade Vampires and Vampire Lords into Bloody Mistresses. Bloody Mistresses under Luara gain the ability to summon Blood Wraiths as guardians, +40% PERCENT_TO_ALL Mana Channeling (35% at base 25%), and they can cast Bloody Splash twice per battle.",
+				"tooltip" : "Upgrades Vampires to Bloody Mistresses; Mistresses summon Blood Wraiths, gain PERCENT_TO_ALL Mana Channeling and can cast Bloody Splash (2 casts)",
+				"name" : "Blood Court"
+			}
+		},
+		"images" : {
+			"large" : "heroes/necropolis/luara/luara_portrait_large.png",
+			"small" : "heroes/necropolis/luara/luara_portrait_small.png",
+			"specialtyLarge" : "heroes/necropolis/luara/luaraSpecL.png",
+			"specialtySmall" : "heroes/necropolis/luara/luaraSpecS.png"
+		},
+		"army" : [
+			{
+				"creature" : "beBloodyMistress",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "beBloodyMistress",
+				"min" : 2,
+				"max" : 4
+			},
+			{
+				"creature" : "beBloodWraith",
+				"min" : 4,
+				"max" : 7
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "bloodNecromancy",
+				"level" : "advanced"
+			},
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			}
+		],
+		"spellbook" : [
+			"bloodSplash"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"luaraSummonWraiths" : {
+					"type" : "SUMMON_GUARDIANS",
+					"subtype" : "beBloodWraith",
+					"val" : 200,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"beBloodyMistress"
+							]
+						}
+					]
+				},
+				"luaraManaChannel" : {
+					"type" : "MANA_CHANNELING",
+					"val" : 40,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"beBloodyMistress"
+							]
+						}
+					],
+					"valueType" : "PERCENT_TO_ALL"
+				},
+				"vampireToMistress" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "vampire",
+					"addInfo" : "beBloodyMistress"
+				},
+				"vampireLordToMistress" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "vampireLord",
+					"addInfo" : "beBloodyMistress"
+				},
+				"mistressBloodSplash" : {
+					"type" : "SPELLCASTER",
+					"subtype" : "spell.bloodSplash",
+					"val" : 0,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"beBloodyMistress"
+							]
+						}
+					]
+				},
+				"mistressBloodSplashCasts" : {
+					"type" : "CASTS",
+					"val" : 2,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"beBloodyMistress"
+							]
+						}
+					]
+				}
+			}
+		}
+	}
 }

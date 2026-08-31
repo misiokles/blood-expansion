@@ -1,17 +1,17 @@
 {
-  "name": "Eila + Preserve",
-  "description": "Upgrade Forest Druids / Greater Druids from Preserve into Vampires / Vampire Lords.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "preserve-town"
-  ],
-  "heroes": [
-    "config/eila.json"
-  ],
-  "russian": {
-    "name": "Эйла + Заповедник",
-    "description": "Улучшает Лесных / Великих Друидов из Заповедника в Вампиров / Лордов Вампиров."
-  }
+	"name" : "Eila + Preserve",
+	"description" : "Upgrade Forest Druids / Greater Druids from Preserve into Vampires / Vampire Lords.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"preserve-town"
+	],
+	"heroes" : [
+		"config/eila.json"
+	],
+	"russian" : {
+		"name" : "Эйла + Заповедник",
+		"description" : "Улучшает Лесных / Великих Друидов из Заповедника в Вампиров / Лордов Вампиров."
+	}
 }

@@ -1,195 +1,195 @@
 {
-  "beBloodyMistress": {
-    "name": {
-      "plural": "Bloody Mistresses",
-      "singular": "Bloody Mistress"
-    },
-    "advMapAmount": {
-      "max": 27,
-      "min": 14
-    },
-    "faction": "necropolis",
-    "aiValue": 2500,
-    "attack": 14,
-    "cost": {
-      "gold": 700
-    },
-    "damage": {
-      "max": 14,
-      "min": 7
-    },
-    "defense": 12,
-    "fightValue": 1225,
-    "level": 5,
-    "graphics": {
-      "animation": "creatures/necropolis/battle/beBloodyMistress.def",
-      "map": "creatures/necropolis/map/beBloodyMistress.def",
-      "iconSmall": "creatures/necropolis/iconsSmall/beBloodyMistress.bmp",
-      "iconLarge": "creatures/necropolis/iconsBig/beBloodyMistress.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1,
-        "attack": 1,
-        "idle": 10,
-        "flight": 1
-      }
-    },
-    "growth": 4,
-    "hitPoints": 70,
-    "speed": 15,
-    "sound": {
-      "attack": "",
-      "defend": "",
-      "killed": "",
-      "move": "",
-      "wince": ""
-    },
-    "abilities": {
-      "UNDEAD": {
-        "type": "UNDEAD"
-      },
-      "manaChannel": {
-        "type": "MANA_CHANNELING",
-        "val": 25
-      },
-      "increaseManaCost": {
-        "type": "CHANGES_SPELL_COST_FOR_ENEMY",
-        "val": 5
-      },
-      "drainsLife": {
-        "type": "LIFE_DRAIN",
-        "val": 100
-      },
-      "attacksAllAdjacent": {
-        "type": "ATTACKS_ALL_ADJACENT"
-      }
-    },
-    "stackExperience": [
-      {
-        "bonus": {
-          "type": "LIFE_DRAIN",
-          "val": 0
-        },
-        "values": [
-          0,
-          5,
-          10,
-          15,
-          20,
-          25,
-          30,
-          35,
-          40,
-          50
-        ]
-      },
-      {
-        "bonus": {
-          "type": "PRIMARY_SKILL",
-          "subtype": "primarySkill.attack"
-        },
-        "values": [
-          0,
-          1,
-          1,
-          2,
-          2,
-          3,
-          3,
-          4,
-          4,
-          5
-        ]
-      },
-      {
-        "bonus": {
-          "type": "PRIMARY_SKILL",
-          "subtype": "primarySkill.defence"
-        },
-        "values": [
-          0,
-          1,
-          1,
-          2,
-          2,
-          3,
-          3,
-          4,
-          4,
-          5
-        ]
-      },
-      {
-        "bonus": {
-          "type": "CREATURE_DAMAGE",
-          "subtype": "creatureDamageMax"
-        },
-        "values": [
-          0,
-          1,
-          1,
-          2,
-          2,
-          3,
-          3,
-          4,
-          4,
-          5
-        ]
-      },
-      {
-        "bonus": {
-          "type": "CREATURE_DAMAGE",
-          "subtype": "creatureDamageMin"
-        },
-        "values": [
-          0,
-          0,
-          1,
-          1,
-          2,
-          2,
-          3,
-          3,
-          4,
-          4
-        ]
-      },
-      {
-        "bonus": {
-          "type": "STACK_HEALTH",
-          "valueType": "PERCENT_TO_BASE"
-        },
-        "values": [
-          5,
-          10,
-          15,
-          20,
-          25,
-          30,
-          35,
-          40,
-          45,
-          50
-        ]
-      },
-      {
-        "bonus": {
-          "type": "STACKS_SPEED"
-        },
-        "values": [
-          0,
-          0,
-          1,
-          1,
-          1,
-          2,
-          2,
-          2,
-          3,
-          3
-        ]
-      }
-    ]
-  }
+	"beBloodyMistress" : {
+		"name" : {
+			"plural" : "Bloody Mistresses",
+			"singular" : "Bloody Mistress"
+		},
+		"advMapAmount" : {
+			"max" : 27,
+			"min" : 14
+		},
+		"faction" : "necropolis",
+		"aiValue" : 2500,
+		"attack" : 14,
+		"cost" : {
+			"gold" : 700
+		},
+		"damage" : {
+			"max" : 14,
+			"min" : 7
+		},
+		"defense" : 12,
+		"fightValue" : 1225,
+		"level" : 5,
+		"graphics" : {
+			"animation" : "creatures/necropolis/battle/beBloodyMistress.def",
+			"map" : "creatures/necropolis/map/beBloodyMistress.def",
+			"iconSmall" : "creatures/necropolis/iconsSmall/beBloodyMistress.bmp",
+			"iconLarge" : "creatures/necropolis/iconsBig/beBloodyMistress.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"growth" : 4,
+		"hitPoints" : 70,
+		"speed" : 15,
+		"sound" : {
+			"attack" : "",
+			"defend" : "",
+			"killed" : "",
+			"move" : "",
+			"wince" : ""
+		},
+		"abilities" : {
+			"UNDEAD" : {
+				"type" : "UNDEAD"
+			},
+			"manaChannel" : {
+				"type" : "MANA_CHANNELING",
+				"val" : 25
+			},
+			"increaseManaCost" : {
+				"type" : "CHANGES_SPELL_COST_FOR_ENEMY",
+				"val" : 5
+			},
+			"drainsLife" : {
+				"type" : "LIFE_DRAIN",
+				"val" : 100
+			},
+			"attacksAllAdjacent" : {
+				"type" : "ATTACKS_ALL_ADJACENT"
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "LIFE_DRAIN",
+					"val" : 0
+				},
+				"values" : [
+					0,
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			}
+		]
+	}
 }

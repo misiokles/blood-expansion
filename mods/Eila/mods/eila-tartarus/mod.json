@@ -1,17 +1,17 @@
 {
-  "name": "Eila + Tartarus",
-  "description": "Upgrade Furies / Stygian Furies from Tartarus into Vampires / Vampire Lords.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "tartarus-town"
-  ],
-  "heroes": [
-    "config/eila.json"
-  ],
-  "russian": {
-    "name": "Эйла + Тартарус",
-    "description": "Улучшает Фурий / Стигийских Фурий из Тартаруса в Вампиров / Лордов Вампиров."
-  }
+	"name" : "Eila + Tartarus",
+	"description" : "Upgrade Furies / Stygian Furies from Tartarus into Vampires / Vampire Lords.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"tartarus-town"
+	],
+	"heroes" : [
+		"config/eila.json"
+	],
+	"russian" : {
+		"name" : "Эйла + Тартарус",
+		"description" : "Улучшает Фурий / Стигийских Фурий из Тартаруса в Вампиров / Лордов Вампиров."
+	}
 }

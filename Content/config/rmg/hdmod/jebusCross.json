@@ -1,9 +1,9 @@
 {
-	"vcmi:Jebus Cross": {
-		"zones": {
-			"1": {
-				"mines": {
-					"bloodCrystal": 1
+	"vcmi:Jebus Cross" : {
+		"zones" : {
+			"1" : {
+				"mines" : {
+					"bloodCrystal" : 1
 				}
 			}
 		}

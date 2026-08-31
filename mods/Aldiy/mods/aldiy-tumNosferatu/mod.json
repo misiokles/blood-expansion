@@ -1,17 +1,17 @@
 {
-  "name": "Aldiy: Third Upgrades (tumNosferatu)",
-  "description": "Aldiy's Vampire Lord bonuses (Life Drain, stats and PERCENT_TO_ALL) also apply to tumNosferatu.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "third-upgrades"
-  ],
-  "heroes": [
-    "config/aldiy.json"
-  ],
-  "russian": {
-    "name": "Альдий: Третий Уровень Улучшений (tumNosferatu)",
-    "description": "Бонусы Лордов Вампиров от Альдия (вампиризм, характеристики и множитель) также применяются к tumNosferatu."
-  }
+	"name" : "Aldiy: Third Upgrades (tumNosferatu)",
+	"description" : "Aldiy's Vampire Lord bonuses (Life Drain, stats and PERCENT_TO_ALL) also apply to tumNosferatu.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"third-upgrades"
+	],
+	"heroes" : [
+		"config/aldiy.json"
+	],
+	"russian" : {
+		"name" : "Альдий: Третий Уровень Улучшений (tumNosferatu)",
+		"description" : "Бонусы Лордов Вампиров от Альдия (вампиризм, характеристики и множитель) также применяются к tumNosferatu."
+	}
 }

@@ -1,9 +1,9 @@
 {
-	"vcmi:Coldshadow's Fantasy": {
-		"zones": {
-			"3": {
-				"mines": {
-					"bloodCrystal": 1
+	"vcmi:Coldshadow's Fantasy" : {
+		"zones" : {
+			"3" : {
+				"mines" : {
+					"bloodCrystal" : 1
 				}
 			}
 		}

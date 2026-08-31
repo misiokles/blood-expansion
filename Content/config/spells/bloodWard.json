@@ -1,127 +1,127 @@
 {
-  "bloodWard": {
-    "type": "combat",
-    "name": "Ward from Blood",
-    "targetType": "CREATURE",
-    "school": {
-      "air": false,
-      "earth": false,
-      "fire": false,
-      "water": false,
-      "blood": true
-    },
-    "level": 2,
-    "power": 0,
-    "defaultGainChance": 0,
-    "gainChance": {
-      "necropolis": 8,
-      "inferno": 5,
-      "dungeon": 5
-    },
-    "flags": {
-      "positive": true
-    },
-    "targetCondition": {
-      "noneOf": {
-        "bonus.LIFE_DRAIN": "normal"
-      }
-    },
-    "graphics": {
-      "iconBook": "spells/bloodWard/book",
-      "iconScroll": "spells/bloodWard/scroll",
-      "iconScenarioBonus": "spells/bloodWard/scenario",
-      "iconEffect": "spells/bloodWard/effect"
-    },
-    "animation": {
-      "affect": [
-        {
-          "defName": "spells/bloodProtection/affect.def",
-          "verticalPosition": "center"
-        }
-      ]
-    },
-    "levels": {
-      "base": {
-        "range": "0",
-        "cost": 17,
-        "power": 0,
-        "targetModifier": {
-          "smart": true
-        },
-        "battleEffects": {
-          "protection": {
-            "type": "core:timed",
-            "cumulative": false,
-            "bonus": {
-              "bloodWard": {
-                "type": "SPELL_DAMAGE_REDUCTION",
-                "subtype": "blood",
-                "val": 30,
-                "valueType": "BASE_NUMBER"
-              }
-            }
-          }
-        }
-      },
-      "none": {
-        "description": "{Ward from Blood}\n\nProtects the selected unit that does not possess Vampirism (Life Drain) from Blood school spells, reducing damage taken from them by 30%.",
-        "cost": 17
-      },
-      "basic": {
-        "description": "{Basic Ward from Blood}\n\nProtects the selected unit that does not possess Vampirism (Life Drain) from Blood school spells, reducing damage taken from them by 30%.",
-        "cost": 15,
-        "battleEffects": {
-          "protection": {
-            "type": "core:timed",
-            "cumulative": false,
-            "bonus": {
-              "bloodWard": {
-                "type": "SPELL_DAMAGE_REDUCTION",
-                "subtype": "blood",
-                "val": 30,
-                "valueType": "BASE_NUMBER"
-              }
-            }
-          }
-        }
-      },
-      "advanced": {
-        "description": "{Advanced Ward from Blood}\n\nProtects the selected unit that does not possess Vampirism (Life Drain) from Blood school spells, reducing damage taken from them by 50%.",
-        "cost": 12,
-        "battleEffects": {
-          "protection": {
-            "type": "core:timed",
-            "cumulative": false,
-            "bonus": {
-              "bloodWard": {
-                "type": "SPELL_DAMAGE_REDUCTION",
-                "subtype": "blood",
-                "val": 50,
-                "valueType": "BASE_NUMBER"
-              }
-            }
-          }
-        }
-      },
-      "expert": {
-        "description": "{Expert Ward from Blood}\n\nProtects all allied units that do not possess Vampirism (Life Drain) from Blood school spells, reducing damage taken from them by 50%.",
-        "cost": 10,
-        "range": "X",
-        "battleEffects": {
-          "protection": {
-            "type": "core:timed",
-            "cumulative": false,
-            "bonus": {
-              "bloodWard": {
-                "type": "SPELL_DAMAGE_REDUCTION",
-                "subtype": "blood",
-                "val": 50,
-                "valueType": "BASE_NUMBER"
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+	"bloodWard" : {
+		"type" : "combat",
+		"name" : "Ward from Blood",
+		"targetType" : "CREATURE",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false,
+			"blood" : true
+		},
+		"level" : 2,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"necropolis" : 8,
+			"inferno" : 5,
+			"dungeon" : 5
+		},
+		"flags" : {
+			"positive" : true
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.LIFE_DRAIN" : "normal"
+			}
+		},
+		"graphics" : {
+			"iconBook" : "spells/bloodWard/book",
+			"iconScroll" : "spells/bloodWard/scroll",
+			"iconScenarioBonus" : "spells/bloodWard/scenario",
+			"iconEffect" : "spells/bloodWard/effect"
+		},
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "spells/bloodProtection/affect.def",
+					"verticalPosition" : "center"
+				}
+			]
+		},
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"cost" : 17,
+				"power" : 0,
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"protection" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"bloodWard" : {
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "blood",
+								"val" : 30,
+								"valueType" : "BASE_NUMBER"
+							}
+						}
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Ward from Blood}\n\nProtects the selected unit that does not possess Vampirism (Life Drain) from Blood school spells, reducing damage taken from them by 30%.",
+				"cost" : 17
+			},
+			"basic" : {
+				"description" : "{Basic Ward from Blood}\n\nProtects the selected unit that does not possess Vampirism (Life Drain) from Blood school spells, reducing damage taken from them by 30%.",
+				"cost" : 15,
+				"battleEffects" : {
+					"protection" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"bloodWard" : {
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "blood",
+								"val" : 30,
+								"valueType" : "BASE_NUMBER"
+							}
+						}
+					}
+				}
+			},
+			"advanced" : {
+				"description" : "{Advanced Ward from Blood}\n\nProtects the selected unit that does not possess Vampirism (Life Drain) from Blood school spells, reducing damage taken from them by 50%.",
+				"cost" : 12,
+				"battleEffects" : {
+					"protection" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"bloodWard" : {
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "blood",
+								"val" : 50,
+								"valueType" : "BASE_NUMBER"
+							}
+						}
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Ward from Blood}\n\nProtects all allied units that do not possess Vampirism (Life Drain) from Blood school spells, reducing damage taken from them by 50%.",
+				"cost" : 10,
+				"range" : "X",
+				"battleEffects" : {
+					"protection" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"bloodWard" : {
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "blood",
+								"val" : 50,
+								"valueType" : "BASE_NUMBER"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }

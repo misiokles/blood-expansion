@@ -1,160 +1,160 @@
 {
-  "larsen": {
-    "class": "elementalist",
-    "female": false,
-    "texts": {
-      "name": "Larsen",
-      "biography": "Larsen is an arrogant blood mage of the Conflux who bound a fledgling Blood Phoenix to his will. He treats the crimson birds not as allies but as instruments of his supremacy, amplifying their rebirth, life drain and fiery wrath until the battlefield itself burns with scarlet flame.",
-      "specialty": {
-        "name": "Blood Phoenix Mastery",
-        "tooltip": "Upgrades Blood Firebirds to Blood Phoenixes. Empowers blood birds: rebirth, life drain, fire shield, fire resistance and weakening aura.",
-        "description": "{Blood Firebird}\r\n\r\nCan upgrade Blood Firebirds into Blood Phoenixes.\r\n\r\n{Blood Firebird}\r\n\r\n• Rebirth up to 45%\r\n• Life Drain up to 29%\r\n• Fire resistance up to 46%\r\n\r\n{Blood Phoenix}\r\n\r\n• Rebirth up to 45%\r\n• Life Drain up to 50%\r\n• Fire Shield up to 45%\r\n• Fire resistance up to 65%"
-      }
-    },
-    "images": {
-      "large": "heroes/conflux/larsen/larsen_portrait_large.png",
-      "small": "heroes/conflux/larsen/larsen_portrait_small.png",
-      "specialtyLarge": "heroes/conflux/larsen/larsenSpecL.png",
-      "specialtySmall": "heroes/conflux/larsen/larsenSpecS.png"
-    },
-    "army": [
-      {
-        "creature": "beBloodFirebird",
-        "min": 2,
-        "max": 3
-      },
-      {
-        "creature": "beBloodFirebird",
-        "min": 1,
-        "max": 2
-      },
-      {
-        "creature": "beBloodPhoenix",
-        "min": 1,
-        "max": 1
-      }
-    ],
-    "skills": [
-      {
-        "skill": "wisdom",
-        "level": "advanced"
-      },
-      {
-        "skill": "intelligence",
-        "level": "basic"
-      },
-      {
-        "skill": "airMagic",
-        "level": "basic"
-      }
-    ],
-    "spellbook": [
-      "bloodProtection",
-      "fireball"
-    ],
-    "specialty": {
-      "bonuses": {
-        "larsenRebirthPhoenix": {
-          "type": "REBIRTH",
-          "subtype": "rebirthRegular",
-          "val": 29,
-          "valueType": "PERCENT_TO_ALL",
-          "limiters": [
-            {
-              "type": "CREATURE_TYPE_LIMITER",
-              "parameters": [
-                "beBloodPhoenix"
-              ]
-            }
-          ]
-        },
-        "larsenRebirthFirebird": {
-          "type": "REBIRTH",
-          "subtype": "rebirthRegular",
-          "val": 29,
-          "valueType": "PERCENT_TO_ALL",
-          "limiters": [
-            {
-              "type": "CREATURE_TYPE_LIMITER",
-              "parameters": [
-                "beBloodFirebird"
-              ]
-            }
-          ]
-        },
-        "larsenFireShield": {
-          "type": "FIRE_SHIELD",
-          "val": 29,
-          "valueType": "PERCENT_TO_ALL",
-          "limiters": [
-            {
-              "type": "CREATURE_TYPE_LIMITER",
-              "parameters": [
-                "beBloodPhoenix"
-              ]
-            }
-          ]
-        },
-        "upgradeBloodFirebird": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "creature.beBloodFirebird",
-          "addInfo": "creature.beBloodPhoenix"
-        },
-        "larsenLifeDrainPhoenix": {
-          "type": "LIFE_DRAIN",
-          "val": 43,
-          "valueType": "PERCENT_TO_ALL",
-          "limiters": [
-            {
-              "type": "CREATURE_TYPE_LIMITER",
-              "parameters": [
-                "beBloodPhoenix"
-              ]
-            }
-          ]
-        },
-        "larsenLifeDrainFirebird": {
-          "type": "LIFE_DRAIN",
-          "val": 43,
-          "valueType": "PERCENT_TO_ALL",
-          "limiters": [
-            {
-              "type": "CREATURE_TYPE_LIMITER",
-              "parameters": [
-                "beBloodFirebird"
-              ]
-            }
-          ]
-        },
-        "larsenFireResistPhoenix": {
-          "type": "SPELL_DAMAGE_REDUCTION",
-          "subtype": "fire",
-          "val": 30,
-          "valueType": "PERCENT_TO_ALL",
-          "limiters": [
-            {
-              "type": "CREATURE_TYPE_LIMITER",
-              "parameters": [
-                "beBloodPhoenix"
-              ]
-            }
-          ]
-        },
-        "larsenFireResistFirebird": {
-          "type": "SPELL_DAMAGE_REDUCTION",
-          "subtype": "fire",
-          "val": 30,
-          "valueType": "PERCENT_TO_ALL",
-          "limiters": [
-            {
-              "type": "CREATURE_TYPE_LIMITER",
-              "parameters": [
-                "beBloodFirebird"
-              ]
-            }
-          ]
-        }
-      }
-    }
-  }
+	"larsen" : {
+		"class" : "elementalist",
+		"female" : false,
+		"texts" : {
+			"name" : "Larsen",
+			"biography" : "Larsen is an arrogant blood mage of the Conflux who bound a fledgling Blood Phoenix to his will. He treats the crimson birds not as allies but as instruments of his supremacy, amplifying their rebirth, life drain and fiery wrath until the battlefield itself burns with scarlet flame.",
+			"specialty" : {
+				"name" : "Blood Phoenix Mastery",
+				"tooltip" : "Upgrades Blood Firebirds to Blood Phoenixes. Empowers blood birds: rebirth, life drain, fire shield, fire resistance and weakening aura.",
+				"description" : "{Blood Firebird}\r\n\r\nCan upgrade Blood Firebirds into Blood Phoenixes.\r\n\r\n{Blood Firebird}\r\n\r\n• Rebirth up to 45%\r\n• Life Drain up to 29%\r\n• Fire resistance up to 46%\r\n\r\n{Blood Phoenix}\r\n\r\n• Rebirth up to 45%\r\n• Life Drain up to 50%\r\n• Fire Shield up to 45%\r\n• Fire resistance up to 65%"
+			}
+		},
+		"images" : {
+			"large" : "heroes/conflux/larsen/larsen_portrait_large.png",
+			"small" : "heroes/conflux/larsen/larsen_portrait_small.png",
+			"specialtyLarge" : "heroes/conflux/larsen/larsenSpecL.png",
+			"specialtySmall" : "heroes/conflux/larsen/larsenSpecS.png"
+		},
+		"army" : [
+			{
+				"creature" : "beBloodFirebird",
+				"min" : 2,
+				"max" : 3
+			},
+			{
+				"creature" : "beBloodFirebird",
+				"min" : 1,
+				"max" : 2
+			},
+			{
+				"creature" : "beBloodPhoenix",
+				"min" : 1,
+				"max" : 1
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "advanced"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "airMagic",
+				"level" : "basic"
+			}
+		],
+		"spellbook" : [
+			"bloodProtection",
+			"fireball"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"larsenRebirthPhoenix" : {
+					"type" : "REBIRTH",
+					"subtype" : "rebirthRegular",
+					"val" : 29,
+					"valueType" : "PERCENT_TO_ALL",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"beBloodPhoenix"
+							]
+						}
+					]
+				},
+				"larsenRebirthFirebird" : {
+					"type" : "REBIRTH",
+					"subtype" : "rebirthRegular",
+					"val" : 29,
+					"valueType" : "PERCENT_TO_ALL",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"beBloodFirebird"
+							]
+						}
+					]
+				},
+				"larsenFireShield" : {
+					"type" : "FIRE_SHIELD",
+					"val" : 29,
+					"valueType" : "PERCENT_TO_ALL",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"beBloodPhoenix"
+							]
+						}
+					]
+				},
+				"upgradeBloodFirebird" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "creature.beBloodFirebird",
+					"addInfo" : "creature.beBloodPhoenix"
+				},
+				"larsenLifeDrainPhoenix" : {
+					"type" : "LIFE_DRAIN",
+					"val" : 43,
+					"valueType" : "PERCENT_TO_ALL",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"beBloodPhoenix"
+							]
+						}
+					]
+				},
+				"larsenLifeDrainFirebird" : {
+					"type" : "LIFE_DRAIN",
+					"val" : 43,
+					"valueType" : "PERCENT_TO_ALL",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"beBloodFirebird"
+							]
+						}
+					]
+				},
+				"larsenFireResistPhoenix" : {
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "fire",
+					"val" : 30,
+					"valueType" : "PERCENT_TO_ALL",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"beBloodPhoenix"
+							]
+						}
+					]
+				},
+				"larsenFireResistFirebird" : {
+					"type" : "SPELL_DAMAGE_REDUCTION",
+					"subtype" : "fire",
+					"val" : 30,
+					"valueType" : "PERCENT_TO_ALL",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"beBloodFirebird"
+							]
+						}
+					]
+				}
+			}
+		}
+	}
 }

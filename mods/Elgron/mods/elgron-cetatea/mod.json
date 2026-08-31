@@ -1,17 +1,17 @@
 {
-  "name": "Elgron: Cetatea",
-  "description": "Upgrade Zmeu and Balaur from Cetatea into Crimson Dragons.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "cetatea-town"
-  ],
-  "heroes": [
-    "config/elgron.json"
-  ],
-  "russian": {
-    "name": "Элгрон: Крепость(Cetatea)",
-    "description": "Улучшает Драконов и Балауров из Крепости(Cetatea) в Багровых Драконов."
-  }
+	"name" : "Elgron: Cetatea",
+	"description" : "Upgrade Zmeu and Balaur from Cetatea into Crimson Dragons.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"cetatea-town"
+	],
+	"heroes" : [
+		"config/elgron.json"
+	],
+	"russian" : {
+		"name" : "Элгрон: Крепость(Cetatea)",
+		"description" : "Улучшает Драконов и Балауров из Крепости(Cetatea) в Багровых Драконов."
+	}
 }

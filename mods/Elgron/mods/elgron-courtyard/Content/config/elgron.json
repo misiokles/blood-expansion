@@ -1,18 +1,18 @@
 {
-  "blood-expansion-v1:elgron": {
-    "specialty": {
-      "bonuses": {
-        "upgradeJabberwock": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "jabberwock",
-          "addInfo": "beCrimsonDragon"
-        },
-        "upgradeMonstrousJabberwock": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "monstrousJabberwock",
-          "addInfo": "beCrimsonDragon"
-        }
-      }
-    }
-  }
+	"blood-expansion-v1:elgron" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeJabberwock" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "jabberwock",
+					"addInfo" : "beCrimsonDragon"
+				},
+				"upgradeMonstrousJabberwock" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "monstrousJabberwock",
+					"addInfo" : "beCrimsonDragon"
+				}
+			}
+		}
+	}
 }

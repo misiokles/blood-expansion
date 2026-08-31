@@ -1,23 +1,23 @@
 {
-  "blood-expansion-v1:lazarus": {
-    "specialty": {
-      "bonuses": {
-        "upgradeRfgcCutthroat": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "rfgcCutthroat",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeRfgcVagabond": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "rfgcVagabond",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeRfgcBowman": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "rfgcBowman",
-          "addInfo": "beBloodWraith"
-        }
-      }
-    }
-  }
+	"blood-expansion-v1:lazarus" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeRfgcCutthroat" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "rfgcCutthroat",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeRfgcVagabond" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "rfgcVagabond",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeRfgcBowman" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "rfgcBowman",
+					"addInfo" : "beBloodWraith"
+				}
+			}
+		}
+	}
 }

@@ -1,17 +1,17 @@
 {
-  "name": "Lazarus + Tartarus",
-  "description": "Upgrade Furies / Stygian Furies, Arachnes / Crystal Arachnes from Tartarus into Blood Wraiths.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "tartarus-town"
-  ],
-  "heroes": [
-    "config/lazarus.json"
-  ],
-  "russian": {
-    "name": "Лазарус + Тартарус",
-    "description": "Улучшает Фурий / Стигийских Фурий, Паукилов / Кристальных Паукилов из Тартаруса в Кровавых Призраков."
-  }
+	"name" : "Lazarus + Tartarus",
+	"description" : "Upgrade Furies / Stygian Furies, Arachnes / Crystal Arachnes from Tartarus into Blood Wraiths.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"tartarus-town"
+	],
+	"heroes" : [
+		"config/lazarus.json"
+	],
+	"russian" : {
+		"name" : "Лазарус + Тартарус",
+		"description" : "Улучшает Фурий / Стигийских Фурий, Паукилов / Кристальных Паукилов из Тартаруса в Кровавых Призраков."
+	}
 }

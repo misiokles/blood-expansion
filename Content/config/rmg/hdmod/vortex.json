@@ -1,9 +1,9 @@
 {
-	"vcmi:Vortex": {
-		"zones": {
-			"3": {
-				"mines": {
-					"bloodCrystal": 1
+	"vcmi:Vortex" : {
+		"zones" : {
+			"3" : {
+				"mines" : {
+					"bloodCrystal" : 1
 				}
 			}
 		}

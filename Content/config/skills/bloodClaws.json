@@ -49,9 +49,15 @@
 		"basic" : {
 			"description" : "{Basic Blood Claws}\n\nIncreases Attack of allied Blood Wraiths and Scarlet Wraiths by 2.\nAlso increases their minimum damage by 1 and maximum damage by 1.",
 			"effects" : {
-				"attack" : { "val" : 2 },
-				"minDmg" : { "val" : 1 },
-				"maxDmg" : { "val" : 1 }
+				"attack" : {
+					"val" : 2
+				},
+				"minDmg" : {
+					"val" : 1
+				},
+				"maxDmg" : {
+					"val" : 1
+				}
 			},
 			"images" : {
 				"small" : "skills/bloodClaws/smallBasic",
@@ -63,9 +69,15 @@
 		"advanced" : {
 			"description" : "{Advanced Blood Claws}\n\nIncreases Attack of allied Blood Wraiths and Scarlet Wraiths by 3.\nAlso increases their minimum damage by 2 and maximum damage by 2.",
 			"effects" : {
-				"attack" : { "val" : 3 },
-				"minDmg" : { "val" : 2 },
-				"maxDmg" : { "val" : 2 }
+				"attack" : {
+					"val" : 3
+				},
+				"minDmg" : {
+					"val" : 2
+				},
+				"maxDmg" : {
+					"val" : 2
+				}
 			},
 			"images" : {
 				"small" : "skills/bloodClaws/smallAdvanced",
@@ -77,9 +89,15 @@
 		"expert" : {
 			"description" : "{Expert Blood Claws}\n\nIncreases Attack of allied Blood Wraiths and Scarlet Wraiths by 4.\nAlso increases their minimum damage by 2 and maximum damage by 3.",
 			"effects" : {
-				"attack" : { "val" : 4 },
-				"minDmg" : { "val" : 2 },
-				"maxDmg" : { "val" : 3 }
+				"attack" : {
+					"val" : 4
+				},
+				"minDmg" : {
+					"val" : 2
+				},
+				"maxDmg" : {
+					"val" : 3
+				}
 			},
 			"images" : {
 				"small" : "skills/bloodClaws/smallExpert",

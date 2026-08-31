@@ -1,250 +1,250 @@
 {
-  "beBloodElemental": {
-    "name": {
-      "singular": "Blood Elemental",
-      "plural": "Blood Elementals"
-    },
-    "description": "A pure manifestation of the blood element. Non-living spirit that flies, drains life aggressively and strikes every adjacent foe at once. Can cast Blood Protection and Blood Wave up to 2 times per combat. Immune to many mind and life effects.",
-    "level": 6,
-    "faction": "conflux",
-    "attack": 17,
-    "defense": 14,
-    "damage": {
-      "min": 25,
-      "max": 35
-    },
-    "hitPoints": 125,
-    "speed": 14,
-    "growth": 2,
-    "aiValue": 2400,
-    "fightValue": 2200,
-    "cost": {
-      "gold": 1250,
-      "bloodCrystal": 100
-    },
-    "advMapAmount": {
-      "min": 4,
-      "max": 10
-    },
-    "spellPoints": 2,
-    "doubleWide": false,
-    "graphics": {
-      "animation": "creatures/conflux/battle/beBloodElemental.def",
-      "map": "creatures/conflux/map/beBloodElemental.def",
-      "iconSmall": "creatures/conflux/iconsSmall/beBloodElemental.png",
-      "iconLarge": "creatures/conflux/iconsBig/beBloodElemental.png",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1,
-        "attack": 1,
-        "idle": 10,
-        "flight": 1
-      }
-    },
-    "sound": {
-      "attack": "",
-      "defend": "",
-      "killed": "",
-      "move": "",
-      "wince": ""
-    },
-    "abilities": {
-      "flying": {
-        "type": "FLYING"
-      },
-      "lifeDrain": {
-        "type": "LIFE_DRAIN",
-        "val": 75
-      },
-      "nonLiving": {
-        "type": "NON_LIVING",
-        "description": "{Неживой}\nЭто существо — элементаль крови. Это существо не подвержено эффектам, воздействующим на живых существ.",
-        "icon": "bonuses/blood_elemental_nature.png"
-      },
-      "hydraAttack": {
-        "type": "ATTACKS_ALL_ADJACENT"
-      },
-      "regeneration": {
-        "type": "HP_REGENERATION",
-        "val": 40
-      },
-      "lifeDrainAura": {
-        "type": "LIFE_DRAIN",
-        "val": 15,
-        "valueType": "BASE_NUMBER",
-        "propagator": "BATTLE_WIDE",
-        "propagationUpdater": "BONUS_OWNER_UPDATER",
-        "limiters": [
-          {
-            "type": "HAS_ANOTHER_BONUS_LIMITER",
-            "bonusType": "LIFE_DRAIN"
-          }
-        ]
-      },
-      "bloodEmpowermentAura": {
-        "type": "NO_DISTANCE_PENALTY",
-        "val": 0,
-        "description": "{Кровавая Аура}\nДаёт +15% вампиризма союзникам с вампиризмом.",
-        "icon": "bonuses/blood_empowerment_aura.png"
-      },
-      "bloodSchoolImmunity": {
-        "type": "SPELL_SCHOOL_IMMUNITY",
-        "subtype": "spellSchool.blood",
-        "description": "{Иммунитет к Кровавой школе}\nЭто существо невосприимчиво ко всем заклинаниям Кровавой школы магии.",
-        "icon": "bonuses/blood_school_immunity.png"
-      },
-      "receptive": {
-        "type": "RECEPTIVE"
-      },
-      "casts": {
-        "type": "CASTS",
-        "val": 2
-      },
-      "spellBloodProtection": {
-        "type": "SPELLCASTER",
-        "subtype": "spell.bloodProtection",
-        "val": 3
-      },
-      "spellBloodWave": {
-        "type": "SPELLCASTER",
-        "subtype": "spell.bloodWave",
-        "val": 3
-      },
-      "creatureSpellPower": {
-        "type": "CREATURE_SPELL_POWER",
-        "val": 400
-      },
-      "creatureEnchantPower": {
-        "type": "CREATURE_ENCHANT_POWER",
-        "val": 5
-      }
-    },
-    "stackExperience": [
-      {
-        "bonus": {
-          "type": "LIFE_DRAIN",
-          "val": 0
-        },
-        "values": [
-          0,
-          5,
-          8,
-          10,
-          12,
-          15,
-          18,
-          20,
-          22,
-          25
-        ]
-      },
-      {
-        "bonus": {
-          "type": "PRIMARY_SKILL",
-          "subtype": "primarySkill.attack"
-        },
-        "values": [
-          0,
-          1,
-          1,
-          2,
-          2,
-          3,
-          3,
-          4,
-          4,
-          5
-        ]
-      },
-      {
-        "bonus": {
-          "type": "PRIMARY_SKILL",
-          "subtype": "primarySkill.defence"
-        },
-        "values": [
-          0,
-          1,
-          1,
-          2,
-          2,
-          3,
-          3,
-          4,
-          4,
-          5
-        ]
-      },
-      {
-        "bonus": {
-          "type": "CREATURE_DAMAGE",
-          "subtype": "creatureDamageMax"
-        },
-        "values": [
-          0,
-          1,
-          1,
-          2,
-          2,
-          3,
-          3,
-          4,
-          4,
-          5
-        ]
-      },
-      {
-        "bonus": {
-          "type": "CREATURE_DAMAGE",
-          "subtype": "creatureDamageMin"
-        },
-        "values": [
-          0,
-          0,
-          1,
-          1,
-          2,
-          2,
-          3,
-          3,
-          4,
-          4
-        ]
-      },
-      {
-        "bonus": {
-          "type": "STACK_HEALTH",
-          "valueType": "PERCENT_TO_BASE"
-        },
-        "values": [
-          5,
-          10,
-          15,
-          20,
-          25,
-          30,
-          35,
-          40,
-          45,
-          50
-        ]
-      },
-      {
-        "bonus": {
-          "type": "STACKS_SPEED"
-        },
-        "values": [
-          0,
-          0,
-          1,
-          1,
-          1,
-          2,
-          2,
-          2,
-          3,
-          3
-        ]
-      }
-    ]
-  }
+	"beBloodElemental" : {
+		"name" : {
+			"singular" : "Blood Elemental",
+			"plural" : "Blood Elementals"
+		},
+		"description" : "A pure manifestation of the blood element. Non-living spirit that flies, drains life aggressively and strikes every adjacent foe at once. Can cast Blood Protection and Blood Wave up to 2 times per combat. Immune to many mind and life effects.",
+		"level" : 6,
+		"faction" : "conflux",
+		"attack" : 17,
+		"defense" : 14,
+		"damage" : {
+			"min" : 25,
+			"max" : 35
+		},
+		"hitPoints" : 125,
+		"speed" : 14,
+		"growth" : 2,
+		"aiValue" : 2400,
+		"fightValue" : 2200,
+		"cost" : {
+			"gold" : 1250,
+			"bloodCrystal" : 100
+		},
+		"advMapAmount" : {
+			"min" : 4,
+			"max" : 10
+		},
+		"spellPoints" : 2,
+		"doubleWide" : false,
+		"graphics" : {
+			"animation" : "creatures/conflux/battle/beBloodElemental.def",
+			"map" : "creatures/conflux/map/beBloodElemental.def",
+			"iconSmall" : "creatures/conflux/iconsSmall/beBloodElemental.png",
+			"iconLarge" : "creatures/conflux/iconsBig/beBloodElemental.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10,
+				"flight" : 1
+			}
+		},
+		"sound" : {
+			"attack" : "",
+			"defend" : "",
+			"killed" : "",
+			"move" : "",
+			"wince" : ""
+		},
+		"abilities" : {
+			"flying" : {
+				"type" : "FLYING"
+			},
+			"lifeDrain" : {
+				"type" : "LIFE_DRAIN",
+				"val" : 75
+			},
+			"nonLiving" : {
+				"type" : "NON_LIVING",
+				"description" : "{Неживой}\nЭто существо — элементаль крови. Это существо не подвержено эффектам, воздействующим на живых существ.",
+				"icon" : "bonuses/blood_elemental_nature.png"
+			},
+			"hydraAttack" : {
+				"type" : "ATTACKS_ALL_ADJACENT"
+			},
+			"regeneration" : {
+				"type" : "HP_REGENERATION",
+				"val" : 40
+			},
+			"lifeDrainAura" : {
+				"type" : "LIFE_DRAIN",
+				"val" : 15,
+				"valueType" : "BASE_NUMBER",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIFE_DRAIN"
+					}
+				]
+			},
+			"bloodEmpowermentAura" : {
+				"type" : "NO_DISTANCE_PENALTY",
+				"val" : 0,
+				"description" : "{Кровавая Аура}\nДаёт +15% вампиризма союзникам с вампиризмом.",
+				"icon" : "bonuses/blood_empowerment_aura.png"
+			},
+			"bloodSchoolImmunity" : {
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.blood",
+				"description" : "{Иммунитет к Кровавой школе}\nЭто существо невосприимчиво ко всем заклинаниям Кровавой школы магии.",
+				"icon" : "bonuses/blood_school_immunity.png"
+			},
+			"receptive" : {
+				"type" : "RECEPTIVE"
+			},
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 2
+			},
+			"spellBloodProtection" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.bloodProtection",
+				"val" : 3
+			},
+			"spellBloodWave" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.bloodWave",
+				"val" : 3
+			},
+			"creatureSpellPower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 400
+			},
+			"creatureEnchantPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 5
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "LIFE_DRAIN",
+					"val" : 0
+				},
+				"values" : [
+					0,
+					5,
+					8,
+					10,
+					12,
+					15,
+					18,
+					20,
+					22,
+					25
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			}
+		]
+	}
 }

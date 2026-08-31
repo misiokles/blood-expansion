@@ -1,18 +1,18 @@
 {
-  "blood-expansion-v1:gertiz": {
-    "specialty": {
-      "bonuses": {
-        "upgradenymph": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "nymph",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeoceanid": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "oceanid",
-          "addInfo": "beBloodWraith"
-        }
-      }
-    }
-  }
+	"blood-expansion-v1:gertiz" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradenymph" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "nymph",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeoceanid" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "oceanid",
+					"addInfo" : "beBloodWraith"
+				}
+			}
+		}
+	}
 }

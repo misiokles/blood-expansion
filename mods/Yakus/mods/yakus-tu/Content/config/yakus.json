@@ -1,13 +1,13 @@
 {
-  "blood-expansion-v1:yakus": {
-    "specialty": {
-      "bonuses": {
-        "upgradeTumSkeletonKnight": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "tumSkeletonKnight",
-          "addInfo": "beBloodSkeleton"
-        }
-      }
-    }
-  }
+	"blood-expansion-v1:yakus" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeTumSkeletonKnight" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "tumSkeletonKnight",
+					"addInfo" : "beBloodSkeleton"
+				}
+			}
+		}
+	}
 }
