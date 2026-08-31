@@ -1,18 +1,18 @@
 {
-	"blood-expansion-v1:eila" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeArquebusier" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "arquebusier",
-					"addInfo" : "creature.vampire"
-				},
-				"upgradeMusketeer" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "musketeer",
-					"addInfo" : "creature.vampireLord"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:eila": {
+    "specialty": {
+      "bonuses": {
+        "upgradeArquebusier": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "arquebusier",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeMusketeer": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "musketeer",
+          "addInfo": "creature.vampireLord"
+        }
+      }
+    }
+  }
 }

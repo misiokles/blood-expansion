@@ -1,17 +1,17 @@
 {
-	"name" : "Vallorn: Cathedral",
-	"description" : "Upgrade Punishers and Chasteners from Cathedral into Blood Angels.",
-	"author" : "Kay",
-	"version" : "1.0",
-	"modType" : "Other",
-	"depends" : [
-		"cathedral-town"
-	],
-	"heroes" : [
-		"config/vallorn.json"
-	],
-	"russian" : {
-		"name" : "Валлорн: Собор",
-		"description" : "Улучшает Мстителей И Карателей из Собора в Кровавых Ангелов."
-	}
+  "name": "Vallorn: Cathedral",
+  "description": "Upgrade Punishers and Chasteners from Cathedral into Blood Angels.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "cathedral-town"
+  ],
+  "heroes": [
+    "config/vallorn.json"
+  ],
+  "russian": {
+    "name": "Валлорн: Собор",
+    "description": "Улучшает Мстителей И Карателей из Собора в Кровавых Ангелов."
+  }
 }

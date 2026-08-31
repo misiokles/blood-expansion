@@ -1,18 +1,18 @@
 {
-	"blood-expansion-v1:lazarus" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeFairybear" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "fairybear",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeMysticalbear" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "mysticalbear",
-					"addInfo" : "beBloodWraith"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:lazarus": {
+    "specialty": {
+      "bonuses": {
+        "upgradeFairybear": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "fairybear",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeMysticalbear": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "mysticalbear",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
 }

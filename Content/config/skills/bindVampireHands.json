@@ -1,438 +1,438 @@
 {
-	"bindVampireHands" : {
-		"name" : "Bind Vampire Hands",
-		"gainChance" : {
-			"might" : 4,
-			"magic" : 3
+	"bindVampireHands": {
+		"name": "Bind Vampire Hands",
+		"gainChance": {
+			"might": 4,
+			"magic": 3
 		},
-		"specialty" : [],
-		"base" : {
-			"effects" : {
-				"tier1min" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+		"specialty": [],
+		"base": {
+			"effects": {
+				"tier1min": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 1,
-							"maxlevel" : 2
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 1,
+							"maxlevel": 2
 						}
 					]
 				},
-				"tier1max" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier1max": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 1,
-							"maxlevel" : 2
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 1,
+							"maxlevel": 2
 						}
 					]
 				},
-				"tier2min" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier2min": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 2,
-							"maxlevel" : 3
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 2,
+							"maxlevel": 3
 						}
 					]
 				},
-				"tier2max" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier2max": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 2,
-							"maxlevel" : 3
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 2,
+							"maxlevel": 3
 						}
 					]
 				},
-				"tier3min" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier3min": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 3,
-							"maxlevel" : 4
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 3,
+							"maxlevel": 4
 						}
 					]
 				},
-				"tier3max" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier3max": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 3,
-							"maxlevel" : 4
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 3,
+							"maxlevel": 4
 						}
 					]
 				},
-				"tier4min" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier4min": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 4,
-							"maxlevel" : 5
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 4,
+							"maxlevel": 5
 						}
 					]
 				},
-				"tier4max" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier4max": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 4,
-							"maxlevel" : 5
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 4,
+							"maxlevel": 5
 						}
 					]
 				},
-				"tier5min" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier5min": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 5,
-							"maxlevel" : 6
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 5,
+							"maxlevel": 6
 						}
 					]
 				},
-				"tier5max" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier5max": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 5,
-							"maxlevel" : 6
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 5,
+							"maxlevel": 6
 						}
 					]
 				},
-				"tier6min" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier6min": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 6,
-							"maxlevel" : 7
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 6,
+							"maxlevel": 7
 						}
 					]
 				},
-				"tier6max" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier6max": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 6,
-							"maxlevel" : 7
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 6,
+							"maxlevel": 7
 						}
 					]
 				},
-				"tier7min" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier7min": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 7,
-							"maxlevel" : 8
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 7,
+							"maxlevel": 8
 						}
 					]
 				},
-				"tier7max" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier7max": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 7,
-							"maxlevel" : 8
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 7,
+							"maxlevel": 8
 						}
 					]
 				}
 			}
 		},
-		"basic" : {
-			"description" : "{Basic Bind Vampire Hands}\n\nDecreases damage of enemy units with Life Drain:\nTier 1: min -1, max -1\nTier 2: min -1, max -2\nTier 3: min -1, max -2\nTier 4: min -2, max -3\nTier 5: min -3, max -4\nTier 6: min -7, max -9\nTier 7: min -12, max -14",
-			"effects" : {
-				"tier1min" : {
-					"val" : -1
+		"basic": {
+			"description": "{Basic Bind Vampire Hands}\n\nDecreases damage of enemy units with Life Drain:\nTier 1: min -1, max -1\nTier 2: min -1, max -2\nTier 3: min -1, max -2\nTier 4: min -2, max -3\nTier 5: min -3, max -4\nTier 6: min -7, max -9\nTier 7: min -12, max -14",
+			"effects": {
+				"tier1min": {
+					"val": -1
 				},
-				"tier1max" : {
-					"val" : -1
+				"tier1max": {
+					"val": -1
 				},
-				"tier2min" : {
-					"val" : -1
+				"tier2min": {
+					"val": -1
 				},
-				"tier2max" : {
-					"val" : -2
+				"tier2max": {
+					"val": -2
 				},
-				"tier3min" : {
-					"val" : -1
+				"tier3min": {
+					"val": -1
 				},
-				"tier3max" : {
-					"val" : -2
+				"tier3max": {
+					"val": -2
 				},
-				"tier4min" : {
-					"val" : -2
+				"tier4min": {
+					"val": -2
 				},
-				"tier4max" : {
-					"val" : -3
+				"tier4max": {
+					"val": -3
 				},
-				"tier5min" : {
-					"val" : -3
+				"tier5min": {
+					"val": -3
 				},
-				"tier5max" : {
-					"val" : -4
+				"tier5max": {
+					"val": -4
 				},
-				"tier6min" : {
-					"val" : -7
+				"tier6min": {
+					"val": -7
 				},
-				"tier6max" : {
-					"val" : -9
+				"tier6max": {
+					"val": -9
 				},
-				"tier7min" : {
-					"val" : -12
+				"tier7min": {
+					"val": -12
 				},
-				"tier7max" : {
-					"val" : -14
+				"tier7max": {
+					"val": -14
 				}
 			},
-			"images" : {
-				"small" : "skills/bindVampireHands/smallBasic",
-				"medium" : "skills/bindVampireHands/mediumBasic",
-				"large" : "skills/bindVampireHands/largeBasic",
-				"scenarioBonus" : "skills/bindVampireHands/largeBasic"
+			"images": {
+				"small": "skills/bindVampireHands/smallBasic",
+				"medium": "skills/bindVampireHands/mediumBasic",
+				"large": "skills/bindVampireHands/largeBasic",
+				"scenarioBonus": "skills/bindVampireHands/largeBasic"
 			}
 		},
-		"advanced" : {
-			"description" : "{Advanced Bind Vampire Hands}\n\nDecreases damage of enemy units with Life Drain:\nTier 1: min -2, max -2\nTier 2: min -2, max -3\nTier 3: min -2, max -4\nTier 4: min -3, max -4\nTier 5: min -5, max -6\nTier 6: min -9, max -11\nTier 7: min -15, max -17",
-			"effects" : {
-				"tier1min" : {
-					"val" : -2
+		"advanced": {
+			"description": "{Advanced Bind Vampire Hands}\n\nDecreases damage of enemy units with Life Drain:\nTier 1: min -2, max -2\nTier 2: min -2, max -3\nTier 3: min -2, max -4\nTier 4: min -3, max -4\nTier 5: min -5, max -6\nTier 6: min -9, max -11\nTier 7: min -15, max -17",
+			"effects": {
+				"tier1min": {
+					"val": -2
 				},
-				"tier1max" : {
-					"val" : -2
+				"tier1max": {
+					"val": -2
 				},
-				"tier2min" : {
-					"val" : -2
+				"tier2min": {
+					"val": -2
 				},
-				"tier2max" : {
-					"val" : -3
+				"tier2max": {
+					"val": -3
 				},
-				"tier3min" : {
-					"val" : -2
+				"tier3min": {
+					"val": -2
 				},
-				"tier3max" : {
-					"val" : -4
+				"tier3max": {
+					"val": -4
 				},
-				"tier4min" : {
-					"val" : -3
+				"tier4min": {
+					"val": -3
 				},
-				"tier4max" : {
-					"val" : -4
+				"tier4max": {
+					"val": -4
 				},
-				"tier5min" : {
-					"val" : -5
+				"tier5min": {
+					"val": -5
 				},
-				"tier5max" : {
-					"val" : -6
+				"tier5max": {
+					"val": -6
 				},
-				"tier6min" : {
-					"val" : -9
+				"tier6min": {
+					"val": -9
 				},
-				"tier6max" : {
-					"val" : -11
+				"tier6max": {
+					"val": -11
 				},
-				"tier7min" : {
-					"val" : -15
+				"tier7min": {
+					"val": -15
 				},
-				"tier7max" : {
-					"val" : -17
+				"tier7max": {
+					"val": -17
 				}
 			},
-			"images" : {
-				"small" : "skills/bindVampireHands/smallAdvanced",
-				"medium" : "skills/bindVampireHands/mediumAdvanced",
-				"large" : "skills/bindVampireHands/largeAdvanced",
-				"scenarioBonus" : "skills/bindVampireHands/largeAdvanced"
+			"images": {
+				"small": "skills/bindVampireHands/smallAdvanced",
+				"medium": "skills/bindVampireHands/mediumAdvanced",
+				"large": "skills/bindVampireHands/largeAdvanced",
+				"scenarioBonus": "skills/bindVampireHands/largeAdvanced"
 			}
 		},
-		"expert" : {
-			"description" : "{Expert Bind Vampire Hands}\n\nDecreases damage of enemy units with Life Drain:\nTier 1: min -3, max -4\nTier 2: min -3, max -5\nTier 3: min -3, max -6\nTier 4: min -5, max -5\nTier 5: min -7, max -8\nTier 6: min -10, max -13\nTier 7: min -20, max -24",
-			"effects" : {
-				"tier1min" : {
-					"val" : -3
+		"expert": {
+			"description": "{Expert Bind Vampire Hands}\n\nDecreases damage of enemy units with Life Drain:\nTier 1: min -3, max -4\nTier 2: min -3, max -5\nTier 3: min -3, max -6\nTier 4: min -5, max -5\nTier 5: min -7, max -8\nTier 6: min -10, max -13\nTier 7: min -20, max -24",
+			"effects": {
+				"tier1min": {
+					"val": -3
 				},
-				"tier1max" : {
-					"val" : -4
+				"tier1max": {
+					"val": -4
 				},
-				"tier2min" : {
-					"val" : -3
+				"tier2min": {
+					"val": -3
 				},
-				"tier2max" : {
-					"val" : -5
+				"tier2max": {
+					"val": -5
 				},
-				"tier3min" : {
-					"val" : -3
+				"tier3min": {
+					"val": -3
 				},
-				"tier3max" : {
-					"val" : -6
+				"tier3max": {
+					"val": -6
 				},
-				"tier4min" : {
-					"val" : -5
+				"tier4min": {
+					"val": -5
 				},
-				"tier4max" : {
-					"val" : -5
+				"tier4max": {
+					"val": -5
 				},
-				"tier5min" : {
-					"val" : -7
+				"tier5min": {
+					"val": -7
 				},
-				"tier5max" : {
-					"val" : -8
+				"tier5max": {
+					"val": -8
 				},
-				"tier6min" : {
-					"val" : -10
+				"tier6min": {
+					"val": -10
 				},
-				"tier6max" : {
-					"val" : -13
+				"tier6max": {
+					"val": -13
 				},
-				"tier7min" : {
-					"val" : -20
+				"tier7min": {
+					"val": -20
 				},
-				"tier7max" : {
-					"val" : -24
+				"tier7max": {
+					"val": -24
 				}
 			},
-			"images" : {
-				"small" : "skills/bindVampireHands/smallExpert",
-				"medium" : "skills/bindVampireHands/mediumExpert",
-				"large" : "skills/bindVampireHands/largeExpert",
-				"scenarioBonus" : "skills/bindVampireHands/largeExpert"
+			"images": {
+				"small": "skills/bindVampireHands/smallExpert",
+				"medium": "skills/bindVampireHands/mediumExpert",
+				"large": "skills/bindVampireHands/largeExpert",
+				"scenarioBonus": "skills/bindVampireHands/largeExpert"
 			}
 		}
 	}

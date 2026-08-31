@@ -1,28 +1,28 @@
 {
-	"blood-expansion-v1:lazarus" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeCVoinici" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "cVoinici",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeCHaiduci" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "cHaiduci",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeCWerewolf" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "cWerewolf",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeCAlphawerewolf" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "cAlphawerewolf",
-					"addInfo" : "beBloodWraith"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:lazarus": {
+    "specialty": {
+      "bonuses": {
+        "upgradeCVoinici": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "cVoinici",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeCHaiduci": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "cHaiduci",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeCWerewolf": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "cWerewolf",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeCAlphawerewolf": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "cAlphawerewolf",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
 }

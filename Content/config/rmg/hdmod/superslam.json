@@ -1,9 +1,9 @@
 {
-	"vcmi:Superslam" : {
-		"zones" : {
-			"3" : {
-				"mines" : {
-					"bloodCrystal" : 1
+	"vcmi:Superslam": {
+		"zones": {
+			"3": {
+				"mines": {
+					"bloodCrystal": 1
 				}
 			}
 		}

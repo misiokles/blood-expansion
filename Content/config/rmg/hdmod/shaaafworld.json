@@ -1,9 +1,9 @@
 {
-	"vcmi:Shaaafworld" : {
-		"zones" : {
-			"3" : {
-				"mines" : {
-					"bloodCrystal" : 1
+	"vcmi:Shaaafworld": {
+		"zones": {
+			"3": {
+				"mines": {
+					"bloodCrystal": 1
 				}
 			}
 		}

@@ -1,17 +1,17 @@
 {
-	"name" : "Yakus: Third Upgrades (Skeleton Knight)",
-	"description" : "Upgrade Skeleton Knights (third upgrade of Skeleton) into Blood Skeletons.",
-	"author" : "Kay",
-	"version" : "1.0",
-	"modType" : "Other",
-	"depends" : [
-		"third-upgrades"
-	],
-	"heroes" : [
-		"config/yakus.json"
-	],
-	"russian" : {
-		"name" : "Якус: Третий Уровень Улучшений (Рыцарь-Скелет)",
-		"description" : "Улучшает Рыцарей-Скелетов (третий уровень Скелета) в Кровавых Скелетов."
-	}
+  "name": "Yakus: Third Upgrades (Skeleton Knight)",
+  "description": "Upgrade Skeleton Knights (third upgrade of Skeleton) into Blood Skeletons.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "third-upgrades"
+  ],
+  "heroes": [
+    "config/yakus.json"
+  ],
+  "russian": {
+    "name": "Якус: Третий Уровень Улучшений (Рыцарь-Скелет)",
+    "description": "Улучшает Рыцарей-Скелетов (третий уровень Скелета) в Кровавых Скелетов."
+  }
 }

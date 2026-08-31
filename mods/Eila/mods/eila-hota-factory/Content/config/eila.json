@@ -1,18 +1,18 @@
 {
-	"blood-expansion-v1:eila" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeGunslinger" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "hota.factory:gunslinger",
-					"addInfo" : "creature.vampire"
-				},
-				"upgradeBountyHunter" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "hota.factory:bountyHunter",
-					"addInfo" : "creature.vampireLord"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:eila": {
+    "specialty": {
+      "bonuses": {
+        "upgradeGunslinger": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.factory:gunslinger",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeBountyHunter": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.factory:bountyHunter",
+          "addInfo": "creature.vampireLord"
+        }
+      }
+    }
+  }
 }

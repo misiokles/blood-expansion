@@ -1,13 +1,13 @@
 {
-	"blood-expansion-v1:gertiz" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeExpBanshee" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "expBanshee",
-					"addInfo" : "beBloodWraith"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:gertiz": {
+    "specialty": {
+      "bonuses": {
+        "upgradeExpBanshee": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "expBanshee",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
 }

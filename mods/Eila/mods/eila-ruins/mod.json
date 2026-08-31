@@ -1,17 +1,17 @@
 {
-	"name" : "Eila + Ruins",
-	"description" : "Upgrade Trackers/Huntsmen, Forest Witches/Priestesses from Ruins into Vampires / Vampire Lords.",
-	"author" : "Kay",
-	"version" : "1.0",
-	"modType" : "Other",
-	"depends" : [
-		"ruins-town"
-	],
-	"heroes" : [
-		"config/eila.json"
-	],
-	"russian" : {
-		"name" : "Эйла + Руины",
-		"description" : "Улучшает Следопытов/Охотников, Лесных Ведьм/Жриц из Руин в Вампиров / Лордов Вампиров."
-	}
+  "name": "Eila + Ruins",
+  "description": "Upgrade Trackers/Huntsmen, Forest Witches/Priestesses from Ruins into Vampires / Vampire Lords.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "ruins-town"
+  ],
+  "heroes": [
+    "config/eila.json"
+  ],
+  "russian": {
+    "name": "Эйла + Руины",
+    "description": "Улучшает Следопытов/Охотников, Лесных Ведьм/Жриц из Руин в Вампиров / Лордов Вампиров."
+  }
 }

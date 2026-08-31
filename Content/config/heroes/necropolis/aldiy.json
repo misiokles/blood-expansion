@@ -1,0 +1,152 @@
+{
+  "aldiy": {
+    "class": "necromancer",
+    "female": false,
+    "texts": {
+      "name": "Aldiy",
+      "biography": "Aldiy is a noble vampire lord of ancient bloodline who ascended through pure force of will and mastery over the crimson essence. His presence awakens the true potential of every vampire under his command, turning their thirst into a weapon of unmatched power and majesty.",
+      "specialty": {
+        "description": "{Vampire / Vampire Lord}\r\n\r\nVampires and Vampire Lords under Aldiy gain +30% Life Drain, +3 Attack, +2 Defense, +10 Hit Points, +2 Speed, +1 minimum and +2 maximum Damage. Vampire Lords additionally receive a 25% PERCENT_TO_ALL multiplier.",
+        "tooltip": "Empowers Vampires and Vampire Lords with stronger Life Drain, better stats and a special multiplier for Lords",
+        "name": "Blood Majesty"
+      }
+    },
+    "images": {
+      "large": "heroes/necropolis/aldiy/aldiy_portrait_large.png",
+      "small": "heroes/necropolis/aldiy/aldiy_portrait_small.png",
+      "specialtyLarge": "heroes/necropolis/aldiy/aldiySpecL.png",
+      "specialtySmall": "heroes/necropolis/aldiy/aldiySpecS.png"
+    },
+    "army": [
+      {
+        "creature": "vampire",
+        "min": 4,
+        "max": 7
+      },
+      {
+        "creature": "vampire",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "creature": "vampireLord",
+        "min": 1,
+        "max": 2
+      }
+    ],
+    "skills": [
+      {
+        "skill": "bloodNecromancy",
+        "level": "basic"
+      },
+      {
+        "skill": "offence",
+        "level": "advanced"
+      },
+      {
+        "skill": "wisdom",
+        "level": "basic"
+      }
+    ],
+    "spellbook": [
+      "curse"
+    ],
+    "specialty": {
+      "bonuses": {
+        "aldiyLifeDrain": {
+          "type": "LIFE_DRAIN",
+          "val": 30,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "vampire",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "aldiyLordPercentToAll": {
+          "type": "LIFE_DRAIN",
+          "val": 25,
+          "valueType": "PERCENT_TO_ALL",
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "vampireLord",
+              "includeUpgrades": false
+            }
+          ]
+        },
+        "aldiyAttack": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.attack",
+          "val": 3,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "vampire",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "aldiyDefense": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.defence",
+          "val": 2,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "vampire",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "aldiyHealth": {
+          "type": "STACK_HEALTH",
+          "val": 10,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "vampire",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "aldiySpeed": {
+          "type": "STACKS_SPEED",
+          "val": 2,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "vampire",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "aldiyDamageMin": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMin",
+          "val": 1,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "vampire",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "aldiyDamageMax": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMax",
+          "val": 2,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "vampire",
+              "includeUpgrades": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

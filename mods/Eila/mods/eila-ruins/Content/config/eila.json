@@ -1,28 +1,28 @@
 {
-	"blood-expansion-v1:eila" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeRnCreatureLvl3" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "rn_creature_lvl3",
-					"addInfo" : "creature.vampire"
-				},
-				"upgradeRnCreatureLvl3Up" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "rn_creature_lvl3_up",
-					"addInfo" : "creature.vampireLord"
-				},
-				"upgradeRnCreatureAlternate" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "rn_creature_alternate",
-					"addInfo" : "creature.vampire"
-				},
-				"upgradeRnCreatureAlternateUp" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "rn_creature_alternate_up",
-					"addInfo" : "creature.vampireLord"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:eila": {
+    "specialty": {
+      "bonuses": {
+        "upgradeRnCreatureLvl3": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "rn_creature_lvl3",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeRnCreatureLvl3Up": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "rn_creature_lvl3_up",
+          "addInfo": "creature.vampireLord"
+        },
+        "upgradeRnCreatureAlternate": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "rn_creature_alternate",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeRnCreatureAlternateUp": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "rn_creature_alternate_up",
+          "addInfo": "creature.vampireLord"
+        }
+      }
+    }
+  }
 }

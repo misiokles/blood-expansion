@@ -1,17 +1,17 @@
 {
-	"name" : "Eila + Grove",
-	"description" : "Upgrade Night/Elder Druids, Basilisk Riders/Champions from Grove into Vampires / Vampire Lords.",
-	"author" : "Kay",
-	"version" : "1.0",
-	"modType" : "Other",
-	"depends" : [
-		"grove"
-	],
-	"heroes" : [
-		"config/eila.json"
-	],
-	"russian" : {
-		"name" : "Эйла + Роща",
-		"description" : "Улучшает Ночных/Старших Друидов, Наездников/Чемпионов Василисков из Рощи в Вампиров / Лордов Вампиров."
-	}
+  "name": "Eila + Grove",
+  "description": "Upgrade Night/Elder Druids, Basilisk Riders/Champions from Grove into Vampires / Vampire Lords.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "grove"
+  ],
+  "heroes": [
+    "config/eila.json"
+  ],
+  "russian": {
+    "name": "Эйла + Роща",
+    "description": "Улучшает Ночных/Старших Друидов, Наездников/Чемпионов Василисков из Рощи в Вампиров / Лордов Вампиров."
+  }
 }

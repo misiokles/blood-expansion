@@ -1,0 +1,216 @@
+{
+  "beBloodPhoenix": {
+    "name": {
+      "singular": "Blood Phoenix",
+      "plural": "Blood Phoenixes"
+    },
+    "description": "The ultimate blood-infused phoenix. Powerful life drain, strong rebirth chance, dragon-like breath, fire shield and high fire resistance. Rises from blood and flame.",
+    "level": 7,
+    "faction": "conflux",
+    "attack": 22,
+    "defense": 19,
+    "damage": {
+      "min": 32,
+      "max": 45
+    },
+    "hitPoints": 225,
+    "speed": 21,
+    "growth": 1,
+    "aiValue": 5200,
+    "fightValue": 4700,
+    "cost": {
+      "gold": 3500,
+      "bloodCrystal": 150
+    },
+    "advMapAmount": {
+      "min": 1,
+      "max": 3
+    },
+    "doubleWide": true,
+    "graphics": {
+      "animation": "creatures/conflux/battle/beBloodPhoenix.def",
+      "map": "creatures/conflux/map/beBloodPhoenix.def",
+      "iconSmall": "creatures/conflux/iconsSmall/beBloodPhoenix.png",
+      "iconLarge": "creatures/conflux/iconsBig/beBloodPhoenix.png",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1
+      }
+    },
+    "sound": {
+      "attack": "",
+      "defend": "",
+      "killed": "",
+      "move": "",
+      "wince": ""
+    },
+    "abilities": {
+      "flying": {
+        "type": "FLYING"
+      },
+      "lifeDrain": {
+        "type": "LIFE_DRAIN",
+        "val": 35
+      },
+      "rebirth": {
+        "type": "REBIRTH",
+        "val": 35,
+        "subtype": "rebirthRegular"
+      },
+      "breath": {
+        "type": "TWO_HEX_ATTACK_BREATH"
+      },
+      "fireShield": {
+        "type": "FIRE_SHIELD",
+        "val": 35
+      },
+      "fireResistance": {
+        "type": "SPELL_DAMAGE_REDUCTION",
+        "subtype": "fire",
+        "val": 50
+      },
+      "defenseAura": {
+        "type": "PRIMARY_SKILL",
+        "subtype": "primarySkill.defence",
+        "val": -3,
+        "propagator": "BATTLE_WIDE",
+        "limiters": [
+          "OPPOSITE_SIDE"
+        ],
+        "description": "{Аура Ослабления}\nВсе враги теряют 3 Защиты.",
+        "icon": "bonuses/aura_of_weakening.png",
+        "propagationUpdater": "BONUS_OWNER_UPDATER"
+      }
+    },
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "LIFE_DRAIN",
+          "val": 0
+        },
+        "values": [
+          0,
+          3,
+          5,
+          8,
+          10,
+          12,
+          15,
+          18,
+          22,
+          25
+        ]
+      },
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.attack"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.defence"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMax"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMin"
+        },
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      {
+        "bonus": {
+          "type": "STACK_HEALTH",
+          "valueType": "PERCENT_TO_BASE"
+        },
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50
+        ]
+      },
+      {
+        "bonus": {
+          "type": "STACKS_SPEED"
+        },
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3
+        ]
+      }
+    ]
+  }
+}

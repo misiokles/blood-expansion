@@ -1,0 +1,122 @@
+{
+  "alsuz": {
+    "class": "elementalist",
+    "female": false,
+    "texts": {
+      "name": "Alsuz",
+      "biography": "Alsuz walks the border between living blood and pure elemental force. Marked by crimson veins that pulse with the power of the Blood Element, he commands the scarlet spirits of Conflux as extensions of his own body, granting them near-absolute life drain and tireless regeneration.",
+      "specialty": {
+        "name": "Blood Element Dominion",
+        "tooltip": "Empowers Blood Elementals with PERCENT_TO_ALL Life Drain, Regeneration and aura, plus extra casts.",
+        "description": "{Blood Elemental}\r\n\r\nBlood Elementals under Alsuz gain scalable PERCENT_TO_ALL bonuses to their abilities (equivalent at base values to Life Drain 100%, Regeneration 75, Life Drain aura 25%) and +1 spell cast (3 total). Bonuses grow with the creature's current ability values."
+      }
+    },
+    "images": {
+      "large": "heroes/conflux/alsuz/alsuz_portrait_large.png",
+      "small": "heroes/conflux/alsuz/alsuz_portrait_small.png",
+      "specialtyLarge": "heroes/conflux/alsuz/alsuzSpecL.png",
+      "specialtySmall": "heroes/conflux/alsuz/alsuzSpecS.png"
+    },
+    "army": [
+      {
+        "creature": "beBloodElemental",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "creature": "beBloodElemental",
+        "min": 1,
+        "max": 2
+      },
+      {
+        "creature": "beBloodElemental",
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "wisdom",
+        "level": "advanced"
+      },
+      {
+        "skill": "intelligence",
+        "level": "basic"
+      },
+      {
+        "skill": "earthMagic",
+        "level": "basic"
+      },
+      {
+        "skill": "createElemental",
+        "level": "basic"
+      }
+    ],
+    "spellbook": [
+      "bloodWave",
+      "bloodProtection"
+    ],
+    "specialty": {
+      "bonuses": {
+        "alsuzLifeDrain": {
+          "type": "LIFE_DRAIN",
+          "val": 34,
+          "valueType": "PERCENT_TO_ALL",
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": [
+                "beBloodElemental"
+              ]
+            }
+          ]
+        },
+        "alsuzRegen": {
+          "type": "HP_REGENERATION",
+          "val": 88,
+          "valueType": "PERCENT_TO_ALL",
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": [
+                "beBloodElemental"
+              ]
+            }
+          ]
+        },
+        "alsuzAura": {
+          "type": "LIFE_DRAIN",
+          "val": 67,
+          "valueType": "PERCENT_TO_ALL",
+          "propagator": "BATTLE_WIDE",
+          "propagationUpdater": "BONUS_OWNER_UPDATER",
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": [
+                "beBloodElemental"
+              ]
+            },
+            {
+              "type": "HAS_ANOTHER_BONUS_LIMITER",
+              "bonusType": "LIFE_DRAIN"
+            }
+          ]
+        },
+        "alsuzCasts": {
+          "type": "CASTS",
+          "val": 1,
+          "valueType": "BASE_NUMBER",
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": [
+                "beBloodElemental"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

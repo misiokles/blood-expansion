@@ -1,28 +1,28 @@
 {
-	"blood-expansion-v1:lazarus" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeTartarc5" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "tartarc5",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeTartarc6" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "tartarc6",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeTartarc9" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "tartarc9",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeTartarc10" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "tartarc10",
-					"addInfo" : "beBloodWraith"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:lazarus": {
+    "specialty": {
+      "bonuses": {
+        "upgradeTartarc5": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tartarc5",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeTartarc6": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tartarc6",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeTartarc9": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tartarc9",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeTartarc10": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tartarc10",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
 }

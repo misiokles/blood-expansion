@@ -1,13 +1,13 @@
 {
-	"blood-expansion-v1:gertiz" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeTumSpecter" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "tumSpecter",
-					"addInfo" : "beBloodWraith"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:gertiz": {
+    "specialty": {
+      "bonuses": {
+        "upgradeTumSpecter": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "tumSpecter",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
 }

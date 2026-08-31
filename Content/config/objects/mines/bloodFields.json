@@ -1,175 +1,175 @@
 {
-	"core:mine" : {
-		"types" : {
-			"bloodFields" : {
-				"name" : "Blood Fields",
-				"description" : "{Blood Fields}\n\nYou gain control of the Blood Fields. They will provide you with 100 Blood Crystal per day.",
-				"aiValue" : 1400,
-				"rmg" : {
-					"value" : 1400,
-					"rarity" : 80
+	"core:mine": {
+		"types": {
+			"bloodFields": {
+				"name": "Blood Fields",
+				"description": "{Blood Fields}\n\nYou gain control of the Blood Fields. They will provide you with 100 Blood Crystal per day.",
+				"aiValue": 1400,
+				"rmg": {
+					"value": 1400,
+					"rarity": 80
 				},
-				"sounds" : {
-					"ambient" : [
+				"sounds": {
+					"ambient": [
 						"LOOPLUMB"
 					]
 				},
-				"resource" : "bloodCrystal",
-				"defaultQuantity" : 100,
-				"guards" : [
+				"resource": "bloodCrystal",
+				"defaultQuantity": 100,
+				"guards": [
 					{
-						"amount" : 20,
-						"type" : "beScarletBirds",
-						"upgradeChance" : 0
+						"amount": 20,
+						"type": "beScarletBirds",
+						"upgradeChance": 0
 					},
 					{
-						"amount" : 30,
-						"type" : "beBloodSkeleton",
-						"upgradeChance" : 0
+						"amount": 30,
+						"type": "beBloodSkeleton",
+						"upgradeChance": 0
 					},
 					{
-						"amount" : 45,
-						"type" : "beBloodSkeleton",
-						"upgradeChance" : 0
+						"amount": 45,
+						"type": "beBloodSkeleton",
+						"upgradeChance": 0
 					},
 					{
-						"amount" : 10,
-						"type" : "beBloodWraith",
-						"upgradeChance" : 0
+						"amount": 10,
+						"type": "beBloodWraith",
+						"upgradeChance": 0
 					},
 					{
-						"amount" : 15,
-						"type" : "beBloodWraith",
-						"upgradeChance" : 0
+						"amount": 15,
+						"type": "beBloodWraith",
+						"upgradeChance": 0
 					}
 				],
-				"onGuardedMessage" : "Too much blood has been spilled on these fields. Those to whom it belonged are not ready to give it to you. Are you ready to fight the fallen?",
-				"templates" : {
-					"grass" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
+				"onGuardedMessage": "Too much blood has been spilled on these fields. Those to whom it belonged are not ready to give it to you. Are you ready to fight the fallen?",
+				"templates": {
+					"grass": {
+						"animation": "objects/bloodFields/bloodFields",
+						"mask": [
 							"VVV",
 							"VVV",
 							"VAV"
 						],
-						"visitableFrom" : [
+						"visitableFrom": [
 							"---",
 							"+-+",
 							"+++"
 						],
-						"allowedTerrains" : [
+						"allowedTerrains": [
 							"grass"
 						]
 					},
-					"dirt" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
+					"dirt": {
+						"animation": "objects/bloodFields/bloodFields",
+						"mask": [
 							"VVV",
 							"VVV",
 							"VAV"
 						],
-						"visitableFrom" : [
+						"visitableFrom": [
 							"---",
 							"+-+",
 							"+++"
 						],
-						"allowedTerrains" : [
+						"allowedTerrains": [
 							"dirt"
 						]
 					},
-					"sand" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
+					"sand": {
+						"animation": "objects/bloodFields/bloodFields",
+						"mask": [
 							"VVV",
 							"VVV",
 							"VAV"
 						],
-						"visitableFrom" : [
+						"visitableFrom": [
 							"---",
 							"+-+",
 							"+++"
 						],
-						"allowedTerrains" : [
+						"allowedTerrains": [
 							"sand"
 						]
 					},
-					"snow" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
+					"snow": {
+						"animation": "objects/bloodFields/bloodFields",
+						"mask": [
 							"VVV",
 							"VVV",
 							"VAV"
 						],
-						"visitableFrom" : [
+						"visitableFrom": [
 							"---",
 							"+-+",
 							"+++"
 						],
-						"allowedTerrains" : [
+						"allowedTerrains": [
 							"snow"
 						]
 					},
-					"rough" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
+					"rough": {
+						"animation": "objects/bloodFields/bloodFields",
+						"mask": [
 							"VVV",
 							"VVV",
 							"VAV"
 						],
-						"visitableFrom" : [
+						"visitableFrom": [
 							"---",
 							"+-+",
 							"+++"
 						],
-						"allowedTerrains" : [
+						"allowedTerrains": [
 							"rough"
 						]
 					},
-					"swamp" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
+					"swamp": {
+						"animation": "objects/bloodFields/bloodFields",
+						"mask": [
 							"VVV",
 							"VVV",
 							"VAV"
 						],
-						"visitableFrom" : [
+						"visitableFrom": [
 							"---",
 							"+-+",
 							"+++"
 						],
-						"allowedTerrains" : [
+						"allowedTerrains": [
 							"swamp"
 						]
 					},
-					"lava" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
+					"lava": {
+						"animation": "objects/bloodFields/bloodFields",
+						"mask": [
 							"VVV",
 							"VVV",
 							"VAV"
 						],
-						"visitableFrom" : [
+						"visitableFrom": [
 							"---",
 							"+-+",
 							"+++"
 						],
-						"allowedTerrains" : [
+						"allowedTerrains": [
 							"lava"
 						]
 					},
-					"subterra" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
+					"subterra": {
+						"animation": "objects/bloodFields/bloodFields",
+						"mask": [
 							"VVV",
 							"VVV",
 							"VAV"
 						],
-						"visitableFrom" : [
+						"visitableFrom": [
 							"---",
 							"+-+",
 							"+++"
 						],
-						"allowedTerrains" : [
+						"allowedTerrains": [
 							"subterra"
 						]
 					}

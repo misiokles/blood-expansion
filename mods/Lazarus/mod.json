@@ -1,12 +1,12 @@
 {
-	"name" : "Lazarus Compatibility Patches",
-	"description" : "Compatibility patches for Lazarus.\n\nSupported mods:\n• asylum-town\n• cathedral-town\n• cetatea-town\n• courtyard-town\n• grove\n• hota.bulwark\n• hota.cove\n• new-pavilion\n• preserve-town\n• refugee-town\n• retreat-town\n• ruins-town\n• tartarus-town\n• third-upgrades (Castle / Dungeon / Fortress / Inferno / Rampart / Stronghold / Tower)\n\nYou can safely enable any number of sub-patches at the same time.",
-	"author" : "Kay",
-	"version" : "1.5",
-	"modType" : "Other",
-	"depends" : [],
-	"russian" : {
-		"name" : "Лазарус — патчи совместимости",
-		"description" : "Патчи совместимости для Лазаруса.\n\nПоддерживаемые моды:\n• asylum-town\n• cathedral-town\n• cetatea-town\n• courtyard-town\n• grove\n• hota.bulwark\n• hota.cove\n• new-pavilion\n• preserve-town\n• refugee-town\n• retreat-town\n• ruins-town\n• tartarus-town\n• third-upgrades (Замок / Подземелье / Крепость / Инферно / Оплот / Цитадель / Башня)\n\nМожно спокойно включать любое количество субпатчей одновременно."
-	}
+  "name": "Lazarus Compatibility Patches",
+  "description": "Compatibility patches for Lazarus.\n\nSupported mods:\n• asylum-town\n• cathedral-town\n• cetatea-town\n• courtyard-town\n• grove\n• hota.bulwark\n• hota.cove\n• new-pavilion\n• preserve-town\n• refugee-town\n• retreat-town\n• ruins-town\n• tartarus-town\n• third-upgrades (Castle / Dungeon / Fortress / Inferno / Rampart / Stronghold / Tower)\n\nYou can safely enable any number of sub-patches at the same time.",
+  "author": "Kay",
+  "version": "1.5",
+  "modType": "Other",
+  "depends": [],
+  "russian": {
+    "name": "Лазарус — патчи совместимости",
+    "description": "Патчи совместимости для Лазаруса.\n\nПоддерживаемые моды:\n• asylum-town\n• cathedral-town\n• cetatea-town\n• courtyard-town\n• grove\n• hota.bulwark\n• hota.cove\n• new-pavilion\n• preserve-town\n• refugee-town\n• retreat-town\n• ruins-town\n• tartarus-town\n• third-upgrades (Замок / Подземелье / Крепость / Инферно / Оплот / Цитадель / Башня)\n\nМожно спокойно включать любое количество субпатчей одновременно."
+  }
 }

@@ -1,0 +1,80 @@
+{
+  "bloodWave": {
+    "type": "combat",
+    "name": "Blood Wave",
+    "targetType": "NO_TARGET",
+    "school": {
+      "air": false,
+      "earth": false,
+      "fire": false,
+      "water": false,
+      "blood": true
+    },
+    "level": 4,
+    "power": 10,
+    "defaultGainChance": 0,
+    "gainChance": {
+      "necropolis": 10,
+      "inferno": 6,
+      "dungeon": 4
+    },
+    "flags": {
+      "damage": true,
+      "negative": true
+    },
+    "graphics": {
+      "iconBook": "spells/bloodWave/book",
+      "iconScroll": "spells/bloodWave/scroll",
+      "iconScenarioBonus": "spells/bloodWave/scenario",
+      "iconEffect": "spells/bloodWave/effect"
+    },
+    "animation": {
+      "affect": [
+        {
+          "defName": "spells/bloodWave/affect.def",
+          "verticalPosition": "bottom"
+        }
+      ]
+    },
+    "targetCondition": {
+      "noneOf": {
+        "bonus.LIFE_DRAIN": "normal"
+      }
+    },
+    "levels": {
+      "base": {
+        "range": "X",
+        "cost": 25,
+        "power": 10,
+        "targetModifier": {
+          "smart": false
+        },
+        "battleEffects": {
+          "directDamage": {
+            "type": "core:damage"
+          }
+        }
+      },
+      "none": {
+        "description": "{Blood Wave}\n\nUnleashes a wave of blood magic that deals damage to all units on the battlefield, except allies possessing Vampirism (Life Drain). Analogous to Death Wave, but spares friendly vampires instead of undead.",
+        "cost": 20,
+        "power": 10
+      },
+      "basic": {
+        "description": "{Basic Blood Wave}\n\nUnleashes a wave of blood magic that deals damage to all units on the battlefield, except allies possessing Vampirism (Life Drain).",
+        "cost": 25,
+        "power": 15
+      },
+      "advanced": {
+        "description": "{Advanced Blood Wave}\n\nUnleashes a wave of blood magic that deals damage to all units on the battlefield, except allies possessing Vampirism (Life Drain).\n\nDamage is higher than basic.",
+        "cost": 20,
+        "power": 25
+      },
+      "expert": {
+        "description": "{Expert Blood Wave}\n\nUnleashes a wave of blood magic that deals damage to all units on the battlefield, except allies possessing Vampirism (Life Drain).\n\nDamage is significantly higher than basic.",
+        "cost": 20,
+        "power": 45
+      }
+    }
+  }
+}

@@ -1,14 +1,14 @@
 {
-	"vcmi:Clash of Dragons" : {
-		"zones" : {
-			"2" : {
-				"mines" : {
-					"bloodCrystal" : 1
+	"vcmi:Clash of Dragons": {
+		"zones": {
+			"2": {
+				"mines": {
+					"bloodCrystal": 1
 				}
 			},
-			"3" : {
-				"mines" : {
-					"bloodCrystal" : 1
+			"3": {
+				"mines": {
+					"bloodCrystal": 1
 				}
 			}
 		}

@@ -1,0 +1,28 @@
+{
+  "type": 64,
+  "format": 0,
+  "sequences": [
+    {
+      "group": 0,
+      "frames": [
+        "00_000.pcx.png",
+        "00_001.pcx.png",
+        "00_002.pcx.png",
+        "00_003.pcx.png",
+        "00_004.pcx.png",
+        "00_005.pcx.png",
+        "00_006.pcx.png",
+        "00_007.pcx.png",
+        "00_008.pcx.png",
+        "00_009.pcx.png",
+        "00_010.pcx.png",
+        "00_011.pcx.png",
+        "00_012.pcx.png",
+        "00_013.pcx.png",
+        "00_014.pcx.png"
+      ]
+    }
+  ],
+  "fullWidth": 70,
+  "fullHeight": 100
+}

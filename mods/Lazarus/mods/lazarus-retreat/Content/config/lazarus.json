@@ -1,38 +1,38 @@
 {
-	"blood-expansion-v1:lazarus" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeAmCultivator" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "amCultivator",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeAmSwordCultivator" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "amSwordCultivator",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeAmGoldenCoreCultivator" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "amGoldenCoreCultivator",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeAmDhutaWalker" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "amDhutaWalker",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeAmDhutaSeeker" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "amDhutaSeeker",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeAmDhutaVenerable" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "amDhutaVenerable",
-					"addInfo" : "beBloodWraith"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:lazarus": {
+    "specialty": {
+      "bonuses": {
+        "upgradeAmCultivator": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amCultivator",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeAmSwordCultivator": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amSwordCultivator",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeAmGoldenCoreCultivator": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amGoldenCoreCultivator",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeAmDhutaWalker": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amDhutaWalker",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeAmDhutaSeeker": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amDhutaSeeker",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeAmDhutaVenerable": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "amDhutaVenerable",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
 }

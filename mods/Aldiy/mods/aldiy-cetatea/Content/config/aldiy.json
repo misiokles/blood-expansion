@@ -1,0 +1,101 @@
+{
+  "blood-expansion-v1:aldiy": {
+    "specialty": {
+      "bonuses": {
+        "aldiyCVampireLifeDrain": {
+          "type": "LIFE_DRAIN",
+          "val": 30,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "cVampire",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "aldiyCVampirelordPercentToAll": {
+          "type": "LIFE_DRAIN",
+          "val": 25,
+          "valueType": "PERCENT_TO_ALL",
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "cVampirelord",
+              "includeUpgrades": false
+            }
+          ]
+        },
+        "aldiyCVampireAttack": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.attack",
+          "val": 3,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "cVampire",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "aldiyCVampireDefense": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.defence",
+          "val": 2,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "cVampire",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "aldiyCVampireHealth": {
+          "type": "STACK_HEALTH",
+          "val": 10,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "cVampire",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "aldiyCVampireSpeed": {
+          "type": "STACKS_SPEED",
+          "val": 2,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "cVampire",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "aldiyCVampireDamageMin": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMin",
+          "val": 1,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "cVampire",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "aldiyCVampireDamageMax": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMax",
+          "val": 2,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "cVampire",
+              "includeUpgrades": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

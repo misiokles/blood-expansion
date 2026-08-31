@@ -1,19 +1,19 @@
 {
-	"vcmi:Reckless" : {
-		"zones" : {
-			"3" : {
-				"mines" : {
-					"bloodCrystal" : 1
+	"vcmi:Reckless": {
+		"zones": {
+			"3": {
+				"mines": {
+					"bloodCrystal": 1
 				}
 			},
-			"4" : {
-				"mines" : {
-					"bloodCrystal" : 1
+			"4": {
+				"mines": {
+					"bloodCrystal": 1
 				}
 			},
-			"5" : {
-				"mines" : {
-					"bloodCrystal" : 1
+			"5": {
+				"mines": {
+					"bloodCrystal": 1
 				}
 			}
 		}

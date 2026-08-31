@@ -1,18 +1,18 @@
 {
-	"blood-expansion-v1:eila" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeFairybear" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "fairybear",
-					"addInfo" : "creature.vampire"
-				},
-				"upgradeMysticalbear" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "mysticalbear",
-					"addInfo" : "creature.vampireLord"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:eila": {
+    "specialty": {
+      "bonuses": {
+        "upgradeFairybear": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "fairybear",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeMysticalbear": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "mysticalbear",
+          "addInfo": "creature.vampireLord"
+        }
+      }
+    }
+  }
 }

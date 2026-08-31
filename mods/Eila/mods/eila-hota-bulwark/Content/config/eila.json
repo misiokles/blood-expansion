@@ -1,18 +1,18 @@
 {
-	"blood-expansion-v1:eila" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeSnowElf" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "hota.bulwark:snowElf",
-					"addInfo" : "creature.vampire"
-				},
-				"upgradeSteelElf" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "hota.bulwark:steelElf",
-					"addInfo" : "creature.vampireLord"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:eila": {
+    "specialty": {
+      "bonuses": {
+        "upgradeSnowElf": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.bulwark:snowElf",
+          "addInfo": "creature.vampire"
+        },
+        "upgradeSteelElf": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.bulwark:steelElf",
+          "addInfo": "creature.vampireLord"
+        }
+      }
+    }
+  }
 }

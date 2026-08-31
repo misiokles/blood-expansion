@@ -1,18 +1,18 @@
 {
-	"blood-expansion-v1:gertiz" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradegghost" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "gghost",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradecghost" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "cghost",
-					"addInfo" : "beBloodWraith"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:gertiz": {
+    "specialty": {
+      "bonuses": {
+        "upgradegghost": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "gghost",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradecghost": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "cghost",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
 }

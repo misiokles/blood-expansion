@@ -1,17 +1,17 @@
 {
-	"name" : "Elgron: Courtyard",
-	"description" : "Upgrade Jabberwocks and Monstrous Jabberwocks from Courtyard into Crimson Dragons.",
-	"author" : "Kay",
-	"version" : "1.0",
-	"modType" : "Other",
-	"depends" : [
-		"courtyard"
-	],
-	"heroes" : [
-		"config/elgron.json"
-	],
-	"russian" : {
-		"name" : "Элгрон: Двор",
-		"description" : "Улучшает Бармаглотов и Чудовищных Бармаглотов из Двора в Багровых Драконов."
-	}
+  "name": "Elgron: Courtyard",
+  "description": "Upgrade Jabberwocks and Monstrous Jabberwocks from Courtyard into Crimson Dragons.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "courtyard"
+  ],
+  "heroes": [
+    "config/elgron.json"
+  ],
+  "russian": {
+    "name": "Элгрон: Двор",
+    "description": "Улучшает Бармаглотов и Чудовищных Бармаглотов из Двора в Багровых Драконов."
+  }
 }

@@ -1,0 +1,203 @@
+{
+  "beBloodFirebird": {
+    "name": {
+      "singular": "Blood Flame Bird",
+      "plural": "Blood Flame Birds"
+    },
+    "description": "A fiery avian infused with blood essence. Flies, drains life, can be reborn, and breathes scorching blood-fire across two hexes. Resistant to fire damage.",
+    "level": 7,
+    "faction": "conflux",
+    "attack": 17,
+    "defense": 17,
+    "damage": {
+      "min": 32,
+      "max": 40
+    },
+    "hitPoints": 175,
+    "speed": 17,
+    "growth": 1,
+    "aiValue": 3800,
+    "fightValue": 3400,
+    "cost": {
+      "gold": 2500,
+      "mercury": 1
+    },
+    "advMapAmount": {
+      "min": 2,
+      "max": 5
+    },
+    "doubleWide": true,
+    "upgrades": [
+      "beBloodPhoenix"
+    ],
+    "graphics": {
+      "animation": "creatures/conflux/battle/beBloodFirebird.def",
+      "map": "creatures/conflux/map/beBloodFirebird.def",
+      "iconSmall": "creatures/conflux/iconsSmall/beBloodFirebird.png",
+      "iconLarge": "creatures/conflux/iconsBig/beBloodFirebird.png",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1
+      }
+    },
+    "sound": {
+      "attack": "",
+      "defend": "",
+      "killed": "",
+      "move": "",
+      "wince": ""
+    },
+    "abilities": {
+      "flying": {
+        "type": "FLYING"
+      },
+      "lifeDrain": {
+        "type": "LIFE_DRAIN",
+        "val": 20
+      },
+      "rebirth": {
+        "type": "REBIRTH",
+        "val": 15,
+        "subtype": "rebirthRegular"
+      },
+      "breath": {
+        "type": "TWO_HEX_ATTACK_BREATH"
+      },
+      "fireResistance": {
+        "type": "SPELL_DAMAGE_REDUCTION",
+        "subtype": "fire",
+        "val": 35
+      }
+    },
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "LIFE_DRAIN",
+          "val": 0
+        },
+        "values": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          20
+        ]
+      },
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.attack"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.defence"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMax"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMin"
+        },
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      {
+        "bonus": {
+          "type": "STACK_HEALTH",
+          "valueType": "PERCENT_TO_BASE"
+        },
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50
+        ]
+      },
+      {
+        "bonus": {
+          "type": "STACKS_SPEED"
+        },
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3
+        ]
+      }
+    ]
+  }
+}

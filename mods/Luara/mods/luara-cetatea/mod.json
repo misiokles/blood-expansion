@@ -1,17 +1,17 @@
 {
-	"name" : "Luara + Cetatea",
-	"description" : "Upgrade Nosferatu and Nosferatu Lords from Cetatea into Bloody Mistresses.",
-	"author" : "Kay",
-	"version" : "1.0",
-	"modType" : "Other",
-	"depends" : [
-		"cetatea-town"
-	],
-	"heroes" : [
-		"config/luara.json"
-	],
-	"russian" : {
-		"name" : "Луара + Крепость(Cetatea)",
-		"description" : "Улучшает Носферату и Лордов Носферату из Цетати в Кровавых Госпож."
-	}
+  "name": "Luara + Cetatea",
+  "description": "Upgrade Nosferatu and Nosferatu Lords from Cetatea into Bloody Mistresses.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "cetatea-town"
+  ],
+  "heroes": [
+    "config/luara.json"
+  ],
+  "russian": {
+    "name": "Луара + Крепость(Cetatea)",
+    "description": "Улучшает Носферату и Лордов Носферату из Крепости(Cetatea) в Кровавых Госпож."
+  }
 }

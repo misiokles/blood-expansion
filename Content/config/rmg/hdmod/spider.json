@@ -1,9 +1,9 @@
 {
-	"vcmi:Spider" : {
-		"zones" : {
-			"3" : {
-				"mines" : {
-					"bloodCrystal" : 1
+	"vcmi:Spider": {
+		"zones": {
+			"3": {
+				"mines": {
+					"bloodCrystal": 1
 				}
 			}
 		}

@@ -1,38 +1,38 @@
 {
-	"blood-expansion-v1:lazarus" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeNightdruid" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "nightdruid",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeElderdruid" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "elderdruid",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeBasiliskrider" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "basiliskrider",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeBasiliskchampion" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "basiliskchampion",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeGroveguard" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "groveguard",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeGrovekeeper" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "grovekeeper",
-					"addInfo" : "beBloodWraith"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:lazarus": {
+    "specialty": {
+      "bonuses": {
+        "upgradeNightdruid": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "nightdruid",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeElderdruid": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "elderdruid",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeBasiliskrider": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "basiliskrider",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeBasiliskchampion": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "basiliskchampion",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeGroveguard": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "groveguard",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeGrovekeeper": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "grovekeeper",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
 }

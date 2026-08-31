@@ -1,18 +1,18 @@
 {
-	"vcmi:Extreme L" : {
-		"zones" : {
-			"3" : {
-				"mines" : {
-					"bloodCrystal" : 1
+	"vcmi:Extreme L": {
+		"zones": {
+			"3": {
+				"mines": {
+					"bloodCrystal": 1
 				}
 			}
 		}
 	},
-	"vcmi:Extreme XL" : {
-		"zones" : {
-			"3" : {
-				"mines" : {
-					"bloodCrystal" : 1
+	"vcmi:Extreme XL": {
+		"zones": {
+			"3": {
+				"mines": {
+					"bloodCrystal": 1
 				}
 			}
 		}

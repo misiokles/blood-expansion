@@ -1,28 +1,28 @@
 {
-	"blood-expansion-v1:lazarus" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeBbrute" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "bbrute",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeBberserker" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "bberserker",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeBgladiator" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "bgladiator",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeBflameglad" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "bflameglad",
-					"addInfo" : "beBloodWraith"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:lazarus": {
+    "specialty": {
+      "bonuses": {
+        "upgradeBbrute": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "bbrute",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeBberserker": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "bberserker",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeBgladiator": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "bgladiator",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeBflameglad": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "bflameglad",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
 }

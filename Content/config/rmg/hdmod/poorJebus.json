@@ -1,9 +1,9 @@
 {
-	"vcmi:Poor Jebus" : {
-		"zones" : {
-			"1" : {
-				"mines" : {
-					"bloodCrystal" : 1
+	"vcmi:Poor Jebus": {
+		"zones": {
+			"1": {
+				"mines": {
+					"bloodCrystal": 1
 				}
 			}
 		}

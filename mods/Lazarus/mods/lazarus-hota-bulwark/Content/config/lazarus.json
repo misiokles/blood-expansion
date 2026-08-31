@@ -1,38 +1,38 @@
 {
-	"blood-expansion-v1:lazarus" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeSnowElf" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "hota.bulwark:snowElf",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeSteelElf" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "hota.bulwark:steelElf",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeYeti" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "hota.bulwark:yeti",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeYetiRunemaster" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "hota.bulwark:yetiRunemaster",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeShaman" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "hota.bulwark:shaman",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeGreatShaman" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "hota.bulwark:greatShaman",
-					"addInfo" : "beBloodWraith"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:lazarus": {
+    "specialty": {
+      "bonuses": {
+        "upgradeSnowElf": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.bulwark:snowElf",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeSteelElf": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.bulwark:steelElf",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeYeti": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.bulwark:yeti",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeYetiRunemaster": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.bulwark:yetiRunemaster",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeShaman": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.bulwark:shaman",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeGreatShaman": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.bulwark:greatShaman",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
 }

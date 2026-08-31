@@ -1,17 +1,17 @@
 {
-	"name" : "Lazarus + Preserve",
-	"description" : "Upgrade Forest Druids / Greater Druids from Preserve into Blood Wraiths.",
-	"author" : "Kay",
-	"version" : "1.0",
-	"modType" : "Other",
-	"depends" : [
-		"preserve-town"
-	],
-	"heroes" : [
-		"config/lazarus.json"
-	],
-	"russian" : {
-		"name" : "Лазарус + Заповедник",
-		"description" : "Улучшает Лесных / Великих Друидов из Заповедника в Кровавых Призраков."
-	}
+  "name": "Lazarus + Preserve",
+  "description": "Upgrade Forest Druids / Greater Druids from Preserve into Blood Wraiths.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "preserve-town"
+  ],
+  "heroes": [
+    "config/lazarus.json"
+  ],
+  "russian": {
+    "name": "Лазарус + Заповедник",
+    "description": "Улучшает Лесных / Великих Друидов из Заповедника в Кровавых Призраков."
+  }
 }

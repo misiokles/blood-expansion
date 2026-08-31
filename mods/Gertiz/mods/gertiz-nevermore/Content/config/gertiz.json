@@ -1,33 +1,33 @@
 {
-	"blood-expansion-v1:gertiz" : {
-		"specialty" : {
-			"bonuses" : {
-				"upgradeN4lvlFantazm" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "n_4lvl_fantazm",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeN4lvlFantazmUp" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "n_4lvl_fantazm_up",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeN5lvlaMartyr" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "n_5lvla_martyr",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeN5lvlaMartyrUp" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "n_5lvla_martyr_up",
-					"addInfo" : "beBloodWraith"
-				},
-				"upgradeN5lvlHorrorUp" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "n_5lvl_horror_up",
-					"addInfo" : "beBloodWraith"
-				}
-			}
-		}
-	}
+  "blood-expansion-v1:gertiz": {
+    "specialty": {
+      "bonuses": {
+        "upgradeN4lvlFantazm": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "n_4lvl_fantazm",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeN4lvlFantazmUp": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "n_4lvl_fantazm_up",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeN5lvlaMartyr": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "n_5lvla_martyr",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeN5lvlaMartyrUp": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "n_5lvla_martyr_up",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeN5lvlHorrorUp": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "n_5lvl_horror_up",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
 }

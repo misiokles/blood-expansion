@@ -1,17 +1,17 @@
 {
-	"name" : "Lazarus + HotA Bulwark",
-	"description" : "Upgrade Snow Elves / Steel Elves, Yeti / Yeti Runemasters, Shamans / Great Shamans from HotA Bulwark into Blood Wraiths.",
-	"author" : "Kay",
-	"version" : "1.0",
-	"modType" : "Other",
-	"depends" : [
-		"hota.bulwark"
-	],
-	"heroes" : [
-		"config/lazarus.json"
-	],
-	"russian" : {
-		"name" : "Лазарус + HotA Кронверк",
-		"description" : "Улучшает Снежных / Стальных Эльфов, Йети / Йети Рунотворцев, Шаманов / Великих Шаманов из HotA Кронверка в Кровавых Призраков."
-	}
+  "name": "Lazarus + HotA Bulwark",
+  "description": "Upgrade Snow Elves / Steel Elves, Yeti / Yeti Runemasters, Shamans / Great Shamans from HotA Bulwark into Blood Wraiths.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "hota.bulwark"
+  ],
+  "heroes": [
+    "config/lazarus.json"
+  ],
+  "russian": {
+    "name": "Лазарус + HotA Кронверк",
+    "description": "Улучшает Снежных / Стальных Эльфов, Йети / Йети Рунотворцев, Шаманов / Великих Шаманов из HotA Кронверка в Кровавых Призраков."
+  }
 }
