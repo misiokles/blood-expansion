@@ -1,214 +1,214 @@
 {
-  "beScarletWraith": {
-    "name": {
-      "plural": "Scarlet Wraiths",
-      "singular": "Scarlet Wraith"
-    },
-    "advMapAmount": {
-      "max": 30,
-      "min": 18
-    },
-    "faction": "necropolis",
-    "aiValue": 320,
-    "attack": 9,
-    "cost": {
-      "gold": 500,
-      "bloodCrystal": 10
-    },
-    "damage": {
-      "max": 9,
-      "min": 5
-    },
-    "defense": 9,
-    "fightValue": 340,
-    "graphics": {
-      "animation": "creatures/necropolis/battle/beScarletWraith.def",
-      "map": "creatures/necropolis/map/beScarletWraith.def",
-      "iconSmall": "creatures/necropolis/iconsSmall/beScarletWraith.bmp",
-      "iconLarge": "creatures/necropolis/iconsBig/beScarletWraith.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 0.7,
-        "attack": 1,
-        "idle": 10
-      }
-    },
-    "growth": 12,
-    "hitPoints": 25,
-    "level": 3,
-    "sound": {
-      "attack": "WRTHATTK.wav",
-      "defend": "WRTHDFND.wav",
-      "killed": "WRTHKILL.wav",
-      "move": "WRTHMOVE.wav",
-      "wince": "WRTHWNCE.wav"
-    },
-    "speed": 10,
-    "abilities": {
-      "regenerate": {
-        "type": "HP_REGENERATION",
-        "val": 100,
-        "valueType": "ADDITIVE_VALUE"
-      },
-      "drainsMana": {
-        "type": "MANA_DRAIN",
-        "val": 9
-      },
-      "UNDEAD": {
-        "type": "UNDEAD"
-      },
-      "fly": {
-        "type": "FLYING"
-      },
-      "drainsLife": {
-        "type": "LIFE_DRAIN",
-        "val": 75
-      }
-    },
-    "stackExperience": [
-      {
-        "bonus": {
-          "type": "LIFE_DRAIN",
-          "val": 0
-        },
-        "values": [
-          0,
-          4,
-          7,
-          12,
-          14,
-          17,
-          19,
-          24,
-          27,
-          35
-        ]
-      },
-      {
-        "bonus": {
-          "type": "MANA_DRAIN",
-          "val": 0
-        },
-        "values": [
-          0,
-          0,
-          0,
-          1,
-          1,
-          1,
-          2,
-          2,
-          2,
-          2
-        ]
-      },
-      {
-        "bonus": {
-          "type": "PRIMARY_SKILL",
-          "subtype": "primarySkill.attack"
-        },
-        "values": [
-          0,
-          1,
-          2,
-          2,
-          3,
-          3,
-          4,
-          4,
-          5,
-          5
-        ]
-      },
-      {
-        "bonus": {
-          "type": "PRIMARY_SKILL",
-          "subtype": "primarySkill.defence"
-        },
-        "values": [
-          0,
-          1,
-          2,
-          2,
-          3,
-          3,
-          4,
-          4,
-          5,
-          5
-        ]
-      },
-      {
-        "bonus": {
-          "type": "CREATURE_DAMAGE",
-          "subtype": "creatureDamageMax"
-        },
-        "values": [
-          0,
-          1,
-          1,
-          1,
-          2,
-          2,
-          2,
-          3,
-          3,
-          4
-        ]
-      },
-      {
-        "bonus": {
-          "type": "CREATURE_DAMAGE",
-          "subtype": "creatureDamageMin"
-        },
-        "values": [
-          0,
-          0,
-          1,
-          1,
-          1,
-          2,
-          2,
-          3,
-          3,
-          3
-        ]
-      },
-      {
-        "bonus": {
-          "type": "STACK_HEALTH",
-          "valueType": "PERCENT_TO_BASE"
-        },
-        "values": [
-          5,
-          10,
-          15,
-          20,
-          25,
-          30,
-          35,
-          40,
-          45,
-          50
-        ]
-      },
-      {
-        "bonus": {
-          "type": "STACKS_SPEED"
-        },
-        "values": [
-          0,
-          1,
-          1,
-          1,
-          2,
-          2,
-          2,
-          3,
-          3,
-          4
-        ]
-      }
-    ]
-  }
+	"beScarletWraith" : {
+		"name" : {
+			"plural" : "Scarlet Wraiths",
+			"singular" : "Scarlet Wraith"
+		},
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 18
+		},
+		"faction" : "necropolis",
+		"aiValue" : 320,
+		"attack" : 9,
+		"cost" : {
+			"gold" : 500,
+			"bloodCrystal" : 10
+		},
+		"damage" : {
+			"max" : 9,
+			"min" : 5
+		},
+		"defense" : 9,
+		"fightValue" : 340,
+		"graphics" : {
+			"animation" : "creatures/necropolis/battle/beScarletWraith.def",
+			"map" : "creatures/necropolis/map/beScarletWraith.def",
+			"iconSmall" : "creatures/necropolis/iconsSmall/beScarletWraith.bmp",
+			"iconLarge" : "creatures/necropolis/iconsBig/beScarletWraith.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 0.7,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"growth" : 12,
+		"hitPoints" : 25,
+		"level" : 3,
+		"sound" : {
+			"attack" : "WRTHATTK.wav",
+			"defend" : "WRTHDFND.wav",
+			"killed" : "WRTHKILL.wav",
+			"move" : "WRTHMOVE.wav",
+			"wince" : "WRTHWNCE.wav"
+		},
+		"speed" : 10,
+		"abilities" : {
+			"regenerate" : {
+				"type" : "HP_REGENERATION",
+				"val" : 100,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"drainsMana" : {
+				"type" : "MANA_DRAIN",
+				"val" : 9
+			},
+			"UNDEAD" : {
+				"type" : "UNDEAD"
+			},
+			"fly" : {
+				"type" : "FLYING"
+			},
+			"drainsLife" : {
+				"type" : "LIFE_DRAIN",
+				"val" : 75
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "LIFE_DRAIN",
+					"val" : 0
+				},
+				"values" : [
+					0,
+					4,
+					7,
+					12,
+					14,
+					17,
+					19,
+					24,
+					27,
+					35
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "MANA_DRAIN",
+					"val" : 0
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
+				},
+				"values" : [
+					0,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
+				},
+				"values" : [
+					0,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
+			}
+		]
+	}
 }

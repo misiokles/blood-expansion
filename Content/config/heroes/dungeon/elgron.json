@@ -1,113 +1,113 @@
 {
-  "elgron": {
-    "class": "warlock",
-    "female": false,
-    "texts": {
-      "name": "Elgron",
-      "biography": "Elgron is a warlock of the Dungeon who forged a pact with the ancient crimson dragons of the underworld. He deepened their bloodlust and taught them to feed on the life of their enemies, turning every Crimson Dragon into a living inferno. Under his command even the proud dragons of Dungeon and Rampart can be remade in crimson fire.",
-      "specialty": {
-        "description": "{Crimson Dragon}\r\n\r\nCrimson Dragons under Elgron gain +38% PERCENT_TO_ALL Life Drain (55% at base 40%) and +29% PERCENT_TO_ALL Fire Shield (45% at base 35%), plus +5 Shots. Ability bonuses scale with the creature's current values.\r\n\r\n{Red Dragon / Black Dragon / Green Dragon / Gold Dragon}\r\n\r\nCan upgrade Red and Black Dragons (Dungeon) and Green and Gold Dragons (Rampart) into Crimson Dragons.",
-        "tooltip": "PERCENT_TO_ALL Life Drain and Fire Shield for Crimson Dragons; upgrades Red, Black, Green and Gold Dragons",
-        "name": "Crimson Flame"
-      }
-    },
-    "images": {
-      "large": "heroes/dungeon/elgron/elgron_portrait_large.png",
-      "small": "heroes/dungeon/elgron/elgron_portrait_small.png",
-      "specialtyLarge": "heroes/dungeon/elgron/elgronSpecL.png",
-      "specialtySmall": "heroes/dungeon/elgron/elgronSpecS.png"
-    },
-    "army": [
-      {
-        "creature": "beCrimsonDragon",
-        "min": 1,
-        "max": 1
-      },
-      {
-        "creature": "redDragon",
-        "min": 1,
-        "max": 2
-      },
-      {
-        "creature": "greenDragon",
-        "min": 1,
-        "max": 2
-      }
-    ],
-    "skills": [
-      {
-        "skill": "wisdom",
-        "level": "advanced"
-      },
-      {
-        "skill": "intelligence",
-        "level": "basic"
-      }
-    ],
-    "spellbook": [
-      "inferno"
-    ],
-    "specialty": {
-      "bonuses": {
-        "elgronLifeDrain": {
-          "type": "LIFE_DRAIN",
-          "val": 38,
-          "limiters": [
-            {
-              "type": "CREATURE_TYPE_LIMITER",
-              "parameters": [
-                "beCrimsonDragon"
-              ]
-            }
-          ],
-          "valueType": "PERCENT_TO_ALL"
-        },
-        "elgronFireShield": {
-          "type": "FIRE_SHIELD",
-          "val": 29,
-          "limiters": [
-            {
-              "type": "CREATURE_TYPE_LIMITER",
-              "parameters": [
-                "beCrimsonDragon"
-              ]
-            }
-          ],
-          "valueType": "PERCENT_TO_ALL"
-        },
-        "elgronShots": {
-          "type": "SHOTS",
-          "val": 5,
-          "limiters": [
-            {
-              "type": "CREATURE_TYPE_LIMITER",
-              "parameters": [
-                "beCrimsonDragon"
-              ]
-            }
-          ]
-        },
-        "redDragonToCrimson": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "redDragon",
-          "addInfo": "beCrimsonDragon"
-        },
-        "blackDragonToCrimson": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "blackDragon",
-          "addInfo": "beCrimsonDragon"
-        },
-        "greenDragonToCrimson": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "greenDragon",
-          "addInfo": "beCrimsonDragon"
-        },
-        "goldDragonToCrimson": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "goldDragon",
-          "addInfo": "beCrimsonDragon"
-        }
-      }
-    }
-  }
+	"elgron" : {
+		"class" : "warlock",
+		"female" : false,
+		"texts" : {
+			"name" : "Elgron",
+			"biography" : "Elgron is a warlock of the Dungeon who forged a pact with the ancient crimson dragons of the underworld. He deepened their bloodlust and taught them to feed on the life of their enemies, turning every Crimson Dragon into a living inferno. Under his command even the proud dragons of Dungeon and Rampart can be remade in crimson fire.",
+			"specialty" : {
+				"description" : "{Crimson Dragon}\r\n\r\nCrimson Dragons under Elgron gain +38% PERCENT_TO_ALL Life Drain (55% at base 40%) and +29% PERCENT_TO_ALL Fire Shield (45% at base 35%), plus +5 Shots. Ability bonuses scale with the creature's current values.\r\n\r\n{Red Dragon / Black Dragon / Green Dragon / Gold Dragon}\r\n\r\nCan upgrade Red and Black Dragons (Dungeon) and Green and Gold Dragons (Rampart) into Crimson Dragons.",
+				"tooltip" : "PERCENT_TO_ALL Life Drain and Fire Shield for Crimson Dragons; upgrades Red, Black, Green and Gold Dragons",
+				"name" : "Crimson Flame"
+			}
+		},
+		"images" : {
+			"large" : "heroes/dungeon/elgron/elgron_portrait_large.png",
+			"small" : "heroes/dungeon/elgron/elgron_portrait_small.png",
+			"specialtyLarge" : "heroes/dungeon/elgron/elgronSpecL.png",
+			"specialtySmall" : "heroes/dungeon/elgron/elgronSpecS.png"
+		},
+		"army" : [
+			{
+				"creature" : "beCrimsonDragon",
+				"min" : 1,
+				"max" : 1
+			},
+			{
+				"creature" : "redDragon",
+				"min" : 1,
+				"max" : 2
+			},
+			{
+				"creature" : "greenDragon",
+				"min" : 1,
+				"max" : 2
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "advanced"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
+		],
+		"spellbook" : [
+			"inferno"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"elgronLifeDrain" : {
+					"type" : "LIFE_DRAIN",
+					"val" : 38,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"beCrimsonDragon"
+							]
+						}
+					],
+					"valueType" : "PERCENT_TO_ALL"
+				},
+				"elgronFireShield" : {
+					"type" : "FIRE_SHIELD",
+					"val" : 29,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"beCrimsonDragon"
+							]
+						}
+					],
+					"valueType" : "PERCENT_TO_ALL"
+				},
+				"elgronShots" : {
+					"type" : "SHOTS",
+					"val" : 5,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"beCrimsonDragon"
+							]
+						}
+					]
+				},
+				"redDragonToCrimson" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "redDragon",
+					"addInfo" : "beCrimsonDragon"
+				},
+				"blackDragonToCrimson" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "blackDragon",
+					"addInfo" : "beCrimsonDragon"
+				},
+				"greenDragonToCrimson" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "greenDragon",
+					"addInfo" : "beCrimsonDragon"
+				},
+				"goldDragonToCrimson" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "goldDragon",
+					"addInfo" : "beCrimsonDragon"
+				}
+			}
+		}
+	}
 }

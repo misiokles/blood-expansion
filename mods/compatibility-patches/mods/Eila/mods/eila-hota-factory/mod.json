@@ -1,17 +1,17 @@
 {
-  "name": "Eila + HotA Factory",
-  "description": "Upgrade Gunslingers/Bounty Hunters from HotA Factory into Vampires / Vampire Lords.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "hota.factory"
-  ],
-  "heroes": [
-    "config/eila.json"
-  ],
-  "russian": {
-    "name": "Эйла + HotA Фабрика",
-    "description": "Улучшает Стрелков/Охотников за Головами из HotA Фабрики в Вампиров / Лордов Вампиров."
-  }
+	"name" : "Eila + HotA Factory",
+	"description" : "Upgrade Gunslingers/Bounty Hunters from HotA Factory into Vampires / Vampire Lords.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"hota.factory"
+	],
+	"heroes" : [
+		"config/eila.json"
+	],
+	"russian" : {
+		"name" : "Эйла + HotA Фабрика",
+		"description" : "Улучшает Стрелков/Охотников за Головами из HotA Фабрики в Вампиров / Лордов Вампиров."
+	}
 }

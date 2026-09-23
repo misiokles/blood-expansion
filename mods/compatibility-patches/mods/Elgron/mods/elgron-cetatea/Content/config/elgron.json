@@ -1,18 +1,18 @@
 {
-  "blood-expansion:elgron": {
-    "specialty": {
-      "bonuses": {
-        "upgradeCZmeu": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "cZmeu",
-          "addInfo": "beCrimsonDragon"
-        },
-        "upgradeCBalauri": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "cBalauri",
-          "addInfo": "beCrimsonDragon"
-        }
-      }
-    }
-  }
+	"blood-expansion:elgron" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeCZmeu" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "cZmeu",
+					"addInfo" : "beCrimsonDragon"
+				},
+				"upgradeCBalauri" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "cBalauri",
+					"addInfo" : "beCrimsonDragon"
+				}
+			}
+		}
+	}
 }

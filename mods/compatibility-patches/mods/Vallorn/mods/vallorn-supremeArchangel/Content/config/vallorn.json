@@ -1,13 +1,13 @@
 {
-  "blood-expansion:vallorn": {
-    "specialty": {
-      "bonuses": {
-        "upgradeSupremeArchangel": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "wake-of-gods.level8units:supremeArchangel",
-          "addInfo": "beBloodAngel"
-        }
-      }
-    }
-  }
+	"blood-expansion:vallorn" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeSupremeArchangel" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "wake-of-gods.level8units:supremeArchangel",
+					"addInfo" : "beBloodAngel"
+				}
+			}
+		}
+	}
 }

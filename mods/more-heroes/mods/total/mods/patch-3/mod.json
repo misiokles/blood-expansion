@@ -1,27 +1,27 @@
 {
-  "name": "More Heroes Total hero limit Patch 3",
-  "description": "The per-player total hero limit is increased from 20 to 35.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "keepDisabled": true,
-  "russian": {
-    "name": "Больше героев — Общий лимит героев — патч 3",
-    "description": "Общий лимит героев одного игрока увеличивается с 20 до 35."
-  },
-  "settings": {
-    "heroes": {
-      "perPlayerTotalCap": 35
-    }
-  },
-  "conflicts": [
-    "blood-expansion.more-heroes.total.patch-1",
-    "blood-expansion.more-heroes.total.patch-2",
-    "blood-expansion.more-heroes.total.patch-4",
-    "blood-expansion.more-heroes.total.patch-5",
-    "blood-expansion.more-heroes.total.patch-6",
-    "blood-expansion.more-heroes.total.patch-7",
-    "blood-expansion.more-heroes.total.patch-8",
-    "blood-expansion.more-heroes.total.patch-9"
-  ]
+	"name" : "More Heroes Total hero limit Patch 3",
+	"description" : "The per-player total hero limit is increased from 20 to 35.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"keepDisabled" : true,
+	"russian" : {
+		"name" : "Больше героев — Общий лимит героев — патч 3",
+		"description" : "Общий лимит героев одного игрока увеличивается с 20 до 35."
+	},
+	"settings" : {
+		"heroes" : {
+			"perPlayerTotalCap" : 35
+		}
+	},
+	"conflicts" : [
+		"blood-expansion.more-heroes.total.patch-1",
+		"blood-expansion.more-heroes.total.patch-2",
+		"blood-expansion.more-heroes.total.patch-4",
+		"blood-expansion.more-heroes.total.patch-5",
+		"blood-expansion.more-heroes.total.patch-6",
+		"blood-expansion.more-heroes.total.patch-7",
+		"blood-expansion.more-heroes.total.patch-8",
+		"blood-expansion.more-heroes.total.patch-9"
+	]
 }

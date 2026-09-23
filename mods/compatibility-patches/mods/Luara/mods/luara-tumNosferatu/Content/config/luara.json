@@ -1,13 +1,13 @@
 {
-  "blood-expansion:luara": {
-    "specialty": {
-      "bonuses": {
-        "upgradeTumNosferatu": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "tumNosferatu",
-          "addInfo": "beBloodyMistress"
-        }
-      }
-    }
-  }
+	"blood-expansion:luara" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeTumNosferatu" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "tumNosferatu",
+					"addInfo" : "beBloodyMistress"
+				}
+			}
+		}
+	}
 }

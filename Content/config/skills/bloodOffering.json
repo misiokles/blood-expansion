@@ -1,69 +1,69 @@
 {
-  "bloodOffering": {
-    "name": "Blood Offering",
-    "gainChance": {
-      "might": 1,
-      "magic": 3,
-      "deathknight": 4,
-      "necromancer": 6,
-      "heretic": 3,
-      "warlock": 3,
-      "elementalist": 4,
-      "planeswalker": 2
-    },
-    "specialty": [
-      "main"
-    ],
-    "basic": {
-      "images": {
-        "small": "skills/bloodOffering/smallBasic",
-        "medium": "skills/bloodOffering/mediumBasic",
-        "large": "skills/bloodOffering/largeBasic"
-      },
-      "description": "{Basic Blood Offering}\n\nIncreases your Blood Crystal income from all sources by 5%.",
-      "effects": {
-        "main": {
-          "type": "GENERATE_RESOURCE",
-          "subtype": "bloodCrystal",
-          "val": 5,
-          "valueType": "PERCENT_TO_BASE",
-          "propagator": "PLAYER_PROPAGATOR"
-        }
-      }
-    },
-    "advanced": {
-      "images": {
-        "small": "skills/bloodOffering/smallAdvanced",
-        "medium": "skills/bloodOffering/mediumAdvanced",
-        "large": "skills/bloodOffering/largeAdvanced"
-      },
-      "description": "{Advanced Blood Offering}\n\nIncreases your Blood Crystal income from all sources by 10%.",
-      "effects": {
-        "main": {
-          "type": "GENERATE_RESOURCE",
-          "subtype": "bloodCrystal",
-          "val": 10,
-          "valueType": "PERCENT_TO_BASE",
-          "propagator": "PLAYER_PROPAGATOR"
-        }
-      }
-    },
-    "expert": {
-      "images": {
-        "small": "skills/bloodOffering/smallExpert",
-        "medium": "skills/bloodOffering/mediumExpert",
-        "large": "skills/bloodOffering/largeExpert"
-      },
-      "description": "{Expert Blood Offering}\n\nIncreases your Blood Crystal income from all sources by 15%.",
-      "effects": {
-        "main": {
-          "type": "GENERATE_RESOURCE",
-          "subtype": "bloodCrystal",
-          "val": 15,
-          "valueType": "PERCENT_TO_BASE",
-          "propagator": "PLAYER_PROPAGATOR"
-        }
-      }
-    }
-  }
+	"bloodOffering" : {
+		"name" : "Blood Offering",
+		"gainChance" : {
+			"might" : 1,
+			"magic" : 3,
+			"deathknight" : 4,
+			"necromancer" : 6,
+			"heretic" : 3,
+			"warlock" : 3,
+			"elementalist" : 4,
+			"planeswalker" : 2
+		},
+		"specialty" : [
+			"main"
+		],
+		"basic" : {
+			"images" : {
+				"small" : "skills/bloodOffering/smallBasic",
+				"medium" : "skills/bloodOffering/mediumBasic",
+				"large" : "skills/bloodOffering/largeBasic"
+			},
+			"description" : "{Basic Blood Offering}\n\nIncreases your Blood Crystal income from all sources by 5%.",
+			"effects" : {
+				"main" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "bloodCrystal",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"propagator" : "PLAYER_PROPAGATOR"
+				}
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "skills/bloodOffering/smallAdvanced",
+				"medium" : "skills/bloodOffering/mediumAdvanced",
+				"large" : "skills/bloodOffering/largeAdvanced"
+			},
+			"description" : "{Advanced Blood Offering}\n\nIncreases your Blood Crystal income from all sources by 10%.",
+			"effects" : {
+				"main" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "bloodCrystal",
+					"val" : 10,
+					"valueType" : "PERCENT_TO_BASE",
+					"propagator" : "PLAYER_PROPAGATOR"
+				}
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "skills/bloodOffering/smallExpert",
+				"medium" : "skills/bloodOffering/mediumExpert",
+				"large" : "skills/bloodOffering/largeExpert"
+			},
+			"description" : "{Expert Blood Offering}\n\nIncreases your Blood Crystal income from all sources by 15%.",
+			"effects" : {
+				"main" : {
+					"type" : "GENERATE_RESOURCE",
+					"subtype" : "bloodCrystal",
+					"val" : 15,
+					"valueType" : "PERCENT_TO_BASE",
+					"propagator" : "PLAYER_PROPAGATOR"
+				}
+			}
+		}
+	}
 }

@@ -1,18 +1,18 @@
 {
-  "blood-expansion:eila": {
-    "specialty": {
-      "bonuses": {
-        "upgradeCVoinici": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "cVoinici",
-          "addInfo": "creature.vampire"
-        },
-        "upgradeCHaiduci": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "cHaiduci",
-          "addInfo": "creature.vampireLord"
-        }
-      }
-    }
-  }
+	"blood-expansion:eila" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeCVoinici" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "cVoinici",
+					"addInfo" : "creature.vampire"
+				},
+				"upgradeCHaiduci" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "cHaiduci",
+					"addInfo" : "creature.vampireLord"
+				}
+			}
+		}
+	}
 }

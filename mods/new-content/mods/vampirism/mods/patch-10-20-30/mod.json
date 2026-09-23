@@ -1,18 +1,18 @@
 {
-  "name": "Vampirism — 10/20/30% Patch",
-  "description": "Returns Vampirism values to 10/20/30%.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "keepDisabled": true,
-  "russian": {
-    "name": "Вампиризм — патч 10/20/30%",
-    "description": "Возвращает значения Вампиризма к 10/20/30%."
-  },
-  "skills": [
-    "content/config/skills/vampirism.json"
-  ],
-  "softDepends": [
-    "blood-expansion.new-content.vampirism"
-  ]
+	"name" : "Vampirism — 10/20/30% Patch",
+	"description" : "Returns Vampirism values to 10/20/30%.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"keepDisabled" : true,
+	"russian" : {
+		"name" : "Вампиризм — патч 10/20/30%",
+		"description" : "Возвращает значения Вампиризма к 10/20/30%."
+	},
+	"skills" : [
+		"content/config/skills/vampirism.json"
+	],
+	"softDepends" : [
+		"blood-expansion.new-content.vampirism"
+	]
 }

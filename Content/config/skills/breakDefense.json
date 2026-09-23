@@ -1,242 +1,242 @@
 {
-	"breakDefense": {
-		"name": "Break Defense",
-		"gainChance": {
-			"might": 4,
-			"magic": 3
+	"breakDefense" : {
+		"name" : "Break Defense",
+		"gainChance" : {
+			"might" : 4,
+			"magic" : 3
 		},
-		"specialty": [],
-		"base": {
-			"effects": {
-				"tier1": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.defence",
-					"valueType": "BASE_NUMBER",
-					"propagator": "BATTLE_WIDE",
-					"propagationUpdater": "BONUS_OWNER_UPDATER",
-					"limiters": [
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"tier1" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
 						"OPPOSITE_SIDE",
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "LIFE_DRAIN"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
 						},
 						{
-							"type": "CREATURE_LEVEL_LIMITER",
-							"minLevel": 1,
-							"maxlevel": 2
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 1,
+							"maxlevel" : 2
 						}
 					]
 				},
-				"tier2": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.defence",
-					"valueType": "BASE_NUMBER",
-					"propagator": "BATTLE_WIDE",
-					"propagationUpdater": "BONUS_OWNER_UPDATER",
-					"limiters": [
+				"tier2" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
 						"OPPOSITE_SIDE",
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "LIFE_DRAIN"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
 						},
 						{
-							"type": "CREATURE_LEVEL_LIMITER",
-							"minLevel": 2,
-							"maxlevel": 3
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 2,
+							"maxlevel" : 3
 						}
 					]
 				},
-				"tier3": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.defence",
-					"valueType": "BASE_NUMBER",
-					"propagator": "BATTLE_WIDE",
-					"propagationUpdater": "BONUS_OWNER_UPDATER",
-					"limiters": [
+				"tier3" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
 						"OPPOSITE_SIDE",
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "LIFE_DRAIN"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
 						},
 						{
-							"type": "CREATURE_LEVEL_LIMITER",
-							"minLevel": 3,
-							"maxlevel": 4
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 3,
+							"maxlevel" : 4
 						}
 					]
 				},
-				"tier4": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.defence",
-					"valueType": "BASE_NUMBER",
-					"propagator": "BATTLE_WIDE",
-					"propagationUpdater": "BONUS_OWNER_UPDATER",
-					"limiters": [
+				"tier4" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
 						"OPPOSITE_SIDE",
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "LIFE_DRAIN"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
 						},
 						{
-							"type": "CREATURE_LEVEL_LIMITER",
-							"minLevel": 4,
-							"maxlevel": 5
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 4,
+							"maxlevel" : 5
 						}
 					]
 				},
-				"tier5": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.defence",
-					"valueType": "BASE_NUMBER",
-					"propagator": "BATTLE_WIDE",
-					"propagationUpdater": "BONUS_OWNER_UPDATER",
-					"limiters": [
+				"tier5" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
 						"OPPOSITE_SIDE",
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "LIFE_DRAIN"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
 						},
 						{
-							"type": "CREATURE_LEVEL_LIMITER",
-							"minLevel": 5,
-							"maxlevel": 6
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 6
 						}
 					]
 				},
-				"tier6": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.defence",
-					"valueType": "BASE_NUMBER",
-					"propagator": "BATTLE_WIDE",
-					"propagationUpdater": "BONUS_OWNER_UPDATER",
-					"limiters": [
+				"tier6" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
 						"OPPOSITE_SIDE",
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "LIFE_DRAIN"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
 						},
 						{
-							"type": "CREATURE_LEVEL_LIMITER",
-							"minLevel": 6,
-							"maxlevel": 7
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 6,
+							"maxlevel" : 7
 						}
 					]
 				},
-				"tier7": {
-					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.defence",
-					"valueType": "BASE_NUMBER",
-					"propagator": "BATTLE_WIDE",
-					"propagationUpdater": "BONUS_OWNER_UPDATER",
-					"limiters": [
+				"tier7" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
 						"OPPOSITE_SIDE",
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "LIFE_DRAIN"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
 						},
 						{
-							"type": "CREATURE_LEVEL_LIMITER",
-							"minLevel": 7,
-							"maxlevel": 8
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 7,
+							"maxlevel" : 8
 						}
 					]
 				}
 			}
 		},
-		"basic": {
-			"description": "{Basic Break Defense}\n\nDecreases the Defense of enemy units with the Life Drain ability:\nTier 1: -1\nTier 2: -2\nTier 3: -3\nTier 4: -3\nTier 5: -4\nTier 6: -9\nTier 7: -12",
-			"effects": {
-				"tier1": {
-					"val": -1
+		"basic" : {
+			"description" : "{Basic Break Defense}\n\nDecreases the Defense of enemy units with the Life Drain ability:\nTier 1: -1\nTier 2: -2\nTier 3: -3\nTier 4: -3\nTier 5: -4\nTier 6: -9\nTier 7: -12",
+			"effects" : {
+				"tier1" : {
+					"val" : -1
 				},
-				"tier2": {
-					"val": -2
+				"tier2" : {
+					"val" : -2
 				},
-				"tier3": {
-					"val": -3
+				"tier3" : {
+					"val" : -3
 				},
-				"tier4": {
-					"val": -3
+				"tier4" : {
+					"val" : -3
 				},
-				"tier5": {
-					"val": -4
+				"tier5" : {
+					"val" : -4
 				},
-				"tier6": {
-					"val": -9
+				"tier6" : {
+					"val" : -9
 				},
-				"tier7": {
-					"val": -12
+				"tier7" : {
+					"val" : -12
 				}
 			},
-			"images": {
-				"small": "skills/breakDefense/smallBasic",
-				"medium": "skills/breakDefense/mediumBasic",
-				"large": "skills/breakDefense/largeBasic",
-				"scenarioBonus": "skills/breakDefense/largeBasic"
+			"images" : {
+				"small" : "skills/breakDefense/smallBasic",
+				"medium" : "skills/breakDefense/mediumBasic",
+				"large" : "skills/breakDefense/largeBasic",
+				"scenarioBonus" : "skills/breakDefense/largeBasic"
 			}
 		},
-		"advanced": {
-			"description": "{Advanced Break Defense}\n\nDecreases the Defense of enemy units with the Life Drain ability:\nTier 1: -2\nTier 2: -3\nTier 3: -4\nTier 4: -5\nTier 5: -6\nTier 6: -10\nTier 7: -14",
-			"effects": {
-				"tier1": {
-					"val": -2
+		"advanced" : {
+			"description" : "{Advanced Break Defense}\n\nDecreases the Defense of enemy units with the Life Drain ability:\nTier 1: -2\nTier 2: -3\nTier 3: -4\nTier 4: -5\nTier 5: -6\nTier 6: -10\nTier 7: -14",
+			"effects" : {
+				"tier1" : {
+					"val" : -2
 				},
-				"tier2": {
-					"val": -3
+				"tier2" : {
+					"val" : -3
 				},
-				"tier3": {
-					"val": -4
+				"tier3" : {
+					"val" : -4
 				},
-				"tier4": {
-					"val": -5
+				"tier4" : {
+					"val" : -5
 				},
-				"tier5": {
-					"val": -6
+				"tier5" : {
+					"val" : -6
 				},
-				"tier6": {
-					"val": -10
+				"tier6" : {
+					"val" : -10
 				},
-				"tier7": {
-					"val": -14
+				"tier7" : {
+					"val" : -14
 				}
 			},
-			"images": {
-				"small": "skills/breakDefense/smallAdvanced",
-				"medium": "skills/breakDefense/mediumAdvanced",
-				"large": "skills/breakDefense/largeAdvanced",
-				"scenarioBonus": "skills/breakDefense/largeAdvanced"
+			"images" : {
+				"small" : "skills/breakDefense/smallAdvanced",
+				"medium" : "skills/breakDefense/mediumAdvanced",
+				"large" : "skills/breakDefense/largeAdvanced",
+				"scenarioBonus" : "skills/breakDefense/largeAdvanced"
 			}
 		},
-		"expert": {
-			"description": "{Expert Break Defense}\n\nDecreases the Defense of enemy units with the Life Drain ability:\nTier 1: -4\nTier 2: -5\nTier 3: -6\nTier 4: -7\nTier 5: -8\nTier 6: -12\nTier 7: -17",
-			"effects": {
-				"tier1": {
-					"val": -4
+		"expert" : {
+			"description" : "{Expert Break Defense}\n\nDecreases the Defense of enemy units with the Life Drain ability:\nTier 1: -4\nTier 2: -5\nTier 3: -6\nTier 4: -7\nTier 5: -8\nTier 6: -12\nTier 7: -17",
+			"effects" : {
+				"tier1" : {
+					"val" : -4
 				},
-				"tier2": {
-					"val": -5
+				"tier2" : {
+					"val" : -5
 				},
-				"tier3": {
-					"val": -6
+				"tier3" : {
+					"val" : -6
 				},
-				"tier4": {
-					"val": -7
+				"tier4" : {
+					"val" : -7
 				},
-				"tier5": {
-					"val": -8
+				"tier5" : {
+					"val" : -8
 				},
-				"tier6": {
-					"val": -12
+				"tier6" : {
+					"val" : -12
 				},
-				"tier7": {
-					"val": -17
+				"tier7" : {
+					"val" : -17
 				}
 			},
-			"images": {
-				"small": "skills/breakDefense/smallExpert",
-				"medium": "skills/breakDefense/mediumExpert",
-				"large": "skills/breakDefense/largeExpert",
-				"scenarioBonus": "skills/breakDefense/largeExpert"
+			"images" : {
+				"small" : "skills/breakDefense/smallExpert",
+				"medium" : "skills/breakDefense/mediumExpert",
+				"large" : "skills/breakDefense/largeExpert",
+				"scenarioBonus" : "skills/breakDefense/largeExpert"
 			}
 		}
 	}

@@ -1,456 +1,456 @@
 {
-  "core:creatureGeneratorCommon": {
-    "types": {
-      "caveOfCrimsonDragons": {
-        "name": "Cave of Crimson Dragons",
-        "creatures": [
-          [
-            "beCrimsonDragon"
-          ]
-        ],
-        "aiValue": 8000,
-        "guards": [
-          {
-            "amount": 2,
-            "type": "beCrimsonDragon"
-          },
-          {
-            "amount": 2,
-            "type": "beCrimsonDragon"
-          },
-          {
-            "amount": 4,
-            "type": "beCrimsonDragon"
-          },
-          {
-            "amount": 4,
-            "type": "beCrimsonDragon"
-          }
-        ],
-        "templates": {
-          "default": {
-            "animation": "objects/dwellings/dungeon/Cave-ofCrimsonDragons.def",
-            "mask": [
-              "VVV",
-              "VVV",
-              "VAB"
-            ],
-            "visitableFrom": [
-              "+++",
-              "+++",
-              "+-+"
-            ]
-          }
-        }
-      },
-      "obeliskOfTheBloodAngels": {
-        "name": "Obelisk of the Blood Angels",
-        "creatures": [
-          [
-            "beBloodAngel"
-          ],
-          [
-            "beBloodWraith"
-          ]
-        ],
-        "aiValue": 5500,
-        "guards": [
-          {
-            "amount": 2,
-            "type": "beBloodAngel"
-          },
-          {
-            "amount": 2,
-            "type": "beBloodWraith"
-          },
-          {
-            "amount": 4,
-            "type": "beBloodAngel"
-          },
-          {
-            "amount": 2,
-            "type": "beBloodWraith"
-          }
-        ],
-        "templates": {
-          "default": {
-            "animation": "objects/dwellings/castle/Obelisk-of-theBloodAngels.def",
-            "mask": [
-              "VVV",
-              "VVV",
-              "VAB"
-            ],
-            "visitableFrom": [
-              "+++",
-              "+++",
-              "+-+"
-            ]
-          }
-        }
-      },
-      "scarletNest": {
-        "name": "Scarlet Nest",
-        "creatures": [
-          [
-            "beScarletBirds"
-          ]
-        ],
-        "aiValue": 4000,
-        "guards": [
-          {
-            "amount": 10,
-            "type": "beScarletBirds"
-          },
-          {
-            "amount": 10,
-            "type": "beScarletBirds"
-          },
-          {
-            "amount": 10,
-            "type": "beScarletBirds"
-          },
-          {
-            "amount": 1,
-            "type": "beBloodAngel"
-          }
-        ],
-        "templates": {
-          "default": {
-            "animation": "objects/dwellings/castle/Scarlet-Nest.def",
-            "mask": [
-              "VVV",
-              "VVV",
-              "VAB"
-            ],
-            "visitableFrom": [
-              "+++",
-              "+++",
-              "+-+"
-            ],
-            "offset": {
-              "x": 0,
-              "y": -40
-            }
-          }
-        }
-      },
-      "bloodSkeletonDwelling": {
-        "name": "Blood Temple",
-        "creatures": [
-          [
-            "beBloodSkeleton"
-          ]
-        ],
-        "aiValue": 5000,
-        "guards": [
-          {
-            "amount": 15,
-            "type": "beBloodSkeleton"
-          },
-          {
-            "amount": 10,
-            "type": "beBloodSkeleton"
-          },
-          {
-            "amount": 15,
-            "type": "beBloodSkeleton"
-          },
-          {
-            "amount": 10,
-            "type": "beBloodSkeleton"
-          }
-        ],
-        "templates": {
-          "default": {
-            "animation": "objects/dwellings/necropolis/BLOOD_TEMPLE.def",
-            "mask": [
-              "VVV",
-              "VVV",
-              "VAB"
-            ],
-            "visitableFrom": [
-              "+++",
-              "+++",
-              "+-+"
-            ]
-          }
-        }
-      },
-      "tower-of-lost-souls": {
-        "name": "Tower of lost souls",
-        "creatures": [
-          [
-            "beBloodWraith"
-          ]
-        ],
-        "aiValue": 5000,
-        "guards": [
-          {
-            "amount": 5,
-            "type": "beBloodWraith"
-          },
-          {
-            "amount": 2,
-            "type": "beBloodWraith"
-          },
-          {
-            "amount": 2,
-            "type": "beBloodWraith"
-          },
-          {
-            "amount": 5,
-            "type": "beBloodWraith"
-          }
-        ],
-        "templates": {
-          "default": {
-            "animation": "objects/dwellings/necropolis/tower-of-lost-souls.def",
-            "mask": [
-              "VVV",
-              "VVV",
-              "VAB"
-            ],
-            "visitableFrom": [
-              "+++",
-              "+++",
-              "+-+"
-            ]
-          }
-        }
-      },
-      "bloodyPalace": {
-        "name": "Bloody Palace",
-        "creatures": [
-          [
-            "beBloodyMistress"
-          ]
-        ],
-        "aiValue": 9000,
-        "rmg": {
-          "value": 9000,
-          "rarity": 45
-        },
-        "guards": [
-          {
-            "amount": 7,
-            "type": "beBloodyMistress"
-          },
-          {
-            "amount": 7,
-            "type": "beBloodyMistress"
-          },
-          {
-            "amount": 9,
-            "type": "beBloodyMistress"
-          },
-          {
-            "amount": 9,
-            "type": "beBloodyMistress"
-          }
-        ],
-        "templates": {
-          "default": {
-            "animation": "objects/dwellings/necropolis/BloodyPalace.def",
-            "mask": [
-              "VVV",
-              "VVV",
-              "VAB"
-            ],
-            "visitableFrom": [
-              "+++",
-              "+++",
-              "+-+"
-            ]
-          }
-        }
-      },
-      "bloodPhoenixPyre": {
-        "name": "Bloody Funeral Pyre",
-        "creatures": [
-          [
-            "beBloodFirebird"
-          ],
-          [
-            "beBloodPhoenix"
-          ]
-        ],
-        "aiValue": 7000,
-        "guards": [
-          {
-            "amount": 2,
-            "type": "beBloodFirebird"
-          },
-          {
-            "amount": 2,
-            "type": "beBloodFirebird"
-          },
-          {
-            "amount": 2,
-            "type": "beBloodFirebird"
-          },
-          {
-            "amount": 2,
-            "type": "beBloodPhoenix"
-          },
-          {
-            "amount": 1,
-            "type": "beBloodPhoenix"
-          }
-        ],
-        "templates": {
-          "default": {
-            "animation": "objects/dwellings/conflux/bloodPhoenixPyre.def",
-            "mask": [
-              "VVV",
-              "VVV",
-              "VAB"
-            ],
-            "visitableFrom": [
-              "+++",
-              "+++",
-              "+-+"
-            ],
-            "offset": {
-              "x": 0,
-              "y": -40
-            }
-          }
-        }
-      },
-      "bloodConvergence": {
-        "name": "Blood Convergence",
-        "creatures": [
-          [
-            "beBloodElemental"
-          ]
-        ],
-        "aiValue": 6500,
-        "guards": [
-          {
-            "amount": 4,
-            "type": "beBloodElemental"
-          },
-          {
-            "amount": 3,
-            "type": "beBloodElemental"
-          },
-          {
-            "amount": 4,
-            "type": "beBloodElemental"
-          },
-          {
-            "amount": 3,
-            "type": "beBloodElemental"
-          }
-        ],
-        "templates": {
-          "default": {
-            "animation": "objects/dwellings/conflux/bloodConvergence.def",
-            "allowedTerrains": [
-              "dirt",
-              "sand",
-              "grass",
-              "snow",
-              "swamp",
-              "rough",
-              "subterra",
-              "lava"
-            ],
-            "mask": [
-              "VVVV",
-              "VVVV",
-              "VVVV",
-              "VVAB"
-            ],
-            "visitableFrom": [
-              "+++",
-              "+++",
-              "+-+"
-            ],
-            "offset": {
-              "x": 0,
-              "y": -40
-            }
-          }
-        }
-      }
-    }
-  },
-  "core:creatureGeneratorSpecial": {
-    "types": {
-      "elementalConflux": {
-        "creatures": [
-          [
-            "airElemental"
-          ],
-          [
-            "waterElemental"
-          ],
-          [
-            "fireElemental"
-          ],
-          [
-            "earthElemental"
-          ],
-          [
-            "beBloodElemental"
-          ]
-        ],
-        "templates": {
-          "default": {
-            "animation": "objects/dwellings/conflux/elementalConfluxBlood.def",
-            "mask": [
-              "VVV",
-              "VVV",
-              "VAB"
-            ],
-            "visitableFrom": [
-              "+++",
-              "+++",
-              "+-+"
-            ]
-          },
-          "AVGelem0": {
-            "animation": "objects/dwellings/conflux/elementalConfluxBlood.def",
-            "mask": [
-              "VVV",
-              "VVV",
-              "VAB"
-            ],
-            "visitableFrom": [
-              "+++",
-              "+++",
-              "+-+"
-            ]
-          },
-          "avgelem0": {
-            "animation": "objects/dwellings/conflux/elementalConfluxBlood.def",
-            "mask": [
-              "VVV",
-              "VVV",
-              "VAB"
-            ],
-            "visitableFrom": [
-              "+++",
-              "+++",
-              "+-+"
-            ]
-          },
-          "elementalConflux": {
-            "animation": "objects/dwellings/conflux/elementalConfluxBlood.def",
-            "mask": [
-              "VVV",
-              "VVV",
-              "VAB"
-            ],
-            "visitableFrom": [
-              "+++",
-              "+++",
-              "+-+"
-            ]
-          }
-        }
-      }
-    }
-  }
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"caveOfCrimsonDragons" : {
+				"name" : "Cave of Crimson Dragons",
+				"creatures" : [
+					[
+						"beCrimsonDragon"
+					]
+				],
+				"aiValue" : 8000,
+				"guards" : [
+					{
+						"amount" : 2,
+						"type" : "beCrimsonDragon"
+					},
+					{
+						"amount" : 2,
+						"type" : "beCrimsonDragon"
+					},
+					{
+						"amount" : 4,
+						"type" : "beCrimsonDragon"
+					},
+					{
+						"amount" : 4,
+						"type" : "beCrimsonDragon"
+					}
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "objects/dwellings/dungeon/Cave-ofCrimsonDragons.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						]
+					}
+				}
+			},
+			"obeliskOfTheBloodAngels" : {
+				"name" : "Obelisk of the Blood Angels",
+				"creatures" : [
+					[
+						"beBloodAngel"
+					],
+					[
+						"beBloodWraith"
+					]
+				],
+				"aiValue" : 5500,
+				"guards" : [
+					{
+						"amount" : 2,
+						"type" : "beBloodAngel"
+					},
+					{
+						"amount" : 2,
+						"type" : "beBloodWraith"
+					},
+					{
+						"amount" : 4,
+						"type" : "beBloodAngel"
+					},
+					{
+						"amount" : 2,
+						"type" : "beBloodWraith"
+					}
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "objects/dwellings/castle/Obelisk-of-theBloodAngels.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						]
+					}
+				}
+			},
+			"scarletNest" : {
+				"name" : "Scarlet Nest",
+				"creatures" : [
+					[
+						"beScarletBirds"
+					]
+				],
+				"aiValue" : 4000,
+				"guards" : [
+					{
+						"amount" : 10,
+						"type" : "beScarletBirds"
+					},
+					{
+						"amount" : 10,
+						"type" : "beScarletBirds"
+					},
+					{
+						"amount" : 10,
+						"type" : "beScarletBirds"
+					},
+					{
+						"amount" : 1,
+						"type" : "beBloodAngel"
+					}
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "objects/dwellings/castle/Scarlet-Nest.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						],
+						"offset" : {
+							"x" : 0,
+							"y" : -40
+						}
+					}
+				}
+			},
+			"bloodSkeletonDwelling" : {
+				"name" : "Blood Temple",
+				"creatures" : [
+					[
+						"beBloodSkeleton"
+					]
+				],
+				"aiValue" : 5000,
+				"guards" : [
+					{
+						"amount" : 15,
+						"type" : "beBloodSkeleton"
+					},
+					{
+						"amount" : 10,
+						"type" : "beBloodSkeleton"
+					},
+					{
+						"amount" : 15,
+						"type" : "beBloodSkeleton"
+					},
+					{
+						"amount" : 10,
+						"type" : "beBloodSkeleton"
+					}
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "objects/dwellings/necropolis/BLOOD_TEMPLE.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						]
+					}
+				}
+			},
+			"tower-of-lost-souls" : {
+				"name" : "Tower of lost souls",
+				"creatures" : [
+					[
+						"beBloodWraith"
+					]
+				],
+				"aiValue" : 5000,
+				"guards" : [
+					{
+						"amount" : 5,
+						"type" : "beBloodWraith"
+					},
+					{
+						"amount" : 2,
+						"type" : "beBloodWraith"
+					},
+					{
+						"amount" : 2,
+						"type" : "beBloodWraith"
+					},
+					{
+						"amount" : 5,
+						"type" : "beBloodWraith"
+					}
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "objects/dwellings/necropolis/tower-of-lost-souls.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						]
+					}
+				}
+			},
+			"bloodyPalace" : {
+				"name" : "Bloody Palace",
+				"creatures" : [
+					[
+						"beBloodyMistress"
+					]
+				],
+				"aiValue" : 9000,
+				"rmg" : {
+					"value" : 9000,
+					"rarity" : 45
+				},
+				"guards" : [
+					{
+						"amount" : 7,
+						"type" : "beBloodyMistress"
+					},
+					{
+						"amount" : 7,
+						"type" : "beBloodyMistress"
+					},
+					{
+						"amount" : 9,
+						"type" : "beBloodyMistress"
+					},
+					{
+						"amount" : 9,
+						"type" : "beBloodyMistress"
+					}
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "objects/dwellings/necropolis/BloodyPalace.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						]
+					}
+				}
+			},
+			"bloodPhoenixPyre" : {
+				"name" : "Bloody Funeral Pyre",
+				"creatures" : [
+					[
+						"beBloodFirebird"
+					],
+					[
+						"beBloodPhoenix"
+					]
+				],
+				"aiValue" : 7000,
+				"guards" : [
+					{
+						"amount" : 2,
+						"type" : "beBloodFirebird"
+					},
+					{
+						"amount" : 2,
+						"type" : "beBloodFirebird"
+					},
+					{
+						"amount" : 2,
+						"type" : "beBloodFirebird"
+					},
+					{
+						"amount" : 2,
+						"type" : "beBloodPhoenix"
+					},
+					{
+						"amount" : 1,
+						"type" : "beBloodPhoenix"
+					}
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "objects/dwellings/conflux/bloodPhoenixPyre.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						],
+						"offset" : {
+							"x" : 0,
+							"y" : -40
+						}
+					}
+				}
+			},
+			"bloodConvergence" : {
+				"name" : "Blood Convergence",
+				"creatures" : [
+					[
+						"beBloodElemental"
+					]
+				],
+				"aiValue" : 6500,
+				"guards" : [
+					{
+						"amount" : 4,
+						"type" : "beBloodElemental"
+					},
+					{
+						"amount" : 3,
+						"type" : "beBloodElemental"
+					},
+					{
+						"amount" : 4,
+						"type" : "beBloodElemental"
+					},
+					{
+						"amount" : 3,
+						"type" : "beBloodElemental"
+					}
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "objects/dwellings/conflux/bloodConvergence.def",
+						"allowedTerrains" : [
+							"dirt",
+							"sand",
+							"grass",
+							"snow",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava"
+						],
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VVAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						],
+						"offset" : {
+							"x" : 0,
+							"y" : -40
+						}
+					}
+				}
+			}
+		}
+	},
+	"core:creatureGeneratorSpecial" : {
+		"types" : {
+			"elementalConflux" : {
+				"creatures" : [
+					[
+						"airElemental"
+					],
+					[
+						"waterElemental"
+					],
+					[
+						"fireElemental"
+					],
+					[
+						"earthElemental"
+					],
+					[
+						"beBloodElemental"
+					]
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "objects/dwellings/conflux/elementalConfluxBlood.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						]
+					},
+					"AVGelem0" : {
+						"animation" : "objects/dwellings/conflux/elementalConfluxBlood.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						]
+					},
+					"avgelem0" : {
+						"animation" : "objects/dwellings/conflux/elementalConfluxBlood.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						]
+					},
+					"elementalConflux" : {
+						"animation" : "objects/dwellings/conflux/elementalConfluxBlood.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+-+"
+						]
+					}
+				}
+			}
+		}
+	}
 }

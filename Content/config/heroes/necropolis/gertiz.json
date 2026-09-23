@@ -1,69 +1,69 @@
 {
-  "gertiz": {
-    "class": "necromancer",
-    "female": false,
-    "texts": {
-      "name": "Gertiz",
-      "biography": "Once a royal alchemist, Gertiz discovered the forbidden art of forging life essence into spectral flesh. For a heavy price in gold he can transmute ordinary Wights and Wraiths into powerful Blood Wraiths on the battlefield.",
-      "specialty": {
-        "description": "{Wight / Wraith}\r\n\r\nSpecial upgrades: Can upgrade Wights and Wraiths into Blood Wraiths. Additional spectral creatures from other mods can be upgraded when corresponding submods are enabled.",
-        "tooltip": "Specialty: Upgrades ghosts to Blood Wraiths",
-        "name": "Blood Soul Blacksmith"
-      }
-    },
-    "images": {
-      "large": "heroes/necropolis/gertiz/gertiz_portrait_large.png",
-      "small": "heroes/necropolis/gertiz/gertiz_portrait_small.png",
-      "specialtyLarge": "heroes/necropolis/gertiz/gertizSpecL.png",
-      "specialtySmall": "heroes/necropolis/gertiz/gertizSpecS.png"
-    },
-    "army": [
-      {
-        "creature": "wight",
-        "min": 5,
-        "max": 7
-      },
-      {
-        "creature": "wight",
-        "min": 6,
-        "max": 9
-      },
-      {
-        "creature": "wraith",
-        "min": 2,
-        "max": 4
-      }
-    ],
-    "skills": [
-      {
-        "skill": "bloodNecromancy",
-        "level": "expert"
-      },
-      {
-        "skill": "wisdom",
-        "level": "advanced"
-      },
-      {
-        "skill": "scarletSacrifice",
-        "level": "basic"
-      }
-    ],
-    "spellbook": [
-      "curse"
-    ],
-    "specialty": {
-      "bonuses": {
-        "upgradeWight": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "wight",
-          "addInfo": "beBloodWraith"
-        },
-        "upgradeWraith": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "wraith",
-          "addInfo": "beBloodWraith"
-        }
-      }
-    }
-  }
+	"gertiz" : {
+		"class" : "necromancer",
+		"female" : false,
+		"texts" : {
+			"name" : "Gertiz",
+			"biography" : "Once a royal alchemist, Gertiz discovered the forbidden art of forging life essence into spectral flesh. For a heavy price in gold he can transmute ordinary Wights and Wraiths into powerful Blood Wraiths on the battlefield.",
+			"specialty" : {
+				"description" : "{Wight / Wraith}\r\n\r\nSpecial upgrades: Can upgrade Wights and Wraiths into Blood Wraiths. Additional spectral creatures from other mods can be upgraded when corresponding submods are enabled.",
+				"tooltip" : "Specialty: Upgrades ghosts to Blood Wraiths",
+				"name" : "Blood Soul Blacksmith"
+			}
+		},
+		"images" : {
+			"large" : "heroes/necropolis/gertiz/gertiz_portrait_large.png",
+			"small" : "heroes/necropolis/gertiz/gertiz_portrait_small.png",
+			"specialtyLarge" : "heroes/necropolis/gertiz/gertizSpecL.png",
+			"specialtySmall" : "heroes/necropolis/gertiz/gertizSpecS.png"
+		},
+		"army" : [
+			{
+				"creature" : "wight",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "wight",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "wraith",
+				"min" : 2,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "bloodNecromancy",
+				"level" : "expert"
+			},
+			{
+				"skill" : "wisdom",
+				"level" : "advanced"
+			},
+			{
+				"skill" : "scarletSacrifice",
+				"level" : "basic"
+			}
+		],
+		"spellbook" : [
+			"curse"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"upgradeWight" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "wight",
+					"addInfo" : "beBloodWraith"
+				},
+				"upgradeWraith" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "wraith",
+					"addInfo" : "beBloodWraith"
+				}
+			}
+		}
+	}
 }

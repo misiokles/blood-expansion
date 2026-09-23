@@ -1,17 +1,17 @@
 {
-  "name": "Lazarus + Scholar",
-  "description": "Upgrade Scholars / Lecturers from New Monsters Pack into Blood Wraiths.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "new-monsters-pack.kurek-creatures.New-content-for-Castle.scholar"
-  ],
-  "heroes": [
-    "config/lazarus.json"
-  ],
-  "russian": {
-    "name": "Лазарус + Учёный",
-    "description": "Улучшает Учёных / Лекторов из New Monsters Pack в Кровавых Призраков."
-  }
+	"name" : "Lazarus + Scholar",
+	"description" : "Upgrade Scholars / Lecturers from New Monsters Pack into Blood Wraiths.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"new-monsters-pack.kurek-creatures.New-content-for-Castle.scholar"
+	],
+	"heroes" : [
+		"config/lazarus.json"
+	],
+	"russian" : {
+		"name" : "Лазарус + Учёный",
+		"description" : "Улучшает Учёных / Лекторов из New Monsters Pack в Кровавых Призраков."
+	}
 }

@@ -1,26 +1,26 @@
 {
-  "name": "Blood Offering Altar Balance Patch 3",
-  "description": "Blood Offering Altar bonus: +20%.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "russian": {
-    "name": "Алтарь Кровавого Подношения — патч 3",
-    "description": "Бонус Алтаря Кровавого Подношения: +20%.",
-    "translations": [
-      "translation/russian.json"
-    ]
-  },
-  "conflicts": [
-    "blood-expansion.balance-patches.blood-offering-altar-patches.patch-1",
-    "blood-expansion.balance-patches.blood-offering-altar-patches.patch-2",
-    "blood-expansion.balance-patches.blood-offering-altar-patches.patch-4"
-  ],
-  "keepDisabled": true,
-  "objects": [
-    "config/objects/mines/bloodOfferingAltar.json"
-  ],
-  "softDepends": [
-    "blood-expansion"
-  ]
+	"name" : "Blood Offering Altar Balance Patch 3",
+	"description" : "Blood Offering Altar bonus: +20%.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"russian" : {
+		"name" : "Алтарь Кровавого Подношения — патч 3",
+		"description" : "Бонус Алтаря Кровавого Подношения: +20%.",
+		"translations" : [
+			"translation/russian.json"
+		]
+	},
+	"conflicts" : [
+		"blood-expansion.balance-patches.blood-offering-altar-patches.patch-1",
+		"blood-expansion.balance-patches.blood-offering-altar-patches.patch-2",
+		"blood-expansion.balance-patches.blood-offering-altar-patches.patch-4"
+	],
+	"keepDisabled" : true,
+	"objects" : [
+		"config/objects/mines/bloodOfferingAltar.json"
+	],
+	"softDepends" : [
+		"blood-expansion"
+	]
 }

@@ -1,17 +1,17 @@
 {
-  "name": "Gertiz + Wake of Gods",
-  "description": "Upgrade Wraith Ghosts from Wake of Gods into Blood Wraiths.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "wake-of-gods.creatures"
-  ],
-  "heroes": [
-    "config/gertiz.json"
-  ],
-  "russian": {
-    "name": "Гертиз + Wake of Gods",
-    "description": "Улучшает Призраков (Wraith Ghost) из Wake of Gods в Кровавых Призраков."
-  }
+	"name" : "Gertiz + Wake of Gods",
+	"description" : "Upgrade Wraith Ghosts from Wake of Gods into Blood Wraiths.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"wake-of-gods.creatures"
+	],
+	"heroes" : [
+		"config/gertiz.json"
+	],
+	"russian" : {
+		"name" : "Гертиз + Wake of Gods",
+		"description" : "Улучшает Призраков (Wraith Ghost) из Wake of Gods в Кровавых Призраков."
+	}
 }

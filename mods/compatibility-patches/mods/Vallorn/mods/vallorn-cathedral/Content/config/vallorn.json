@@ -1,18 +1,18 @@
 {
-  "blood-expansion:vallorn": {
-    "specialty": {
-      "bonuses": {
-        "upgradeCthPunisher": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "cthPunisher",
-          "addInfo": "beBloodAngel"
-        },
-        "upgradeCthChasteners": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "cthChasteners",
-          "addInfo": "beBloodAngel"
-        }
-      }
-    }
-  }
+	"blood-expansion:vallorn" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeCthPunisher" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "cthPunisher",
+					"addInfo" : "beBloodAngel"
+				},
+				"upgradeCthChasteners" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "cthChasteners",
+					"addInfo" : "beBloodAngel"
+				}
+			}
+		}
+	}
 }

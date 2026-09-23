@@ -1,23 +1,23 @@
 {
-  "name": "Blood Offering Balance Patch 4",
-  "description": "Blood Offering values: 2/3/5%.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "russian": {
-    "name": "Кровавое Подношение — патч 4",
-    "description": "Значения Кровавого Подношения: 2/3/5%."
-  },
-  "conflicts": [
-    "blood-expansion.balance-patches.blood-offering-patches.patch-1",
-    "blood-expansion.balance-patches.blood-offering-patches.patch-2",
-    "blood-expansion.balance-patches.blood-offering-patches.patch-3"
-  ],
-  "keepDisabled": true,
-  "skills": [
-    "config/skills/bloodOffering.json"
-  ],
-  "softDepends": [
-    "blood-expansion"
-  ]
+	"name" : "Blood Offering Balance Patch 4",
+	"description" : "Blood Offering values: 2/3/5%.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"russian" : {
+		"name" : "Кровавое Подношение — патч 4",
+		"description" : "Значения Кровавого Подношения: 2/3/5%."
+	},
+	"conflicts" : [
+		"blood-expansion.balance-patches.blood-offering-patches.patch-1",
+		"blood-expansion.balance-patches.blood-offering-patches.patch-2",
+		"blood-expansion.balance-patches.blood-offering-patches.patch-3"
+	],
+	"keepDisabled" : true,
+	"skills" : [
+		"config/skills/bloodOffering.json"
+	],
+	"softDepends" : [
+		"blood-expansion"
+	]
 }

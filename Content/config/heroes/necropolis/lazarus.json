@@ -1,12 +1,24 @@
 {
 	"lazarus" : {
 		"army" : [
-			{ "creature" : "beBloodWraith", "max" : 8, "min" : 4 },
-			{ "creature" : "beBloodWraith", "max" : 7, "min" : 4 },
-						{ "creature" : "beBloodWraith", "max" : 4, "min" : 2 }
+			{
+				"creature" : "beBloodWraith",
+				"max" : 8,
+				"min" : 4
+			},
+			{
+				"creature" : "beBloodWraith",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "beBloodWraith",
+				"max" : 4,
+				"min" : 2
+			}
 		],
 		"class" : "necromancer",
-		"female": false,
+		"female" : false,
 		"images" : {
 			"large" : "heroes/necropolis/lazarus/lazarus_portrait_large.png",
 			"small" : "heroes/necropolis/lazarus/lazarus_portrait_small.png",
@@ -14,11 +26,20 @@
 			"specialtySmall" : "heroes/necropolis/lazarus/lazarusSpecS.png"
 		},
 		"skills" : [
-			{ "level" : "basic", "skill" : "hemomancy" },
-			{ "level" : "expert", "skill" : "wisdom" },
-			{ "level" : "expert", "skill" : "bloodNecromancy" }
+			{
+				"level" : "basic",
+				"skill" : "hemomancy"
+			},
+			{
+				"level" : "expert",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "expert",
+				"skill" : "bloodNecromancy"
+			}
 		],
-		"spellbook": [
+		"spellbook" : [
 			"bloodRitual"
 		],
 		"specialty" : {
@@ -38,12 +59,12 @@
 					"addInfo" : "creature.beBloodWraith",
 					"type" : "SPECIAL_UPGRADE"
 				},
-				"zealot" :  {
+				"zealot" : {
 					"subtype" : "creature.zealot",
 					"addInfo" : "creature.beBloodWraith",
 					"type" : "SPECIAL_UPGRADE"
 				},
-				"woodElf": {
+				"woodElf" : {
 					"subtype" : "creature.woodElf",
 					"addInfo" : "creature.beBloodWraith",
 					"type" : "SPECIAL_UPGRADE"
@@ -177,32 +198,41 @@
 					"type" : "SPECIFIC_SPELL_POWER",
 					"subtype" : "spell.bloodRitual",
 					"val" : 30,
-					"limiters" : [ 
-						{ 
-							"parameters" : [ "lich", true ], 
-							"type" : "CREATURE_TYPE_LIMITER" 
-						} 
+					"limiters" : [
+						{
+							"parameters" : [
+								"lich",
+								true
+							],
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
 					]
 				},
 				"lichBloodRitualCaster" : {
 					"type" : "SPELLCASTER",
 					"subtype" : "spell.bloodRitual",
 					"val" : 0,
-					"limiters" : [ 
-						{ 
-							"parameters" : [ "lich", true ], 
-							"type" : "CREATURE_TYPE_LIMITER" 
-						} 
+					"limiters" : [
+						{
+							"parameters" : [
+								"lich",
+								true
+							],
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
 					]
 				},
 				"lichBloodRitualCasts" : {
 					"type" : "CASTS",
 					"val" : 1,
-					"limiters" : [ 
-						{ 
-							"parameters" : [ "lich", true ], 
-							"type" : "CREATURE_TYPE_LIMITER" 
-						} 
+					"limiters" : [
+						{
+							"parameters" : [
+								"lich",
+								true
+							],
+							"type" : "CREATURE_TYPE_LIMITER"
+						}
 					]
 				}
 			}

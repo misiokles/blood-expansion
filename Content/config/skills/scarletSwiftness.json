@@ -24,7 +24,9 @@
 		"basic" : {
 			"description" : "{Basic Scarlet Swiftness}\n\nIncreases speed of allied Blood Wraiths and Scarlet Wraiths by 1.",
 			"effects" : {
-				"main" : { "val" : 1 }
+				"main" : {
+					"val" : 1
+				}
 			},
 			"images" : {
 				"small" : "skills/scarletSwiftness/smallBasic",
@@ -36,7 +38,9 @@
 		"advanced" : {
 			"description" : "{Advanced Scarlet Swiftness}\n\nIncreases speed of allied Blood Wraiths and Scarlet Wraiths by 2.",
 			"effects" : {
-				"main" : { "val" : 2 }
+				"main" : {
+					"val" : 2
+				}
 			},
 			"images" : {
 				"small" : "skills/scarletSwiftness/smallAdvanced",
@@ -48,7 +52,9 @@
 		"expert" : {
 			"description" : "{Expert Scarlet Swiftness}\n\nIncreases speed of allied Blood Wraiths and Scarlet Wraiths by 4.",
 			"effects" : {
-				"main" : { "val" : 4 }
+				"main" : {
+					"val" : 4
+				}
 			},
 			"images" : {
 				"small" : "skills/scarletSwiftness/smallExpert",

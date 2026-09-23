@@ -1,154 +1,154 @@
 {
-	"bloodConvergenceBank": {
-		"name": "Blood Convergence",
-		"handler": "configurable",
-		"types": {
-			"bloodConvergenceBank": {
-				"name": "Blood Convergence",
-				"templates": {
-					"base": {
-						"animation": "objects/dwellings/conflux/bloodConvergence",
-						"visitableFrom": [
+	"bloodConvergenceBank" : {
+		"name" : "Blood Convergence",
+		"handler" : "configurable",
+		"types" : {
+			"bloodConvergenceBank" : {
+				"name" : "Blood Convergence",
+				"templates" : {
+					"base" : {
+						"animation" : "objects/dwellings/conflux/bloodConvergence",
+						"visitableFrom" : [
 							"+++",
 							"+++",
 							"+++"
 						],
-						"mask": [
+						"mask" : [
 							"VVVV",
 							"VVVV",
 							"VVVV",
 							"VVAB"
 						],
-						"offset": {
-							"x": 0,
-							"y": -40
+						"offset" : {
+							"x" : 0,
+							"y" : -40
 						}
 					}
 				},
-				"rmg": {
-					"value": 7000,
-					"rarity": 70
+				"rmg" : {
+					"value" : 7000,
+					"rarity" : 70
 				},
-				"visitMode": "unlimited",
-				"selectMode": "selectFirst",
-				"onGuardedMessage": 32,
-				"onVisitedMessage": 33,
-				"guardsLayout": "creatureBankWide",
-				"rewards": [
+				"visitMode" : "unlimited",
+				"selectMode" : "selectFirst",
+				"onGuardedMessage" : 32,
+				"onVisitedMessage" : 33,
+				"guardsLayout" : "creatureBankWide",
+				"rewards" : [
 					{
-						"message": 34,
-						"appearChance": {
-							"min": 0,
-							"max": 45
+						"message" : 34,
+						"appearChance" : {
+							"min" : 0,
+							"max" : 45
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 1,
-								"type": "beBloodPhoenix"
+								"amount" : 1,
+								"type" : "beBloodPhoenix"
 							},
 							{
-								"amount": 1,
-								"type": "beBloodPhoenix"
+								"amount" : 1,
+								"type" : "beBloodPhoenix"
 							},
 							{
-								"amount": 2,
-								"type": "beBloodElemental"
+								"amount" : 2,
+								"type" : "beBloodElemental"
 							},
 							{
-								"amount": 4,
-								"type": "beBloodElemental"
+								"amount" : 4,
+								"type" : "beBloodElemental"
 							},
 							{
-								"amount": 5,
-								"type": "beBloodElemental"
+								"amount" : 5,
+								"type" : "beBloodElemental"
 							}
 						],
-						"resources": {
-							"gold": -3500,
-							"bloodCrystal": -280
+						"resources" : {
+							"gold" : -3500,
+							"bloodCrystal" : -280
 						},
-						"creatures": [
+						"creatures" : [
 							{
-								"amount": 2,
-								"type": "beBloodElemental"
+								"amount" : 2,
+								"type" : "beBloodElemental"
 							}
 						]
 					},
 					{
-						"message": 34,
-						"appearChance": {
-							"min": 46,
-							"max": 80
+						"message" : 34,
+						"appearChance" : {
+							"min" : 46,
+							"max" : 80
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 2,
-								"type": "beBloodPhoenix"
+								"amount" : 2,
+								"type" : "beBloodPhoenix"
 							},
 							{
-								"amount": 2,
-								"type": "beBloodPhoenix"
+								"amount" : 2,
+								"type" : "beBloodPhoenix"
 							},
 							{
-								"amount": 5,
-								"type": "beBloodElemental"
+								"amount" : 5,
+								"type" : "beBloodElemental"
 							},
 							{
-								"amount": 5,
-								"type": "beBloodElemental"
+								"amount" : 5,
+								"type" : "beBloodElemental"
 							},
 							{
-								"amount": 7,
-								"type": "beBloodElemental"
+								"amount" : 7,
+								"type" : "beBloodElemental"
 							}
 						],
-						"resources": {
-							"gold": -8750,
-							"bloodCrystal": -700
+						"resources" : {
+							"gold" : -8750,
+							"bloodCrystal" : -700
 						},
-						"creatures": [
+						"creatures" : [
 							{
-								"amount": 5,
-								"type": "beBloodElemental"
+								"amount" : 5,
+								"type" : "beBloodElemental"
 							}
 						]
 					},
 					{
-						"message": 34,
-						"appearChance": {
-							"min": 81,
-							"max": 100
+						"message" : 34,
+						"appearChance" : {
+							"min" : 81,
+							"max" : 100
 						},
-						"guards": [
+						"guards" : [
 							{
-								"amount": 4,
-								"type": "beBloodPhoenix"
+								"amount" : 4,
+								"type" : "beBloodPhoenix"
 							},
 							{
-								"amount": 5,
-								"type": "beBloodPhoenix"
+								"amount" : 5,
+								"type" : "beBloodPhoenix"
 							},
 							{
-								"amount": 7,
-								"type": "beBloodElemental"
+								"amount" : 7,
+								"type" : "beBloodElemental"
 							},
 							{
-								"amount": 10,
-								"type": "beBloodElemental"
+								"amount" : 10,
+								"type" : "beBloodElemental"
 							},
 							{
-								"amount": 15,
-								"type": "beBloodElemental"
+								"amount" : 15,
+								"type" : "beBloodElemental"
 							}
 						],
-						"resources": {
-							"gold": -17500,
-							"bloodCrystal": -1400
+						"resources" : {
+							"gold" : -17500,
+							"bloodCrystal" : -1400
 						},
-						"creatures": [
+						"creatures" : [
 							{
-								"amount": 10,
-								"type": "beBloodElemental"
+								"amount" : 10,
+								"type" : "beBloodElemental"
 							}
 						]
 					}

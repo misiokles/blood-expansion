@@ -1,28 +1,28 @@
 {
-  "name": "Yakus Scarlet Sacrifice Bonus — 0%",
-  "description": "Yakus's specialty description with Scarlet Sacrifice at 0% and Blood Offering at 5% per hero level.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "russian": {
-    "name": "Якус — бонус Алой Жертвы — 0%",
-    "description": "Описание специализации Якуса с бонусом Алой Жертвы 0% и Кровавого Подношения 5% за каждый уровень героя.",
-    "translations": [
-      "translation/russian.json"
-    ]
-  },
-  "keepDisabled": true,
-  "heroes": [
-    "config/heroes/necropolis/yakus.json"
-  ],
-  "softDepends": [
-    "blood-expansion"
-  ],
-  "conflicts": [
-    "blood-expansion.balance-patches.yakus-balance-patches.scarlet-sacrifice.patch-1",
-    "blood-expansion.balance-patches.yakus-balance-patches.scarlet-sacrifice.patch-2",
-    "blood-expansion.balance-patches.yakus-balance-patches.scarlet-sacrifice.patch-3",
-    "blood-expansion.balance-patches.yakus-balance-patches.scarlet-sacrifice.patch-4",
-    "blood-expansion.balance-patches.yakus-balance-patches.scarlet-sacrifice.patch-5"
-  ]
+	"name" : "Yakus Scarlet Sacrifice Bonus — 0%",
+	"description" : "Yakus's specialty description with Scarlet Sacrifice at 0% and Blood Offering at 5% per hero level.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"russian" : {
+		"name" : "Якус — бонус Алой Жертвы — 0%",
+		"description" : "Описание специализации Якуса с бонусом Алой Жертвы 0% и Кровавого Подношения 5% за каждый уровень героя.",
+		"translations" : [
+			"translation/russian.json"
+		]
+	},
+	"keepDisabled" : true,
+	"heroes" : [
+		"config/heroes/necropolis/yakus.json"
+	],
+	"softDepends" : [
+		"blood-expansion"
+	],
+	"conflicts" : [
+		"blood-expansion.balance-patches.yakus-balance-patches.scarlet-sacrifice.patch-1",
+		"blood-expansion.balance-patches.yakus-balance-patches.scarlet-sacrifice.patch-2",
+		"blood-expansion.balance-patches.yakus-balance-patches.scarlet-sacrifice.patch-3",
+		"blood-expansion.balance-patches.yakus-balance-patches.scarlet-sacrifice.patch-4",
+		"blood-expansion.balance-patches.yakus-balance-patches.scarlet-sacrifice.patch-5"
+	]
 }

@@ -1,12 +1,12 @@
 {
-  "images": [
-    {
-      "frame": 0,
-      "file": "spellSchools/blood/bookmarks/bloodBookmark02.png"
-    },
-    {
-      "frame": 1,
-      "file": "spellSchools/blood/bookmarks/bloodBookmark01.png"
-    }
-  ]
+	"images" : [
+		{
+			"frame" : 0,
+			"file" : "spellSchools/blood/bookmarks/bloodBookmark02.png"
+		},
+		{
+			"frame" : 1,
+			"file" : "spellSchools/blood/bookmarks/bloodBookmark01.png"
+		}
+	]
 }

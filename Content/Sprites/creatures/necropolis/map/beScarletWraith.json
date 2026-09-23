@@ -1,21 +1,21 @@
 {
-  "type": 67,
-  "format": 0,
-  "fullWidth": 64,
-  "fullHeight": 64,
-  "basepath": "creatures/necropolis/map/beScarletWraith_map/",
-  "sequences": [
-    {
-      "group": 0,
-      "frames": [
-        "frame01.png",
-        "frame02.png",
-        "frame03.png",
-        "frame04.png",
-        "frame05.png"
-      ],
-      "generateShadow": 0,
-      "generateOverlay": 0
-    }
-  ]
+	"type" : 67,
+	"format" : 0,
+	"fullWidth" : 64,
+	"fullHeight" : 64,
+	"basepath" : "creatures/necropolis/map/beScarletWraith_map/",
+	"sequences" : [
+		{
+			"group" : 0,
+			"frames" : [
+				"frame01.png",
+				"frame02.png",
+				"frame03.png",
+				"frame04.png",
+				"frame05.png"
+			],
+			"generateShadow" : 0,
+			"generateOverlay" : 0
+		}
+	]
 }

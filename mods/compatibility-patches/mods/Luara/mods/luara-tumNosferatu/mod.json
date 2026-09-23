@@ -1,17 +1,17 @@
 {
-  "name": "Luara: Third Upgrades (tumNosferatu)",
-  "description": "Upgrade tumNosferatu (third upgrade of Nosferatu) into Bloody Mistresses.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "third-upgrades"
-  ],
-  "heroes": [
-    "config/luara.json"
-  ],
-  "russian": {
-    "name": "Луара: Третий Уровень Улучшений (tumNosferatu)",
-    "description": "Улучшает tumNosferatu (третий уровень Носферату) в Кровавых Госпож."
-  }
+	"name" : "Luara: Third Upgrades (tumNosferatu)",
+	"description" : "Upgrade tumNosferatu (third upgrade of Nosferatu) into Bloody Mistresses.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"third-upgrades"
+	],
+	"heroes" : [
+		"config/luara.json"
+	],
+	"russian" : {
+		"name" : "Луара: Третий Уровень Улучшений (tumNosferatu)",
+		"description" : "Улучшает tumNosferatu (третий уровень Носферату) в Кровавых Госпож."
+	}
 }
