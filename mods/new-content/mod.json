@@ -1,0 +1,11 @@
+{
+  "name": "Новый контент",
+  "description": "Дополнительный новый контент Blood Expansion.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "russian": {
+    "name": "Новый контент",
+    "description": "Дополнительный новый контент Blood Expansion."
+  }
+}

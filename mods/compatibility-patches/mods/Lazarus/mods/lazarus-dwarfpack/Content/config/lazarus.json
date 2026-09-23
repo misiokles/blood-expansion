@@ -1,0 +1,33 @@
+{
+  "blood-expansion:lazarus": {
+    "specialty": {
+      "bonuses": {
+        "upgradeRaDwarfberserk": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "raDwarfberserk",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeRaDwarCrossbowman": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "raDwarCrossbowman",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeRaDwarfGuard": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "raDwarfGuard",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeRaDwarfsaboteur": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "raDwarfsaboteur",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeRaDwarfShaman": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "raDwarfShaman",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
+}

@@ -1,151 +1,151 @@
 {
-	"bloodResidence" : {
-		"name" : "Blood Residence",
-		"handler" : "configurable",
-		"types" : {
-			"bloodResidence" : {
-				"name" : "Blood Residence",
-				"templates" : {
-					"base" : {
-						"animation" : "objects/banks/BloodResidence",
-						"visitableFrom" : [
+	"bloodResidence": {
+		"name": "Blood Residence",
+		"handler": "configurable",
+		"types": {
+			"bloodResidence": {
+				"name": "Blood Residence",
+				"templates": {
+					"base": {
+						"animation": "objects/banks/BloodResidence",
+						"visitableFrom": [
 							"+++",
 							"+++",
 							"+++"
 						],
-						"mask" : [
+						"mask": [
 							"VVV",
 							"VVV",
 							"VAB"
 						]
 					}
 				},
-				"rmg" : {
-					"value" : 5500,
-					"rarity" : 60
+				"rmg": {
+					"value": 1600,
+					"rarity": 80,
+					"zoneLimit": 3
 				},
-				"visitMode" : "once",
-				"selectMode" : "selectFirst",
-				"onGuardedMessage" : 32,
-				"onVisitedMessage" : 33,
-				"guardsLayout" : "creatureBankWide",
-
-				"rewards" : [
+				"visitMode": "once",
+				"selectMode": "selectFirst",
+				"onGuardedMessage": 32,
+				"onVisitedMessage": 33,
+				"guardsLayout": "creatureBankWide",
+				"rewards": [
 					{
-						"message" : 34,
-						"appearChance" : {
-							"min" : 0,
-							"max" : 45
+						"message": 34,
+						"appearChance": {
+							"min": 0,
+							"max": 45
 						},
-						"guards" : [
+						"guards": [
 							{
-								"amount" : 30,
-								"type" : "beBloodSkeleton"
+								"amount": 30,
+								"type": "beBloodSkeleton"
 							},
 							{
-								"amount" : 40,
-								"type" : "beBloodSkeleton"
+								"amount": 40,
+								"type": "beBloodSkeleton"
 							},
 							{
-								"amount" : 15,
-								"type" : "beBloodWraith"
+								"amount": 15,
+								"type": "beBloodWraith"
 							},
 							{
-								"amount" : 10,
-								"type" : "vampireLord"
+								"amount": 10,
+								"type": "vampireLord"
 							},
 							{
-								"amount" : 5,
-								"type" : "beBloodyMistress"
+								"amount": 5,
+								"type": "beBloodyMistress"
 							}
 						],
-						"resources" : {
-							"gold" : 2500
+						"resources": {
+							"gold": 2500
 						},
-						"creatures" : [
+						"creatures": [
 							{
-								"amount" : 5,
-								"type" : "beBloodyMistress"
+								"amount": 5,
+								"type": "beBloodyMistress"
 							}
 						]
 					},
 					{
-						"message" : 34,
-						"appearChance" : {
-							"min" : 46,
-							"max" : 80
+						"message": 34,
+						"appearChance": {
+							"min": 46,
+							"max": 80
 						},
-						"guards" : [
+						"guards": [
 							{
-								"amount" : 15,
-								"type" : "beBloodWraith"
+								"amount": 15,
+								"type": "beBloodWraith"
 							},
 							{
-								"amount" : 20,
-								"type" : "beBloodWraith"
+								"amount": 20,
+								"type": "beBloodWraith"
 							},
 							{
-								"amount" : 10,
-								"type" : "vampireLord"
+								"amount": 10,
+								"type": "vampireLord"
 							},
 							{
-								"amount" : 10,
-								"type" : "vampireLord"
+								"amount": 10,
+								"type": "vampireLord"
 							},
 							{
-								"amount" : 10,
-								"type" : "beBloodyMistress"
+								"amount": 10,
+								"type": "beBloodyMistress"
 							}
 						],
-						"resources" : {
-							"gold" : 5000
+						"resources": {
+							"gold": 5000
 						},
-						"creatures" : [
+						"creatures": [
 							{
-								"amount" : 10,
-								"type" : "beBloodyMistress"
+								"amount": 10,
+								"type": "beBloodyMistress"
 							}
 						]
 					},
 					{
-						"message" : 34,
-						"appearChance" : {
-							"min" : 81,
-							"max" : 100
+						"message": 34,
+						"appearChance": {
+							"min": 81,
+							"max": 100
 						},
-						"guards" : [
+						"guards": [
 							{
-								"amount" : 50,
-								"type" : "beBloodWraith"
+								"amount": 50,
+								"type": "beBloodWraith"
 							},
 							{
-								"amount" : 30,
-								"type" : "vampireLord"
+								"amount": 30,
+								"type": "vampireLord"
 							},
 							{
-								"amount" : 20,
-								"type" : "beBloodyMistress"
+								"amount": 20,
+								"type": "beBloodyMistress"
 							},
 							{
-								"amount" : 20,
-								"type" : "beBloodyMistress"
+								"amount": 20,
+								"type": "beBloodyMistress"
 							},
 							{
-								"amount" : 15,
-								"type" : "beBloodyMistress"
+								"amount": 15,
+								"type": "beBloodyMistress"
 							},
 							{
-								"amount" : 15,
-								"type" : "beBloodyMistress"
+								"amount": 15,
+								"type": "beBloodyMistress"
 							}
 						],
-						"resources" : {
-							"gold" : 15000
+						"resources": {
+							"gold": 15000
 						},
-						"creatures" : [
+						"creatures": [
 							{
-								"amount" : 50,
-								"type" : "beBloodyMistress"
+								"amount": 50,
+								"type": "beBloodyMistress"
 							}
 						]
 					}

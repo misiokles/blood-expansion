@@ -1,0 +1,12 @@
+{
+  "name": "Yakus Balance Patches",
+  "description": "Balance patches for Yakus's hero specialty. Choose one patch for Scarlet Sacrifice and/or one patch for Blood Offering.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "keepDisabled": true,
+  "russian": {
+    "name": "Якус — патчи баланса",
+    "description": "Патчи баланса специализации Якуса. Можно выбрать по одному патчу для Алой Жертвы и/или Кровавого Подношения."
+  }
+}

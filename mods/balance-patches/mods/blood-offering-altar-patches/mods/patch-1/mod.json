@@ -1,0 +1,26 @@
+{
+  "name": "Blood Offering Altar Balance Patch 1",
+  "description": "Blood Offering Altar bonus: +5%.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "russian": {
+    "name": "Алтарь Кровавого Подношения — патч 1",
+    "description": "Бонус Алтаря Кровавого Подношения: +5%.",
+    "translations": [
+      "translation/russian.json"
+    ]
+  },
+  "conflicts": [
+    "blood-expansion.balance-patches.blood-offering-altar-patches.patch-2",
+    "blood-expansion.balance-patches.blood-offering-altar-patches.patch-3",
+    "blood-expansion.balance-patches.blood-offering-altar-patches.patch-4"
+  ],
+  "keepDisabled": true,
+  "objects": [
+    "config/objects/mines/bloodOfferingAltar.json"
+  ],
+  "softDepends": [
+    "blood-expansion"
+  ]
+}

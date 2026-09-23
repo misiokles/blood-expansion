@@ -1,95 +1,91 @@
 {
-	"vallorn" : {
-		"class" : "cleric",
-		"female" : false,
-		"texts" : {
-			"name" : "Vallorn",
-			"biography" : "Vallorn was once a radiant Angel who fell into the crimson rites of blood magic. Shrouded in a hood that hides his face, only strands of silver-white hair escape the darkness. He discovered how to transmute pure celestial beings into Blood Angels and taught them to call the scarlet flocks from the dead.",
-			"specialty" : {
-				"description" : "{Angel / Archangel}\r\n\r\nCan upgrade Angels and Archangels into Blood Angels. Blood Angels under Vallorn gain the ability to cast Call the Birds.\r\n\r\nReceives a 5% per level bonus to Feast for the Birds skill percentage.",
-				"tooltip" : "Upgrades Angels to Blood Angels, grants them Call the Birds; +5% per level to Feast for the Birds",
-				"name" : "Blood Halo"
-			}
-		},
-		"images" : {
-			"large" : "heroes/castle/vallorn/vallorn_portrait_large.png",
-			"small" : "heroes/castle/vallorn/vallorn_portrait_small.png",
-			"specialtyLarge" : "heroes/castle/vallorn/vallornSpecL.png",
-			"specialtySmall" : "heroes/castle/vallorn/vallornSpecS.png"
-		},
-		"army" : [
-			{
-				"creature" : "beBloodAngel",
-				"min" : 1,
-				"max" : 1
-			},
-			{
-				"creature" : "angel",
-				"min" : 1,
-				"max" : 2
-			},
-			{
-				"creature" : "beScarletBirds",
-				"min" : 10,
-				"max" : 17
-			}
-		],
-		"skills" : [
-			{
-				"skill" : "wisdom",
-				"level" : "advanced"
-			},
-			{
-				"skill" : "intelligence",
-				"level" : "basic"
-			},
-			{
-				"skill" : "birdFeast",
-				"level" : "basic"
-			}
-		],
-		"spellbook" : [
-			"callTheBirds"
-		],
-		"specialty" : {
-			"secondary" : "birdFeast",
-			"bonuses" : {
-				"angelToBlood" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "angel",
-					"addInfo" : "beBloodAngel"
-				},
-				"archangelToBlood" : {
-					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "archangel",
-					"addInfo" : "beBloodAngel"
-				},
-				"bloodAngelCallBirds" : {
-					"type" : "SPELLCASTER",
-					"subtype" : "spell.callTheBirds",
-					"val" : 0,
-					"limiters" : [
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [
-								"beBloodAngel"
-							]
-						}
-					]
-				},
-				"bloodAngelCallBirdsCasts" : {
-					"type" : "CASTS",
-					"val" : 1,
-					"limiters" : [
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [
-								"beBloodAngel"
-							]
-						}
-					]
-				}
-			}
-		}
-	}
+  "vallorn": {
+    "class": "cleric",
+    "female": false,
+    "texts": {
+      "name": "Vallorn",
+      "biography": "Vallorn was once a radiant Angel who fell into the crimson rites of blood magic. Shrouded in a hood that hides his face, only strands of silver-white hair escape the darkness. He discovered how to transmute pure celestial beings into Blood Angels and taught them to call the scarlet flocks from the dead.",
+      "specialty": {
+        "description": "{Angel / Archangel}\r\n\r\nCan upgrade Angels and Archangels into Blood Angels. Blood Angels under Vallorn gain the ability to cast Call the Birds.\r\n\r\nReceives a 5% per level bonus to Feast for the Birds skill percentage.",
+        "tooltip": "Upgrades Angels to Blood Angels, grants them Call the Birds; +5% per level to Feast for the Birds",
+        "name": "Blood Halo"
+      }
+    },
+    "images": {
+      "large": "heroes/castle/vallorn/vallorn_portrait_large.png",
+      "small": "heroes/castle/vallorn/vallorn_portrait_small.png",
+      "specialtyLarge": "heroes/castle/vallorn/vallornSpecL.png",
+      "specialtySmall": "heroes/castle/vallorn/vallornSpecS.png"
+    },
+    "army": [
+      {
+        "creature": "beBloodAngel",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "creature": "angel",
+        "min": 1,
+        "max": 2
+      },
+      {
+        "creature": "beScarletBirds",
+        "min": 10,
+        "max": 17
+      }
+    ],
+    "skills": [
+      {
+        "skill": "wisdom",
+        "level": "advanced"
+      },
+      {
+        "skill": "intelligence",
+        "level": "basic"
+      },
+      {
+        "skill": "birdFeast",
+        "level": "basic"
+      }
+    ],
+    "spellbook": [
+      "callTheBirds"
+    ],
+    "specialty": {
+      "secondary": "birdFeast",
+      "bonuses": {
+        "angelToBlood": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "angel",
+          "addInfo": "beBloodAngel"
+        },
+        "archangelToBlood": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "archangel",
+          "addInfo": "beBloodAngel"
+        },
+        "bloodAngelCallBirds": {
+          "type": "SPELLCASTER",
+          "subtype": "spell.callTheBirds",
+          "val": 0,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": ["beBloodAngel"]
+            }
+          ]
+        },
+        "bloodAngelCallBirdsCasts": {
+          "type": "CASTS",
+          "val": 1,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": ["beBloodAngel"]
+            }
+          ]
+        }
+      }
+    }
+  }
 }

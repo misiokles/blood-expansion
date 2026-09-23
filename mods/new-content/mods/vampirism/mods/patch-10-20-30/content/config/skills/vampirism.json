@@ -1,0 +1,61 @@
+{
+  "vampirism": {
+    "name": "Vampirism",
+    "gainChance": {
+      "might": 1,
+      "magic": 1
+    },
+    "specialty": [
+      "main"
+    ],
+    "base": {
+      "effects": {
+        "main": {
+          "type": "LIFE_DRAIN"
+        }
+      }
+    },
+    "basic": {
+      "images": {
+        "small": "skills/vampirism/bsmall",
+        "medium": "skills/vampirism/bmedium",
+        "large": "skills/vampirism/blarge",
+        "scenarioBonus": "skills/vampirism/blargebonus"
+      },
+      "description": "{Basic Vampirism}\n\nWhen attacking a living enemy, Vampirism restores health equal to 10% of the damage dealt.",
+      "effects": {
+        "main": {
+          "val": 10
+        }
+      }
+    },
+    "advanced": {
+      "images": {
+        "small": "skills/vampirism/asmall",
+        "medium": "skills/vampirism/amedium",
+        "large": "skills/vampirism/alarge",
+        "scenarioBonus": "skills/vampirism/alargebonus"
+      },
+      "description": "{Advanced Vampirism}\n\nWhen attacking a living enemy, Vampirism restores health equal to 20% of the damage dealt.",
+      "effects": {
+        "main": {
+          "val": 20
+        }
+      }
+    },
+    "expert": {
+      "images": {
+        "small": "skills/vampirism/esmall",
+        "medium": "skills/vampirism/emedium",
+        "large": "skills/vampirism/elarge",
+        "scenarioBonus": "skills/vampirism/elargebonus"
+      },
+      "description": "{Expert Vampirism}\n\nWhen attacking a living enemy, Vampirism restores health equal to 30% of the damage dealt.",
+      "effects": {
+        "main": {
+          "val": 30
+        }
+      }
+    }
+  }
+}

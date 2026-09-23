@@ -1,0 +1,17 @@
+{
+  "name": "Gertiz: Third Upgrades",
+  "description": "Third Upgrades (tumSpecter) → Blood Wraith",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "third-upgrades"
+  ],
+  "heroes": [
+    "config/gertiz.json"
+  ],
+  "russian": {
+    "name": "Гертиз + Третий Уровень Улучшений",
+    "description": "Улучшает Спектров (tumSpecter) в Кровавых Призраков."
+  }
+}

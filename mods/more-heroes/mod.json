@@ -1,0 +1,12 @@
+{
+  "name": "More Heroes",
+  "description": "Changes the per-player hero limits. Enable one map limit patch and/or one total limit patch.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "keepDisabled": true,
+  "russian": {
+    "name": "Больше героев",
+    "description": "Изменяет лимиты героев на игрока. Можно выбрать один патч лимита героев на карте и/или один патч общего лимита."
+  }
+}

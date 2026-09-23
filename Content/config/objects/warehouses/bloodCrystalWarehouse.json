@@ -1,0 +1,53 @@
+{
+  "bloodCrystalWarehouse": {
+    "name": "Склад Кровавого Кристалла",
+    "handler": "configurable",
+    "types": {
+      "bloodCrystalWarehouse": {
+        "name": "Склад Кровавого Кристалла",
+        "rmg": {
+          "value": 2500,
+          "rarity": 25,
+          "zoneLimit": 1
+        },
+        "sounds": {
+          "ambient": [
+            "WRHSCRST"
+          ],
+          "visit": [
+            "WERHOUSE"
+          ]
+        },
+        "rewards": [
+          {
+            "resources": {
+              "bloodCrystal": 1000
+            },
+            "message": "{Склад Кровавого Кристалла}\r\n\r\nХранитель склада говорит вам: «Мой Лорд, я собрал для вас весь Кровавый Кристалл из ближайших точек производства. Возвращайтесь на следующей неделе за новой партией!»"
+          }
+        ],
+        "onVisitedMessage": "{Склад Кровавого Кристалла}\r\n\r\n«Прошу прощения, Милорд. Кровавого Кристалла здесь нет. Возвращайтесь на следующей неделе!»",
+        "resetParameters": {
+          "period": 7,
+          "visitors": true
+        },
+        "visitMode": "once",
+        "templates": {
+          "bloodCrystalWarehouse": {
+            "animation": "objects/Warehouse/bloodCrystalWarehouse/bloodCrystalWarehouse",
+            "visitableFrom": [
+              "---",
+              "-++",
+              "+++"
+            ],
+            "mask": [
+              "VVV",
+              "VVV",
+              "VBA"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "More Heroes Map hero limit Patch 5",
+  "description": "The per-player hero limit on the map is increased from 8 to 20.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "keepDisabled": true,
+  "russian": {
+    "name": "Больше героев — Лимит героев на карте — патч 5",
+    "description": "Лимит героев одного игрока на карте увеличивается с 8 до 20."
+  },
+  "settings": {
+    "heroes": {
+      "perPlayerOnMapCap": 20
+    }
+  },
+  "conflicts": [
+    "blood-expansion.more-heroes.map-limit.patch-1",
+    "blood-expansion.more-heroes.map-limit.patch-2",
+    "blood-expansion.more-heroes.map-limit.patch-3",
+    "blood-expansion.more-heroes.map-limit.patch-4",
+    "blood-expansion.more-heroes.map-limit.patch-6"
+  ]
+}

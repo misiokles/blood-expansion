@@ -1,0 +1,12 @@
+{
+  "name": "Blood Offering Altar Balance Patches",
+  "description": "Balance patches for the Blood Offering Altar. Enable one patch inside this tab.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "russian": {
+    "name": "Алтарь Кровавого Подношения — патчи баланса",
+    "description": "Патчи баланса для Алтаря Кровавого Подношения. Включите один патч внутри этой вкладки."
+  },
+  "keepDisabled": true
+}

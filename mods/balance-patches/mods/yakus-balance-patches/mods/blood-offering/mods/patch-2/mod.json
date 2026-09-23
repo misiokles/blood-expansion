@@ -1,0 +1,27 @@
+{
+  "name": "Yakus Blood Offering Balance Patch 2",
+  "description": "Yakus's specialty description with Scarlet Sacrifice at 10% and Blood Offering at 15% per hero level.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "keepDisabled": true,
+  "russian": {
+    "name": "Якус — Кровавое Подношение — патч 2",
+    "description": "Описание специализации Якуса с бонусом Алой Жертвы 10% и Кровавого Подношения 15% за каждый уровень героя.",
+    "translations": [
+      "translation/russian.json"
+    ]
+  },
+  "heroes": [
+    "config/heroes/necropolis/yakus.json"
+  ],
+  "softDepends": [
+    "blood-expansion"
+  ],
+  "conflicts": [
+    "blood-expansion.balance-patches.yakus-balance-patches.blood-offering.patch-1",
+    "blood-expansion.balance-patches.yakus-balance-patches.blood-offering.patch-3",
+    "blood-expansion.balance-patches.yakus-balance-patches.blood-offering.patch-4",
+    "blood-expansion.balance-patches.yakus-balance-patches.blood-offering.patch-5"
+  ]
+}

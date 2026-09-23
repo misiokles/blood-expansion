@@ -1,0 +1,13 @@
+{
+  "blood-expansion:lazarus": {
+    "specialty": {
+      "bonuses": {
+        "upgradeWwickedWitch": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "wwickedWitch",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
+}

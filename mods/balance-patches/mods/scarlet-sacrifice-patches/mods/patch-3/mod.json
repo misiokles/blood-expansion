@@ -1,0 +1,25 @@
+{
+  "name": "Scarlet Sacrifice Balance Patch 3",
+  "description": "Scarlet Sacrifice values: 125/175/250.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "russian": {
+    "name": "Алая Жертва — патч 3",
+    "description": "Значения Алой Жертвы: 125/175/250.",
+    "translations": [
+      "translation/russian.json"
+    ]
+  },
+  "conflicts": [
+    "blood-expansion.balance-patches.scarlet-sacrifice-patches.patch-1",
+    "blood-expansion.balance-patches.scarlet-sacrifice-patches.patch-2"
+  ],
+  "keepDisabled": true,
+  "skills": [
+    "config/skills/scarletSacrifice.json"
+  ],
+  "softDepends": [
+    "blood-expansion"
+  ]
+}

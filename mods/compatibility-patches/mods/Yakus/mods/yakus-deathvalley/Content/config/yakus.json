@@ -1,0 +1,28 @@
+{
+  "blood-expansion:yakus": {
+    "specialty": {
+      "bonuses": {
+        "upgradeBoneHook": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "boneHook",
+          "addInfo": "beBloodSkeleton"
+        },
+        "upgradeFlayer": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "flayer",
+          "addInfo": "beBloodSkeleton"
+        },
+        "upgradeSkel1": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "skel1",
+          "addInfo": "beBloodSkeleton"
+        },
+        "upgradeSkel2": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "skel2",
+          "addInfo": "beBloodSkeleton"
+        }
+      }
+    }
+  }
+}

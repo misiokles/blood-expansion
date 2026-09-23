@@ -1,180 +1,181 @@
 {
-	"core:mine" : {
-		"types" : {
-			"bloodFields" : {
-				"name" : "Blood Fields",
-				"description" : "{Blood Fields}\n\nYou gain control of the Blood Fields. They will provide you with 100 Blood Crystal per day.",
-				"aiValue" : 1400,
-				"rmg" : {
-					"value" : 1400,
-					"rarity" : 80
-				},
-				"sounds" : {
-					"ambient" : [
-						"LOOPLUMB"
-					]
-				},
-				"resource" : "bloodCrystal",
-				"defaultQuantity" : 100,
-				"guards" : [
-					{
-						"amount" : 20,
-						"type" : "beScarletBirds",
-						"upgradeChance" : 0
-					},
-					{
-						"amount" : 30,
-						"type" : "beBloodSkeleton",
-						"upgradeChance" : 0
-					},
-					{
-						"amount" : 45,
-						"type" : "beBloodSkeleton",
-						"upgradeChance" : 0
-					},
-					{
-						"amount" : 10,
-						"type" : "beBloodWraith",
-						"upgradeChance" : 0
-					},
-					{
-						"amount" : 15,
-						"type" : "beBloodWraith",
-						"upgradeChance" : 0
-					}
-				],
-				"onGuardedMessage" : "Too much blood has been spilled on these fields. Those to whom it belonged are not ready to give it to you. Are you ready to fight the fallen?",
-				"templates" : {
-					"grass" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+-+",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"grass"
-						]
-					},
-					"dirt" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+-+",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"dirt"
-						]
-					},
-					"sand" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+-+",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
-					},
-					"snow" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+-+",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"snow"
-						]
-					},
-					"rough" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+-+",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"rough"
-						]
-					},
-					"swamp" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+-+",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"swamp"
-						]
-					},
-					"lava" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+-+",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"lava"
-						]
-					},
-					"subterra" : {
-						"animation" : "objects/bloodFields/bloodFields",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"+-+",
-							"+++"
-						],
-						"allowedTerrains" : [
-							"subterra"
-						]
-					}
-				}
-			}
-		}
-	}
+  "core:mine": {
+    "types": {
+      "bloodFields": {
+        "name": "Blood Fields",
+        "description": "{Blood Fields}\r\n\r\nBy capturing this object, you gain 100 Blood Crystal per day.",
+        "aiValue": 1900,
+        "rmg": {
+          "value": 1900,
+          "rarity": 70,
+          "zoneLimit": 3
+        },
+        "sounds": {
+          "ambient": [
+            "LOOPLUMB"
+          ]
+        },
+        "resource": "bloodCrystal",
+        "defaultQuantity": 100,
+        "guards": [
+          {
+            "amount": 20,
+            "type": "beScarletBirds",
+            "upgradeChance": 0
+          },
+          {
+            "amount": 30,
+            "type": "beBloodSkeleton",
+            "upgradeChance": 0
+          },
+          {
+            "amount": 45,
+            "type": "beBloodSkeleton",
+            "upgradeChance": 0
+          },
+          {
+            "amount": 10,
+            "type": "beBloodWraith",
+            "upgradeChance": 0
+          },
+          {
+            "amount": 15,
+            "type": "beBloodWraith",
+            "upgradeChance": 0
+          }
+        ],
+        "onGuardedMessage": "Too much blood has been spilled on these fields. Those to whom it belonged are not ready to give it to you. Are you ready to fight the fallen?",
+        "templates": {
+          "grass": {
+            "animation": "objects/mines/bloodFields/bloodFields",
+            "mask": [
+              "VVV",
+              "VVV",
+              "VAV"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "grass"
+            ]
+          },
+          "dirt": {
+            "animation": "objects/mines/bloodFields/bloodFields",
+            "mask": [
+              "VVV",
+              "VVV",
+              "VAV"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "dirt"
+            ]
+          },
+          "sand": {
+            "animation": "objects/mines/bloodFields/bloodFields",
+            "mask": [
+              "VVV",
+              "VVV",
+              "VAV"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "sand"
+            ]
+          },
+          "snow": {
+            "animation": "objects/mines/bloodFields/bloodFields",
+            "mask": [
+              "VVV",
+              "VVV",
+              "VAV"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "snow"
+            ]
+          },
+          "rough": {
+            "animation": "objects/mines/bloodFields/bloodFields",
+            "mask": [
+              "VVV",
+              "VVV",
+              "VAV"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "rough"
+            ]
+          },
+          "swamp": {
+            "animation": "objects/mines/bloodFields/bloodFields",
+            "mask": [
+              "VVV",
+              "VVV",
+              "VAV"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "swamp"
+            ]
+          },
+          "lava": {
+            "animation": "objects/mines/bloodFields/bloodFields",
+            "mask": [
+              "VVV",
+              "VVV",
+              "VAV"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "lava"
+            ]
+          },
+          "subterra": {
+            "animation": "objects/mines/bloodFields/bloodFields",
+            "mask": [
+              "VVV",
+              "VVV",
+              "VAV"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "subterra"
+            ]
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,0 +1,15 @@
+{
+  "sequences": [
+    {
+      "group": 0,
+      "frames": [
+        "000.png",
+        "001.png",
+        "002.png",
+        "001.png",
+        "000.png"
+      ]
+    }
+  ],
+  "basepath": "objects/bloodCrystalWarehouse/frames/"
+}

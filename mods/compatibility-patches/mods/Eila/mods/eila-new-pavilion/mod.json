@@ -1,0 +1,17 @@
+{
+  "name": "Eila + Pavilion",
+  "description": "Upgrade Camel Riders/Desert Warriors, Sekhmet/Priestesses from Pavilion into Vampires / Vampire Lords.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "new-pavilion"
+  ],
+  "heroes": [
+    "config/eila.json"
+  ],
+  "russian": {
+    "name": "Эйла + Павильон",
+    "description": "Улучшает Наездников на Верблюдах/Пустынных Воинов, Сехмет/Жриц из Павильона в Вампиров / Лордов Вампиров."
+  }
+}

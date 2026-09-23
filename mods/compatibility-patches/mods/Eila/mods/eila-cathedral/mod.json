@@ -1,0 +1,17 @@
+{
+  "name": "Eila + Cathedral",
+  "description": "Upgrade Witch Hunters, Sextons, Templars (+upgrades) from Cathedral into Vampires / Vampire Lords.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "cathedral-town"
+  ],
+  "heroes": [
+    "config/eila.json"
+  ],
+  "russian": {
+    "name": "Эйла + Собор",
+    "description": "Улучшает Охотников на Ведьм, Пономарей, Тамплиеров (+улучшения) из Собора в Вампиров / Лордов Вампиров."
+  }
+}

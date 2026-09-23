@@ -1,0 +1,17 @@
+{
+  "name": "Eila + Retreat",
+  "description": "Upgrade Cultivators (3-tier), Dhuta, Snake lines from Retreat into Vampires / Vampire Lords.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "retreat-town"
+  ],
+  "heroes": [
+    "config/eila.json"
+  ],
+  "russian": {
+    "name": "Эйла + Аметист",
+    "description": "Улучшает Культиваторов (3 уровня), Дхута, Змееустов из Аметиста в Вампиров / Лордов Вампиров."
+  }
+}

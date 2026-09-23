@@ -1,0 +1,155 @@
+{
+  "bloodOfferingAltar": {
+    "name": "Blood Offering Altar",
+    "handler": "flaggable",
+    "types": {
+      "bloodOfferingAltar": {
+        "aiValue": 1400,
+        "rmg": {
+          "value": 1400,
+          "rarity": 80,
+          "zoneLimit": 2
+        },
+        "bonuses": {
+          "bloodCrystalIncome": {
+            "type": "GENERATE_RESOURCE",
+            "subtype": "bloodCrystal",
+            "val": 10,
+            "valueType": "PERCENT_TO_BASE",
+            "propagator": "PLAYER_PROPAGATOR"
+          }
+        },
+        "templates": {
+          "grass": {
+            "animation": "objects/mines/bloodOfferingAltar/bloodOfferingAltar",
+            "mask": [
+              "BBB",
+              "BBB",
+              "BAB"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "grass"
+            ]
+          },
+          "dirt": {
+            "animation": "objects/mines/bloodOfferingAltar/bloodOfferingAltar",
+            "mask": [
+              "BBB",
+              "BBB",
+              "BAB"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "dirt"
+            ]
+          },
+          "sand": {
+            "animation": "objects/mines/bloodOfferingAltar/bloodOfferingAltar",
+            "mask": [
+              "BBB",
+              "BBB",
+              "BAB"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "sand"
+            ]
+          },
+          "snow": {
+            "animation": "objects/mines/bloodOfferingAltar/bloodOfferingAltar",
+            "mask": [
+              "BBB",
+              "BBB",
+              "BAB"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "snow"
+            ]
+          },
+          "rough": {
+            "animation": "objects/mines/bloodOfferingAltar/bloodOfferingAltar",
+            "mask": [
+              "BBB",
+              "BBB",
+              "BAB"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "rough"
+            ]
+          },
+          "swamp": {
+            "animation": "objects/mines/bloodOfferingAltar/bloodOfferingAltar",
+            "mask": [
+              "BBB",
+              "BBB",
+              "BAB"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "swamp"
+            ]
+          },
+          "lava": {
+            "animation": "objects/mines/bloodOfferingAltar/bloodOfferingAltar",
+            "mask": [
+              "BBB",
+              "BBB",
+              "BAB"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "lava"
+            ]
+          },
+          "subterra": {
+            "animation": "objects/mines/bloodOfferingAltar/bloodOfferingAltar",
+            "mask": [
+              "BBB",
+              "BBB",
+              "BAB"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ],
+            "allowedTerrains": [
+              "subterra"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

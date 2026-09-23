@@ -1,0 +1,13 @@
+{
+  "blood-expansion:bloodOfferingAltar": {
+    "types": {
+      "bloodOfferingAltar": {
+        "bonuses": {
+          "bloodCrystalIncome": {
+            "val": 25
+          }
+        }
+      }
+    }
+  }
+}

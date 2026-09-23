@@ -1,0 +1,13 @@
+{
+  "blood-expansion:gertiz": {
+    "specialty": {
+      "bonuses": {
+        "upgradeWoGGhost": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "ghost",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
+}

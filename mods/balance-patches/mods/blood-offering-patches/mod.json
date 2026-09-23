@@ -1,0 +1,12 @@
+{
+  "name": "Blood Offering Balance Patches",
+  "description": "Balance patches for Blood Offering. Enable one patch inside this tab.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "russian": {
+    "name": "Кровавое Подношение — патчи баланса",
+    "description": "Патчи баланса для Кровавого Подношения. Включите один патч внутри этой вкладки."
+  },
+  "keepDisabled": true
+}

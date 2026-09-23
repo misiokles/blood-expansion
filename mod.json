@@ -1,132 +1,116 @@
 {
-	"name" : "blood-expansion-v1",
-	"description" : "Adds the Blood Wraith and its upgrade Scarlet Wraith, Blood Skeleton, Blood Angel, Civatateo, Crimson Dragon and Scarlet Birds, plus new heroes (including Alhorn, Elgron, Vallorn, Erianna, Luara, Eila and Aldiy), related content, Call the Birds spell, Feast for the Birds skill, stack experience for blood creatures and four blood dwellings. Adds Vampire Slayer skill and six new secondary skills affecting Life Drain units: Life Absorption, Thirst Exhaustion, Bloody Danger, Disarm Vampire, Vampire Defense, Break Defense. Also adds Vampire Fury, Bind Vampire's Hands, Vampire Swiftness and Shackle Vampire skills. Also adds Vampire Protection, Scarlet Heart and Bloody Exhaustion skills. Adds four new secondary skills focused on Blood Wraiths: Wraith Slayer, Blood Claws, Blood Hunger and Mana Siphon. Adds Blood Crystal resource (rebalanced: ~100 blood = 1 rare resource) and Blood Fields mine producing 100 blood/day. Adds Blood Flame Bird, Blood Phoenix (Conflux tier 7) and Blood Elemental (Conflux tier 6). Rebalanced Blood Flame Bird, Blood Phoenix and Blood Elemental. Added Blood Phoenix Pyre dwelling. Adds Create Elemental skill (raises Blood Elementals from 5/10/15% of fallen enemies). Hero specialty ability bonuses that used a flat add on percentage abilities are converted to equivalent PERCENT_TO_ALL so they scale with the creature's current ability value.",
-	"author" : "KayKrutoy & ChatGPT AI",
-	"version" : "1.2.0",
-	"modType" : "Expansion",
-	"creatures" : [
-		"config/creatures/necropolis/beBloodWraith.json",
-		"config/creatures/necropolis/beScarletWraith.json",
-		"config/creatures/necropolis/beBloodSkeleton.json",
-		"config/creatures/necropolis/beBloodyMistress.json",
-		"config/creatures/castle/beBloodAngel.json",
-		"config/creatures/castle/beScarletBirds.json",
-		"config/creatures/dungeon/beCrimsonDragon.json",
-		"config/creatures/conflux/beBloodFirebird.json",
-		"config/creatures/conflux/beBloodPhoenix.json",
-		"config/creatures/conflux/beBloodElemental.json"
-	],
-	"heroes" : [
-		"config/heroes/necropolis/grultus.json",
-		"config/heroes/necropolis/morvain.json",
-		"config/heroes/necropolis/lazarus.json",
-		"config/heroes/necropolis/yakus.json",
-		"config/heroes/necropolis/varix.json",
-		"config/heroes/necropolis/gertiz.json",
-		"config/heroes/necropolis/luara.json",
-		"config/heroes/necropolis/eila.json",
-		"config/heroes/necropolis/aldiy.json",
-		"config/heroes/castle/alhorn.json",
-		"config/heroes/castle/vallorn.json",
-		"config/heroes/castle/erianna.json",
-		"config/heroes/dungeon/elgron.json",
-		"config/heroes/conflux/larsen.json",
-		"config/heroes/conflux/alsuz.json",
-		"config/heroes/conflux/vulpiks.json"
-	],
-	"objects" : [
-		"config/objects/dwellings.json",
-		"config/objects/banks/BloodResidence.json",
-		"config/objects/banks/BloodConvergence.json",
-		"config/resources/bloodCrystal.json",
-		"config/objects/mines/bloodFields.json"
-	],
-	"skills" : [
-		"config/skills/bloodNecromancy.json",
-		"config/skills/birdFeast.json",
-		"config/skills/vampireSlayer.json",
-		"config/skills/lifeAbsorption.json",
-		"config/skills/thirstExhaustion.json",
-		"config/skills/bloodyDanger.json",
-		"config/skills/disarmVampire.json",
-		"config/skills/vampireDefense.json",
-		"config/skills/breakDefense.json",
-		"config/skills/vampireFury.json",
-		"config/skills/bindVampireHands.json",
-		"config/skills/vampireSwiftness.json",
-		"config/skills/shackleVampire.json",
-		"config/skills/vampireProtection.json",
-		"config/skills/scarletHeart.json",
-		"config/skills/bloodyExhaustion.json",
-		"config/skills/wraithSlayer.json",
-		"config/skills/bloodClaws.json",
-		"config/skills/bloodHunger.json",
-		"config/skills/manaSiphon.json",
-		"config/skills/scarletInvulnerability.json",
-		"config/skills/scarletSwiftness.json",
-		"config/skills/scarletWeakness.json",
-		"config/skills/hemomancy.json",
-		"config/skills/createElemental.json"
-	],
-	"spells" : [
-		"config/spells/bloodRitual.json",
-		"config/spells/bloodScorch.json",
-		"config/spells/callTheBirds.json",
-		"config/spells/bloodSplash.json",
-		"config/spells/bloodProtection.json",
-		"config/spells/bloodWave.json",
-		"config/spells/bloodWard.json",
-		"config/spells/bloodResurrection.json",
-		"config/spells/bloodVortex.json",
-		"config/spells/FixesOfResurrectionSpells.json"
-	],
-	"russian" : {
-		"name" : "Кровавая Экспансия",
-		"description" : "Добавляет существ: Кровавого Призрака, Кровавого Скелета, Кровавого Ангела, Кровавую Госпожу, Багрового Дракона и Алую Птицу, новых героев (включая Гертиза, Алхорна, Элгрона, Валлорна, Эрианну, Луару, Эйлу и Альдия), заклинание «Призыв Птиц», навык «Пир для Птиц», stack experience для кровавых существ и четыре кровавых жилища. Добавляет навык «Истребитель Вампиров» и шесть новых вторичных навыков, влияющих на юнитов с Высасыванием жизни: Поглощение жизни, Истощение жажды, Кровавая опасность, Обезоружить вампира, Вампирская защита, Сломление защиты. Также добавляет навыки «Вампирская Ярость», «Связать Руки Вампиру», «Вампирская стремительность» и «Сковать вампира». Также добавляет навыки «Защита Вампира», «Алое сердце» и «Кровавое Истощение». Добавляет четыре новых вторичных навыка, связанных с Кровавыми Призраками: Истребитель Призраков, Кровавые Когти, Кровавая Жажда и Сифон Маны. Добавляет ресурс «Кровавый кристалл» и шахту «Кровавые поля». Добавляет Птицу Кровавого Пламени, Кровавого феникса (Сопряжение, 7 уровень) и Кровавого элементаля (Сопряжение, 6 уровень). Добавляет навык «Создать элементаля» (поднимает Кровавых элементалей из 5/10/15% павших врагов). Бонусы специализаций героев к процентным способностям переведены с фиксированной добавки на эквивалентный PERCENT_TO_ALL.",
-		"translations" : [
-			"translation/russian.json"
-		]
-	},
-	"resources" : {
-		"bloodCrystal" : {
-			"name" : "Blood Crystal",
-			"price" : 5,
-			"images" : {
-				"small" : "resources/bloodCrystal/small",
-				"medium" : "resources/bloodCrystal/medium",
-				"large" : "resources/bloodCrystal/large"
-			}
-		}
-	},
-	"templates" : [
-		"config/rmg/hdmod/blockbuster.json",
-		"config/rmg/hdmod/jebusCross.json",
-		"config/rmg/hdmod/skirmish.json",
-		"config/rmg/hdmod/triad.json",
-		"config/rmg/hdmod/longRun.json",
-		"config/rmg/hdmod/extreme.json",
-		"config/rmg/hdmod/extreme2.json",
-		"config/rmg/hdmod/clashOfDragons.json",
-		"config/rmg/hdmod/reckless.json",
-		"config/rmg/hdmod/headquarters.json",
-		"config/rmg/hdmod/frozenDragons.json",
-		"config/rmg/hdmod/coldshadowsFantasy.json",
-		"config/rmg/hdmod/poorJebus.json",
-		"config/rmg/hdmod/oceansEleven.json",
-		"config/rmg/hdmod/panic.json",
-		"config/rmg/hdmod/roadrunner.json",
-		"config/rmg/hdmod/shaaafworld.json",
-		"config/rmg/hdmod/spider.json",
-		"config/rmg/hdmod/speed2.json",
-		"config/rmg/hdmod/superslam.json",
-		"config/rmg/hdmod/vortex.json"
-	],
-	"spellSchools" : {
-		"blood" : {
-			"name" : "Blood",
-			"schoolBookmark" : "spellSchools/blood/bookmarks/bloodSchoolBookmark.json",
-			"schoolBorders" : "spellSchools/blood/frames/bloodSchoolFrames.json",
-			"schoolHeader" : "spellSchools/blood/headers/bloodHeader.png"
-		}
-	}
+  "name": "Blood Expansion",
+  "description": "Adds the Blood Wraith and its upgrade Scarlet Wraith, Blood Skeleton, Blood Angel, Civatateo, Crimson Dragon and Scarlet Birds, plus new heroes (including Alhorn, Elgron, Vallorn, Erianna, Luara, Eila and Aldiy), related content, Call the Birds spell, Feast for the Birds skill, stack experience for blood creatures and four blood dwellings. Adds Vampire Slayer skill and six new secondary skills affecting Life Drain units: Life Absorption, Thirst Exhaustion, Bloody Danger, Disarm Vampire, Vampire Defense, Break Defense. Also adds Vampire Fury, Bind Vampire's Hands, Vampire Swiftness and Shackle Vampire skills. Also adds Vampire Protection, Scarlet Heart and Bloody Exhaustion skills. Adds four new secondary skills focused on Blood Wraiths: Wraith Slayer, Blood Claws, Blood Hunger and Mana Siphon. Adds Blood Crystal resource (rebalanced: ~100 blood = 1 rare resource) and Blood Fields mine producing 100 blood/day. Adds Blood Flame Bird, Blood Phoenix (Conflux tier 7) and Blood Elemental (Conflux tier 6). Rebalanced Blood Flame Bird, Blood Phoenix and Blood Elemental. Added Blood Phoenix Pyre dwelling. Adds Create Elemental skill (raises Blood Elementals from 5/10/15% of fallen enemies). Hero specialty ability bonuses that used a flat add on percentage abilities are converted to equivalent PERCENT_TO_ALL so they scale with the creature's current ability value. Added Scarlet Sacrifice skill (daily Blood Crystals) and Blood Offering skill (percentage Blood Crystal income bonus). Added Blood Offering Altar as a percentage-income test object.",
+  "author": "KayKrutoy & ChatGPT AI",
+  "version": "1.2.0",
+  "modType": "Expansion",
+  "compatibility": {
+    "min": "1.7.0"
+  },
+  "creatures": [
+    "config/creatures/necropolis/beBloodWraith.json",
+    "config/creatures/necropolis/beScarletWraith.json",
+    "config/creatures/necropolis/beBloodSkeleton.json",
+    "config/creatures/necropolis/beBloodyMistress.json",
+    "config/creatures/castle/beBloodAngel.json",
+    "config/creatures/castle/beScarletBirds.json",
+    "config/creatures/dungeon/beCrimsonDragon.json",
+    "config/creatures/conflux/beBloodFirebird.json",
+    "config/creatures/conflux/beBloodPhoenix.json",
+    "config/creatures/conflux/beBloodElemental.json"
+  ],
+  "heroes": [
+    "config/heroes/necropolis/grultus.json",
+    "config/heroes/necropolis/morvain.json",
+    "config/heroes/necropolis/lazarus.json",
+    "config/heroes/necropolis/yakus.json",
+    "config/heroes/necropolis/varix.json",
+    "config/heroes/necropolis/gertiz.json",
+    "config/heroes/necropolis/luara.json",
+    "config/heroes/necropolis/eila.json",
+    "config/heroes/necropolis/aldiy.json",
+    "config/heroes/castle/alhorn.json",
+    "config/heroes/castle/vallorn.json",
+    "config/heroes/castle/erianna.json",
+    "config/heroes/dungeon/elgron.json",
+    "config/heroes/conflux/larsen.json",
+    "config/heroes/conflux/alsuz.json",
+    "config/heroes/conflux/vulpiks.json"
+  ],
+  "objects": [
+    "config/objects/dwellings.json",
+    "config/objects/banks/BloodResidence.json",
+    "config/objects/banks/BloodConvergence.json",
+    "config/resources/bloodCrystal.json",
+    "config/objects/mines/bloodFields.json",
+    "config/objects/mines/bloodOfferingAltar.json",
+    "config/objects/warehouses/bloodCrystalWarehouse.json"
+  ],
+  "skills": [
+    "config/skills/bloodNecromancy.json",
+    "config/skills/birdFeast.json",
+    "config/skills/vampireSlayer.json",
+    "config/skills/lifeAbsorption.json",
+    "config/skills/thirstExhaustion.json",
+    "config/skills/bloodyDanger.json",
+    "config/skills/disarmVampire.json",
+    "config/skills/vampireDefense.json",
+    "config/skills/breakDefense.json",
+    "config/skills/vampireFury.json",
+    "config/skills/bindVampireHands.json",
+    "config/skills/vampireSwiftness.json",
+    "config/skills/shackleVampire.json",
+    "config/skills/vampireProtection.json",
+    "config/skills/scarletHeart.json",
+    "config/skills/bloodyExhaustion.json",
+    "config/skills/wraithSlayer.json",
+    "config/skills/bloodClaws.json",
+    "config/skills/bloodHunger.json",
+    "config/skills/manaSiphon.json",
+    "config/skills/scarletInvulnerability.json",
+    "config/skills/scarletSwiftness.json",
+    "config/skills/scarletWeakness.json",
+    "config/skills/hemomancy.json",
+    "config/skills/createElemental.json",
+    "config/skills/scarletSacrifice.json",
+    "config/skills/bloodOffering.json"
+  ],
+  "spells": [
+    "config/spells/bloodRitual.json",
+    "config/spells/bloodScorch.json",
+    "config/spells/callTheBirds.json",
+    "config/spells/bloodSplash.json",
+    "config/spells/bloodProtection.json",
+    "config/spells/bloodWave.json",
+    "config/spells/bloodWard.json",
+    "config/spells/bloodResurrection.json",
+    "config/spells/bloodVortex.json",
+    "config/spells/FixesOfResurrectionSpells.json"
+  ],
+  "russian": {
+    "name": "Кровавая Экспансия",
+    "description": "Добавляет существ: Кровавого Призрака, Кровавого Скелета, Кровавого Ангела, Кровавую Госпожу, Багрового Дракона и Алую Птицу, новых героев (включая Гертиза, Алхорна, Элгрона, Валлорна, Эрианну, Луару, Эйлу и Альдия), заклинание «Призыв Птиц», навык «Пир для Птиц», stack experience для кровавых существ и четыре кровавых жилища. Добавляет навык «Истребитель Вампиров» и шесть новых вторичных навыков, влияющих на юнитов с Высасыванием жизни: Поглощение жизни, Истощение жажды, Кровавая опасность, Обезоружить вампира, Вампирская защита, Сломление защиты. Также добавляет навыки «Вампирская Ярость», «Связать Руки Вампиру», «Вампирская стремительность» и «Сковать вампира». Также добавляет навыки «Защита Вампира», «Алое сердце» и «Кровавое Истощение». Добавляет четыре новых вторичных навыка, связанных с Кровавыми Призраками: Истребитель Призраков, Кровавые Когти, Кровавая Жажда и Сифон Маны. Добавляет ресурс «Кровавый кристалл» и шахту «Кровавые поля». Добавляет Птицу Кровавого Пламени, Кровавого феникса (Сопряжение, 7 уровень) и Кровавого элементаля (Сопряжение, 6 уровень). Добавляет навык «Создать элементаля» (поднимает Кровавых элементалей из 5/10/15% павших врагов). Бонусы специализаций героев к процентным способностям переведены с фиксированной добавки на эквивалентный PERCENT_TO_ALL. Добавлен навык «Алая жертва» (ежедневные кровавые кристаллы) и навык «Кровавое Подношение» (процентный бонус к доходу Кровавого кристалла). Добавлен тестовый объект «Алтарь Кровавого Подношения».",
+    "translations": [
+      "translation/russian.json"
+    ]
+  },
+  "resources": {
+    "bloodCrystal": {
+      "name": "Blood Crystal",
+      "price": 5,
+      "images": {
+        "small": "resources/bloodCrystal/small",
+        "medium": "resources/bloodCrystal/medium",
+        "large": "resources/bloodCrystal/large"
+      }
+    }
+  },
+  "spellSchools": {
+    "blood": {
+      "name": "Blood",
+      "schoolBookmark": "spellSchools/blood/bookmarks/bloodSchoolBookmark.json",
+      "schoolBorders": "spellSchools/blood/frames/bloodSchoolFrames.json",
+      "schoolHeader": "spellSchools/blood/headers/bloodHeader.png"
+    }
+  }
 }

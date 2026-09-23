@@ -1,0 +1,18 @@
+{
+  "blood-expansion:lazarus": {
+    "specialty": {
+      "bonuses": {
+        "upgradeShadowhunter": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "shadowhunter",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradePhantomhunter": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "phantomhunter",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
+}

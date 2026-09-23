@@ -1,0 +1,17 @@
+{
+  "name": "Elgron: Preserve",
+  "description": "Upgrade Forest Dragons and Sprite Dragons from Preserve into Crimson Dragons.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "preserve-town"
+  ],
+  "heroes": [
+    "config/elgron.json"
+  ],
+  "russian": {
+    "name": "Элгрон: Заповедник",
+    "description": "Улучшает Лесных Драконов и Мистических Драконов из Заповедника в Багровых Драконов."
+  }
+}

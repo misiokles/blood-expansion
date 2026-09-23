@@ -1,0 +1,12 @@
+{
+  "name": "Gertiz Compatibility Patches",
+  "description": "Compatibility patches for Gertiz.\n\nSupported mods:\n• asylum-town\n• cradle-town\n• death-valley-town\n• hota.cove\n• nevermore-town\n• new-monsters-pack.axolotl-creatures-pack\n• new-monsters-pack.doomMod\n• new-monsters-pack.extra-creature-pack\n• third-upgrades (tumSpecter)\n• wake-of-gods.creatures\n\nYou can safely enable any number of sub-patches at the same time.",
+  "author": "Kay",
+  "version": "1.2",
+  "modType": "Other",
+  "depends": [],
+  "russian": {
+    "name": "Гертиз — патчи совместимости",
+    "description": "Патчи совместимости для Гертиза.\n\nПоддерживаемые моды:\n• asylum-town\n• cradle-town\n• death-valley-town\n• hota.cove\n• nevermore-town\n• new-monsters-pack.axolotl-creatures-pack\n• new-monsters-pack.doomMod\n• new-monsters-pack.extra-creature-pack\n• third-upgrades (tumSpecter)\n• wake-of-gods.creatures\n\nМожно спокойно включать любое количество субпатчей одновременно."
+  }
+}

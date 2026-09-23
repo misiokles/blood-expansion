@@ -1,0 +1,118 @@
+{
+  "akarco": {
+    "class": "necromancer",
+    "female": false,
+    "texts": {
+      "name": "Akarco",
+      "biography": "Akarco is a blood sorcerer who forged an unbreakable pact with the ancient Blood Dragons. Through forbidden rites he bound their essence to his will, awakening in them a ravenous thirst that consumes both flesh and soul. Under his command the Blood Dragons become true embodiments of crimson majesty.",
+      "specialty": {
+        "description": "{Blood Dragon}\r\n\r\nBlood Dragons under Akarco gain +40% Life Drain (PERCENT_TO_ALL), +5 Attack, +2 Defense, +2 minimum Damage and +3 Speed.",
+        "tooltip": "Empowers Blood Dragons with stronger Life Drain, Attack, Defense, Damage and Speed",
+        "name": "Blood Dragon Majesty"
+      }
+    },
+    "images": {
+      "large": "heroes/necropolis/akarco/akarco_portrait_large.png",
+      "small": "heroes/necropolis/akarco/akarco_portrait_small.png",
+      "specialtyLarge": "heroes/necropolis/akarco/akarcoSpecL.png",
+      "specialtySmall": "heroes/necropolis/akarco/akarcoSpecS.png"
+    },
+    "army": [
+      {
+        "creature": "bloodDragon",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "creature": "vampireLord",
+        "min": 2,
+        "max": 3
+      },
+      {
+        "creature": "vampire",
+        "min": 4,
+        "max": 6
+      }
+    ],
+    "skills": [
+      {
+        "skill": "bloodNecromancy",
+        "level": "basic"
+      },
+      {
+        "skill": "offence",
+        "level": "advanced"
+      },
+      {
+        "skill": "wisdom",
+        "level": "basic"
+      }
+    ],
+    "spellbook": [
+      "curse"
+    ],
+    "specialty": {
+      "bonuses": {
+        "akarcoLifeDrain": {
+          "type": "LIFE_DRAIN",
+          "val": 40,
+          "valueType": "PERCENT_TO_ALL",
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "bloodDragon",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "akarcoAttack": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.attack",
+          "val": 5,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "bloodDragon",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "akarcoDefense": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.defence",
+          "val": 2,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "bloodDragon",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "akarcoDamageMin": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMin",
+          "val": 2,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "bloodDragon",
+              "includeUpgrades": true
+            }
+          ]
+        },
+        "akarcoSpeed": {
+          "type": "STACKS_SPEED",
+          "val": 3,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "bloodDragon",
+              "includeUpgrades": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}

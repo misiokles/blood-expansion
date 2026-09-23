@@ -1,103 +1,103 @@
 {
-	"erianna" : {
-		"class" : "knight",
-		"female" : true,
-		"texts" : {
-			"name" : "Erianna",
-			"biography" : "Erianna was a knight of the Castle whose devotion turned to blood. After a vision of a winged avenger with a crimson blade, she bound her soul to the Blood Angels. Under her command they become faster, deadlier, and their gaze itself can slay the living.",
-			"specialty" : {
-				"description" : "{Blood Angel}\r\n\r\nBlood Angels under Erianna gain +25% PERCENT_TO_ALL Life Drain (scales with current Life Drain), Death Stare (15%), +2 Speed and +5 Attack.",
-				"tooltip" : "PERCENT_TO_ALL Life Drain, Death Stare, Speed and Attack for Blood Angels",
-				"name" : "Crimson Blade"
-			}
-		},
-		"images" : {
-			"large" : "heroes/castle/erianna/erianna_portrait_large.png",
-			"small" : "heroes/castle/erianna/erianna_portrait_small.png",
-			"specialtyLarge" : "heroes/castle/erianna/eriannaSpecL.png",
-			"specialtySmall" : "heroes/castle/erianna/eriannaSpecS.png"
-		},
-		"army" : [
-			{
-				"creature" : "beBloodAngel",
-				"min" : 1,
-				"max" : 1
-			},
-			{
-				"creature" : "beBloodSkeleton",
-				"min" : 10,
-				"max" : 15
-			},
-			{
-				"creature" : "beBloodSkeleton",
-				"min" : 5,
-				"max" : 10
-			}
-		],
-		"skills" : [
-			{
-				"skill" : "offence",
-				"level" : "advanced"
-			},
-			{
-				"skill" : "birdFeast",
-				"level" : "basic"
-			}
-		],
-		"spellbook" : [],
-		"specialty" : {
-			"bonuses" : {
-				"eriannaLifeDrain" : {
-					"type" : "LIFE_DRAIN",
-					"val" : 25,
-					"limiters" : [
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [
-								"beBloodAngel"
-							]
-						}
-					],
-					"valueType" : "PERCENT_TO_ALL"
-				},
-				"eriannaDeathStare" : {
-					"type" : "DEATH_STARE",
-					"val" : 15,
-					"limiters" : [
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [
-								"beBloodAngel"
-							]
-						}
-					]
-				},
-				"eriannaSpeed" : {
-					"type" : "STACKS_SPEED",
-					"val" : 2,
-					"limiters" : [
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [
-								"beBloodAngel"
-							]
-						}
-					]
-				},
-				"eriannaAttack" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack",
-					"val" : 5,
-					"limiters" : [
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"parameters" : [
-								"beBloodAngel"
-							]
-						}
-					]
-				}
-			}
-		}
-	}
+  "erianna": {
+    "class": "knight",
+    "female": true,
+    "texts": {
+      "name": "Erianna",
+      "biography": "Erianna was a knight of the Castle whose devotion turned to blood. After a vision of a winged avenger with a crimson blade, she bound her soul to the Blood Angels. Under her command they become faster, deadlier, and their gaze itself can slay the living.",
+      "specialty": {
+        "description": "{Blood Angel}\r\n\r\nBlood Angels under Erianna gain +25% PERCENT_TO_ALL Life Drain (scales with current Life Drain), Death Stare (15%), +2 Speed and +5 Attack.",
+        "tooltip": "PERCENT_TO_ALL Life Drain, Death Stare, Speed and Attack for Blood Angels",
+        "name": "Crimson Blade"
+      }
+    },
+    "images": {
+      "large": "heroes/castle/erianna/erianna_portrait_large.png",
+      "small": "heroes/castle/erianna/erianna_portrait_small.png",
+      "specialtyLarge": "heroes/castle/erianna/eriannaSpecL.png",
+      "specialtySmall": "heroes/castle/erianna/eriannaSpecS.png"
+    },
+    "army": [
+      {
+        "creature": "beBloodAngel",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "creature": "beBloodSkeleton",
+        "min": 10,
+        "max": 15
+      },
+      {
+        "creature": "beBloodSkeleton",
+        "min": 5,
+        "max": 10
+      }
+    ],
+    "skills": [
+      {
+        "skill": "offence",
+        "level": "advanced"
+      },
+      {
+        "skill": "birdFeast",
+        "level": "basic"
+      }
+    ],
+    "spellbook": [],
+    "specialty": {
+      "bonuses": {
+        "eriannaLifeDrain": {
+          "type": "LIFE_DRAIN",
+          "val": 25,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": [
+                "beBloodAngel"
+              ]
+            }
+          ],
+          "valueType": "PERCENT_TO_ALL"
+        },
+        "eriannaDeathStare": {
+          "type": "DEATH_STARE",
+          "val": 15,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": [
+                "beBloodAngel"
+              ]
+            }
+          ]
+        },
+        "eriannaSpeed": {
+          "type": "STACKS_SPEED",
+          "val": 2,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": [
+                "beBloodAngel"
+              ]
+            }
+          ]
+        },
+        "eriannaAttack": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.attack",
+          "val": 5,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "parameters": [
+                "beBloodAngel"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
 }

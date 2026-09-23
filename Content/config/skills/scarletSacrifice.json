@@ -1,0 +1,66 @@
+{
+  "scarletSacrifice": {
+    "name": "Scarlet Sacrifice",
+    "gainChance": {
+      "might": 1,
+      "magic": 3,
+      "deathknight": 4,
+      "necromancer": 6,
+      "heretic": 3,
+      "warlock": 3,
+      "elementalist": 4,
+      "planeswalker": 2
+    },
+    "specialty": [
+      "main"
+    ],
+    "base": {
+      "effects": {
+        "main": {
+          "type": "GENERATE_RESOURCE",
+          "subtype": "bloodCrystal",
+          "valueType": "BASE_NUMBER"
+        }
+      }
+    },
+    "basic": {
+      "images": {
+        "small": "skills/scarletSacrifice/smallBasic",
+        "medium": "skills/scarletSacrifice/mediumBasic",
+        "large": "skills/scarletSacrifice/largeBasic"
+      },
+      "description": "{Basic Scarlet Sacrifice}\n\nEvery day regular sacrifices are held, granting you 100 Blood Crystals.",
+      "effects": {
+        "main": {
+          "val": 100
+        }
+      }
+    },
+    "advanced": {
+      "images": {
+        "small": "skills/scarletSacrifice/smallAdvanced",
+        "medium": "skills/scarletSacrifice/mediumAdvanced",
+        "large": "skills/scarletSacrifice/largeAdvanced"
+      },
+      "description": "{Advanced Scarlet Sacrifice}\n\nEvery day regular sacrifices are held, granting you 150 Blood Crystals.",
+      "effects": {
+        "main": {
+          "val": 150
+        }
+      }
+    },
+    "expert": {
+      "images": {
+        "small": "skills/scarletSacrifice/smallExpert",
+        "medium": "skills/scarletSacrifice/mediumExpert",
+        "large": "skills/scarletSacrifice/largeExpert"
+      },
+      "description": "{Expert Scarlet Sacrifice}\n\nEvery day regular sacrifices are held, granting you 200 Blood Crystals.",
+      "effects": {
+        "main": {
+          "val": 200
+        }
+      }
+    }
+  }
+}

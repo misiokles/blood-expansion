@@ -1,208 +1,208 @@
 {
-	"bloodyExhaustion" : {
-		"name" : "Bloody Exhaustion",
-		"gainChance" : {
-			"might" : 3,
-			"magic" : 4
+	"bloodyExhaustion": {
+		"name": "Bloody Exhaustion",
+		"gainChance": {
+			"might": 3,
+			"magic": 4
 		},
-		"specialty" : [],
-		"base" : {
-			"effects" : {
-				"tier12" : {
-					"type" : "STACK_HEALTH",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+		"specialty": [],
+		"base": {
+			"effects": {
+				"tier12": {
+					"type": "STACK_HEALTH",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 1,
-							"maxlevel" : 3
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 1,
+							"maxlevel": 3
 						}
 					]
 				},
-				"tier3" : {
-					"type" : "STACK_HEALTH",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier3": {
+					"type": "STACK_HEALTH",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 3,
-							"maxlevel" : 4
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 3,
+							"maxlevel": 4
 						}
 					]
 				},
-				"tier4" : {
-					"type" : "STACK_HEALTH",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier4": {
+					"type": "STACK_HEALTH",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 4,
-							"maxlevel" : 5
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 4,
+							"maxlevel": 5
 						}
 					]
 				},
-				"tier5" : {
-					"type" : "STACK_HEALTH",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier5": {
+					"type": "STACK_HEALTH",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 5,
-							"maxlevel" : 6
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 5,
+							"maxlevel": 6
 						}
 					]
 				},
-				"tier6" : {
-					"type" : "STACK_HEALTH",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier6": {
+					"type": "STACK_HEALTH",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 6,
-							"maxlevel" : 7
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 6,
+							"maxlevel": 7
 						}
 					]
 				},
-				"tier7" : {
-					"type" : "STACK_HEALTH",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"tier7": {
+					"type": "STACK_HEALTH",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 7,
-							"maxlevel" : 8
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 7,
+							"maxlevel": 8
 						}
 					]
 				}
 			}
 		},
-		"basic" : {
-			"description" : "{Basic Bloody Exhaustion}\n\nDecreases the health of enemy units with the Life Drain ability:\nTier 1-2: -1\nTier 3: -3\nTier 4: -7\nTier 5: -15\nTier 6: -35\nTier 7: -75",
-			"effects" : {
-				"tier12" : {
-					"val" : -1
+		"basic": {
+			"description": "{Basic Bloody Exhaustion}\n\nDecreases the health of enemy units with the Life Drain ability:\nTier 1-2: -1\nTier 3: -3\nTier 4: -7\nTier 5: -15\nTier 6: -35\nTier 7: -75",
+			"effects": {
+				"tier12": {
+					"val": -1
 				},
-				"tier3" : {
-					"val" : -3
+				"tier3": {
+					"val": -3
 				},
-				"tier4" : {
-					"val" : -7
+				"tier4": {
+					"val": -7
 				},
-				"tier5" : {
-					"val" : -15
+				"tier5": {
+					"val": -15
 				},
-				"tier6" : {
-					"val" : -35
+				"tier6": {
+					"val": -35
 				},
-				"tier7" : {
-					"val" : -75
+				"tier7": {
+					"val": -75
 				}
 			},
-			"images" : {
-				"small" : "skills/bloodyExhaustion/smallBasic",
-				"medium" : "skills/bloodyExhaustion/mediumBasic",
-				"large" : "skills/bloodyExhaustion/largeBasic",
-				"scenarioBonus" : "skills/bloodyExhaustion/largeBasic"
+			"images": {
+				"small": "skills/bloodyExhaustion/smallBasic",
+				"medium": "skills/bloodyExhaustion/mediumBasic",
+				"large": "skills/bloodyExhaustion/largeBasic",
+				"scenarioBonus": "skills/bloodyExhaustion/largeBasic"
 			}
 		},
-		"advanced" : {
-			"description" : "{Advanced Bloody Exhaustion}\n\nDecreases the health of enemy units with the Life Drain ability:\nTier 1-2: -2\nTier 3: -4\nTier 4: -10\nTier 5: -20\nTier 6: -50\nTier 7: -100",
-			"effects" : {
-				"tier12" : {
-					"val" : -2
+		"advanced": {
+			"description": "{Advanced Bloody Exhaustion}\n\nDecreases the health of enemy units with the Life Drain ability:\nTier 1-2: -2\nTier 3: -4\nTier 4: -10\nTier 5: -20\nTier 6: -50\nTier 7: -100",
+			"effects": {
+				"tier12": {
+					"val": -2
 				},
-				"tier3" : {
-					"val" : -4
+				"tier3": {
+					"val": -4
 				},
-				"tier4" : {
-					"val" : -10
+				"tier4": {
+					"val": -10
 				},
-				"tier5" : {
-					"val" : -20
+				"tier5": {
+					"val": -20
 				},
-				"tier6" : {
-					"val" : -50
+				"tier6": {
+					"val": -50
 				},
-				"tier7" : {
-					"val" : -100
+				"tier7": {
+					"val": -100
 				}
 			},
-			"images" : {
-				"small" : "skills/bloodyExhaustion/smallAdvanced",
-				"medium" : "skills/bloodyExhaustion/mediumAdvanced",
-				"large" : "skills/bloodyExhaustion/largeAdvanced",
-				"scenarioBonus" : "skills/bloodyExhaustion/largeAdvanced"
+			"images": {
+				"small": "skills/bloodyExhaustion/smallAdvanced",
+				"medium": "skills/bloodyExhaustion/mediumAdvanced",
+				"large": "skills/bloodyExhaustion/largeAdvanced",
+				"scenarioBonus": "skills/bloodyExhaustion/largeAdvanced"
 			}
 		},
-		"expert" : {
-			"description" : "{Expert Bloody Exhaustion}\n\nDecreases the health of enemy units with the Life Drain ability:\nTier 1-2: -4\nTier 3: -6\nTier 4: -15\nTier 5: -25\nTier 6: -65\nTier 7: -135",
-			"effects" : {
-				"tier12" : {
-					"val" : -4
+		"expert": {
+			"description": "{Expert Bloody Exhaustion}\n\nDecreases the health of enemy units with the Life Drain ability:\nTier 1-2: -4\nTier 3: -6\nTier 4: -15\nTier 5: -25\nTier 6: -65\nTier 7: -135",
+			"effects": {
+				"tier12": {
+					"val": -4
 				},
-				"tier3" : {
-					"val" : -6
+				"tier3": {
+					"val": -6
 				},
-				"tier4" : {
-					"val" : -15
+				"tier4": {
+					"val": -15
 				},
-				"tier5" : {
-					"val" : -25
+				"tier5": {
+					"val": -25
 				},
-				"tier6" : {
-					"val" : -65
+				"tier6": {
+					"val": -65
 				},
-				"tier7" : {
-					"val" : -135
+				"tier7": {
+					"val": -135
 				}
 			},
-			"images" : {
-				"small" : "skills/bloodyExhaustion/smallExpert",
-				"medium" : "skills/bloodyExhaustion/mediumExpert",
-				"large" : "skills/bloodyExhaustion/largeExpert",
-				"scenarioBonus" : "skills/bloodyExhaustion/largeExpert"
+			"images": {
+				"small": "skills/bloodyExhaustion/smallExpert",
+				"medium": "skills/bloodyExhaustion/mediumExpert",
+				"large": "skills/bloodyExhaustion/largeExpert",
+				"scenarioBonus": "skills/bloodyExhaustion/largeExpert"
 			}
 		}
 	}

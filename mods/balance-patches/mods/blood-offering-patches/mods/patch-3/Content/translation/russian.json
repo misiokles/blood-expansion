@@ -1,0 +1,6 @@
+{
+  "skill.blood-expansion.bloodOffering.name": "Кровавое Подношение",
+  "skill.blood-expansion.bloodOffering.description.basic": "{Базовое Кровавое Подношение}\n\nУвеличивает ваш доход Кровавого Кристалла от всех источников на 15%.",
+  "skill.blood-expansion.bloodOffering.description.advanced": "{Продвинутое Кровавое Подношение}\n\nУвеличивает ваш доход Кровавого Кристалла от всех источников на 20%.",
+  "skill.blood-expansion.bloodOffering.description.expert": "{Экспертное Кровавое Подношение}\n\nУвеличивает ваш доход Кровавого Кристалла от всех источников на 25%."
+}

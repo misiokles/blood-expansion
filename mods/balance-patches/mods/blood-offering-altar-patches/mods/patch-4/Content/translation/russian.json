@@ -1,0 +1,7 @@
+{
+  "object.blood-expansion.bloodOfferingAltar.name": "Алтарь Кровавого Подношения",
+  "object.blood-expansion.bloodOfferingAltar.description": "{Алтарь Кровавого Подношения}\n\nУвеличивает ваш доход Кровавого Кристалла от всех источников на 25%.",
+  "mapObject.blood-expansion.bloodOfferingAltar.name": "Алтарь Кровавого Подношения",
+  "mapObject.blood-expansion.bloodOfferingAltar.description": "{Алтарь Кровавого Подношения}\n\nЗахватив этот объект, вы увеличиваете свой доход Кровавого Кристалла от всех источников на 25%.",
+  "mapObject.blood-expansion.bloodOfferingAltar.onVisit": "{Алтарь Кровавого Подношения}\n\nЗахватив этот объект, вы увеличиваете свой доход Кровавого Кристалла от всех источников на 25%."
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Scarlet Sacrifice Balance Patches",
+  "description": "Balance patches for Scarlet Sacrifice. Enable one patch inside this tab.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "russian": {
+    "name": "Алая Жертва — патчи баланса",
+    "description": "Патчи баланса для Алой Жертвы. Включите один патч внутри этой вкладки."
+  },
+  "keepDisabled": true
+}

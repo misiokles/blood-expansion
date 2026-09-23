@@ -1,0 +1,33 @@
+{
+  "blood-expansion:lazarus": {
+    "specialty": {
+      "bonuses": {
+        "upgradePirate": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.cove:pirate",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeCorsair": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.cove:corsair",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeSeadog": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.cove:seadog",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeSeaWitch": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.cove:seaWitch",
+          "addInfo": "beBloodWraith"
+        },
+        "upgradeSorceress": {
+          "type": "SPECIAL_UPGRADE",
+          "subtype": "hota.cove:sorceress",
+          "addInfo": "beBloodWraith"
+        }
+      }
+    }
+  }
+}

@@ -1,89 +1,89 @@
 {
-	"createElemental" : {
-		"name" : "Create Elemental",
-		"gainChance" : {
-			"might" : 0,
-			"magic" : 3,
-			"knight" : 0,
-			"cleric" : 1,
-			"ranger" : 0,
-			"druid" : 2,
-			"alchemist" : 2,
-			"wizard" : 3,
-			"demoniac" : 2,
-			"heretic" : 3,
-			"deathknight" : 2,
-			"necromancer" : 3,
-			"overlord" : 1,
-			"warlock" : 3,
-			"barbarian" : 0,
-			"battlemage" : 2,
-			"beastmaster" : 0,
-			"witch" : 2,
-			"planeswalker" : 6,
-			"elementalist" : 8
+	"createElemental": {
+		"name": "Create Elemental",
+		"gainChance": {
+			"might": 0,
+			"magic": 3,
+			"knight": 0,
+			"cleric": 1,
+			"ranger": 0,
+			"druid": 2,
+			"alchemist": 2,
+			"wizard": 3,
+			"demoniac": 2,
+			"heretic": 3,
+			"deathknight": 2,
+			"necromancer": 3,
+			"overlord": 1,
+			"warlock": 3,
+			"barbarian": 0,
+			"battlemage": 2,
+			"beastmaster": 0,
+			"witch": 2,
+			"planeswalker": 6,
+			"elementalist": 8
 		},
-		"specialty" : [
+		"specialty": [
 			"main"
 		],
-		"base" : {
-			"effects" : {
-				"main" : {
-					"type" : "UNDEAD_RAISE_PERCENTAGE",
-					"valueType" : "BASE_NUMBER"
+		"base": {
+			"effects": {
+				"main": {
+					"type": "UNDEAD_RAISE_PERCENTAGE",
+					"valueType": "BASE_NUMBER"
 				},
-				"power" : {
-					"type" : "IMPROVED_NECROMANCY",
-					"subtype" : "beBloodElemental",
-					"addInfo" : 0
+				"power": {
+					"type": "IMPROVED_NECROMANCY",
+					"subtype": "beBloodElemental",
+					"addInfo": 0
 				}
 			}
 		},
-		"basic" : {
-			"images" : {
-				"small" : "skills/createElemental/smallBasic",
-				"medium" : "skills/createElemental/mediumBasic",
-				"large" : "skills/createElemental/largeBasic"
+		"basic": {
+			"images": {
+				"small": "skills/createElemental/smallBasic",
+				"medium": "skills/createElemental/mediumBasic",
+				"large": "skills/createElemental/largeBasic"
 			},
-			"description" : "{Basic Create Elemental}\n\nAfter combat, 5% of fallen enemies are raised as Blood Elementals.",
-			"effects" : {
-				"main" : {
-					"val" : 5
+			"description": "{Basic Create Elemental}\n\nAfter combat, 5% of fallen enemies are raised as Blood Elementals.",
+			"effects": {
+				"main": {
+					"val": 5
 				},
-				"power" : {
-					"val" : 1
+				"power": {
+					"val": 1
 				}
 			}
 		},
-		"advanced" : {
-			"images" : {
-				"small" : "skills/createElemental/smallAdvanced",
-				"medium" : "skills/createElemental/mediumAdvanced",
-				"large" : "skills/createElemental/largeAdvanced"
+		"advanced": {
+			"images": {
+				"small": "skills/createElemental/smallAdvanced",
+				"medium": "skills/createElemental/mediumAdvanced",
+				"large": "skills/createElemental/largeAdvanced"
 			},
-			"description" : "{Advanced Create Elemental}\n\nAfter combat, 10% of fallen enemies are raised as Blood Elementals.",
-			"effects" : {
-				"main" : {
-					"val" : 10
+			"description": "{Advanced Create Elemental}\n\nAfter combat, 10% of fallen enemies are raised as Blood Elementals.",
+			"effects": {
+				"main": {
+					"val": 10
 				},
-				"power" : {
-					"val" : 2
+				"power": {
+					"val": 2
 				}
 			}
 		},
-		"expert" : {
-			"images" : {
-				"small" : "skills/createElemental/smallExpert",
-				"medium" : "skills/createElemental/mediumExpert",
-				"large" : "skills/createElemental/largeExpert"
+		"expert": {
+			"images": {
+				"small": "skills/createElemental/smallExpert",
+				"medium": "skills/createElemental/mediumExpert",
+				"large": "skills/createElemental/largeExpert"
 			},
-			"description" : "{Expert Create Elemental}\n\nAfter combat, 15% of fallen enemies are raised as Blood Elementals.",
-			"effects" : {
-				"main" : {
-					"val" : 15
+			"description": "{Expert Create Elemental}\n\nAfter combat, 15% of fallen enemies are raised as Blood Elementals.",
+			"effects": {
+				"main": {
+					"val": 15
 				},
-				"power" : {
-					"val" : 3
+				"power": {
+					"val": 3
 				}
 			}
 		}

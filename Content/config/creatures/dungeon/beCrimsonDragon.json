@@ -1,215 +1,215 @@
 {
-	"beCrimsonDragon" : {
-		"name" : {
-			"plural" : "Crimson Dragons",
-			"singular" : "Crimson Dragon"
-		},
-		"advMapAmount" : {
-			"min" : 2,
-			"max" : 4
-		},
-		"faction" : "dungeon",
-		"aiValue" : 4500,
-		"attack" : 30,
-		"cost" : {
-			"gold" : 3500,
-			"mercury" : 1
-		},
-		"damage" : {
-			"min" : 30,
-			"max" : 45
-		},
-		"defense" : 20,
-		"fightValue" : 4300,
-		"doubleWide" : true,
-		"graphics" : {
-			"animation" : "creatures/dungeon/battle/beCrimsonDragon.def",
-			"map" : "creatures/dungeon/map/beCrimsonDragon.def",
-			"iconSmall" : "creatures/dungeon/iconsSmall/beCrimsonDragon.png",
-			"iconLarge" : "creatures/dungeon/iconsBig/beCrimsonDragon.png",
-			"timeBetweenFidgets" : 1,
-			"animationTime" : {
-				"walk" : 1,
-				"attack" : 1,
-				"idle" : 10,
-				"flight" : 1
-			}
-		},
-		"growth" : 1,
-		"hitPoints" : 225,
-		"level" : 7,
-		"sound" : {
-			"attack" : "",
-			"defend" : "",
-			"killed" : "",
-			"move" : "",
-			"wince" : ""
-		},
-		"speed" : 17,
-		"shots" : 2,
-		"abilities" : {
-			"shooter" : {
-				"type" : "SHOOTER"
-			},
-			"noMeleePenalty" : {
-				"type" : "NO_MELEE_PENALTY"
-			},
-			"inferno" : {
-				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.inferno"
-			},
-			"fireShield" : {
-				"type" : "FIRE_SHIELD",
-				"val" : 35
-			},
-			"spellImmunity" : {
-				"type" : "LEVEL_SPELL_IMMUNITY",
-				"val" : 4
-			},
-			"lifeDrain" : {
-				"type" : "LIFE_DRAIN",
-				"val" : 40
-			},
-			"canFly" : {
-				"type" : "FLYING"
-			},
-			"fireBreath" : {
-				"type" : "TWO_HEX_ATTACK_BREATH"
-			},
-			"dragonSkeleton" : {
-				"type" : "SKELETON_TRANSFORMER_TARGET",
-				"subtype" : "boneDragon"
-			},
-			"dragon" : {
-				"type" : "DRAGON_NATURE"
-			}
-		},
-		"stackExperience" : [
-			{
-				"bonus" : {
-					"type" : "LIFE_DRAIN",
-					"val" : 0
-				},
-				"values" : [
-					0,
-					3,
-					5,
-					8,
-					10,
-					12,
-					15,
-					18,
-					22,
-					25
-				]
-			},
-			{
-				"bonus" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
-				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5
-				]
-			},
-			{
-				"bonus" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
-				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5
-				]
-			},
-			{
-				"bonus" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4,
-					5
-				]
-			},
-			{
-				"bonus" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
-				},
-				"values" : [
-					0,
-					0,
-					1,
-					1,
-					2,
-					2,
-					3,
-					3,
-					4,
-					4
-				]
-			},
-			{
-				"bonus" : {
-					"type" : "STACK_HEALTH",
-					"valueType" : "PERCENT_TO_BASE"
-				},
-				"values" : [
-					5,
-					10,
-					15,
-					20,
-					25,
-					30,
-					35,
-					40,
-					45,
-					50
-				]
-			},
-			{
-				"bonus" : {
-					"type" : "STACKS_SPEED"
-				},
-				"values" : [
-					0,
-					0,
-					1,
-					1,
-					1,
-					2,
-					2,
-					2,
-					3,
-					3
-				]
-			}
-		]
-	}
+  "beCrimsonDragon": {
+    "name": {
+      "plural": "Crimson Dragons",
+      "singular": "Crimson Dragon"
+    },
+    "advMapAmount": {
+      "min": 2,
+      "max": 4
+    },
+    "faction": "dungeon",
+    "aiValue": 4500,
+    "attack": 30,
+    "cost": {
+      "gold": 3500,
+      "mercury": 1
+    },
+    "damage": {
+      "min": 30,
+      "max": 45
+    },
+    "defense": 20,
+    "fightValue": 4300,
+    "doubleWide": true,
+    "graphics": {
+      "animation": "creatures/dungeon/battle/beCrimsonDragon.def",
+      "map": "creatures/dungeon/map/beCrimsonDragon.def",
+      "iconSmall": "creatures/dungeon/iconsSmall/beCrimsonDragon.png",
+      "iconLarge": "creatures/dungeon/iconsBig/beCrimsonDragon.png",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1
+      }
+    },
+    "growth": 1,
+    "hitPoints": 225,
+    "level": 7,
+    "sound": {
+      "attack": "",
+      "defend": "",
+      "killed": "",
+      "move": "",
+      "wince": ""
+    },
+    "speed": 17,
+    "shots": 2,
+    "abilities": {
+      "shooter": {
+        "type": "SHOOTER"
+      },
+      "noMeleePenalty": {
+        "type": "NO_MELEE_PENALTY"
+      },
+      "inferno": {
+        "type": "SPELL_LIKE_ATTACK",
+        "subtype": "spell.inferno"
+      },
+      "fireShield": {
+        "type": "FIRE_SHIELD",
+        "val": 35
+      },
+      "spellImmunity": {
+        "type": "LEVEL_SPELL_IMMUNITY",
+        "val": 4
+      },
+      "lifeDrain": {
+        "type": "LIFE_DRAIN",
+        "val": 40
+      },
+      "canFly": {
+        "type": "FLYING"
+      },
+      "fireBreath": {
+        "type": "TWO_HEX_ATTACK_BREATH"
+      },
+      "dragonSkeleton": {
+        "type": "SKELETON_TRANSFORMER_TARGET",
+        "subtype": "boneDragon"
+      },
+      "dragon": {
+        "type": "DRAGON_NATURE"
+      }
+    },
+    "stackExperience": [
+      {
+        "bonus": {
+          "type": "LIFE_DRAIN",
+          "val": 0
+        },
+        "values": [
+          0,
+          3,
+          5,
+          8,
+          10,
+          12,
+          15,
+          18,
+          22,
+          25
+        ]
+      },
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.attack"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.defence"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMax"
+        },
+        "values": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4,
+          5
+        ]
+      },
+      {
+        "bonus": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMin"
+        },
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      {
+        "bonus": {
+          "type": "STACK_HEALTH",
+          "valueType": "PERCENT_TO_BASE"
+        },
+        "values": [
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50
+        ]
+      },
+      {
+        "bonus": {
+          "type": "STACKS_SPEED"
+        },
+        "values": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          3
+        ]
+      }
+    ]
+  }
 }

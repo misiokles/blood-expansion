@@ -1,0 +1,12 @@
+{
+  "name": "More Heroes — Total hero limit Patches",
+  "description": "Patches for the total hero limit. Enable one patch inside this tab.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "keepDisabled": true,
+  "russian": {
+    "name": "Больше героев — Общий лимит героев — патчи",
+    "description": "Патчи для изменения параметра «общий лимит героев». Включите один патч внутри этой вкладки."
+  }
+}

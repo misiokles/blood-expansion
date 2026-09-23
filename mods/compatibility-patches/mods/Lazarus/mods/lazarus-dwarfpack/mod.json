@@ -1,0 +1,17 @@
+{
+  "name": "Lazarus + Dwarf Pack",
+  "description": "Upgrade Dwarf Berserk / Crossbowman / Guard / Saboteur / Shaman into Blood Wraiths.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "new-monsters-pack.dwarf-pack"
+  ],
+  "heroes": [
+    "config/lazarus.json"
+  ],
+  "russian": {
+    "name": "Лазарус + Dwarf Pack",
+    "description": "Улучшает Дворфов-Берсерков / Арбалетчиков / Стражей / Диверсантов / Шаманов в Кровавых Призраков."
+  }
+}

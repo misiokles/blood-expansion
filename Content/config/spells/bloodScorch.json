@@ -1,69 +1,69 @@
 {
-	"bloodScorch" : {
-		"type" : "combat",
-		"name" : "Blood Scorch",
-		"school" : {
-			"air" : false,
-			"earth" : false,
-			"fire" : false,
-			"water" : false,
-			"blood" : true
-		},
-		"level" : 5,
-		"power" : 25,
-		"defaultGainChance" : 0,
-		"gainChance" : {},
-		"flags" : {
-			"rising" : true,
-			"positive" : true
-		},
-		"targetType" : "CREATURE",
-		"graphics" : {
-			"iconBook" : "spells/bloodScorch/bloodScorchBook.png",
-			"iconScroll" : "spells/bloodScorch/bloodScorchScroll.png",
-			"iconScenarioBonus" : "spells/bloodScorch/bloodScorchBonus.png",
-			"iconEffect" : "spells/bloodScorch/bloodScorchEffect.png"
-		},
-		"sounds" : {
-			"cast" : "RESURECT"
-		},
-		"levels" : {
-			"base" : {
-				"description" : "Blood Scorch\r\n\r\nScorches the remains of fallen living creatures with unholy blood-fire, raising Blood Skeletons from their ashes.",
-				"cost" : 1,
-				"power" : 25,
-				"range" : "0",
-				"targetModifier" : {
-					"smart" : true
-				},
-				"battleEffects" : {
-					"bloodSkeletonSummon" : {
-						"id" : "beBloodSkeleton",
-						"permanent" : true,
-						"type" : "core:demonSummon"
-					}
-				}
-			},
-			"none" : {
-				"cost" : 80
-			},
-			"basic" : {
-				"cost" : 75
-			},
-			"advanced" : {
-				"cost" : 60
-			},
-			"expert" : {
-				"cost" : 50
-			}
-		},
-		"targetCondition" : {
-			"noneOf" : {
-				"bonus.NON_LIVING" : "absolute",
-				"bonus.SIEGE_WEAPON" : "absolute",
-				"bonus.UNDEAD" : "absolute",
-				"bonus.GARGOYLE" : "absolute"
-			}
-		}
-	}
+  "bloodScorch": {
+    "type": "combat",
+    "name": "Blood Scorch",
+    "school": {
+        "air": false,
+        "earth": false,
+        "fire": false,
+        "water": false,
+        "blood": true
+    },
+    "level": 5,
+    "power": 25,
+    "defaultGainChance": 0,
+    "gainChance": {},
+    "flags": {
+      "rising": true,
+      "positive": true
+    },
+    "targetType": "CREATURE",
+    "graphics": {
+      "iconBook": "spells/bloodScorch/bloodScorchBook.png",
+      "iconScroll": "spells/bloodScorch/bloodScorchScroll.png",
+      "iconScenarioBonus": "spells/bloodScorch/bloodScorchBonus.png",
+      "iconEffect": "spells/bloodScorch/bloodScorchEffect.png"
+    },
+    "sounds": {
+      "cast": "RESURECT"
+    },
+    "levels": {
+      "base": {
+        "description": "Blood Scorch\r\n\r\nScorches the remains of fallen living creatures with unholy blood-fire, raising Blood Skeletons from their ashes.",
+        "cost": 1,
+        "power": 25,
+        "range": "0",
+        "targetModifier": {
+          "smart": true
+        },
+        "battleEffects": {
+          "bloodSkeletonSummon": {
+            "id": "beBloodSkeleton",
+            "permanent": true,
+            "type": "core:demonSummon"
+          }
+        }
+      },
+      "none": {
+        "cost": 80
+      },
+      "basic": {
+        "cost": 75
+      },
+      "advanced": {
+        "cost": 60
+      },
+      "expert": {
+        "cost": 50
+      }
+    },
+    "targetCondition": {
+      "noneOf": {
+        "bonus.NON_LIVING": "absolute",
+        "bonus.SIEGE_WEAPON": "absolute",
+        "bonus.UNDEAD": "absolute",
+        "bonus.GARGOYLE": "absolute"
+      }
+    }
+  }
 }

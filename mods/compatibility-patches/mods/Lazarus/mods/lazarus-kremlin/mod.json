@@ -1,0 +1,17 @@
+{
+  "name": "Lazarus + Kremlin",
+  "description": "Upgrade Lesoviks/Leshiys, Forest Witches/Yagas and related from Kremlin into Blood Wraiths.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "kremlin-town"
+  ],
+  "heroes": [
+    "config/lazarus.json"
+  ],
+  "russian": {
+    "name": "Лазарус + Кремль",
+    "description": "Улучшает Лесовиков/Леших, Лесных Ведьм/Яг и Ратников/Дружинников из Кремля в Кровавых Призраков."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "blood-expansion:aldiy": {
+    "specialty": {
+      "bonuses": {
+        "aldiyTumNosferatuLifeDrain": {
+          "type": "LIFE_DRAIN",
+          "val": 30,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "tumNosferatu",
+              "includeUpgrades": false
+            }
+          ]
+        },
+        "aldiyTumNosferatuPercentToAll": {
+          "type": "LIFE_DRAIN",
+          "val": 25,
+          "valueType": "PERCENT_TO_ALL",
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "tumNosferatu",
+              "includeUpgrades": false
+            }
+          ]
+        },
+        "aldiyTumNosferatuAttack": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.attack",
+          "val": 3,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "tumNosferatu",
+              "includeUpgrades": false
+            }
+          ]
+        },
+        "aldiyTumNosferatuDefense": {
+          "type": "PRIMARY_SKILL",
+          "subtype": "primarySkill.defence",
+          "val": 2,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "tumNosferatu",
+              "includeUpgrades": false
+            }
+          ]
+        },
+        "aldiyTumNosferatuHealth": {
+          "type": "STACK_HEALTH",
+          "val": 10,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "tumNosferatu",
+              "includeUpgrades": false
+            }
+          ]
+        },
+        "aldiyTumNosferatuSpeed": {
+          "type": "STACKS_SPEED",
+          "val": 2,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "tumNosferatu",
+              "includeUpgrades": false
+            }
+          ]
+        },
+        "aldiyTumNosferatuDamageMin": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMin",
+          "val": 1,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "tumNosferatu",
+              "includeUpgrades": false
+            }
+          ]
+        },
+        "aldiyTumNosferatuDamageMax": {
+          "type": "CREATURE_DAMAGE",
+          "subtype": "creatureDamageMax",
+          "val": 2,
+          "limiters": [
+            {
+              "type": "CREATURE_TYPE_LIMITER",
+              "creature": "tumNosferatu",
+              "includeUpgrades": false
+            }
+          ]
+        }
+      }
+    }
+  }
+}
