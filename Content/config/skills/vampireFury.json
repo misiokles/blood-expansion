@@ -1,396 +1,396 @@
 {
-	"vampireFury" : {
-		"name" : "Vampire Fury",
-		"gainChance" : {
-			"might" : 4,
-			"magic" : 3
+	"vampireFury": {
+		"name": "Vampire Fury",
+		"gainChance": {
+			"might": 4,
+			"magic": 3
 		},
-		"specialty" : [],
-		"base" : {
-			"effects" : {
-				"tier1min" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+		"specialty": [],
+		"base": {
+			"effects": {
+				"tier1min": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 1,
-							"maxlevel" : 2
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 1,
+							"maxlevel": 2
 						}
 					]
 				},
-				"tier1max" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"tier1max": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 1,
-							"maxlevel" : 2
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 1,
+							"maxlevel": 2
 						}
 					]
 				},
-				"tier2min" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"tier2min": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 2,
-							"maxlevel" : 3
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 2,
+							"maxlevel": 3
 						}
 					]
 				},
-				"tier2max" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"tier2max": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 2,
-							"maxlevel" : 3
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 2,
+							"maxlevel": 3
 						}
 					]
 				},
-				"tier3min" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"tier3min": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 3,
-							"maxlevel" : 4
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 3,
+							"maxlevel": 4
 						}
 					]
 				},
-				"tier3max" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"tier3max": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 3,
-							"maxlevel" : 4
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 3,
+							"maxlevel": 4
 						}
 					]
 				},
-				"tier4min" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"tier4min": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 4,
-							"maxlevel" : 5
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 4,
+							"maxlevel": 5
 						}
 					]
 				},
-				"tier4max" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"tier4max": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 4,
-							"maxlevel" : 5
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 4,
+							"maxlevel": 5
 						}
 					]
 				},
-				"tier5min" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"tier5min": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 5,
-							"maxlevel" : 6
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 5,
+							"maxlevel": 6
 						}
 					]
 				},
-				"tier5max" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"tier5max": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 5,
-							"maxlevel" : 6
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 5,
+							"maxlevel": 6
 						}
 					]
 				},
-				"tier6min" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"tier6min": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 6,
-							"maxlevel" : 7
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 6,
+							"maxlevel": 7
 						}
 					]
 				},
-				"tier6max" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"tier6max": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 6,
-							"maxlevel" : 7
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 6,
+							"maxlevel": 7
 						}
 					]
 				},
-				"tier7min" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"tier7min": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMin",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 7,
-							"maxlevel" : 8
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 7,
+							"maxlevel": 8
 						}
 					]
 				},
-				"tier7max" : {
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax",
-					"valueType" : "ADDITIVE_VALUE",
-					"limiters" : [
+				"tier7max": {
+					"type": "CREATURE_DAMAGE",
+					"subtype": "creatureDamageMax",
+					"valueType": "ADDITIVE_VALUE",
+					"limiters": [
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						},
 						{
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 7,
-							"maxlevel" : 8
+							"type": "CREATURE_LEVEL_LIMITER",
+							"minLevel": 7,
+							"maxlevel": 8
 						}
 					]
 				}
 			}
 		},
-		"basic" : {
-			"description" : "{Basic Vampire Fury}\n\nIncreases damage of allied units with Life Drain:\nTier 1: min +1, max +1\nTier 2: min +1, max +2\nTier 3: min +1, max +2\nTier 4: min +1, max +2\nTier 5: min +2, max +3\nTier 6: min +5, max +6\nTier 7: min +10, max +12",
-			"effects" : {
-				"tier1min" : {
-					"val" : 1
+		"basic": {
+			"description": "{Basic Vampire Fury}\n\nIncreases damage of allied units with Life Drain:\nTier 1: min +1, max +1\nTier 2: min +1, max +2\nTier 3: min +1, max +2\nTier 4: min +1, max +2\nTier 5: min +2, max +3\nTier 6: min +5, max +6\nTier 7: min +10, max +12",
+			"effects": {
+				"tier1min": {
+					"val": 1
 				},
-				"tier1max" : {
-					"val" : 1
+				"tier1max": {
+					"val": 1
 				},
-				"tier2min" : {
-					"val" : 1
+				"tier2min": {
+					"val": 1
 				},
-				"tier2max" : {
-					"val" : 2
+				"tier2max": {
+					"val": 2
 				},
-				"tier3min" : {
-					"val" : 1
+				"tier3min": {
+					"val": 1
 				},
-				"tier3max" : {
-					"val" : 2
+				"tier3max": {
+					"val": 2
 				},
-				"tier4min" : {
-					"val" : 1
+				"tier4min": {
+					"val": 1
 				},
-				"tier4max" : {
-					"val" : 2
+				"tier4max": {
+					"val": 2
 				},
-				"tier5min" : {
-					"val" : 2
+				"tier5min": {
+					"val": 2
 				},
-				"tier5max" : {
-					"val" : 3
+				"tier5max": {
+					"val": 3
 				},
-				"tier6min" : {
-					"val" : 5
+				"tier6min": {
+					"val": 5
 				},
-				"tier6max" : {
-					"val" : 6
+				"tier6max": {
+					"val": 6
 				},
-				"tier7min" : {
-					"val" : 10
+				"tier7min": {
+					"val": 10
 				},
-				"tier7max" : {
-					"val" : 12
+				"tier7max": {
+					"val": 12
 				}
 			},
-			"images" : {
-				"small" : "skills/vampireFury/smallBasic",
-				"medium" : "skills/vampireFury/mediumBasic",
-				"large" : "skills/vampireFury/largeBasic",
-				"scenarioBonus" : "skills/vampireFury/largeBasic"
+			"images": {
+				"small": "skills/vampireFury/smallBasic",
+				"medium": "skills/vampireFury/mediumBasic",
+				"large": "skills/vampireFury/largeBasic",
+				"scenarioBonus": "skills/vampireFury/largeBasic"
 			}
 		},
-		"advanced" : {
-			"description" : "{Advanced Vampire Fury}\n\nIncreases damage of allied units with Life Drain:\nTier 1: min +1, max +2\nTier 2: min +2, max +3\nTier 3: min +2, max +3\nTier 4: min +2, max +3\nTier 5: min +3, max +4\nTier 6: min +6, max +7\nTier 7: min +14, max +15",
-			"effects" : {
-				"tier1min" : {
-					"val" : 1
+		"advanced": {
+			"description": "{Advanced Vampire Fury}\n\nIncreases damage of allied units with Life Drain:\nTier 1: min +1, max +2\nTier 2: min +2, max +3\nTier 3: min +2, max +3\nTier 4: min +2, max +3\nTier 5: min +3, max +4\nTier 6: min +6, max +7\nTier 7: min +14, max +15",
+			"effects": {
+				"tier1min": {
+					"val": 1
 				},
-				"tier1max" : {
-					"val" : 2
+				"tier1max": {
+					"val": 2
 				},
-				"tier2min" : {
-					"val" : 2
+				"tier2min": {
+					"val": 2
 				},
-				"tier2max" : {
-					"val" : 3
+				"tier2max": {
+					"val": 3
 				},
-				"tier3min" : {
-					"val" : 2
+				"tier3min": {
+					"val": 2
 				},
-				"tier3max" : {
-					"val" : 3
+				"tier3max": {
+					"val": 3
 				},
-				"tier4min" : {
-					"val" : 2
+				"tier4min": {
+					"val": 2
 				},
-				"tier4max" : {
-					"val" : 3
+				"tier4max": {
+					"val": 3
 				},
-				"tier5min" : {
-					"val" : 3
+				"tier5min": {
+					"val": 3
 				},
-				"tier5max" : {
-					"val" : 4
+				"tier5max": {
+					"val": 4
 				},
-				"tier6min" : {
-					"val" : 6
+				"tier6min": {
+					"val": 6
 				},
-				"tier6max" : {
-					"val" : 7
+				"tier6max": {
+					"val": 7
 				},
-				"tier7min" : {
-					"val" : 14
+				"tier7min": {
+					"val": 14
 				},
-				"tier7max" : {
-					"val" : 15
+				"tier7max": {
+					"val": 15
 				}
 			},
-			"images" : {
-				"small" : "skills/vampireFury/smallAdvanced",
-				"medium" : "skills/vampireFury/mediumAdvanced",
-				"large" : "skills/vampireFury/largeAdvanced",
-				"scenarioBonus" : "skills/vampireFury/largeAdvanced"
+			"images": {
+				"small": "skills/vampireFury/smallAdvanced",
+				"medium": "skills/vampireFury/mediumAdvanced",
+				"large": "skills/vampireFury/largeAdvanced",
+				"scenarioBonus": "skills/vampireFury/largeAdvanced"
 			}
 		},
-		"expert" : {
-			"description" : "{Expert Vampire Fury}\n\nIncreases damage of allied units with Life Drain:\nTier 1: min +2, max +3\nTier 2: min +2, max +4\nTier 3: min +3, max +4\nTier 4: min +4, max +4\nTier 5: min +5, max +6\nTier 6: min +7, max +10\nTier 7: min +17, max +20",
-			"effects" : {
-				"tier1min" : {
-					"val" : 2
+		"expert": {
+			"description": "{Expert Vampire Fury}\n\nIncreases damage of allied units with Life Drain:\nTier 1: min +2, max +3\nTier 2: min +2, max +4\nTier 3: min +3, max +4\nTier 4: min +4, max +4\nTier 5: min +5, max +6\nTier 6: min +7, max +10\nTier 7: min +17, max +20",
+			"effects": {
+				"tier1min": {
+					"val": 2
 				},
-				"tier1max" : {
-					"val" : 3
+				"tier1max": {
+					"val": 3
 				},
-				"tier2min" : {
-					"val" : 2
+				"tier2min": {
+					"val": 2
 				},
-				"tier2max" : {
-					"val" : 4
+				"tier2max": {
+					"val": 4
 				},
-				"tier3min" : {
-					"val" : 3
+				"tier3min": {
+					"val": 3
 				},
-				"tier3max" : {
-					"val" : 4
+				"tier3max": {
+					"val": 4
 				},
-				"tier4min" : {
-					"val" : 4
+				"tier4min": {
+					"val": 4
 				},
-				"tier4max" : {
-					"val" : 4
+				"tier4max": {
+					"val": 4
 				},
-				"tier5min" : {
-					"val" : 5
+				"tier5min": {
+					"val": 5
 				},
-				"tier5max" : {
-					"val" : 6
+				"tier5max": {
+					"val": 6
 				},
-				"tier6min" : {
-					"val" : 7
+				"tier6min": {
+					"val": 7
 				},
-				"tier6max" : {
-					"val" : 10
+				"tier6max": {
+					"val": 10
 				},
-				"tier7min" : {
-					"val" : 17
+				"tier7min": {
+					"val": 17
 				},
-				"tier7max" : {
-					"val" : 20
+				"tier7max": {
+					"val": 20
 				}
 			},
-			"images" : {
-				"small" : "skills/vampireFury/smallExpert",
-				"medium" : "skills/vampireFury/mediumExpert",
-				"large" : "skills/vampireFury/largeExpert",
-				"scenarioBonus" : "skills/vampireFury/largeExpert"
+			"images": {
+				"small": "skills/vampireFury/smallExpert",
+				"medium": "skills/vampireFury/mediumExpert",
+				"large": "skills/vampireFury/largeExpert",
+				"scenarioBonus": "skills/vampireFury/largeExpert"
 			}
 		}
 	}

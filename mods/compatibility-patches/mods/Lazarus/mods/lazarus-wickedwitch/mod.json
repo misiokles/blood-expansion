@@ -1,17 +1,17 @@
 {
-	"name" : "Lazarus + Wicked Witch",
-	"description" : "Upgrade Wicked Witches from New Monsters Pack into Blood Wraiths.",
-	"author" : "Kay",
-	"version" : "1.0",
-	"modType" : "Other",
-	"depends" : [
-		"new-monsters-pack.wicked-witch"
-	],
-	"heroes" : [
-		"config/lazarus.json"
-	],
-	"russian" : {
-		"name" : "Лазарус + Wicked Witch",
-		"description" : "Улучшает Злых Ведьм из New Monsters Pack в Кровавых Призраков."
-	}
+  "name": "Lazarus + Wicked Witch",
+  "description": "Upgrade Wicked Witches from New Monsters Pack into Blood Wraiths.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "new-monsters-pack.wicked-witch"
+  ],
+  "heroes": [
+    "config/lazarus.json"
+  ],
+  "russian": {
+    "name": "Лазарус + Wicked Witch",
+    "description": "Улучшает Злых Ведьм из New Monsters Pack в Кровавых Призраков."
+  }
 }

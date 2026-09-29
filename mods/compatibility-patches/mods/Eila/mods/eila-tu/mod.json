@@ -1,17 +1,17 @@
 {
-	"name" : "Eila: Third Upgrades",
-	"description" : "Upgrade Castle Inquisitors/High Priests/Holy Champions, Rampart Noble Elves/Golden Pegasi and Tower Supreme Arch Magi into Vampire Lords.",
-	"author" : "Kay",
-	"version" : "1.0",
-	"modType" : "Other",
-	"depends" : [
-		"third-upgrades"
-	],
-	"heroes" : [
-		"config/eila.json"
-	],
-	"russian" : {
-		"name" : "Эйла: Третий Уровень Улучшений",
-		"description" : "Улучшает Инквизиторов/Верховных Жрецов/Святых Чемпионов (Замок), Благородных Эльфов/Золотых Пегасов (Оплот) и Верховных Архимагов (Башня) в Лордов Вампиров."
-	}
+  "name": "Eila: Third Upgrades",
+  "description": "Upgrade Castle Inquisitors/High Priests/Holy Champions, Rampart Noble Elves/Golden Pegasi and Tower Supreme Arch Magi into Vampire Lords.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "third-upgrades"
+  ],
+  "heroes": [
+    "config/eila.json"
+  ],
+  "russian": {
+    "name": "Эйла: Третий Уровень Улучшений",
+    "description": "Улучшает Инквизиторов/Верховных Жрецов/Святых Чемпионов (Замок), Благородных Эльфов/Золотых Пегасов (Оплот) и Верховных Архимагов (Башня) в Лордов Вампиров."
+  }
 }

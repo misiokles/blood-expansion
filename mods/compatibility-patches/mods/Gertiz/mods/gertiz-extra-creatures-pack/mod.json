@@ -1,17 +1,17 @@
 {
-	"name" : "Gertiz: Extra Creature Pack",
-	"description" : "Adds special upgrade for Banshees from New Monsters Pack (Extra Creature Pack) into Blood Wraiths.",
-	"author" : "Kay",
-	"version" : "1.0",
-	"modType" : "Other",
-	"depends" : [
-		"new-monsters-pack.extra-creature-pack"
-	],
-	"heroes" : [
-		"config/gertiz.json"
-	],
-	"russian" : {
-		"name" : "Гертиз: Extra Creature Pack",
-		"description" : "Добавляет улучшение Банши (Banshees) из New Monsters Pack (Extra Creature Pack) в Кровавых Призраков."
-	}
+  "name": "Gertiz: Extra Creature Pack",
+  "description": "Adds special upgrade for Banshees from New Monsters Pack (Extra Creature Pack) into Blood Wraiths.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "new-monsters-pack.extra-creature-pack"
+  ],
+  "heroes": [
+    "config/gertiz.json"
+  ],
+  "russian": {
+    "name": "Гертиз: Extra Creature Pack",
+    "description": "Добавляет улучшение Банши (Banshees) из New Monsters Pack (Extra Creature Pack) в Кровавых Призраков."
+  }
 }

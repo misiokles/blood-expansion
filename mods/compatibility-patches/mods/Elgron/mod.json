@@ -1,12 +1,12 @@
 {
-	"name" : "Elgron Compatibility Patches",
-	"description" : "Compatibility patches for Elgron.\n\nSupported mods:\n• cetatea-town\n• courtyard-town\n• preserve-town\n• retreat-town\n• third-upgrades + wake-of-gods.level8Units (Darkness Dragon)\n\nYou can safely enable any number of sub-patches at the same time.",
-	"author" : "Kay",
-	"version" : "1.2",
-	"modType" : "Other",
-	"depends" : [],
-	"russian" : {
-		"name" : "Элгрон — патчи совместимости",
-		"description" : "Патчи совместимости для Элгрона.\n\nПоддерживаемые моды:\n• cetatea-town\n• courtyard-town\n• preserve-town\n• retreat-town\n• third-upgrades + wake-of-gods.level8Units (Тёмный Дракон)\n\nМожно спокойно включать любое количество субпатчей одновременно."
-	}
+  "name": "Elgron Compatibility Patches",
+  "description": "Compatibility patches for Elgron.\n\nSupported mods:\n• cetatea-town\n• courtyard-town\n• preserve-town\n• retreat-town\n• third-upgrades + wake-of-gods.level8Units (Darkness Dragon)\n\nYou can safely enable any number of sub-patches at the same time.",
+  "author": "Kay",
+  "version": "1.2",
+  "modType": "Other",
+  "depends": [],
+  "russian": {
+    "name": "Элгрон — патчи совместимости",
+    "description": "Патчи совместимости для Элгрона.\n\nПоддерживаемые моды:\n• cetatea-town\n• courtyard-town\n• preserve-town\n• retreat-town\n• third-upgrades + wake-of-gods.level8Units (Тёмный Дракон)\n\nМожно спокойно включать любое количество субпатчей одновременно."
+  }
 }

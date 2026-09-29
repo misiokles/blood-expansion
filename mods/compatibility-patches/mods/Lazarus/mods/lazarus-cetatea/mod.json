@@ -1,17 +1,17 @@
 {
-	"name" : "Lazarus + Cetatea",
-	"description" : "Upgrade Voinici / Haiduci, Werewolves from Cetatea into Blood Wraiths.",
-	"author" : "Kay",
-	"version" : "1.0",
-	"modType" : "Other",
-	"depends" : [
-		"cetatea-town"
-	],
-	"heroes" : [
-		"config/lazarus.json"
-	],
-	"russian" : {
-		"name" : "Лазарус + Крепость(Cetatea)",
-		"description" : "Улучшает Громил / Преступников, Оборотней из Крепости(Cetatea) в Кровавых Призраков."
-	}
+  "name": "Lazarus + Cetatea",
+  "description": "Upgrade Voinici / Haiduci, Werewolves from Cetatea into Blood Wraiths.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "cetatea-town"
+  ],
+  "heroes": [
+    "config/lazarus.json"
+  ],
+  "russian": {
+    "name": "Лазарус + Крепость(Cetatea)",
+    "description": "Улучшает Громил / Преступников, Оборотней из Крепости(Cetatea) в Кровавых Призраков."
+  }
 }

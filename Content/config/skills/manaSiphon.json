@@ -24,9 +24,7 @@
 		"basic" : {
 			"description" : "{Basic Mana Siphon}\n\nIncreases the Mana Drain of allied Blood Wraiths and Scarlet Wraiths by 1.",
 			"effects" : {
-				"main" : {
-					"val" : 1
-				}
+				"main" : { "val" : 1 }
 			},
 			"images" : {
 				"small" : "skills/manaSiphon/smallBasic",
@@ -38,9 +36,7 @@
 		"advanced" : {
 			"description" : "{Advanced Mana Siphon}\n\nIncreases the Mana Drain of allied Blood Wraiths and Scarlet Wraiths by 2.",
 			"effects" : {
-				"main" : {
-					"val" : 2
-				}
+				"main" : { "val" : 2 }
 			},
 			"images" : {
 				"small" : "skills/manaSiphon/smallAdvanced",
@@ -52,9 +48,7 @@
 		"expert" : {
 			"description" : "{Expert Mana Siphon}\n\nIncreases the Mana Drain of allied Blood Wraiths and Scarlet Wraiths by 4.",
 			"effects" : {
-				"main" : {
-					"val" : 4
-				}
+				"main" : { "val" : 4 }
 			},
 			"images" : {
 				"small" : "skills/manaSiphon/smallExpert",

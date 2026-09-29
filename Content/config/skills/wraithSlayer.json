@@ -1,148 +1,148 @@
 {
-	"wraithSlayer" : {
-		"name" : "Wraith Slayer",
-		"gainChance" : {
-			"might" : 5,
-			"magic" : 4
+	"wraithSlayer": {
+		"name": "Wraith Slayer",
+		"gainChance": {
+			"might": 5,
+			"magic": 4
 		},
-		"specialty" : [],
-		"base" : {
-			"effects" : {
-				"hate" : {
-					"type" : "HATE",
-					"subtype" : "beBloodWraith",
-					"valueType" : "BASE_NUMBER"
+		"specialty": [],
+		"base": {
+			"effects": {
+				"hate": {
+					"type": "HATE",
+					"subtype": "beBloodWraith",
+					"valueType": "BASE_NUMBER"
 				},
-				"hateScarlet" : {
-					"type" : "HATE",
-					"subtype" : "beScarletWraith",
-					"valueType" : "BASE_NUMBER"
+				"hateScarlet": {
+					"type": "HATE",
+					"subtype": "beScarletWraith",
+					"valueType": "BASE_NUMBER"
 				},
-				"def" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"def": {
+					"type": "PRIMARY_SKILL",
+					"subtype": "primarySkill.defence",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "beBloodWraith",
-							"includeUpgrades" : true
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "beBloodWraith",
+							"includeUpgrades": true
 						},
 						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "LIFE_DRAIN"
+							"type": "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType": "LIFE_DRAIN"
 						}
 					]
 				},
-				"hp" : {
-					"type" : "STACK_HEALTH",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"hp": {
+					"type": "STACK_HEALTH",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "beBloodWraith",
-							"includeUpgrades" : true
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "beBloodWraith",
+							"includeUpgrades": true
 						}
 					]
 				},
-				"manaDrain" : {
-					"type" : "MANA_DRAIN",
-					"valueType" : "BASE_NUMBER",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [
+				"manaDrain": {
+					"type": "MANA_DRAIN",
+					"valueType": "BASE_NUMBER",
+					"propagator": "BATTLE_WIDE",
+					"propagationUpdater": "BONUS_OWNER_UPDATER",
+					"limiters": [
 						"OPPOSITE_SIDE",
 						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "beBloodWraith",
-							"includeUpgrades" : true
+							"type": "CREATURE_TYPE_LIMITER",
+							"creature": "beBloodWraith",
+							"includeUpgrades": true
 						}
 					]
 				}
 			}
 		},
-		"basic" : {
-			"description" : "{Basic Wraith Slayer}\n\nUnits in the hero's army deal 10% more damage to Blood Wraiths and Scarlet Wraiths.\nAdditionally, enemy Blood Wraiths and Scarlet Wraiths lose 1 Defense, 2 Health and 1 Mana Drain.",
-			"effects" : {
-				"hate" : {
-					"val" : 10
+		"basic": {
+			"description": "{Basic Wraith Slayer}\n\nUnits in the hero's army deal 10% more damage to Blood Wraiths and Scarlet Wraiths.\nAdditionally, enemy Blood Wraiths and Scarlet Wraiths lose 1 Defense, 2 Health and 1 Mana Drain.",
+			"effects": {
+				"hate": {
+					"val": 10
 				},
-				"hateScarlet" : {
-					"val" : 10
+				"hateScarlet": {
+					"val": 10
 				},
-				"def" : {
-					"val" : -1
+				"def": {
+					"val": -1
 				},
-				"hp" : {
-					"val" : -2
+				"hp": {
+					"val": -2
 				},
-				"manaDrain" : {
-					"val" : -1
+				"manaDrain": {
+					"val": -1
 				}
 			},
-			"images" : {
-				"small" : "skills/wraithSlayer/smallBasic",
-				"medium" : "skills/wraithSlayer/mediumBasic",
-				"large" : "skills/wraithSlayer/largeBasic",
-				"scenarioBonus" : "skills/wraithSlayer/largeBasic"
+			"images": {
+				"small": "skills/wraithSlayer/smallBasic",
+				"medium": "skills/wraithSlayer/mediumBasic",
+				"large": "skills/wraithSlayer/largeBasic",
+				"scenarioBonus": "skills/wraithSlayer/largeBasic"
 			}
 		},
-		"advanced" : {
-			"description" : "{Advanced Wraith Slayer}\n\nUnits in the hero's army deal 15% more damage to Blood Wraiths and Scarlet Wraiths.\nAdditionally, enemy Blood Wraiths and Scarlet Wraiths lose 1 Defense, 4 Health and 2 Mana Drain.",
-			"effects" : {
-				"hate" : {
-					"val" : 15
+		"advanced": {
+			"description": "{Advanced Wraith Slayer}\n\nUnits in the hero's army deal 15% more damage to Blood Wraiths and Scarlet Wraiths.\nAdditionally, enemy Blood Wraiths and Scarlet Wraiths lose 1 Defense, 4 Health and 2 Mana Drain.",
+			"effects": {
+				"hate": {
+					"val": 15
 				},
-				"hateScarlet" : {
-					"val" : 15
+				"hateScarlet": {
+					"val": 15
 				},
-				"def" : {
-					"val" : -1
+				"def": {
+					"val": -1
 				},
-				"hp" : {
-					"val" : -4
+				"hp": {
+					"val": -4
 				},
-				"manaDrain" : {
-					"val" : -2
+				"manaDrain": {
+					"val": -2
 				}
 			},
-			"images" : {
-				"small" : "skills/wraithSlayer/smallAdvanced",
-				"medium" : "skills/wraithSlayer/mediumAdvanced",
-				"large" : "skills/wraithSlayer/largeAdvanced",
-				"scenarioBonus" : "skills/wraithSlayer/largeAdvanced"
+			"images": {
+				"small": "skills/wraithSlayer/smallAdvanced",
+				"medium": "skills/wraithSlayer/mediumAdvanced",
+				"large": "skills/wraithSlayer/largeAdvanced",
+				"scenarioBonus": "skills/wraithSlayer/largeAdvanced"
 			}
 		},
-		"expert" : {
-			"description" : "{Expert Wraith Slayer}\n\nUnits in the hero's army deal 20% more damage to Blood Wraiths and Scarlet Wraiths.\nAdditionally, enemy Blood Wraiths and Scarlet Wraiths lose 2 Defense, 7 Health and 3 Mana Drain.",
-			"effects" : {
-				"hate" : {
-					"val" : 20
+		"expert": {
+			"description": "{Expert Wraith Slayer}\n\nUnits in the hero's army deal 20% more damage to Blood Wraiths and Scarlet Wraiths.\nAdditionally, enemy Blood Wraiths and Scarlet Wraiths lose 2 Defense, 7 Health and 3 Mana Drain.",
+			"effects": {
+				"hate": {
+					"val": 20
 				},
-				"hateScarlet" : {
-					"val" : 20
+				"hateScarlet": {
+					"val": 20
 				},
-				"def" : {
-					"val" : -2
+				"def": {
+					"val": -2
 				},
-				"hp" : {
-					"val" : -7
+				"hp": {
+					"val": -7
 				},
-				"manaDrain" : {
-					"val" : -3
+				"manaDrain": {
+					"val": -3
 				}
 			},
-			"images" : {
-				"small" : "skills/wraithSlayer/smallExpert",
-				"medium" : "skills/wraithSlayer/mediumExpert",
-				"large" : "skills/wraithSlayer/largeExpert",
-				"scenarioBonus" : "skills/wraithSlayer/largeExpert"
+			"images": {
+				"small": "skills/wraithSlayer/smallExpert",
+				"medium": "skills/wraithSlayer/mediumExpert",
+				"large": "skills/wraithSlayer/largeExpert",
+				"scenarioBonus": "skills/wraithSlayer/largeExpert"
 			}
 		}
 	}

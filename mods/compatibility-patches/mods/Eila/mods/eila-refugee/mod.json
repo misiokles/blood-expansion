@@ -1,17 +1,17 @@
 {
-	"name" : "Eila + Refugee",
-	"description" : "Upgrade Cutthroats, Vagabonds, Bowmen from Refugee into Vampires / Vampire Lords.",
-	"author" : "Kay",
-	"version" : "1.0",
-	"modType" : "Other",
-	"depends" : [
-		"refugee-town"
-	],
-	"heroes" : [
-		"config/eila.json"
-	],
-	"russian" : {
-		"name" : "Эйла + Приют",
-		"description" : "Улучшает Шпионов, Странников, Скаутов из Приюта в Вампиров / Лордов Вампиров."
-	}
+  "name": "Eila + Refugee",
+  "description": "Upgrade Cutthroats, Vagabonds, Bowmen from Refugee into Vampires / Vampire Lords.",
+  "author": "Kay",
+  "version": "1.0",
+  "modType": "Other",
+  "depends": [
+    "refugee-town"
+  ],
+  "heroes": [
+    "config/eila.json"
+  ],
+  "russian": {
+    "name": "Эйла + Приют",
+    "description": "Улучшает Шпионов, Странников, Скаутов из Приюта в Вампиров / Лордов Вампиров."
+  }
 }
