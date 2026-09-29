@@ -1,17 +1,17 @@
 {
-  "name": "Luara + Death Valley",
-  "description": "Upgrade Dark Witches and Night Witches from Death Valley into Bloody Mistresses.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "death-valley-town"
-  ],
-  "heroes": [
-    "config/luara.json"
-  ],
-  "russian": {
-    "name": "Луара + Долина Смерти",
-    "description": "Улучшает Тёмных Ведьм и Ночных Ведьм из Долины Смерти в Кровавых Госпож."
-  }
+	"name" : "Luara + Death Valley",
+	"description" : "Upgrade Dark Witches and Night Witches from Death Valley into Bloody Mistresses.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"death-valley-town"
+	],
+	"heroes" : [
+		"config/luara.json"
+	],
+	"russian" : {
+		"name" : "Луара + Долина Смерти",
+		"description" : "Улучшает Тёмных Ведьм и Ночных Ведьм из Долины Смерти в Кровавых Госпож."
+	}
 }

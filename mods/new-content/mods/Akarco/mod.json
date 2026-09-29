@@ -1,20 +1,20 @@
 {
-  "name": "Akarco (Blood Dragon Majesty)",
-  "description": "Adds the hero Akarco who specializes in Blood Dragons from Wake of Gods Level 8 Units.\n\nRequires: wake-of-gods.level8Units",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Heroes",
-  "depends": [
-    "wake-of-gods.level8Units"
-  ],
-  "heroes": [
-    "config/heroes/necropolis/akarco.json"
-  ],
-  "russian": {
-    "name": "Акарцо (Величие Кровавых Драконов)",
-    "description": "Добавляет героя Акарцо, специализирующегося на Кровавых Драконах из Wake of Gods Level 8 Units.\n\nТребует: wake-of-gods.level8Units",
-    "translations": [
-      "translation/russian.json"
-    ]
-  }
+	"name" : "Akarco (Blood Dragon Majesty)",
+	"description" : "Adds the hero Akarco who specializes in Blood Dragons from Wake of Gods Level 8 Units.\n\nRequires: wake-of-gods.level8Units",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Heroes",
+	"depends" : [
+		"wake-of-gods.level8Units"
+	],
+	"heroes" : [
+		"config/heroes/necropolis/akarco.json"
+	],
+	"russian" : {
+		"name" : "Акарцо (Величие Кровавых Драконов)",
+		"description" : "Добавляет героя Акарцо, специализирующегося на Кровавых Драконах из Wake of Gods Level 8 Units.\n\nТребует: wake-of-gods.level8Units",
+		"translations" : [
+			"translation/russian.json"
+		]
+	}
 }

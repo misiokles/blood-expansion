@@ -1,38 +1,38 @@
 {
-  "blood-expansion:eila": {
-    "specialty": {
-      "bonuses": {
-        "upgradeCthWitchHunter": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "cthWitchHunter",
-          "addInfo": "creature.vampire"
-        },
-        "upgradeCthEvilHunter": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "cthEvilHunter",
-          "addInfo": "creature.vampireLord"
-        },
-        "upgradeCthSexton": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "cthSexton",
-          "addInfo": "creature.vampire"
-        },
-        "upgradeCthCantor": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "cthCantor",
-          "addInfo": "creature.vampireLord"
-        },
-        "upgradeCthTemplar": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "cthTemplar",
-          "addInfo": "creature.vampire"
-        },
-        "upgradeCthPaladin": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "cthPaladin",
-          "addInfo": "creature.vampireLord"
-        }
-      }
-    }
-  }
+	"blood-expansion:eila" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeCthWitchHunter" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "cthWitchHunter",
+					"addInfo" : "creature.vampire"
+				},
+				"upgradeCthEvilHunter" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "cthEvilHunter",
+					"addInfo" : "creature.vampireLord"
+				},
+				"upgradeCthSexton" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "cthSexton",
+					"addInfo" : "creature.vampire"
+				},
+				"upgradeCthCantor" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "cthCantor",
+					"addInfo" : "creature.vampireLord"
+				},
+				"upgradeCthTemplar" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "cthTemplar",
+					"addInfo" : "creature.vampire"
+				},
+				"upgradeCthPaladin" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "cthPaladin",
+					"addInfo" : "creature.vampireLord"
+				}
+			}
+		}
+	}
 }

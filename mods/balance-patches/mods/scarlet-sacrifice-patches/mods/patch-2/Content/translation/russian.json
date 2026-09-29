@@ -1,6 +1,6 @@
 {
-  "skill.blood-expansion.scarletSacrifice.name": "Алая жертва",
-  "skill.blood-expansion.scarletSacrifice.description.basic": "{Базовая Алая жертва}\n\nКаждый день проводятся регулярные жертвоприношения, дающие вам 75 единиц кровавого кристалла.",
-  "skill.blood-expansion.scarletSacrifice.description.advanced": "{Продвинутая Алая жертва}\n\nКаждый день проводятся регулярные жертвоприношения, дающие вам 100 единиц кровавого кристалла.",
-  "skill.blood-expansion.scarletSacrifice.description.expert": "{Экспертная Алая жертва}\n\nКаждый день проводятся регулярные жертвоприношения, дающие вам 150 единиц кровавого кристалла."
+	"skill.blood-expansion.scarletSacrifice.name" : "Алая жертва",
+	"skill.blood-expansion.scarletSacrifice.description.basic" : "{Базовая Алая жертва}\n\nКаждый день проводятся регулярные жертвоприношения, дающие вам 75 единиц кровавого кристалла.",
+	"skill.blood-expansion.scarletSacrifice.description.advanced" : "{Продвинутая Алая жертва}\n\nКаждый день проводятся регулярные жертвоприношения, дающие вам 100 единиц кровавого кристалла.",
+	"skill.blood-expansion.scarletSacrifice.description.expert" : "{Экспертная Алая жертва}\n\nКаждый день проводятся регулярные жертвоприношения, дающие вам 150 единиц кровавого кристалла."
 }

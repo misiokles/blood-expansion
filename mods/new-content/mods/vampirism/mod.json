@@ -1,28 +1,28 @@
 {
-  "name": "Vampirism",
-  "description": "Vampirism Skill",
-  "author": "Zeryss",
-  "version": "1.0.0",
-  "modType": "Skills",
-  "contact": "https://vk.com/club184999722",
-  "changelog": {
-    "1.0.0": [
-      "Initial release"
-    ]
-  },
-  "skills": [
-    "config/skills/vampirism.json"
-  ],
-  "heroes": [
-    "config/heroes/kharjul.json",
-    "config/heroes/kragg.json"
-  ],
-  "russian": {
-    "name": "Вампиризм",
-    "description": "При атаке живого врага Вампиризм восстанавливает здоровье, равное % от нанесенного урона",
-    "translations": [
-      "translation/russian.json"
-    ]
-  },
-  "keepDisabled": true
+	"name" : "Vampirism",
+	"description" : "Vampirism Skill",
+	"author" : "Zeryss",
+	"version" : "1.0.0",
+	"modType" : "Skills",
+	"contact" : "https://vk.com/club184999722",
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"skills" : [
+		"config/skills/vampirism.json"
+	],
+	"heroes" : [
+		"config/heroes/kharjul.json",
+		"config/heroes/kragg.json"
+	],
+	"russian" : {
+		"name" : "Вампиризм",
+		"description" : "При атаке живого врага Вампиризм восстанавливает здоровье, равное % от нанесенного урона",
+		"translations" : [
+			"translation/russian.json"
+		]
+	},
+	"keepDisabled" : true
 }

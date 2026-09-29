@@ -1,13 +1,13 @@
 {
-  "blood-expansion:gertiz": {
-    "specialty": {
-      "bonuses": {
-        "upgradeLostsoul": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "lostsoul",
-          "addInfo": "beBloodWraith"
-        }
-      }
-    }
-  }
+	"blood-expansion:gertiz" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeLostsoul" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "lostsoul",
+					"addInfo" : "beBloodWraith"
+				}
+			}
+		}
+	}
 }

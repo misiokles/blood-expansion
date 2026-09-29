@@ -1,12 +1,12 @@
 {
-  "name": "Yakus — Blood Offering Balance Patches",
-  "description": "Balance patches for Yakus's Blood Offering specialty bonus. Enable one patch inside this tab.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "keepDisabled": true,
-  "russian": {
-    "name": "Якус — Кровавое Подношение — патчи баланса",
-    "description": "Патчи баланса бонуса специализации Якуса для навыка «Кровавое Подношение». Включите один патч внутри этой вкладки."
-  }
+	"name" : "Yakus — Blood Offering Balance Patches",
+	"description" : "Balance patches for Yakus's Blood Offering specialty bonus. Enable one patch inside this tab.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"keepDisabled" : true,
+	"russian" : {
+		"name" : "Якус — Кровавое Подношение — патчи баланса",
+		"description" : "Патчи баланса бонуса специализации Якуса для навыка «Кровавое Подношение». Включите один патч внутри этой вкладки."
+	}
 }

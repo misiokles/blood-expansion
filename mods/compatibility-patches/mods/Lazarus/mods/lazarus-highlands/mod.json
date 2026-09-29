@@ -1,17 +1,17 @@
 {
-  "name": "Lazarus + Highlands",
-  "description": "Upgrade Brute / Berserker / Gladiator / Flame Gladiator from Highlands into Blood Wraiths.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "highlands-town"
-  ],
-  "heroes": [
-    "config/lazarus.json"
-  ],
-  "russian": {
-    "name": "Лазарус + Высокогорье",
-    "description": "Улучшает Громил / Берсерков / Гладиаторов / Огненных Гладиаторов из Хайлендс в Кровавых Призраков."
-  }
+	"name" : "Lazarus + Highlands",
+	"description" : "Upgrade Brute / Berserker / Gladiator / Flame Gladiator from Highlands into Blood Wraiths.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"highlands-town"
+	],
+	"heroes" : [
+		"config/lazarus.json"
+	],
+	"russian" : {
+		"name" : "Лазарус + Высокогорье",
+		"description" : "Улучшает Громил / Берсерков / Гладиаторов / Огненных Гладиаторов из Хайлендс в Кровавых Призраков."
+	}
 }

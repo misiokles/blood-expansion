@@ -1,12 +1,12 @@
 {
-  "name": "More Heroes — Map Hero Limit Patches",
-  "description": "Patches for the per-player hero limit on the adventure map. Enable one patch inside this tab.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "keepDisabled": true,
-  "russian": {
-    "name": "Больше героев — Лимит героев на карте — патчи",
-    "description": "Патчи для изменения лимита героев одного игрока на карте. Включите один патч внутри этой вкладки."
-  }
+	"name" : "More Heroes — Map Hero Limit Patches",
+	"description" : "Patches for the per-player hero limit on the adventure map. Enable one patch inside this tab.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"keepDisabled" : true,
+	"russian" : {
+		"name" : "Больше героев — Лимит героев на карте — патчи",
+		"description" : "Патчи для изменения лимита героев одного игрока на карте. Включите один патч внутри этой вкладки."
+	}
 }

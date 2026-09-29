@@ -1,18 +1,18 @@
 {
-  "blood-expansion:luara": {
-    "specialty": {
-      "bonuses": {
-        "upgradeBanshee": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "banshee",
-          "addInfo": "beBloodyMistress"
-        },
-        "upgradeEBanshee": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "ebanshee",
-          "addInfo": "beBloodyMistress"
-        }
-      }
-    }
-  }
+	"blood-expansion:luara" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeBanshee" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "banshee",
+					"addInfo" : "beBloodyMistress"
+				},
+				"upgradeEBanshee" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "ebanshee",
+					"addInfo" : "beBloodyMistress"
+				}
+			}
+		}
+	}
 }

@@ -1,190 +1,190 @@
 {
-	"scarletHeart": {
-		"name": "Scarlet Heart",
-		"gainChance": {
-			"might": 4,
-			"magic": 3
+	"scarletHeart" : {
+		"name" : "Scarlet Heart",
+		"gainChance" : {
+			"might" : 4,
+			"magic" : 3
 		},
-		"specialty": [],
-		"base": {
-			"effects": {
-				"tier12": {
-					"type": "STACK_HEALTH",
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"tier12" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "LIFE_DRAIN"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
 						},
 						{
-							"type": "CREATURE_LEVEL_LIMITER",
-							"minLevel": 1,
-							"maxlevel": 3
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 1,
+							"maxlevel" : 3
 						}
 					]
 				},
-				"tier3": {
-					"type": "STACK_HEALTH",
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"tier3" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "LIFE_DRAIN"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
 						},
 						{
-							"type": "CREATURE_LEVEL_LIMITER",
-							"minLevel": 3,
-							"maxlevel": 4
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 3,
+							"maxlevel" : 4
 						}
 					]
 				},
-				"tier4": {
-					"type": "STACK_HEALTH",
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"tier4" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "LIFE_DRAIN"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
 						},
 						{
-							"type": "CREATURE_LEVEL_LIMITER",
-							"minLevel": 4,
-							"maxlevel": 5
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 4,
+							"maxlevel" : 5
 						}
 					]
 				},
-				"tier5": {
-					"type": "STACK_HEALTH",
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"tier5" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "LIFE_DRAIN"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
 						},
 						{
-							"type": "CREATURE_LEVEL_LIMITER",
-							"minLevel": 5,
-							"maxlevel": 6
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 6
 						}
 					]
 				},
-				"tier6": {
-					"type": "STACK_HEALTH",
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"tier6" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "LIFE_DRAIN"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
 						},
 						{
-							"type": "CREATURE_LEVEL_LIMITER",
-							"minLevel": 6,
-							"maxlevel": 7
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 6,
+							"maxlevel" : 7
 						}
 					]
 				},
-				"tier7": {
-					"type": "STACK_HEALTH",
-					"valueType": "BASE_NUMBER",
-					"limiters": [
+				"tier7" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "LIFE_DRAIN"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "LIFE_DRAIN"
 						},
 						{
-							"type": "CREATURE_LEVEL_LIMITER",
-							"minLevel": 7,
-							"maxlevel": 8
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 7,
+							"maxlevel" : 8
 						}
 					]
 				}
 			}
 		},
-		"basic": {
-			"description": "{Basic Scarlet Heart}\n\nIncreases the health of allied units with the Life Drain ability:\nTier 1-2: +1\nTier 3: +2\nTier 4: +5\nTier 5: +10\nTier 6: +20\nTier 7: +50",
-			"effects": {
-				"tier12": {
-					"val": 1
+		"basic" : {
+			"description" : "{Basic Scarlet Heart}\n\nIncreases the health of allied units with the Life Drain ability:\nTier 1-2: +1\nTier 3: +2\nTier 4: +5\nTier 5: +10\nTier 6: +20\nTier 7: +50",
+			"effects" : {
+				"tier12" : {
+					"val" : 1
 				},
-				"tier3": {
-					"val": 2
+				"tier3" : {
+					"val" : 2
 				},
-				"tier4": {
-					"val": 5
+				"tier4" : {
+					"val" : 5
 				},
-				"tier5": {
-					"val": 10
+				"tier5" : {
+					"val" : 10
 				},
-				"tier6": {
-					"val": 20
+				"tier6" : {
+					"val" : 20
 				},
-				"tier7": {
-					"val": 50
+				"tier7" : {
+					"val" : 50
 				}
 			},
-			"images": {
-				"small": "skills/scarletHeart/smallBasic",
-				"medium": "skills/scarletHeart/mediumBasic",
-				"large": "skills/scarletHeart/largeBasic",
-				"scenarioBonus": "skills/scarletHeart/largeBasic"
+			"images" : {
+				"small" : "skills/scarletHeart/smallBasic",
+				"medium" : "skills/scarletHeart/mediumBasic",
+				"large" : "skills/scarletHeart/largeBasic",
+				"scenarioBonus" : "skills/scarletHeart/largeBasic"
 			}
 		},
-		"advanced": {
-			"description": "{Advanced Scarlet Heart}\n\nIncreases the health of allied units with the Life Drain ability:\nTier 1-2: +2\nTier 3: +3\nTier 4: +7\nTier 5: +15\nTier 6: +35\nTier 7: +75",
-			"effects": {
-				"tier12": {
-					"val": 2
+		"advanced" : {
+			"description" : "{Advanced Scarlet Heart}\n\nIncreases the health of allied units with the Life Drain ability:\nTier 1-2: +2\nTier 3: +3\nTier 4: +7\nTier 5: +15\nTier 6: +35\nTier 7: +75",
+			"effects" : {
+				"tier12" : {
+					"val" : 2
 				},
-				"tier3": {
-					"val": 3
+				"tier3" : {
+					"val" : 3
 				},
-				"tier4": {
-					"val": 7
+				"tier4" : {
+					"val" : 7
 				},
-				"tier5": {
-					"val": 15
+				"tier5" : {
+					"val" : 15
 				},
-				"tier6": {
-					"val": 35
+				"tier6" : {
+					"val" : 35
 				},
-				"tier7": {
-					"val": 75
+				"tier7" : {
+					"val" : 75
 				}
 			},
-			"images": {
-				"small": "skills/scarletHeart/smallAdvanced",
-				"medium": "skills/scarletHeart/mediumAdvanced",
-				"large": "skills/scarletHeart/largeAdvanced",
-				"scenarioBonus": "skills/scarletHeart/largeAdvanced"
+			"images" : {
+				"small" : "skills/scarletHeart/smallAdvanced",
+				"medium" : "skills/scarletHeart/mediumAdvanced",
+				"large" : "skills/scarletHeart/largeAdvanced",
+				"scenarioBonus" : "skills/scarletHeart/largeAdvanced"
 			}
 		},
-		"expert": {
-			"description": "{Expert Scarlet Heart}\n\nIncreases the health of allied units with the Life Drain ability:\nTier 1-2: +3\nTier 3: +5\nTier 4: +10\nTier 5: +20\nTier 6: +50\nTier 7: +100",
-			"effects": {
-				"tier12": {
-					"val": 3
+		"expert" : {
+			"description" : "{Expert Scarlet Heart}\n\nIncreases the health of allied units with the Life Drain ability:\nTier 1-2: +3\nTier 3: +5\nTier 4: +10\nTier 5: +20\nTier 6: +50\nTier 7: +100",
+			"effects" : {
+				"tier12" : {
+					"val" : 3
 				},
-				"tier3": {
-					"val": 5
+				"tier3" : {
+					"val" : 5
 				},
-				"tier4": {
-					"val": 10
+				"tier4" : {
+					"val" : 10
 				},
-				"tier5": {
-					"val": 20
+				"tier5" : {
+					"val" : 20
 				},
-				"tier6": {
-					"val": 50
+				"tier6" : {
+					"val" : 50
 				},
-				"tier7": {
-					"val": 100
+				"tier7" : {
+					"val" : 100
 				}
 			},
-			"images": {
-				"small": "skills/scarletHeart/smallExpert",
-				"medium": "skills/scarletHeart/mediumExpert",
-				"large": "skills/scarletHeart/largeExpert",
-				"scenarioBonus": "skills/scarletHeart/largeExpert"
+			"images" : {
+				"small" : "skills/scarletHeart/smallExpert",
+				"medium" : "skills/scarletHeart/mediumExpert",
+				"large" : "skills/scarletHeart/largeExpert",
+				"scenarioBonus" : "skills/scarletHeart/largeExpert"
 			}
 		}
 	}

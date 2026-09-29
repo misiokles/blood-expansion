@@ -1,25 +1,25 @@
 {
-  "blood-expansion:bloodOffering": {
-    "basic": {
-      "effects": {
-        "main": {
-          "val": 2
-        }
-      }
-    },
-    "advanced": {
-      "effects": {
-        "main": {
-          "val": 3
-        }
-      }
-    },
-    "expert": {
-      "effects": {
-        "main": {
-          "val": 5
-        }
-      }
-    }
-  }
+	"blood-expansion:bloodOffering" : {
+		"basic" : {
+			"effects" : {
+				"main" : {
+					"val" : 2
+				}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"main" : {
+					"val" : 3
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"main" : {
+					"val" : 5
+				}
+			}
+		}
+	}
 }

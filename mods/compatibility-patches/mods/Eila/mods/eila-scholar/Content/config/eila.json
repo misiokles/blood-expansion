@@ -1,18 +1,18 @@
 {
-  "blood-expansion:eila": {
-    "specialty": {
-      "bonuses": {
-        "upgradeCrscholar": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "crscholar",
-          "addInfo": "creature.vampire"
-        },
-        "upgradeLecturer": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "lecturer",
-          "addInfo": "creature.vampireLord"
-        }
-      }
-    }
-  }
+	"blood-expansion:eila" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeCrscholar" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "crscholar",
+					"addInfo" : "creature.vampire"
+				},
+				"upgradeLecturer" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "lecturer",
+					"addInfo" : "creature.vampireLord"
+				}
+			}
+		}
+	}
 }

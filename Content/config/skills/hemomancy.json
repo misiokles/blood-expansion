@@ -1,79 +1,79 @@
 {
-  "hemomancy": {
-    "name": "Hemomancy",
-    "gainChance": {
-      "might": 1,
-      "magic": 6,
-      "knight": 0,
-      "cleric": 1,
-      "ranger": 1,
-      "druid": 2,
-      "alchemist": 2,
-      "wizard": 3,
-      "demoniac": 3,
-      "heretic": 6,
-      "deathknight": 7,
-      "necromancer": 9,
-      "overlord": 3,
-      "warlock": 6,
-      "barbarian": 0,
-      "battlemage": 4,
-      "beastmaster": 1,
-      "witch": 7,
-      "planeswalker": 3,
-      "elementalist": 5
-    },
-    "specialty": [],
-    "base": {
-      "effects": {
-        "blood": {
-          "subtype": "spellSchool.blood",
-          "type": "MAGIC_SCHOOL_SKILL",
-          "valueType": "BASE_NUMBER"
-        }
-      }
-    },
-    "basic": {
-      "description": "{Basic Hemomancy}\n\nAllows the hero to cast Blood school spells at a reduced cost.",
-      "effects": {
-        "blood": {
-          "val": 1
-        }
-      },
-      "images": {
-        "small": "skills/hemomancy/bsmall",
-        "medium": "skills/hemomancy/bmedium",
-        "large": "skills/hemomancy/blarge",
-        "scenarioBonus": "skills/hemomancy/blargebonus"
-      }
-    },
-    "advanced": {
-      "description": "{Advanced Hemomancy}\n\nAllows the hero to cast Blood school spells at a reduced cost and with increased effectiveness.",
-      "effects": {
-        "blood": {
-          "val": 2
-        }
-      },
-      "images": {
-        "small": "skills/hemomancy/asmall",
-        "medium": "skills/hemomancy/amedium",
-        "large": "skills/hemomancy/alarge",
-        "scenarioBonus": "skills/hemomancy/alargebonus"
-      }
-    },
-    "expert": {
-      "description": "{Expert Hemomancy}\n\nAllows the hero to cast Blood school spells at a reduced cost and with maximum effectiveness.",
-      "effects": {
-        "blood": {
-          "val": 3
-        }
-      },
-      "images": {
-        "small": "skills/hemomancy/esmall",
-        "medium": "skills/hemomancy/emedium",
-        "large": "skills/hemomancy/elarge",
-        "scenarioBonus": "skills/hemomancy/elargebonus"
-      }
-    }
-  }
+	"hemomancy" : {
+		"name" : "Hemomancy",
+		"gainChance" : {
+			"might" : 1,
+			"magic" : 6,
+			"knight" : 0,
+			"cleric" : 1,
+			"ranger" : 1,
+			"druid" : 2,
+			"alchemist" : 2,
+			"wizard" : 3,
+			"demoniac" : 3,
+			"heretic" : 6,
+			"deathknight" : 7,
+			"necromancer" : 9,
+			"overlord" : 3,
+			"warlock" : 6,
+			"barbarian" : 0,
+			"battlemage" : 4,
+			"beastmaster" : 1,
+			"witch" : 7,
+			"planeswalker" : 3,
+			"elementalist" : 5
+		},
+		"specialty" : [],
+		"base" : {
+			"effects" : {
+				"blood" : {
+					"subtype" : "spellSchool.blood",
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Hemomancy}\n\nAllows the hero to cast Blood school spells at a reduced cost.",
+			"effects" : {
+				"blood" : {
+					"val" : 1
+				}
+			},
+			"images" : {
+				"small" : "skills/hemomancy/bsmall",
+				"medium" : "skills/hemomancy/bmedium",
+				"large" : "skills/hemomancy/blarge",
+				"scenarioBonus" : "skills/hemomancy/blargebonus"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Hemomancy}\n\nAllows the hero to cast Blood school spells at a reduced cost and with increased effectiveness.",
+			"effects" : {
+				"blood" : {
+					"val" : 2
+				}
+			},
+			"images" : {
+				"small" : "skills/hemomancy/asmall",
+				"medium" : "skills/hemomancy/amedium",
+				"large" : "skills/hemomancy/alarge",
+				"scenarioBonus" : "skills/hemomancy/alargebonus"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Hemomancy}\n\nAllows the hero to cast Blood school spells at a reduced cost and with maximum effectiveness.",
+			"effects" : {
+				"blood" : {
+					"val" : 3
+				}
+			},
+			"images" : {
+				"small" : "skills/hemomancy/esmall",
+				"medium" : "skills/hemomancy/emedium",
+				"large" : "skills/hemomancy/elarge",
+				"scenarioBonus" : "skills/hemomancy/elargebonus"
+			}
+		}
+	}
 }

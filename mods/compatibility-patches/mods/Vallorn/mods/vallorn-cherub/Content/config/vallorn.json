@@ -1,13 +1,13 @@
 {
-  "blood-expansion:vallorn": {
-    "specialty": {
-      "bonuses": {
-        "upgradeKurekCherub": {
-          "type": "SPECIAL_UPGRADE",
-          "subtype": "kurekCherub",
-          "addInfo": "beBloodAngel"
-        }
-      }
-    }
-  }
+	"blood-expansion:vallorn" : {
+		"specialty" : {
+			"bonuses" : {
+				"upgradeKurekCherub" : {
+					"type" : "SPECIAL_UPGRADE",
+					"subtype" : "kurekCherub",
+					"addInfo" : "beBloodAngel"
+				}
+			}
+		}
+	}
 }

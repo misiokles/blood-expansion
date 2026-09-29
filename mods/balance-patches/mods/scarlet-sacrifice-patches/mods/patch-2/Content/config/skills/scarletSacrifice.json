@@ -1,25 +1,25 @@
 {
-  "blood-expansion:scarletSacrifice": {
-    "basic": {
-      "effects": {
-        "main": {
-          "val": 75
-        }
-      }
-    },
-    "advanced": {
-      "effects": {
-        "main": {
-          "val": 100
-        }
-      }
-    },
-    "expert": {
-      "effects": {
-        "main": {
-          "val": 150
-        }
-      }
-    }
-  }
+	"blood-expansion:scarletSacrifice" : {
+		"basic" : {
+			"effects" : {
+				"main" : {
+					"val" : 75
+				}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"main" : {
+					"val" : 100
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"main" : {
+					"val" : 150
+				}
+			}
+		}
+	}
 }

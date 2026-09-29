@@ -1,16 +1,16 @@
 {
-  "core:resurrection": {
-    "targetCondition": {
-      "noneOf": {
-        "bonus.LIFE_DRAIN": "normal"
-      }
-    }
-  },
-  "core:animateDead": {
-    "targetCondition": {
-      "noneOf": {
-        "bonus.LIFE_DRAIN": "normal"
-      }
-    }
-  }
+	"core:resurrection" : {
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.LIFE_DRAIN" : "normal"
+			}
+		}
+	},
+	"core:animateDead" : {
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.LIFE_DRAIN" : "normal"
+			}
+		}
+	}
 }

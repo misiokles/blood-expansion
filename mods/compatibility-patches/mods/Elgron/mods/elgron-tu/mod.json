@@ -1,18 +1,18 @@
 {
-  "name": "Elgron + Third Upgrades",
-  "description": "Upgrade Darkness Dragon(Third Upgrade Dungeon) into Crimson Dragons.",
-  "author": "Kay",
-  "version": "1.0",
-  "modType": "Other",
-  "depends": [
-    "third-upgrades",
-    "wake-of-gods.level8Units"
-  ],
-  "heroes": [
-    "config/elgron.json"
-  ],
-  "russian": {
-    "name": "Элгрон + Третий Уровень Улучшений",
-    "description": "Улучшает Тёмных Драконов(третий уровень драконов Подземелья) в Багровых Драконов."
-  }
+	"name" : "Elgron + Third Upgrades",
+	"description" : "Upgrade Darkness Dragon(Third Upgrade Dungeon) into Crimson Dragons.",
+	"author" : "Kay",
+	"version" : "1.0",
+	"modType" : "Other",
+	"depends" : [
+		"third-upgrades",
+		"wake-of-gods.level8Units"
+	],
+	"heroes" : [
+		"config/elgron.json"
+	],
+	"russian" : {
+		"name" : "Элгрон + Третий Уровень Улучшений",
+		"description" : "Улучшает Тёмных Драконов(третий уровень драконов Подземелья) в Багровых Драконов."
+	}
 }
